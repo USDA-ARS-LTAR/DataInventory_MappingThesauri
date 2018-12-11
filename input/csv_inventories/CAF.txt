@@ -1,252 +1,314 @@
 LTARSite Code	Category	DataSetVariableName	AttributeDescription	Units	TemporalResolution	StartDate	EndDate	ResponsiblePersons	StorageFormat	URLdataAccess	LocationIDoutsideNetwork	SpatialExtentDescription	PublicAccess
-CAF	Plant	CookEastPlantHandHarvest_Crop	Crop type	unitless	Seasonal	1999	2016	David Huggins	"csv, nosql"				closed
-CAF	Plant	CookEastPlantHandHarvest_Variety	Crop variety	unitless	Seasonal	1999	2016	David Huggins	"csv, nosql"				closed
-CAF	Plant	CookEastPlantHandHarvest_YieldStandard	Yield at 12.5% moisture	kg m-2	Seasonal	1999	2016	David Huggins	"csv, nosql"				closed
-CAF	Plant	CookEastPlantHandHarvest_CGrain	Grain carbon	%	Seasonal	1999	2016	David Huggins	"csv, nosql"				closed
-CAF	Plant	CookEastPlantHandHarvest_NGrain	Grain nitrogen	%	Seasonal	1999	2016	David Huggins	"csv, nosql"				closed
-CAF	Plant	CookEastPlantHandHarvest_SGrain	Grain sulfur	%	Seasonal	1999	2016	David Huggins	"csv, nosql"				closed
-CAF	Plant	CookEastPlantHandHarvest_ProteinGrain	Grain protein	%	Seasonal	1999	2016	David Huggins	"csv, nosql"				closed
-CAF	Plant	CookEastPlantHandHarvest_MassResidue	Residue mass	kg m-2	Seasonal	1999	2016	David Huggins	"csv, nosql"				closed
-CAF	Plant	CookEastPlantHandHarvest_CResidue	Residue carbon	%	Seasonal	1999	2016	David Huggins	"csv, nosql"				closed
-CAF	Plant	CookEastPlantHandHarvest_NResidue	Residue nitrogen	%	Seasonal	1999	2016	David Huggins	"csv, nosql"				closed
-CAF	Plant	CookEastPlantHandHarvest_SResidue	Residue sulfur	%	Seasonal	1999	2016	David Huggins	"csv, nosql"				closed
-CAF	Plant	CafPlantHarvest_Crop	Crop type	unitless	Seasonal	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Plant	CafPlantHarvest_Variety	Crop variety	unitless	Seasonal	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Plant	CafPlantHarvest_YieldStandard	Yield at 12.5% moisture	kg m-2	Seasonal	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Plant	CafPlantHarvest_CGrain	Grain carbon	%	Seasonal	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Plant	CafPlantHarvest_NGrain	Grain nitrogen	%	Seasonal	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Plant	CafPlantHarvest_SGrain	Grain sulfur	%	Seasonal	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Plant	CafPlantHarvest_ProteinGrain	Grain protein	%	Seasonal	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Plant	CafPlantHarvest_MassResidue	Residue mass	kg m-2	Seasonal	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Plant	CafPlantHarvest_CResidue	Residue carbon	%	Seasonal	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Plant	CafPlantHarvest_NResidue	Residue nitrogen	%	Seasonal	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Plant	CafPlantHarvest_SResidue	Residue sulfur	%	Seasonal	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilShallowCore_Nitrogen	Soil nitrogen	%	"1999, 2008, 2015"			David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilShallowCore_Carbon	Soil carbon	%	"1999, 2008, 2015"			David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilShallowCore_pH	Soil pH	unitless	"1999, 2008, 2015"			David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilShallowCore_BulkDensity	Soil bulk density	g cm-3	"1999, 2008, 2015"			David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilDeepCore_Nitrogen	Soil nitrogen	%	"1999, 2008, 2015"			David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilDeepCore_Carbon	Soil carbon	%	"1999, 2008, 2015"			David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilDeepCore_pH	Soil pH	unitless	"1999, 2008, 2015"			David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilDeepCore_BulkDensity	Soil bulk density	g cm-3	"1999, 2008, 2015"			David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilCharacteristics_Horizon	Horizon designation	unitless		2000	2000	David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilCharacteristics_DepthToBottom	Horizon depth to bottom	cm		2000	2000	David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilCharacteristics_Dhue				2000	2000	David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilCharacteristics_Dval				2000	2000	David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilCharacteristics_DChr				2000	2000	David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilCharacteristics_Mhue				2000	2000	David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilCharacteristics_Mval				2000	2000	David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilCharacteristics_MChr				2000	2000	David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilCharacteristics_Structure				2000	2000	David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilCharacteristics_Dconsist				2000	2000	David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilCharacteristics_Wconsist				2000	2000	David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilCharacteristics_Stickiness				2000	2000	David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilCharacteristics_Plasticity				2000	2000	David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilCharacteristics_Roots				2000	2000	David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilCharacteristics_Poors				2000	2000	David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilCharacteristics_ISFs				2000	2000	David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilCharacteristics_MiscFeatures				2000	2000	David Huggins	"csv, nosql"				closed
-CAF	Soil	CookEastSoilMoistureNetwork_MoistureVolumetric	Volumetric water	m3 m-3	Hourly	2007	2016	David Huggins	csv				closed
-CAF	Soil	CookEastSoilMoistureNetwork_Temperature	Soil temperature	C	Hourly	2007	2016	David Huggins	csv				closed
-CAF	Soil	CookEastSoilMoistureNetwork_BulkDensity	Soil bulk density	g cm-3		2007	2016	David Huggins	csv				closed
-CAF	Soil	CookEastSoilMoistureNetwork_SizePartical	Soil partical size	unitless		2007	2016	David Huggins	csv				closed
-CAF	Soil	CookEastSoilMoistureNetwork_EC	Eletrical conductivity	dS m-1		2007	2016	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_OM_PERCENT	Organic matter	%	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_P1_PPM	P1 Phosphorus	ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_P2_PPM	P2 Phosphorus	ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_K_PPM	Potassium	ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_MG_PPM	Magnesium	ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_CA_PPM	Calcium	ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_NA_PPM	Sodium	ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_PH	pH	ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_BUFF_INDEX		unitless	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_H MEQ			3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_CEC		meq/100g	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_PERCENT_K		%	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_PERCENT_MG		%	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_PERCENT_CA		%	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_PERCENT_H		%	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_PERCENT_NA		%	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_NO3_N_PPM		%	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_S_PPM		ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_ZN_PPM		ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_MN_PPM		ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_FE_PPM		ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_CU_PPM		ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_B_PPM		ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_SOL_SALTS	Soluble salts	mmhos/cm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_CL_OR_AL_PPM			3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_MO_PPM			3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_BICARB			3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_EX_LIME_RATE			3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_SUB_NO3_1			3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_SUB_NO3_2			3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_H3A_Orth_P	Orthophosphate-P	ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_H3A_AL_PPM	Aluminum	ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_ H3A_FE_PPM	Iron	ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_ H3A_P_PPM	Phosphorus	ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_ H3A_Ca_PPM	Calcium	ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_ H3A_K_PPM	Potassium	ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_ H3A_Mg_PPM	Magnessium	ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_H3A_Na_PPM	Sodium	ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_ WSol_N	Water soluble Nitrate-N	ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_ WSol_NH3	Water soluble ammoniacal-N	ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_ WSolOrth_P	Water soluble orthophosphate-P	ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_ WSol_C	Water soluble carbon	ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_ WatSol_TKN	Water soluble total nitrogen	ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_ Org_N_PPM	1 day co2c burst organic nitrogen	ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_ CN_Ratio	1 day co2c burst organic c/n ratio	ppm	3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_ SoilHealth			3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_ PlantAv_N			3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookSoilHealthSurvey_CO2C_24HR			3-5 years	2017	Present	David Huggins	csv				closed
-CAF	Soil	CookEastSoilJanBollLysimeter_moisture	Soil moisture content	m3 m-3		2013	2016	David Huggins	csv				closed
-CAF	Soil	CookEastSoilJanBollLysimeter_tension	Soil tension	kPa		2013	2016	David Huggins	csv				closed
-CAF	Soil	CookEastSoilJanBollLysimeter_mass	Lysimeter weight	g		2013	2016	David Huggins	csv				closed
-CAF	Meteorology	CafMeteorologyECTower_amb_tmpr_Avg	Ambient air temperature	C	15 min	2017	Present	David Huggins	"csv, nosql"				open
-CAF	Meteorology	CafMeteorologyECTower_rslt_wnd_spd	Resultant wind speed from 3-D wind speed	m/s	15 min	2017	Present	David Huggins	"csv, nosql"				open
-CAF	Meteorology	CafMeteorologyECTower_wnd_dir_compass	Standard deviation of the wind direction	degrees	15 min	2017	Present	David Huggins	"csv, nosql"				open
-CAF	Meteorology	CafMeteorologyECTower_RH_Avg	Average relative humidity	%	15 min	2017	Present	David Huggins	"csv, nosql"				open
-CAF	Meteorology	CafMeteorologyECTower_Precipitation_Tot	Total precipitation for each 30-minute block	mm	15 min	2017	Present	David Huggins	"csv, nosql"				open
-CAF	Meteorology	CafMeteorologyECTower_amb_press_Avg	Ambient air pressure at station	kPa	15 min	2017	Present	David Huggins	"csv, nosql"				open
-CAF	Meteorology	CafMeteorologyECTower_PAR_density_Avg	PAR values. Needed for gap-filling and general data	umol/(s m^2)	15 min	2017	Present	David Huggins	"csv, nosql"				open
-CAF	Meteorology	CafMeteorologyECTower_batt_volt_Avg	Average battery voltage for the previous half-hour	V	15 min	2017	Present	David Huggins	"csv, nosql"				open
-CAF	Meteorology	CafMeteorologyECTower_panel_tmpr_Avg	Temperature of the logger panel	C	15 min	2017	Present	David Huggins	"csv, nosql"				open
-CAF	Meteorology	CafMeteorologyECTower_std_wnd_dir	Standard deviation of the wind direction	degrees	15 min	2017	Present	David Huggins	"csv, nosql"				open
-CAF	Meteorology	CafMeteorologyECTower_VPD_air	Vapor pressure deficit	kpa	15 min	2017	Present	David Huggins	"csv, nosql"				open
-CAF	Meteorology	CafMeteorologyECTower_Rn_meas_Avg		W/m^2	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_Fc_molar	"Molar-based corrected CO2 flux, unprocessed"	?mol m-2 s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_Fc_mass	"Mass-based corrected CO2 flux, unprocessed"	mg m-2 s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_Fc_qc_grade	Quality grade for Fc values	integer	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_LE	Latent heat flux	[kg+1m-1s-2]	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_LE_qc_grade	Quality grade for LE	Integer	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_H	Sensible heat flux	W m-2	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_H_qc_grade	Quality grade for H	Integer	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_Rn	Net radiation	W m-2	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_Bowen_ratio	Ratio of H/LE	Integer	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_tau	Total momentum flux	N s m-2 s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_tau_qc_grade	Quality grade for tau	Integer	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_u_star	Friction velocity	m1s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_T_star	Temperature scaling parameter	Kelvin	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_TKE	Turbulent Kinetic energy	m2s-2	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_amb_tmpr_Avg	Ambient air temperature	Celsius	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_Td_Avg	Dewpoint temperature	Kelvin	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_RH_Avg	Average relative humidity	%	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_e_sat_Avg	Vapor pressure	kPa	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_e_Avg	Saturation vapor pressure	kPa	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_amb_press_Avg	Ambient air pressure at station	kPa	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_VPD_air	Vapor pressure deficit	kPa	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_Ux_Avg	"x-direction wind speed, sonic relative"	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_Ux_Std	"Standard deviation of x-direction wind speed, sonic relative"	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_Uy_Avg	"y-direction wind speed, sonic relative"	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_Uy_Std	"Standard deviation of y-direction wind speed, sonic relative"	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_Uz_Avg	"z-direction wind speed, sonic relative"	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_Uz_Std	"Standard deviation of z-direction wind speed, sonic relative"	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_Ts_Avg	Average sonic temperature	Celsius	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_Ts_Std	Standard deviation of sonic temperature	Celsius	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_sonic_azimuth	Sonic-relative wind direction	Degrees	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_rslt_wnd_spd	Resultant wind speed from 3-D wind speed	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_std_wnd_dir	Standard deviation of the wind direction	Degrees	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_wnd_dir_compass	Wind direction based on compass direction	Degrees from north	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_CO2_molfrac_Avg	CO2 mol fraction wet basis	?mol mol-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_CO2_mixratio_Avg	"Average CO2 mixing ratio, dry basis"	?mol mol-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_CO2_Avg	Average CO2 mass density	mg m-3	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_CO2_Std	Standard deviation of CO2 concentration	mg m-3	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_H2O_molfrac_Avg	CO2 mol fraction wet basis	?mol mol-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_H2O_mixratio_Avg	"Average H2O mixing ratio, dry basis"	?mol mol-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_H2O_Avg	Average H2O mass density	mmol m-3	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_H2O_Std	Standard deviation of H2O concentration	mmol m-3	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_CO2_sig_strgth_Min	Minimum CO2 signal strength	Ratio	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_H2O_sig_strgth_Min	Minimum H2O signal strength	Ratio	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_T_probe_Avg	Obukhov length	Meters	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_Td_probe_Avg	Obukhov stability parameter	Dimensionless	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_RH_probe_Avg	Ratio of H/LE	Dimensionless	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_Precipitation_Tot	Total precipitation for each 30-minute block	mm	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_PAR_density_Avg	PAR values. Needed for gap-filling and general data	?mol s-1 m-2	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_Tsoil_Avg	Average temperature from averaging thermocouple	Celsius	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_tdr315_wc_Avg(1)	Volumetric water content of top TDR	%	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_tdr315_wc_Avg(2)	Volumetric water content of second TDR	%	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_tdr315_tmpr_Avg(1)	Temperature of top TDR	Celsius	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_tdr315_tmpr_Avg(2)	Temperature of second TDR	Celsius	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_tdr315_E_Avg(1)	Soil electric conductivity	unitless	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_tdr315_E_Avg(2)	Soil electric conductivity	unitless	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_tdr315_bulkEC_Avg(1)		?S cm-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_tdr315_bulkEC_Avg(2)		?S cm-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_tdr315_poreEC_Avg(1)	Pore electric conductivity	?S cm-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_tdr315_poreEC_Avg(2)	Pore electric conductivity	?S cm-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_shf_plate_avg	Average soil heat flux	W m-2	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_FP_max	Distance of max footprint contribution	Meters	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_FP_40	40% footprint distance	Meters	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_FP_55	55% footprint distance	Meters	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_FP_90	90% footprint distance	Meters	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_u_Avg_R	Wind speed aligned with streamlines post coordinate rotation	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_u_Std_R	Standard deviation of wind speed aligned with streamlines post coordinate rotation	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_v_Avg_R	Cross-wind speed aligned post coordinate rotation	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_v_Std_R	Standard deviation of cross-wind speed aligned post coordinate rotation	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_w_Avg_R	Vertical velocity post coordinate rotation	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_w_Std_R	Standard deviation of vertical velocity post coordinate rotation	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_uv_Cov_R	uv covariance post-coordinate rotation	m2 s-2	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_uw_Cov_R	uw covariance post-coordinate rotation	m2 s-2	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_vw_Cov_R	vw covariance post-coordinate rotation	m2 s-2	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_wTs_Cov_R_F_SND	"w-Ts covariance post coordinate rotation, frequency, and SND correction"	m C s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_sonic_samples_Tot	Total number of raw sonic anemometer samples	Integer	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_wCO2_Cov_R_F	w-c covariance post coordinate rotation and frequency correction	mg m-2 s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_wH2O_Cov_R_F	w-q covariance post coordinate rotation and frequency correction	g m-2 s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_CO2_samples_Tot	Number of CO2 samples recorded by the IRGA	Integer	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_H2O_samples_Tot	Number of H2O samples recorded by the IRGA	Integer	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_height_measurement	Measurement height of EC system	Meters	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_height_canopy	User entered canopy height	Meters	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_surface_type_text	Text of land-cover type	String	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_d	Roughness length	Meters	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_z0	Aerodynamic height	Meters	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_z	Displacement height	Meters	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_L	Obukhov length	Meters	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_stability_zL	Surface layer stability parameter	unitless	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_latitude	Degree latitude of the site	Degrees	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_longitude	Degree longitude of the site	Degrees	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_rho_d_Avg	Average density of dry air	g m-3	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_rho_a_Avg	Average density of ambient (wet) air	kg m-3	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_door_is_open_Hst	"Binary is the enclosure door is open, 0 is never opened in the 30 minute block"	Integer	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_panel_tmpr_Avg	Temperature of the logger panel	Celsius	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CafMeteorologyECTower_batt_volt_Avg	Average battery voltage for the previous half-hour	Volts	30 min	2017	Present	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CookEastMeterologyJanBollPanEvap_evaporation	Pan evaporation	cm		2016	2016	David Huggins	"csv, nosql"				closed
-CAF	Meteorology	CookEastMeterologyJanBollWindNetwork_ws	Wind speed	m s-1		2016	2016	David Huggins	"csv, nosql"				closed
-CAF	Hydrology	CookEastHydrologyTileLine_TileNumber		cnt		1/28/2000	Present	Erin Brooks	csv				closed
-CAF	Hydrology	CookEastHydrologyTileLine_Duration	surface runoff/subsurface drainage	s		2000-01-28 (CookWest started 2017)	Present	Erin Brooks	csv				closed
-CAF	Hydrology	CookEastHydrologyTileLine_Volume	surface runoff/subsurface drainage	L		2000-01-28 (CookWest started 2017)	Present	Erin Brooks	csv				closed
-CAF	Hydrology	CookEastHydrologyTileLine_Rate	surface runoff/subsurface drainage	L s-1		2000-01-28 (CookWest started 2017)	Present	Erin Brooks	csv				closed
-CAF	Hydrology	_Depth	water table measurement	cm		2012	2013	Erin Brooks	csv				closed
-CAF	Hydrology	_N-NO3	nitrate concentration	mg/L N-NO3		1999	Present	Erin Brooks	csv				closed
-CAF	Hydrology	_T	Temperature	C		1999	Present	Erin Brooks	csv				closed
-CAF	Hydrology	_EC	EC	umhos			Present	Erin Brooks	csv				closed
-CAF	Hydrology	_CaDissolved	"Ca, dissolved"	mg/L Ca++			Present	Erin Brooks	csv				closed
-CAF	Hydrology	_MgDissolved	"Mg, dissolved"	mg/L Mg++			Present	Erin Brooks	csv				closed
-CAF	Hydrology	_NaDissolved	"Na, dissolved"	mg/L Na+			Present	Erin Brooks	csv				closed
-CAF	Hydrology	_KDissolved	"K, dissolved"	mg/L K+			Present	Erin Brooks	csv				closed
-CAF	Hydrology	_CInorganicDissolved	"inorganic C, dissolved"	mg/L HCO3-			Present	Erin Brooks	csv				closed
-CAF	Hydrology	_SulfateDissolved	"sulfate, dissolved"	mg/L SO4--			Present	Erin Brooks	csv				closed
-CAF	Hydrology	_ClDissolved	"Cl, dissolved"	mg/L Cl-			Present	Erin Brooks	csv				closed
-CAF	Hydrology	_NitrateRunoffSurface	nitrate concentration surface runoff	mg/L N-NO3		2016	Present	Erin Brooks	csv				closed
-CAF	Hydrology	_TurbidityRunoffSurface	turbidity surface runoff	mg/L N-NO3		2016	Present	Erin Brooks	csv				closed
-CAF	Hydrology	_PhosphorusTotalArtificialDrain	TotalPhosphorus artificial drain	mg/L P		2015	Present	Erin Brooks	csv				closed
-CAF	Hydrology	_PhosphorusTotaRunofflSurface	TotalPhosphorus surface runoff	mg/L P		2017	Present	Erin Brooks	csv				closed
-CAF	Hydrology	_PhosphorusReactiveDissolvedArtificialDrain	Dissolved Reactive Phosphorus artificial drain	mg/L P		2015	Present	Erin Brooks	csv				closed
-CAF	Hydrology	_PhosphorusReactiveDissolvedRunoffSurface	Dissolved Reactive Phosphorus surface runoff	mg/L P		2017	Present	Erin Brooks	csv				closed
-CAF	Hydrology	_PhosphorusTotalDissolved	Total dissolved Phosphorus surface runoff/artificial drain	mg/L P		2017	Present	Erin Brooks	csv				closed
-CAF	Hydrology	_WaterIsotope	"18-O and 2-H isotope of water samples, Deep and shallow wells, artificial drain"			2012	2013	Erin Brooks	csv				closed
-CAF	Geospatial	CookEastGeomorphologyDem_Elevation		m		2000		David Huggins	geotiff				closed
-CAF	Geospatial	CookWestGeomorphologyDem_Elevation		m		2016		David Huggins	geotiff				closed
-CAF	FarmManagement	CafOperationsFieldManagement_Machinery		unitless	event	2000	Present	David Huggins	excel				closed
-CAF	FarmManagement	CafOperationsFieldManagement_Product		unitless	event	2000	Present	David Huggins	excel				closed
-CAF	FarmManagement	CafOperationsFieldManagement_Area		m2	event	2000	Present	David Huggins	excel				closed
-CAF	FarmManagement	CafOperationsFieldManagement_Volume		L	event	2000	Present	David Huggins	excel				closed
-CAF	FarmManagement	CafOperationsFieldManagement_EventType		unitless	event	2000	Present	David Huggins	excel				closed
-CAF	Modeling	CafModelingAgroecologicalClasses_DAEC	Dynamic agroecosystem class	unitless	annual	2007	Present	David Huggins	geotiff				closed
-CAF	Modeling	CafModelingFlexCropping_Yield	Average estimated crop yield	kg/ha	annual	2017	Present	David Huggins	geotiff				closed
-CAF	Modeling	CafModelingFlexCropping_CV	Coefficient of variation of yield	%	annual	2017	Present	David Huggins	geotiff				closed
-CAF	Modeling	CafModelingFlexCropping_SoilMoisture	Soil moisture at predicted winter wheat sowing date	m3 m-3	annual	2017	Present	David Huggins	geotiff				closed
-CAF	Modeling	CafPlantPhenocam_ImageRgb	RGB Image	unitless	15 min	2017	Present	David Huggins	tiff				closed
-CAF	Modeling	CafPlantPhenocam_ImageIR	Infrared image	unitless	15 min	2017	Present	David Huggins	tiff				closed
-CAF	Modeling	CafPlantPhenocam_Metadata	Metadata of image files	unitless	15 min	2017	Present	David Huggins	tiff				closed
-CAF	Modeling	_	Surface runoff/erosion		daily	2011	2013	Erin Brooks	csv				closed
-CAF	Modeling	_	Soil moisture		daily	2011	2013	Erin Brooks	csv				closed
-CAF	RemoteSensing	_	NDVI/NDRE RapidEye Imagery		weekly	2009	Present	Erin Brooks	csv				closed
+CAF	Plant	HarvestYear	Year crop was harvested	unitless	1 year	2013	2016	David Huggins	xlsx				closed
+CAF	Plant	Crop	"Crop identifier {SW = spring wheat, GB = garbonzo beans, SB = spring barley, WW = winter wheat, SC = spring canola}"	unitless	1 year	2013	2016	David Huggins	xlsx				closed
+CAF	Plant	SampleID	"Sample ID given based on other descriptive attributes, but not consistency"	unitless	1 year	2013	2016	David Huggins	xlsx				closed
+CAF	Plant	Latitude	Latitude of georeference point near where sample was collected	dd	1 year	2013	2016	David Huggins	xlsx				closed
+CAF	Plant	Longitude	Longnitude of georeference point near where sample was collected	dd	1 year	2013	2016	David Huggins	xlsx				closed
+CAF	Plant	ID2	Number ID of georeference point near sample collection	unitless	1 year	2013	2016	David Huggins	xlsx				closed
+CAF	Plant	GrainWeight	Mass of grain after sample dried in greenhouse and threshed	g	1 year	2013	2016	David Huggins	xlsx				closed
+CAF	Plant	Area	Area that crop was harvested from	m2	1 year	2013	2016	David Huggins	xlsx				closed
+CAF	Plant	Yield_g_m2	Calculated yield of sample	g/m2	1 year	2013	2016	David Huggins	xlsx				closed
+CAF	Plant	Yield_lb_ac	Calculated yield of sample	lb/ac	1 year	2013	2016	David Huggins	xlsx				closed
+CAF	Plant	Yield_bu_ac	Calculated yield of sample	bu/ac	1 year	2013	2016	David Huggins	xlsx				closed
+CAF	Plant	TestWeight	"Weight of grain subsample analyzed for protein, moisture, starch, gluten, oil"	g	1 year	2013	2016	David Huggins	xlsx				closed
+CAF	Plant	OilDM	Percent oil in sample (after removing moisture?)	%	1 year	2013	2016	David Huggins	xlsx				closed
+CAF	Plant	Protein	Percent of protein in sample (dry mass?)	%	1 year	2013	2016	David Huggins	xlsx				closed
+CAF	Plant	Moisture	Percent of moisture in sample	%	1 year	2013	2016	David Huggins	xlsx				closed
+CAF	Plant	Starch	Percent of starch in dry mass	%	1 year	2013	2016	David Huggins	xlsx				closed
+CAF	Plant	WGlutDM	Percent of Gluten (after accouting for moisture?)	%	1 year	2013	2016	David Huggins	xlsx				closed
+CAF	Plant	Notes	"Notes, aggregated from all steps of processing"	unitless	1 year	2013	2016	David Huggins	xlsx				closed
+CAF	Soil	Year	Year sample was collected	unitless	7-10 years	1998	2015	David Huggins	"csv, json"				closed
+CAF	Soil	ID2	Number ID of georeference point near sample collection	unitless	7-10 years	1998	2015	David Huggins	"csv, json"				closed
+CAF	Soil	Latitude	Latitude of georeference point near where sample was collected	dd	7-10 years	1998	2015	David Huggins	"csv, json"				closed
+CAF	Soil	Longitude	Longitude of georeference point near where sample was colelcted	dd	7-10 years	1998	2015	David Huggins	"csv, json"				closed
+CAF	Soil	TopDepth	Top depth of subsample taken from soil core	cm	7-10 years	1998	2015	David Huggins	"csv, json"				closed
+CAF	Soil	BottomDepth	Bottom depth of subsample taken from soil core	cm	7-10 years	1998	2015	David Huggins	"csv, json"				closed
+CAF	Soil	Horizon	Horizon designation of the subsample	unitless	7-10 years	1998	2015	David Huggins	"csv, json"				closed
+CAF	Soil	BulkDensity	Bulk density of the subsample	g/cm^3	7-10 years	1998	2015	David Huggins	"csv, json"				closed
+CAF	Soil	dC13	Carbon isotopic composition of the subsample	permille	7-10 years	1998	2015	David Huggins	"csv, json"				closed
+CAF	Soil	dC13AcidWashed	Carbon isotopic composition of the subsample after acid washed	permille	7-10 years	1998	2015	David Huggins	"csv, json"				closed
+CAF	Soil	TNConc	Total nitrogen concentraion	%	7-10 years	1998	2015	David Huggins	"csv, json"				closed
+CAF	Soil	TNConcAcidWashed	Total nitrogen concentration after acid washed	%	7-10 years	1998	2015	David Huggins	"csv, json"				closed
+CAF	Soil	TCConc	Total carbon concentration	%	7-10 years	1998	2015	David Huggins	"csv, json"				closed
+CAF	Soil	TCConcAcidWashed	Total carbon concentration after acid washed	%	7-10 years	1998	2015	David Huggins	"csv, json"				closed
+CAF	Soil	TocConc	Total organic carbon concentration	%	7-10 years	1998	2015	David Huggins	"csv, json"				closed
+CAF	Soil	TocStock	Total organic carbon stock	Mg/ha	7-10 years	1998	2015	David Huggins	"csv, json"				closed
+CAF	Soil	TicConc	Total inorganic carbon concentration	%	7-10 years	1998	2015	David Huggins	"csv, json"				closed
+CAF	Soil	TicStock	Total inorganic carbon stock	Mg/ha	7-10 years	1998	2015	David Huggins	"csv, json"				closed
+CAF	Soil	TNStock	Total nitrogen stock	Mg/ha	7-10 years	1998	2015	David Huggins	"csv, json"				closed
+CAF	Soil	pH	pH of the subsample	unitless	7-10 years	1998	2015	David Huggins	"csv, json"				closed
+CAF	Soil	ID			event	1999	1999	David Huggins	xlsx				closed
+CAF	Soil	Easting			event	1999	1999	David Huggins	xlsx				closed
+CAF	Soil	Northing			event	1999	1999	David Huggins	xlsx				closed
+CAF	Soil	Column			event	1999	1999	David Huggins	xlsx				closed
+CAF	Soil	Row			event	1999	1999	David Huggins	xlsx				closed
+CAF	Soil	Horizons			event	1999	1999	David Huggins	xlsx				closed
+CAF	Soil	Depth (cm)			event	1999	1999	David Huggins	xlsx				closed
+CAF	Soil	Color (dry)			event	1999	1999	David Huggins	xlsx				closed
+CAF	Soil	Color (moist)			event	1999	1999	David Huggins	xlsx				closed
+CAF	Soil	% Clay			event	1999	1999	David Huggins	xlsx				closed
+CAF	Soil	Structure			event	1999	1999	David Huggins	xlsx				closed
+CAF	Soil	Consistence (dry)			event	1999	1999	David Huggins	xlsx				closed
+CAF	Soil	Consistence (wet)			event	1999	1999	David Huggins	xlsx				closed
+CAF	Soil	Stickiness			event	1999	1999	David Huggins	xlsx				closed
+CAF	Soil	Plasticity			event	1999	1999	David Huggins	xlsx				closed
+CAF	Soil	Roots			event	1999	1999	David Huggins	xlsx				closed
+CAF	Soil	Pores			event	1999	1999	David Huggins	xlsx				closed
+CAF	Soil	ISFs			event	1999	1999	David Huggins	xlsx				closed
+CAF	Soil	Misc. Features			event	1999	1999	David Huggins	xlsx				closed
+CAF	Soil	VW_30cm	volumetric water readings at 30 cm depth	m3/m3	"hourly, daily"	39192	42537	David Brown	tdf	https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field CAF_sensors			open
+CAF	Soil	VW_60cm	volumetric water readings at 60 cm depth	m3/m3	"hourly, daily"	39192	42537	David Brown	tdf	https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field CAF_sensors			open
+CAF	Soil	VW_90cm	volumetric water readings at 90 cm depth	m3/m3	"hourly, daily"	39192	42537	David Brown	tdf	https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field CAF_sensors			open
+CAF	Soil	VW_120cm	volumetric water readings at 120 cm depth	m3/m3	"hourly, daily"	39192	42537	David Brown	tdf	https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field CAF_sensors			open
+CAF	Soil	VW_150cm	volumetric water readings at 150 cm depth	m3/m3	"hourly, daily"	39192	42537	David Brown	tdf	https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field CAF_sensors			open
+CAF	Soil	T_30cm	temperature readings at 30 cm depth	C	"hourly, daily"	39192	42537	David Brown	tdf	https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field CAF_sensors			open
+CAF	Soil	T_60cm	temperature readings at 60 cm depth	C	"hourly, daily"	39192	42537	David Brown	tdf	https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field CAF_sensors			open
+CAF	Soil	T_90cm	temperature readings at 90 cm depth	C	"hourly, daily"	39192	42537	David Brown	tdf	https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field CAF_sensors			open
+CAF	Soil	T_120cm	temperature readings at 120 cm depth	C	"hourly, daily"	39192	42537	David Brown	tdf	https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field CAF_sensors			open
+CAF	Soil	T_150cm	temperature readings at 150 cm depth	C	"hourly, daily"	39192	42537	David Brown	tdf	https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field CAF_sensors			open
+CAF	Soil	Depth	Sensor depth	cm	event	39192	42537	David Brown	tdf	https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field CAF_ParticleSize.txt			open
+CAF	Soil	Silt	particle size fraction	%	event	39192	42537	David Brown	tdf	https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field CAF_ParticleSize.txt			open
+CAF	Soil	Clay	particle size fraction	%	event	39192	42537	David Brown	tdf	https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field CAF_ParticleSize.txt			open
+CAF	Soil	Sand	particle size fraction	%	event	39192	42537	David Brown	tdf	https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field CAF_ParticleSize.txt			open
+CAF	Soil	Coordinates	Locations of each of the 42 monitoring locations	deg	event	39192	42537	David Brown	shp	https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field CAF_sensors.shp			open
+CAF	Soil	Location	"Location name, coincides with locations in tabular data"	unitless	event	39192	42537	David Brown	shp	https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field CAF_sensors.shp			open
+CAF	Soil	ECa	10 x 10 m apparent electrical conductivity to 1.5 m depth	dS/m	seasonal	39192	42537	David Brown	tif	https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field CAF_Fall_ECa.tif CAF_Spring_ECa.tif			open
+CAF	Soil	OM_PERCENT	Organic matter	%	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	P1_PPM	P1 Phosphorus	ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	P2_PPM	P2 Phosphorus	ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	K_PPM	Potassium	ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	MG_PPM	Magnesium	ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	CA_PPM	Calcium	ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	NA_PPM	Sodium	ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	PH	pH	ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	BUFF_INDEX		unitless	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	H MEQ			3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	CEC		meq/100g	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	PERCENT_K		%	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	PERCENT_MG		%	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	PERCENT_CA		%	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	PERCENT_H		%	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	PERCENT_NA		%	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	NO3_N_PPM		%	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	S_PPM		ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	ZN_PPM		ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	MN_PPM		ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	FE_PPM		ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	CU_PPM		ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	B_PPM		ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	SOL_SALTS	Soluble salts	mmhos/cm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	CL_OR_AL_PPM			3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	MO_PPM			3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	BICARB			3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	EX_LIME_RATE			3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	SUB_NO3_1			3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	SUB_NO3_2			3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	H3A_Orth_P	Orthophosphate-P	ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	H3A_AL_PPM	Aluminum	ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	H3A_FE_PPM	Iron	ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	H3A_P_PPM	Phosphorus	ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	H3A_Ca_PPM	Calcium	ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	H3A_K_PPM	Potassium	ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	H3A_Mg_PPM	Magnessium	ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	H3A_Na_PPM	Sodium	ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	WSol_N	Water soluble Nitrate-N	ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	WSol_NH3	Water soluble ammoniacal-N	ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	WSolOrth_P	Water soluble orthophosphate-P	ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	WSol_C	Water soluble carbon	ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	WatSol_TKN	Water soluble total nitrogen	ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	Org_N_PPM	1 day co2c burst organic nitrogen	ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	CN_Ratio	1 day co2c burst organic c/n ratio	ppm	3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	SoilHealth			3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	PlantAv_N			3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	CO2C_24HR			3-5 years	2017	Present	David Huggins	csv				closed
+CAF	Soil	moisture	Soil moisture content	m3 m-3		2013	2016	David Huggins	csv				closed
+CAF	Soil	tension	Soil tension	kPa		2013	2016	David Huggins	csv				closed
+CAF	Soil	mass	Lysimeter weight	g		2013	2016	David Huggins	csv				closed
+CAF	Meteorology	TIMESTAMP	Timestamp of data record in Pacific Standard Time	mm/dd/yyyy HH:MM	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	RECORD	Record number	Integer	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	amb_tmpr_Avg	Ambient air temperature	Celsius	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	RH_Avg	Average relative humidity	%	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	amb_press_Avg	Ambient air pressure at station	kPa	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	VPD_air	Vapor pressure deficit	kPa	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	rslt_wnd_spd	Resultant wind speed from 3-D wind speed	m s-1	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	std_wnd_dir	Standard deviation of the wind direction	Degrees	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	wnd_dir_compass	Wind direction based on compass direction	Degrees from north	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	Precipitation_Tot	Total precipitation for each 30-minute block	mm	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	PAR_density_Avg	PAR values. Needed for gap-filling and general data	?mol s-1 m-2	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	Tsoil_Avg	Average temperature from averaging thermocouple	Celsius	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	tdr31X_wc_Avg	Volumetric water content of top TDR	%	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	tdr31X_tmpr_Avg	Temperature of top TDR	Celsius	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	tdr31X_E_Avg	Soil permittivity	unitless	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	tdr31X_bulkEC_Avg		?S cm-1	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	tdr31X_poreEC_Avg	Pore electric conductivity	?S cm-1	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_wc_Avg(1)	Volumetric water content	%	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_wc_Avg(2)	Volumetric water content	%	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_wc_Avg(3)	Volumetric water content	%	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_wc_Avg(4)	Volumetric water content	%	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_wc_Avg(5)	Volumetric water content	%	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_wc_Avg(6)	Volumetric water content	%	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_tmpr_Avg(1)	Temperature	Celsius	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_tmpr_Avg(2)	Temperature	Celsius	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_tmpr_Avg(3)	Temperature	Celsius	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_tmpr_Avg(4)	Temperature	Celsius	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_tmpr_Avg(5)	Temperature	Celsius	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_tmpr_Avg(6)	Temperature	Celsius	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_E_Avg(1)	Permittivity		15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_E_Avg(2)	Permittivity		15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_E_Avg(3)	Permittivity		15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_E_Avg(4)	Permittivity		15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_E_Avg(5)	Permittivity		15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_E_Avg(6)	Permittivity		15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_bulkEC_Avg(1)	Bulk Electric Conductivity		15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_bulkEC_Avg(2)	Bulk Electric Conductivity		15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_bulkEC_Avg(3)	Bulk Electric Conductivity		15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_bulkEC_Avg(4)	Bulk Electric Conductivity		15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_bulkEC_Avg(5)	Bulk Electric Conductivity		15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_bulkEC_Avg(6)	Bulk Electric Conductivity		15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_poreEC_Avg(1)	Pore Water Electric Conductivity		15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_poreEC_Avg(2)	Pore Water Electric Conductivity		15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_poreEC_Avg(3)	Pore Water Electric Conductivity		15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_poreEC_Avg(4)	Pore Water Electric Conductivity		15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_poreEC_Avg(5)	Pore Water Electric Conductivity		15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	profile_tdr31X_poreEC_Avg(6)	Pore Water Electric Conductivity		15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	shf_plate_avg	Average soil heat flux	W m-2	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	panel_tmpr_Avg	Temperature of the logger panel	Celsius	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	batt_volt_Avg	Average battery voltage for the previous half-hour	Volts	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	Rn_meas_Avg	"Net radiation, uncorrected"	W m-2	15 min	2017	Present	David Huggins	csv				closed
+CAF	Meteorology	Rn_meas_Avg	"Net radiation, uncorrected"	W m-2	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	Fc_molar	"Molar-based corrected CO2 flux, unprocessed"	?mol m-2 s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	Fc_mass	"Mass-based corrected CO2 flux, unprocessed"	mg m-2 s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	Fc_qc_grade	Quality grade for Fc values	integer	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	LE	Latent heat flux	[kg+1m-1s-2]	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	LE_qc_grade	Quality grade for LE	Integer	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	H	Sensible heat flux	W m-2	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	H_qc_grade	Quality grade for H	Integer	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	Rn	Net radiation	W m-2	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	Bowen_ratio	Ratio of H/LE	Integer	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	tau	Total momentum flux	N s m-2 s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	tau_qc_grade	Quality grade for tau	Integer	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	u_star	Friction velocity	m1s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	T_star	Temperature scaling parameter	Kelvin	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	TKE	Turbulent Kinetic energy	m2s-2	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	amb_tmpr_Avg	Ambient air temperature	Celsius	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	Td_Avg	Dewpoint temperature	Kelvin	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	RH_Avg	Average relative humidity	%	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	e_sat_Avg	Vapor pressure	kPa	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	e_Avg	Saturation vapor pressure	kPa	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	amb_press_Avg	Ambient air pressure at station	kPa	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	VPD_air	Vapor pressure deficit	kPa	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	Ux_Avg	"x-direction wind speed, sonic relative"	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	Ux_Std	"Standard deviation of x-direction wind speed, sonic relative"	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	Uy_Avg	"y-direction wind speed, sonic relative"	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	Uy_Std	"Standard deviation of y-direction wind speed, sonic relative"	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	Uz_Avg	"z-direction wind speed, sonic relative"	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	Uz_Std	"Standard deviation of z-direction wind speed, sonic relative"	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	Ts_Avg	Average sonic temperature	Celsius	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	Ts_Std	Standard deviation of sonic temperature	Celsius	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	sonic_azimuth	Sonic-relative wind direction	Degrees	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	rslt_wnd_spd	Resultant wind speed from 3-D wind speed	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	std_wnd_dir	Standard deviation of the wind direction	Degrees	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	wnd_dir_compass	Wind direction based on compass direction	Degrees from north	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	CO2_molfrac_Avg	CO2 mol fraction wet basis	?mol mol-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	CO2_mixratio_Avg	"Average CO2 mixing ratio, dry basis"	?mol mol-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	CO2_Avg	Average CO2 mass density	mg m-3	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	CO2_Std	Standard deviation of CO2 concentration	mg m-3	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	H2O_molfrac_Avg	CO2 mol fraction wet basis	?mol mol-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	H2O_mixratio_Avg	"Average H2O mixing ratio, dry basis"	?mol mol-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	H2O_Avg	Average H2O mass density	mmol m-3	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	H2O_Std	Standard deviation of H2O concentration	mmol m-3	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	CO2_sig_strgth_Min	Minimum CO2 signal strength	Ratio	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	H2O_sig_strgth_Min	Minimum H2O signal strength	Ratio	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	T_probe_Avg	Obukhov length	Meters	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	Td_probe_Avg	Obukhov stability parameter	Dimensionless	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	RH_probe_Avg	Ratio of H/LE	Dimensionless	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	Precipitation_Tot	Total precipitation for each 30-minute block	mm	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	PAR_density_Avg	PAR values. Needed for gap-filling and general data	?mol s-1 m-2	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	Tsoil_Avg	Average temperature from averaging thermocouple	Celsius	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	tdr315_wc_Avg(1)	Volumetric water content of top TDR	%	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	tdr315_wc_Avg(2)	Volumetric water content of second TDR	%	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	tdr315_tmpr_Avg(1)	Temperature of top TDR	Celsius	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	tdr315_tmpr_Avg(2)	Temperature of second TDR	Celsius	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	tdr315_E_Avg(1)	Soil electric conductivity	unitless	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	tdr315_E_Avg(2)	Soil electric conductivity	unitless	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	tdr315_bulkEC_Avg(1)		?S cm-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	tdr315_bulkEC_Avg(2)		?S cm-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	tdr315_poreEC_Avg(1)	Pore electric conductivity	?S cm-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	tdr315_poreEC_Avg(2)	Pore electric conductivity	?S cm-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	shf_plate_avg	Average soil heat flux	W m-2	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	FP_max	Distance of max footprint contribution	Meters	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	FP_40	40% footprint distance	Meters	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	FP_55	55% footprint distance	Meters	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	FP_90	90% footprint distance	Meters	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	u_Avg_R	Wind speed aligned with streamlines post coordinate rotation	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	u_Std_R	Standard deviation of wind speed aligned with streamlines post coordinate rotation	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	v_Avg_R	Cross-wind speed aligned post coordinate rotation	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	v_Std_R	Standard deviation of cross-wind speed aligned post coordinate rotation	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	w_Avg_R	Vertical velocity post coordinate rotation	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	w_Std_R	Standard deviation of vertical velocity post coordinate rotation	m s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	uv_Cov_R	uv covariance post-coordinate rotation	m2 s-2	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	uw_Cov_R	uw covariance post-coordinate rotation	m2 s-2	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	vw_Cov_R	vw covariance post-coordinate rotation	m2 s-2	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	wTs_Cov_R_F_SND	"w-Ts covariance post coordinate rotation, frequency, and SND correction"	m C s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	sonic_samples_Tot	Total number of raw sonic anemometer samples	Integer	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	wCO2_Cov_R_F	w-c covariance post coordinate rotation and frequency correction	mg m-2 s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	wH2O_Cov_R_F	w-q covariance post coordinate rotation and frequency correction	g m-2 s-1	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	CO2_samples_Tot	Number of CO2 samples recorded by the IRGA	Integer	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	H2O_samples_Tot	Number of H2O samples recorded by the IRGA	Integer	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	height_measurement	Measurement height of EC system	Meters	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	height_canopy	User entered canopy height	Meters	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	surface_type_text	Text of land-cover type	String	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	d	Roughness length	Meters	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	z0	Aerodynamic height	Meters	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	z	Displacement height	Meters	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	L	Obukhov length	Meters	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	stability_zL	Surface layer stability parameter	unitless	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	latitude	Degree latitude of the site	Degrees	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	longitude	Degree longitude of the site	Degrees	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	rho_d_Avg	Average density of dry air	g m-3	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	rho_a_Avg	Average density of ambient (wet) air	kg m-3	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	door_is_open_Hst	"Binary is the enclosure door is open, 0 is never opened in the 30 minute block"	Integer	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	panel_tmpr_Avg	Temperature of the logger panel	Celsius	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	batt_volt_Avg	Average battery voltage for the previous half-hour	Volts	30 min	2017	Present	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	evaporation	Pan evaporation	cm		2016	2016	David Huggins	"csv, nosql"				closed
+CAF	Meteorology	ws	Wind speed	m s-1		2016	2016	David Huggins	"csv, nosql"				closed
+CAF	Hydrology	TileNumber		cnt		36553	Present	Erin Brooks	csv				closed
+CAF	Hydrology	Duration	surface runoff/subsurface drainage	s		2000-01-28 (CookWest started 2017)	Present	Erin Brooks	csv				closed
+CAF	Hydrology	Volume	surface runoff/subsurface drainage	L		2000-01-28 (CookWest started 2017)	Present	Erin Brooks	csv				closed
+CAF	Hydrology	Rate	surface runoff/subsurface drainage	L s-1		2000-01-28 (CookWest started 2017)	Present	Erin Brooks	csv				closed
+CAF	Hydrology	Depth	water table measurement	cm		2012	2013	Erin Brooks	csv				closed
+CAF	Hydrology	N-NO3	nitrate concentration	mg/L N-NO3		1999	Present	Erin Brooks	csv				closed
+CAF	Hydrology	T	Temperature	C		1999	Present	Erin Brooks	csv				closed
+CAF	Hydrology	EC	EC	umhos			Present	Erin Brooks	csv				closed
+CAF	Hydrology	CaDissolved	"Ca, dissolved"	mg/L Ca++			Present	Erin Brooks	csv				closed
+CAF	Hydrology	MgDissolved	"Mg, dissolved"	mg/L Mg++			Present	Erin Brooks	csv				closed
+CAF	Hydrology	NaDissolved	"Na, dissolved"	mg/L Na+			Present	Erin Brooks	csv				closed
+CAF	Hydrology	KDissolved	"K, dissolved"	mg/L K+			Present	Erin Brooks	csv				closed
+CAF	Hydrology	CInorganicDissolved	"inorganic C, dissolved"	mg/L HCO3-			Present	Erin Brooks	csv				closed
+CAF	Hydrology	SulfateDissolved	"sulfate, dissolved"	mg/L SO4--			Present	Erin Brooks	csv				closed
+CAF	Hydrology	ClDissolved	"Cl, dissolved"	mg/L Cl-			Present	Erin Brooks	csv				closed
+CAF	Hydrology	NitrateRunoffSurface	nitrate concentration surface runoff	mg/L N-NO3		2016	Present	Erin Brooks	csv				closed
+CAF	Hydrology	TurbidityRunoffSurface	turbidity surface runoff	mg/L N-NO3		2016	Present	Erin Brooks	csv				closed
+CAF	Hydrology	PhosphorusTotalArtificialDrain	TotalPhosphorus artificial drain	mg/L P		2015	Present	Erin Brooks	csv				closed
+CAF	Hydrology	PhosphorusTotaRunofflSurface	TotalPhosphorus surface runoff	mg/L P		2017	Present	Erin Brooks	csv				closed
+CAF	Hydrology	PhosphorusReactiveDissolvedArtificialDrain	Dissolved Reactive Phosphorus artificial drain	mg/L P		2015	Present	Erin Brooks	csv				closed
+CAF	Hydrology	PhosphorusReactiveDissolvedRunoffSurface	Dissolved Reactive Phosphorus surface runoff	mg/L P		2017	Present	Erin Brooks	csv				closed
+CAF	Hydrology	PhosphorusTotalDissolved	Total dissolved Phosphorus surface runoff/artificial drain	mg/L P		2017	Present	Erin Brooks	csv				closed
+CAF	Hydrology	WaterIsotope	"18-O and 2-H isotope of water samples, Deep and shallow wells, artificial drain"			2012	2013	Erin Brooks	csv				closed
+CAF	Geospatial	Elevation		m		2000		David Huggins	geotiff				closed
+CAF	Geospatial	Elevation		m		2016		David Huggins	geotiff				closed
+CAF	FarmManagement	Machinery		unitless	event	2000	Present	David Huggins	excel				closed
+CAF	FarmManagement	Product		unitless	event	2000	Present	David Huggins	excel				closed
+CAF	FarmManagement	Area		m2	event	2000	Present	David Huggins	excel				closed
+CAF	FarmManagement	Volume		L	event	2000	Present	David Huggins	excel				closed
+CAF	FarmManagement	EventType		unitless	event	2000	Present	David Huggins	excel				closed
+CAF	Modeling	DAEC	Dynamic agroecosystem class	unitless	annual	2007	Present	David Huggins	geotiff				closed
+CAF	Modeling	Yield	Average estimated crop yield	kg/ha	annual	2017	Present	David Huggins	geotiff				closed
+CAF	Modeling	CV	Coefficient of variation of yield	%	annual	2017	Present	David Huggins	geotiff				closed
+CAF	Modeling	SoilMoisture	Soil moisture at predicted winter wheat sowing date	m3 m-3	annual	2017	Present	David Huggins	geotiff				closed
+CAF	Modeling	ImageRgb	RGB Image	unitless	15 min	2017	Present	David Huggins	tiff				closed
+CAF	Modeling	ImageIR	Infrared image	unitless	15 min	2017	Present	David Huggins	tiff				closed
+CAF	Modeling	Metadata	Metadata of image files	unitless	15 min	2017	Present	David Huggins	tiff				closed
+CAF	Modeling		Surface runoff/erosion		daily	2011	2013	Erin Brooks	csv				closed
+CAF	Modeling		Soil moisture		daily	2011	2013	Erin Brooks	csv				closed
+CAF	RemoteSensing		NDVI/NDRE RapidEye Imagery		weekly	2009	Present	Erin Brooks	csv				closed
