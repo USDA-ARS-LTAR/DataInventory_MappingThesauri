@@ -1,5 +1,10 @@
 # Purpose
+
 Scripts for mapping LTAR data inventory variables to NALT and AgCROS thesauri
+
+# Attribution
+
+Original code by Nicole Kaplan
 
 # License
 
