@@ -10,9 +10,8 @@ library(tidyverse)
 
 #### 1. appending all of the inventories into one ####
 #setwd("Y:/inventories/csv_Inventories")
-setwd("C:/Users/Nicole.Kaplan/Desktop/inventories/csv_inventories")
 
-filename<-as.data.frame(dir("C:/Users/Nicole.Kaplan/Desktop/inventories/csv_inventories")) 
+filename<-as.data.frame(dir("input/csv_inventories")) 
 colnames(filename)[1]<-'filename'
 filename$filename<-as.character(filename$filename)
 filename<-filename %>%  
@@ -27,7 +26,7 @@ inventory.1 <- data.frame()
 
 for (i in 1:l) {
   #i=2
-  fn=filename[i,]
+  fn=paste("input","csv_inventories",filename[i,], sep = "/")
   filedata <- read.delim(fn, header = T, sep = "\t", stringsAsFactors = FALSE)
   inventory.1 <- rbind(inventory.1, filedata)
 }
@@ -130,7 +129,7 @@ alldata$AgCROS.Table[alldata$Network.Category%in%c("Wind Erosion" )] <-"MeasWind
   
 #### 4. Work on attribute names as mapped to AgCROS, by site within a specific category ####
 ## bring in AgCROS value domains ##
-var.names <- read.delim("C:/Users/Nicole.Kaplan/Desktop/inventories/var.names.txt", header = T, sep = "\t", stringsAsFactors = FALSE, na.strings = "")
+var.names <- read.delim("input/var.names.txt", header = T, sep = "\t", stringsAsFactors = FALSE, na.strings = "")
 var.names <- var.names %>%
   select(TYPE, TABLE, COLUMN, ParameterDescription, Units) %>%
   filter(COLUMN != "---") %>%
@@ -144,9 +143,11 @@ plants.CPER.data <- filter(alldata, alldata$LTARSite.Code == "CPER" & alldata$Ne
 
 plants.var.name <- filter(var.names, var.names$TABLE == "MeasGrazingPlants")
 
-write.table(met.CPER.data, "C:/Users/Nicole.Kaplan/Desktop/inventories/plants.CPER.data.txt", col.names = TRUE, sep = "\t")
+dateToday <- format(Sys.Date(), "%Y%m%d")
 
-write.table(met.var.name, "C:/Users/Nicole.Kaplan/Desktop/inventories/plants.var.name.txt", col.names = TRUE, sep = "\t")
+write.table(plants.CPER.data, paste("output/plants.CPER.data_", dateToday, ".txt", sep = ""), col.names = TRUE, sep = "\t")
+
+write.table(plants.var.name, paste("output/plants.var.name_", dateToday, ".txt", sep = ""), col.names = TRUE, sep = "\t")
   
 
 
