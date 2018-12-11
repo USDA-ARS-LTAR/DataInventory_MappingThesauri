@@ -1,0 +1,991 @@
+TYPE	TABLE	COLUMN	ParameterDescription	Low	High	Units	Nullable	ACCESS Field types	Precision	Scale	Maxlength	TABLE LAST DET	COLUMN From AgAR v2017.05.0008 (6/2/2017)
+Background	Overview	Site ID	Site identifier	a	z	none	NO	Memo	---	---	63999	Overview	Site ID
+Background	Overview	Site ID Descriptor	Site description	a	z	none	YES	Memo	---	---	63999	Overview	Site ID Descriptor
+Background	Overview	Research Unit	Unit location	a	z	none	YES	Memo	---	---	63999	Overview	Research Unit
+Background	Overview	Dataset Name	Short name of the dataset	a	z	none	YES	Memo	---	---	63999	Overview	Project Name
+Background	Overview	Dataset Descriptor	Describle the dataset	a	z	none	YES	Memo	---	---	63999	Overview	Experiment Name
+Background	Overview	Funding Source	Funding Source	a	z	none	NO	Memo			63999	Overview	Funding Source
+Background	Overview	Start Date	Start date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	Overview	Start Date
+Background	Overview	End Date	End date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	Overview	End Date
+Background	Overview	Duration of Dataset	"Duration of experiment, number of years"	0	100	number of years	YES	Long Integer				Overview	Duration of Study
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Background	FieldSites	Site ID	Site identifier	a	z	none	NO	Memo	---	---	63999	FieldSites	Site ID
+Background	FieldSites	Date	Start date	1/1/1900	10/19/2018	mm/dd/yyyy	YES	Date/Time	---	---	---	FieldSites	Date
+Background	FieldSites	MLRA	Major land resource area code	a	z	none	YES	Memo	---	---	63999	FieldSites	MLRA
+Background	FieldSites	Field ID	Field identifier	a	z	none	NO	Memo	---	---	63999	FieldSites	Field ID
+Background	FieldSites	Country	ISO country code	a	z	none	YES	Memo	---	---	63999	FieldSites	Country
+Background	FieldSites	State/Province	State or Province	a	z	none	YES	Memo	---	---	63999	FieldSites	State/Province
+Background	FieldSites	County	County	a	z	none	YES	Memo	---	---	63999	FieldSites	County
+Background	FieldSites	City	City	a	z	none	YES	Memo	---	---	63999	FieldSites	City
+Background	FieldSites	Postal Code	Postal Code	a	z	none	YES	Alpha numeric	---	---	63999	FieldSites	Postal Code
+Background	FieldSites	Latitude decimal deg	"Latitude, decimal degrees"	-75	75	decimal degrees	YES	decimal	9	6	---	FieldSites	"Latitude, decimal deg"
+Background	FieldSites	Longitude decimal deg	"Longitude, decimal degrees"	-180	180	decimal degrees	YES	decimal	9	6	---	FieldSites	"Longitude, decimal deg"
+Background	FieldSites	Spatial Description	Spatial Description	a	z	none							
+Background	FieldSites	Elevation m	"Elevation, meters"	-50	5000	m	YES	Long Integer	---	---	---	FieldSites	"Elevation, m"
+Background	FieldSites	MAP mm	"Precipitation, annual, mean, millimeters"	10	5000	mm	YES	decimal	9	1	---	FieldSites	"MAP, mm"
+Background	FieldSites	MAT degC	"Temperature, annual, mean, degrees Celsius"	-10	30	degrees Celsius	YES	decimal	9	1	---	FieldSites	"MAT, degC"
+Background	FieldSites	Native Veg	Native vegetation	a	z	none	YES	Memo	---	---	63999	FieldSites	Native Veg
+Background	FieldSites	Site History	Site history	a	z	none	YES	Memo	---	---	63999	FieldSites	Site History
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Background	Persons	Site ID	Site identifier	a	z	none	NO	Memo	---	---	63999	Persons	Site ID
+Background	Persons	Last Name	Last name	a	z	none	YES	Memo	---	---	63999	Persons	Last Name
+Background	Persons	First Name	First name	a	z	none	YES	Memo	---	---	63999	Persons	First Name
+Background	Persons	Middle Name	Middle name	a	z	none	YES	Memo	---	---	63999	Persons	Middle Name
+Background	Persons	Suffix	Suffix	a	z	none	YES	Memo	---	---	63999	Persons	Suffix
+Background	Persons	Role in Study	Role	a	z	none	YES	Memo	---	---	63999	Persons	Role in Study
+Background	Persons	Primary Contact	Contact	a	z	none	YES	Memo	---	---	63999	Persons	Primary Contact
+Background	Persons	Department	Department	a	z	none	YES	Memo	---	---	63999	Persons	Department
+Background	Persons	Organization	Organization	a	z	none	YES	Memo	---	---	63999	Persons	Organization
+Background	Persons	Date Created	Creation date	1/1/1900	10/19/2018	mm/dd/yyyy	YES	Date/Time	---	---	---	Persons	Date Created
+Background	Persons	Profession	Profession	a	z	none	YES	Memo	---	---	63999	Persons	Profession
+Background	Persons	Email	Email	a	z	none	YES	Memo	---	---	63999	Persons	Email
+Background	Persons	Telephone	Phone	a	z	none	YES	Memo	---	---	63999	Persons	Telephone
+Background	Persons	Web Site	Website	a	z	none	YES	Memo	---	---	63999	Persons	Web Site
+Background	Persons	Note	Notes	a	z	none	YES	Memo	---	---	63999	Persons	Note
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Background	Citations	Site ID	Site identifier	a	z	none	NO	Memo	---	---	63999	Citations	Site ID
+Background	Citations	Date Published	Date Published YEAR	1940	3000	year (yyyy)	YES	Long Integer	---	---	---	Citations	Date Published
+Background	Citations	Type	Reference type	a	z	none	YES	Memo	---	---	63999	Citations	Type
+Background	Citations	Title	Reference Title	a	z	none	YES	Memo	---	---	63999	Citations	Title
+Background	Citations	Is Part Of	Book title if reference is a book chapter	a	z	none	YES	Memo	---	---	63999	Citations	Is Part Of
+Background	Citations	Author	Author	a	z	none	YES	Memo	---	---	63999	Citations	Author
+Background	Citations	Correspond Author	Corresponding Author	a	z	none	YES	Memo	---	---	63999	Citations	Correspond Author
+Background	Citations	Identifier USDA-ARS	"Permanent identifier like DOI, Handle, PURL, etc"	a	z	none	YES	Memo	---	---	63999	Citations	Identifier
+Background	Citations	Description	A description user might find useful	a	z	none	YES	Memo	---	---	63999	Citations	Description
+Background	Citations	Citation	Full Citation	a	z	none	YES	Memo	---	---	63999	Citations	Citation
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Background	Treatments	Treatment ID	Treatment identifier	a	z	none	NO	Memo	---	---	63999	Treatments	Treatment ID
+Background	Treatments	Start Date	Date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	Treatments	Start Date
+Background	Treatments	Treatment Descriptor	Treatment descriptor	a	z	none	YES	Memo	---	---	63999	Treatments	Treatment Descriptor
+Background	Treatments	Rotation Descriptor	Crop rotation	a	z	none	NO	Memo	---	---	63999	Treatments	Rotation Descriptor
+Background	Treatments	Tillage Descriptor	Tillage	a	z	none	NO	Memo	---	---	63999	Treatments	Tillage Descriptor
+Background	Treatments	N Treatment Descriptor	Nitrogen treatment	a	z	none	NO	Memo	---	---	63999	Treatments	N Treatment Descriptor
+Background	Treatments	Project Scenario	Project scenario	a	z	none	NO	Memo	---	---	63999	Treatments	Project Scenario
+Background	Treatments	Fertilizer Amendment Class	Fertilizer	a	z	none	NO	Memo	---	---	63999	Treatments	Fertilizer Amendment Class
+Background	Treatments	Cover Crop	Cover crop	a	z	none	NO	Memo	---	---	63999	Treatments	Cover Crop
+Background	Treatments	Residue Removal	Residue Removal	a	z	none	NO	Memo	---	---	63999	Treatments	Residue Removal
+Background	Treatments	Irrigation	Irrigated	Yes	No	none	NO	Yes/No	---	---	63999	Treatments	Irrigation
+Background	Treatments	Organic Management	Organic Management	a	z	none	NO	Memo	---	---	63999	Treatments	Organic Management
+Background	Treatments	Grazing Rate	Grazing rate	a	z	none	NO	Memo	---	---	63999	Treatments	Grazing Rate
+Background	Treatments	Animal (species)	Animal species	a	z	none	NO	Memo	---	---		Treatments	Animal species
+Background	Treatments	Operation	Type of Animal Operation	a	z	none	NO	Memo	---	---		Treatments	Operation
+	Treatments	ARS Projects	ARS Projects	a	z	none							
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Background	ExperUnits	Exp Unit 1	Exp Unit 1	a	z	none	NO	Memo	---	---	63999	ExperUnits	Exp Unit 1
+Background	ExperUnits	Exp Unit 1 Descriptor	Unit1 descriptor	a	z	none	YES	Memo	---	---	63999	ExperUnits	Exp Unit 1 Descriptor
+Background	ExperUnits	Exp Unit 2	Exp Unit 2	a	z	none	NO	Memo	---	---	63999	ExperUnits	Exp Unit 2
+Background	ExperUnits	Exp Unit 2 Descriptor	Unit2 descriptor	a	z	none	YES	Memo	---	---	63999	ExperUnits	Exp Unit 2 Descriptor
+Background	ExperUnits	Exp Unit 3	Exp Unit 3	a	z	none	NO	Memo	---	---	63999	ExperUnits	Exp Unit 3
+Background	ExperUnits	Exp Unit 3 Descriptor	Unit3 descriptor	a	z	none	YES	Memo	---	---	63999	ExperUnits	Exp Unit 3 Descriptor
+Background	ExperUnits	Exp Unit 4	Exp Unit 4	a	z	none	NO	Memo	---	---	63999	ExperUnits	Exp Unit 4
+Background	ExperUnits	Exp Unit 4 Descriptor	Unit4 descriptor	a	z	none	YES	Memo	---	---	63999	ExperUnits	Exp Unit 4 Descriptor
+Background	ExperUnits	Exp Unit 5	Exp Unit 5	a	z	none	NO	Memo	---	---	63999	ExperUnits	Exp Unit 5
+Background	ExperUnits	Exp Unit 5 Descriptor	Unit5 descriptor	a	z	none	YES	Memo	---	---	63999	ExperUnits	Exp Unit 5 Descriptor
+Background	ExperUnits	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999	ExperUnits	Exp Unit ID
+Background	ExperUnits	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999	ExperUnits	Treatment ID
+Background	ExperUnits	Field ID	Field identifier	a	z	none	NO	Memo	---	---	63999	ExperUnits	Field ID
+Background	ExperUnits	Start Date	Start date	1/1/1900	10/19/2018	mm/dd/yyyy	YES	Date/Time	---	---	---	ExperUnits	Start Date
+Background	ExperUnits	End Date	End date	1/1/1900	10/19/2018	mm/dd/yyyy	YES	Date/Time	---	---	---	ExperUnits	End Date
+Background	ExperUnits	Change in Management	Management change	a	z	none	YES	Memo	---	---	63999	ExperUnits	Change in Management
+Background	ExperUnits	Soil Series	Soil series	a	z	none	YES	Memo	---	---	63999	ExperUnits	Soil Series
+Background	ExperUnits	Soil Classification	Classification	a	z	none	YES	Memo	---	---	63999	ExperUnits	Soil Classification
+Background	ExperUnits	Landscape Position	Landscape position	a	z	none	YES	Memo	---	---	63999	ExperUnits	Landscape Position
+Background	ExperUnits	Latitude	"Latitude, decimal degrees"	-75	75	decimal degrees	YES	decimal	9	6	---	ExperUnits	Latitude
+Background	ExperUnits	Longitude	"Longitude, decimal degrees"	-180	180	decimal degrees	YES	decimal	9	6	---	ExperUnits	Longitude
+Background	ExperUnits	Slope %	"Slope, percent"	0	10	percent	YES	Long Integer	---	---	---	ExperUnits	"Slope, %"
+Background	ExperUnits	Exp Unit Size m2	"Plot area, square meters"	0	999999	m2	YES	decimal	9	1	---	ExperUnits	"Exp Unit Size, m2"
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Characterization	WeatherStation	Site ID	Site identifier	a	z	none	NO	Memo	---	---	---	WeatherStation	Site ID
+Characterization	WeatherStation	Field ID	Field identifier	a	z	none	NO	Memo	---	---	63999	WeatherStation	Field ID
+Characterization	WeatherStation	Date	Date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	WeatherStation	Date
+Characterization	WeatherStation	Weather Station ID	Station identifier	a	z	none	YES	Memo	---	---	---	WeatherStation	Weather Station ID
+Characterization	WeatherStation	Weather Latitude decimal deg	"Latitude of weather station, decimal degrees"	-75	75	decimal degrees	NO	decimal	9	6	---	WeatherStation	"Weather Latitude, decimal deg"
+Characterization	WeatherStation	Weather Longitude decimal deg	"Longitude of weather station, decimal degrees"	-180	180	decimal degrees	NO	decimal	9	6	---	WeatherStation	"Weather Longitude, decimal deg"
+Characterization	WeatherStation	Weather Elevation m	"Elevation of weather station, meters"	-50	5000	m	NO	Long Integer	---	---	---	WeatherStation	"Weather Elevation, m"
+Characterization	WeatherStation	Distance from Field m	"Distance from research site, meters"	1	10000	m	NO	decimal	10	0	---	WeatherStation	"Distance from Field, m"
+Characterization	WeatherStation	Direction from Field	Direction from station to research site	a	z	direction	NO	Memo	---	---	63999	WeatherStation	Direction from Field
+Characterization	WeatherStation	Weather Station URL	Location of data	a	z	none	YES	Memo	---	---	63999	WeatherStation	Weather Station URL
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Characterization	WeatherDaily	Site ID	Site identifier	a	z	none	NO	Memo	---	---	63999	WeatherDaily	Site ID
+Characterization	WeatherDaily	Field ID	Field identifier	a	z	none	NO	Memo	---	---	63999	WeatherDaily	Field ID
+Characterization	WeatherDaily	Weather Date	Date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	WeatherDaily	Weather Date
+	WeatherDaily	Weather Time	"Sampling time, hours and minutes"	0:01	23:59	Hours:minutes							
+Characterization	WeatherDaily	Weather Station ID	Station identifier	a	z	none	NO	Memo	---	---	63999	WeatherDaily	Weather Station ID
+Characterization	WeatherDaily	Temp Max degC	"Temperature, air, daily, maximum, degrees Celsius"	-20	40	degrees Celsius	YES	decimal	9	2	---	WeatherDaily	"Temp Max, degC"
+Characterization	WeatherDaily	Temp Min degC	"Temperature, air, daily, minimum, degrees Celsius"	-20	40	degrees Celsius	YES	decimal	9	2	---	WeatherDaily	"Temp Min, degC"
+Characterization	WeatherDaily	Precip mm/d	"Precipitation, total, no media, daily, millimeters"	0	250	mm/d	YES	decimal	9	2	---	WeatherDaily	"Precip, mm/d"
+Characterization	WeatherDaily	Bad Value Flag	Bad value flag	-999	-999	integer	YES	Long Integer	---	---	---	WeatherDaily	Bad Value Flag
+Characterization	WeatherDaily	RH %	"Relative humidity, air, daily, mean, percent"	0	100	%	YES	Long Integer	---	---	---	WeatherDaily	"RH, %"
+Characterization	WeatherDaily	Dew Point degC	"Dew point, air, daily, mean, degrees Celsius"	-20	40	degrees Celsius	YES	decimal	9	2	---	WeatherDaily	"Dew Point, degC"
+Characterization	WeatherDaily	Wind Speed m/s	"Wind speed, air, daily, mean, meters per second"	0	30	m/s	YES	decimal	9	2	---	WeatherDaily	"Wind Speed, m/s"
+Characterization	WeatherDaily	Solar Radiation Veg MJ/m2/d	"Solar radiation, vegetated ground, no media, daily, total, megajoules per square meter"	0	55	MJ/m2/d	YES	decimal	9	2	---	WeatherDaily	"Solar Radiation Veg, MJ/m2/d"
+Characterization	WeatherDaily	Solar Radiation Bare MJ/m2/d	"Solar radiation, bare ground, no media, daily, total, megajoules per square meter"	0	55	MJ/m2/d	YES	decimal	9	2	---	WeatherDaily	"Solar Radiation Bare, MJ/m2/d"
+Characterization	WeatherDaily	Soil Temp 5cm degC	"Temperature, soil, daily, 5cm, mean, degrees Celsius"	-20	40	degrees Celsius	YES	decimal	9	2	---	WeatherDaily	"Soil Temp 5cm, degC"
+Characterization	WeatherDaily	Soil Temp 10cm degC	"Temperature, soil, daily, 10cm, mean, degrees Celsius"	-20	40	degrees Celsius	YES	decimal	9	2	---	WeatherDaily	"Soil Temp 10cm, degC"
+Characterization	WeatherDaily	Wind Direction deg from N	"Wind direction air, daily, mean, degrees from north"	0	360	degrees from north	YES	Long Integer	---	---	---	WeatherDaily	"Wind Direction, deg from N"
+Characterization	WeatherDaily	Open Pan Evap mm/d	"Evaporation, open pan, no media, daily, millimeters"	0	15	mm/d	YES	decimal	10	0	---	WeatherDaily	"Open Pan Evap, mm/d"
+Characterization	WeatherDaily	Closed Pan Evap mm/d	"Evaporation, closed pan, no media, daily, millimeters"	0	15	mm/d	YES	decimal	10	0	---	WeatherDaily	"Closed Pan Evap, mm/d"
+Characterization	WeatherDaily	Atmos N Deposition kg/ha/d	"Atmospheric nitrogen deposition, air, daily, kilograms per hectare"	0	0.5	kg/ha/d	YES	decimal	10	0	---	WeatherDaily	"Atmos N Deposition, kg/ha/d"
+Characterization	WeatherDaily	Total Net Radiation MJ/m2/d	"Solar radiation, total, no media, daily, megajoules per square meter"	0	55	MJ/m2/d	YES	decimal	9	2	---	WeatherDaily	"Total Net Radiation, MJ/m2/d"
+Characterization	WeatherDaily	Snow mm/d	"Precipitation, snow, no media, daily, millimeters"	0	1000	mm/d	YES	decimal	10	0	---	WeatherDaily	"Snow, mm/d"
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Management	MgtAmendments	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999	MgtAmendments	Exp Unit ID
+Management	MgtAmendments	Date	Date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	MgtAmendments	Date
+Management	MgtAmendments	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999	MgtAmendments	Treatment ID
+Management	MgtAmendments	Crop	Crop name	a	z	none	YES	Memo	---	---	63999	MgtAmendments	Crop
+Management	MgtAmendments	Amend Placement	Amendment placement	a	z	none	YES	Memo	---	---	63999	MgtAmendments	Amend Placement
+Management	MgtAmendments	Amend Depth cm	"Amendment depth, centimeters"	0	50	cm	YES	decimal	9	3	---	MgtAmendments	"Amend Depth, cm"
+Management	MgtAmendments	Amend Type	Amendment type	a	z	none	YES	Memo	---	---	63999	MgtAmendments	Amend Type
+Management	MgtAmendments	Total Amend Amount kg/ha	"Amendment added, kg per hectare"	0	500	kg/ha	YES	decimal	9	3	---	MgtAmendments	"Total Amend Amount, kg/ha"
+Management	MgtAmendments	Total N Amount kgN/ha	"Total amount, amendment, kilograms nitrogen per hectare"	0	500	kg N/ha	YES	decimal	9	3	---	MgtAmendments	"Total N Amount, kgN/ha"
+Management	MgtAmendments	Total P Amount kgP/ha	"P amount, kilograms phosphorus per hectare"	0	500	kg P/ha	YES	decimal	9	3	---	MgtAmendments	"Total P Amount, kgP/ha"
+Management	MgtAmendments	Total K Amount kgK/ha	"K amount, kilograms potassium per hectare"	0	500	kg K/ha	YES	decimal	9	3	---	MgtAmendments	"Total K Amount, kgK/ha"
+Management	MgtAmendments	Total Pest Amount kg/ha	"Pesticide active ingredient amount, kilograms per hectare"	0		kg/ha	YES	decimal	9	3	---	MgtAmendments	"Total Pest Amount, kg/ha"
+Management	MgtAmendments	Active Ingredient Type	Pesticide type	a	z	none	YES	Memo	---	---	63999	MgtAmendments	Active Ingredient Type
+Management	MgtAmendments	Pest Target	Pesticide target	a	z	none	YES	Memo	---	---	63999	MgtAmendments	Pest Target
+Management	MgtAmendments	Pest Placement	Pesticide placement	a	z	none	YES	decimal	9	3	---	MgtAmendments	Pest Placement
+Management	MgtAmendments	Irrigation Amount cm	"Water, irrigation applied, no media, centimeters"	0	10	cm	YES	decimal	9	3	---	MgtAmendments	"Irrigation Amount, cm"
+Management	MgtAmendments	Irrigation Type	Irrigation type	a	z	none	YES	Memo	---	---	63999	MgtAmendments	Irrigation Type
+Management	MgtAmendments	Irrigation N mg/l	"Nitrogen, irrigation additive, no media, milligrams per liter"	0	1000	mg/L	YES	decimal	9	3	---	MgtAmendments	"Irrigation N, mg/l"
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Management	MgtPlanting	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999	MgtPlanting	Exp Unit ID
+Management	MgtPlanting	Date	Date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	MgtPlanting	Date
+Management	MgtPlanting	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999	MgtPlanting	Treatment ID
+Management	MgtPlanting	Crop	"Crop name, plant type"	a	z	none	YES	Memo	---	---	63999	MgtPlanting	Crop
+Management	MgtPlanting	Cultivar	"Cultivar, plant type"	a	z	none	YES	Memo	---	---	63999	MgtPlanting	Cultivar
+Management	MgtPlanting	Planting Rate #seeds/ha	"Plant rate, operations, number of seeds/seedlings per hectare"	0	150000	# of seeds/ha	YES	Long Integer	---	---	---	MgtPlanting	"Planting Rate, #seeds/ha"
+Management	MgtPlanting	Planting Density kg/ha	"Plant density, operations, kilograms per hectare"	0	150000	kg/ha	YES	Long Integer	---	---	---	MgtPlanting	"Planting Density, kg/ha"
+Management	MgtPlanting	Planting Method	"Plant method, operations"	a	z	none	YES	Memo	---	---	63999	MgtPlanting	Planting Method
+Management	MgtPlanting	Planting Depth cm	"Plant depth, operations, soil, centimeters"	0	50	cm	YES	decimal	9	3	---	MgtPlanting	"Planting Depth, cm"
+Management	MgtPlanting	Row Width cm	"Row width, soil, operations, centimeters"	0	100	cm	YES	decimal	9	3	---	MgtPlanting	"Row Width, cm"
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Management	MgtTillage	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999	MgtTillage	Exp Unit ID
+Management	MgtTillage	Date	Date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	MgtTillage	Date
+Management	MgtTillage	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999	MgtTillage	Treatment ID
+Management	MgtTillage	Crop	Crop name	a	z	none	YES	Memo	---	---	63999	MgtTillage	Crop
+Management	MgtTillage	Tillage Event	"Tillage Event, operations"	a	z	none	YES	Memo	---	---	63999	MgtTillage	Tillage Event
+Management	MgtTillage	"Tillage Event Depth, cm"	"Event depth, operations, soil, centimeters"	0	200	cm	YES	decimal	9	3	---	MgtTillage	"Tillage Event Depth, cm"
+Management	MgtTillage	Tillage Event Method	"Event method, operations"	a	z	none	YES	Memo	---	---	63999	MgtTillage	Tillage Event Method
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Management	MgtGrowthStages	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999	MgtGrowthStages	Exp Unit ID
+Management	MgtGrowthStages	Date	Date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	MgtGrowthStages	Date
+Management	MgtGrowthStages	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999	MgtGrowthStages	Treatment ID
+Management	MgtGrowthStages	Crop	Crop name	a	z	none	YES	Memo	---	---	63999	MgtGrowthStages	Crop
+Management	MgtGrowthStages	Growth Stage	Growth stage	a	z	none	YES	Memo	---	---	63999	MgtGrowthStages	Growth Stage
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Management	MgtResidue	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999	MgtResidue	Exp Unit ID
+Management	MgtResidue	Date	Date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	MgtResidue	Date
+Management	MgtResidue	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999	MgtResidue	Treatment ID
+Management	MgtResidue	Crop	Crop name	a	z	none	YES	Memo	---	---	63999	MgtResidue	Crop
+Management	MgtResidue	Equipment Type	Equipment type	a	z	none	YES	Memo	---	---	63999	MgtResidue	Equipment Type
+Management	MgtResidue	Cutting Height/Material Harvested	Height at cutting	a	z	none	YES	Memo	---	---	63999	MgtResidue	Cutting Height/Material Harvested
+Management	MgtResidue	Rows Harvested %	"Rows harvested, percent"	0	100	%	YES	Long Integer	---	---	---	MgtResidue	"Rows Harvested, %"
+Management	MgtResidue	Stand Age years	"Age at harvest, plant, year"	0	200	years	YES	decimal	9	3	---	MgtResidue	"Stand Age, years"
+Management	MgtResidue	Stage at Harvest	Stage at harvest	a	z	none	YES	Memo	---	---	63999	MgtResidue	Stage at Harvest
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Management	MgtGrazing	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999	MgtGrazing	Exp Unit ID
+Management	MgtGrazing	Start Date	Start date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	MgtGrazing	Start Date
+Management	MgtGrazing	End Date	End date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	MgtGrazing	End Date
+Management	MgtGrazing	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999	MgtGrazing	Treatment ID
+Management	MgtGrazing	Stocking Rate #animals/ha	"Stocking rate, operations, number of animals per hectare"	0	200	# of animals/ha	YES	decimal	9	3	---	MgtGrazing	"Stocking Rate, # of animals/ha"
+Management	MgtGrazing	Animal Species	"Species list, animal type"	a	z	none	YES	Memo	---	---	63999	MgtGrazing	Animal Species
+Management	MgtGrazing	Animal Class	"Class list, animal type"	a	z	none	YES	Memo	---	---	63999	MgtGrazing	Animal Class
+Management	MgtGrazing	Other Events	"Other grazing events, operations"	a	z	none	YES	Memo	---	---	63999	MgtGrazing	Other Events
+Management	MgtGrazing	Burn Frequency years between burns	"Burn frequency, operations, number of years between burn events"	0	10	years/burn	YES	decimal	9	3	---	MgtGrazing	"Burn Frequency, years between burns"
+Management	MgtGrazing	Burn Intensity	"Burn intensity, operations"	a	z	none	YES	Memo	---	---	63999	MgtGrazing	Burn Intensity
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Measurement	MeasNutrEff	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999	MeasNutrEff	Exp Unit ID
+Measurement	MeasNutrEff	Date	Date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	MeasNutrEff	Date
+Measurement	MeasNutrEff	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999	MeasNutrEff	Treatment ID
+Measurement	MeasNutrEff	Growth Stage	Growth stage	a	z	none	YES	Memo	---	---	63999	MeasNutrEff	Growth Stage
+Measurement	MeasNutrEff	Crop	Crop name	a	z	none	YES	Memo	---	---	63999	MeasNutrEff	Crop
+Measurement	MeasNutrEff	Fraction N kgN/ha	"Above ground nitrogen, kilograms nitrogen per hectare"	0	1000	kg N/ha	YES	decimal	9	3	---	MeasNutrEff	AboveGroundN kgN/ha
+Measurement	MeasNutrEff	Nitrogen Use Efficiency %	"Nitrogen use efficiency, percent"	0	100	percent	YES	decimal	9	3	---	MeasNutrEff	Nitrogen Use Efficiency %
+Measurement	MeasNutrEff	Agronomic Efficiency kg/kg	"Agronomic efficiency, kilogram per kilogram"	0	100	kg/kg	YES	decimal	9	3	---	MeasNutrEff	Agronomic Efficiency kg/kg
+Measurement	MeasNutrEff	Nutrient efficiency ratio kg/kg	"Nutrient efficiency ratio, kilogram per kilogram"	0	100	kg/kg	YES	decimal	9	3	---	MeasNutrEff	Nutrient efficiency ratio Nitrogen kg/kg
+Measurement	MeasNutrEff	Nitrogen15 Use Efficiency kgN/ha	"Nitrogen 15 use efficiency, kilogram nitrogen per hectare"	0	1000	kg N/ha	YES	decimal	9	3	---	MeasNutrEff	Nitrogen15 Use Efficiency kgN/ha
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Measurement	MeasSoilPhys	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999	MeasSoilPhys	Exp Unit ID
+Measurement	MeasSoilPhys	Date	Date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	MeasSoilPhys	Date
+Measurement	MeasSoilPhys	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999	MeasSoilPhys	Treatment ID
+Measurement	MeasSoilPhys	Upper cm	"Soil horizon depth, upper, centimeter"	0	200	cm	YES	Long Integer	---	---	---	MeasSoilPhys	"Upper, cm"
+Measurement	MeasSoilPhys	Lower cm	"Soil horizon depth, lower, centimeter"	0	200	cm	YES	Long Integer	---	---	---	MeasSoilPhys	"Lower, cm"
+Measurement	MeasSoilPhys	Model if simulated	"If the observation is simulated, what model was used?"	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasSoilPhys	Sand %	"Sand, soil, percent"	0	100	%	YES	decimal	9	3	---	MeasSoilPhys	"Sand, %"
+Measurement	MeasSoilPhys	Silt %	"Silt, soil, percent"	0	100	%	YES	decimal	9	3	---	MeasSoilPhys	"Silt, %"
+Measurement	MeasSoilPhys	Clay %	"Clay, soil, percent"	0	100	%	YES	decimal	9	3	---	MeasSoilPhys	"Clay, %"
+Measurement	MeasSoilPhys	Bulk Density g/cm3	"Bulk density, soil, grams per centimeter squared"	0	3	g/cm3	YES	decimal	9	3	---	MeasSoilPhys	"Bulk Density, g/cm3"
+Measurement	MeasSoilPhys	Wilting Point % volume	"Wilting point, soil, percent volume"	5	50	% vol (cu cm H2O/cu cm soil*100)	YES	decimal	9	3	---	MeasSoilPhys	"Wilting Point, % volume"
+Measurement	MeasSoilPhys	Field Capacity % volume	"Field capacity, soil, percent volume"	0	0.01	% vol (cu cm H2O/cu cm soil*100)	YES	decimal	9	3	---	MeasSoilPhys	"Field Capacity, % volume"
+Measurement	MeasSoilPhys	Ksat cm/sec	"Saturated hydraulic conductivity, soil, centimeters per second"	0	"1,000"	cm/sec	YES	decimal	9	3	---	MeasSoilPhys	"Ksat, cm/sec"
+Measurement	MeasSoilPhys	Moisture Release Curve	"Moisture release curve, soil, was it measured"	Yes	No	none	YES	Yes/No	---	---	---	MeasSoilPhys	Moisture Release Curve
+Measurement	MeasSoilPhys	Soil Heat Flux MJ/m2	"Soil heat flux, soil, megajoules per square meter"	0		MJ/m2	YES	decimal	9	3	---	MeasSoilPhys	"Soil Heat Flux, MJ/m2"
+Measurement	MeasSoilPhys	Aggregation %	"Micro or Macroaggregation, percent"	0	100	%	YES	decimal	9	3	---	MeasSoilPhys	"Aggregation, %"
+Measurement	MeasSoilPhys	H2O Stable Aggregates %	"Water Stable Aggregates, soil, percent"	0	100	%	YES	decimal	9	3	---	MeasSoilPhys	"H2O Stable Aggregates, %"
+Measurement	MeasSoilPhys	Near-Infrared C gC/kg	"Near Infrared Total carbon, soil, grams C per kilogram soil"	0	1000	g/kg	YES	decimal	9	3	---	MeasSoilPhys	"Near-Infrared C, gC/kg"
+Measurement	MeasSoilPhys	Bulk Density STD g/cm3	"Bulk density, soil, StdDev, grams per centimeter squared"	0	3	g/cm3	YES	decimal	9	3	---	MeasSoilPhys	"Bulk Density STD, g/cm3"
+Measurement	MeasSoilPhys	Wilting Point STD % volume	"Wilting point, soil, StdDev, percent volume"	0	50	% vol (cu cm H2O/cu cm soil*100)	YES	decimal	9	3	---	MeasSoilPhys	"Wilting Point STD, % volume"
+Measurement	MeasSoilPhys	Field Capacity STD % volume	"Field capacity, soil, StdDev, percent volume"	0	0.01	% vol (cu cm H2O/cu cm soil*100)	YES	decimal	9	3	---	MeasSoilPhys	"Field Capacity STD, % volume"
+Measurement	MeasSoilPhys	Ksat STD cm/sec	"Saturated hydraulic conductivity, soil, StdDev, centimeters per second"	0	"1,000"	cm/sec	YES	decimal	9	3	---	MeasSoilPhys	"Ksat STD, cm/sec"
+Measurement	MeasSoilPhys	Soil Heat Flux STD MJ/m2	"Soil heat flux, soil, StdDev, megajoules per square meter"	0		MJ/m2	YES	decimal	9	3	---	MeasSoilPhys	"Soil Heat Flux STD, MJ/m2"
+Measurement	MeasSoilPhys	Macro Aggregates STD %	"Micro or Macroaggregation, percent StdDev"	0	100	%	YES	decimal	9	3	---	MeasSoilPhys	"Macro Aggregates STD, %"
+Measurement	MeasSoilPhys	H2O Stable Aggregates STD %	"Water Stable Aggregates, soil, StdDev, percent"	0	100	%	YES	decimal	9	3	---	MeasSoilPhys	"H2O Stable Aggregates STD, %"
+Measurement	MeasSoilPhys	Near-Infrared C STD gC/kg	"Near Infrared Total carbon, soil, StdDev, grams C per kilogram soil"	0	1000	g/kg	YES	decimal	9	3	---	MeasSoilPhys	"Near-Infrared C STD, gC/kg"
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Measurement	MeasSoilChem	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999	MeasSoilChem	Exp Unit ID
+Measurement	MeasSoilChem	Date	Measurement identifier	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	MeasSoilChem	Date
+Measurement	MeasSoilChem	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999	MeasSoilChem	Treatment ID
+Measurement	MeasSoilChem	Upper cm	"Upper soil layer, soil, centimeters"	0	200	cm	YES	Long Integer	---	---	---	MeasSoilChem	"Upper, cm"
+Measurement	MeasSoilChem	Lower cm	"Lower soil layer, soil, centimeters"	0	200	cm	YES	Long Integer	---	---	---	MeasSoilChem	"Lower, cm"
+Measurement	MeasSoilChem	Model if simulated	"If the observation is simulated, what model was used?"	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasSoilChem	pH	"pH, soil, no units"	0	14	no units	YES	decimal	9	2	---	MeasSoilChem	pH
+Measurement	MeasSoilChem	TSC gC/kg	"Total soil carbon, soil, mean or single measurement, grams C per kilogram soil"	0	1000	gC/kg	YES	decimal	9	3	---	MeasSoilChem	"TSC, gC/kg"
+Measurement	MeasSoilChem	TSN gN/kg	"Total soil nitrogen, soil, mean or single measurement, grams N per kilogram soil"	0	1000	gN/kg	YES	decimal	9	3	---	MeasSoilChem	"TSN, gN/kg"
+Measurement	MeasSoilChem	Inorganic C gC/kg	"Inorganic soil carbon, soil, mean or single measurement, grams C per kilogram soil"	0	1000	gC/kg	YES	decimal	9	3	---	MeasSoilChem	"Inorganic C, gC/kg"
+Measurement	MeasSoilChem	Organic C gC/kg	"Organic soil carbon, soil, mean or single measurement, grams C per kilogram soil"	0	1000	gC/kg	YES	decimal	9	3	---	MeasSoilChem	"Organic C, gC/kg"
+Measurement	MeasSoilChem	Mineral C gC/kg	"Mineral associated carbon, soil, mean or single measurement, grams C per kilogram soil"	0	1000	gC/kg	YES	decimal	9	3	---	MeasSoilChem	"Mineral C, gC/kg"
+Measurement	MeasSoilChem	CEC cmol/kg	"Cation exchange capacity, soil, cmol per kilogram soil"	0		cmol/kg	YES	decimal	9	3	---	MeasSoilChem	"CEC, cmol/kg"
+Measurement	MeasSoilChem	Electric Conduc siemens/m	"Soil electrical conductivity, soil, siemens per meter"	0	1	siemens/m	YES	decimal	9	3	---	MeasSoilChem	"Electric Conduc, siemens/m"
+Measurement	MeasSoilChem	Soluble C mgC/kg	"Soluble organic carbon, soil, milligrams C per kilogram soil"	0	1000000	mg C/kg	YES	decimal	9	3	---	MeasSoilChem	"Soluble C, mgC/kg"
+Measurement	MeasSoilChem	NH4 mgN/kg	"Ammonium, soil, milligrams of N per kilogram soil"	0	1000000	mg N/kg	YES	decimal	9	3	---	MeasSoilChem	"NH4, mgN/kg"
+Measurement	MeasSoilChem	NO3 mgN/kg	"Nitrate, soil, milligrams of N per kilogram soil"	0	1000000	mg N/kg	YES	decimal	9	3	---	MeasSoilChem	"NO3, mgN/kg"
+Measurement	MeasSoilChem	P mgP/kg	"Phosphorus, soil, milligrams P per kilogram soil"	0	1000000	mg P/kg	YES	decimal	9	3	---	MeasSoilChem	"P, mgP/kg"
+Measurement	MeasSoilChem	K mgK/kg	"Potassium, soil, milligrams K per kilogram soil"	0	1000000	mg K/kg	YES	decimal	9	3	---	MeasSoilChem	"K, mgK/kg"
+Measurement	MeasSoilChem	Ca mgCa/kg	"Calcium, soil, milligrams Ca per kilogram soil"	0	1000000	mg Ca/kg	YES	decimal	9	3	---	MeasSoilChem	"Ca, mgCa/kg"
+Measurement	MeasSoilChem	Mg mgMg/kg	"Magnesium, soil, milligrams Mg per kilogram soil"	0	1000000	mg Mg/kg	YES	decimal	9	3	---	MeasSoilChem	"Mg, mgMg/kg"
+Measurement	MeasSoilChem	Cu mgCu/kg	"Copper, soil, milligrams Cu per kilogram soil"	0	1000000	mg Cu/kg	YES	decimal	9	3	---	MeasSoilChem	"Cu, mgCu/kg"
+Measurement	MeasSoilChem	Fe mgFe/kg	"Iron, soil, milligrams Fe per kilogram soil"	0	1000000	mg Fe/kg	YES	decimal	9	3	---	MeasSoilChem	"Fe, mgFe/kg"
+Measurement	MeasSoilChem	Mn mgMN/kg	"Manganese, soil, milligrams Mn per kilogram soil"	0	1000000	mg Mn/kg	YES	decimal	9	3	---	MeasSoilChem	"Mn, mgMN/kg"
+Measurement	MeasSoilChem	Zn mgZn/kg	"Zinc, soil, milligrams Zn per kilogram soil"	0	1000000	mg Zn/kg	YES	decimal	9	3	---	MeasSoilChem	"Zn, mgZn/kg"
+Measurement	MeasSoilChem	Mineralizable N gN/kg	"Potentially Mineralizable N, soil, grams N per kilogram soil"	0	1000	g/kg	YES	decimal	9	3	---	MeasSoilChem	"Mineralizable N, gN/kg"
+Measurement	MeasSoilChem	Nitrite mgN/kg	"Nitrite, soil, milligrams per kilogram soil"	0	1000000	mg/kg	YES	decimal	9	3	---	MeasSoilChem	"Nitrite, mgN/kg"
+Measurement	MeasSoilChem	Cesium-137 Bq/kg	 Bq/kg	 0	10000	 Bq/kg	YES	decimal	9	3	---		
+Measurement	MeasSoilChem	Lead-210 Bq/kg	 Bq/kg	 0	10000	 Bq/kg	YES	decimal	9	3	---		
+Measurement	MeasSoilChem	Beryllium-7 Bq/kg	 Bq/kg	 0	10000	 Bq/kg	YES	decimal	9	3	---		
+Measurement	MeasSoilChem	pH STD	"pH, soil, StdDev, no units"	0	14	no units	YES	decimal	9	3	---	MeasSoilChem	pH STD
+Measurement	MeasSoilChem	TSC STD gC/kg	"Total soil carbon, soil, StdDev, grams C per kilogram soil"	0	1000	g/kg	YES	decimal	9	3	---	MeasSoilChem	"TSC STD, gC/kg"
+Measurement	MeasSoilChem	TSN STD gN/kg	"Total soil nitrogen, soil, StdDev, grams N per kilogram soil"	0	1000	g/kg	YES	decimal	9	3	---	MeasSoilChem	"TSN STD, gN/kg"
+Measurement	MeasSoilChem	Inorganic C STD gC/kg	"Inorganic soil carbon, soil, StdDev, grams C per kilogram soil"	0	1000	g/kg	YES	decimal	9	3	---	MeasSoilChem	"Inorganic C STD, gC/kg"
+Measurement	MeasSoilChem	Organic STD gC/kg	"Soil particulate carbon, soil, StdDev, grams C per kilogram soil"	0	1000	g/kg	YES	decimal	9	3	---	MeasSoilChem	"Organic STD, gC/kg"
+Measurement	MeasSoilChem	Mineral C STD gC/kg	"Mineral associated carbon, soil, StdDev, grams C per kilogram soil"	0	1000	g/kg	YES	decimal	9	3	---	MeasSoilChem	"Mineral C STD, gC/kg"
+Measurement	MeasSoilChem	CEC STD cmol/kg	"Cation exchange capacity, soil, StdDev, cmol per kilogram soil"	0		cmol/kg	YES	decimal	9	3	---	MeasSoilChem	"CEC STD, cmol/kg"
+Measurement	MeasSoilChem	Electric Conduc STD siemens/m	"Soil electrical conductivity, soil, StdDev, siemens per meter"	0	1	siemens/m	YES	decimal	9	3	---	MeasSoilChem	"Electric Conduc STD, siemens/m"
+Measurement	MeasSoilChem	Soluble C STD mgC/kg	"Soluble organic carbon, soil, StdDev, milligrams C per kilogram soil"	0	1000000	mg C/kg	YES	decimal	9	3	---	MeasSoilChem	"Soluble C STD, mgC/kg"
+Measurement	MeasSoilChem	NH4 STD mgN/kg	"Ammonium, soil, StdDev, milligrams of N per kilogram soil"	0	1000000	mg N/kg	YES	decimal	9	3	---	MeasSoilChem	"NH4 STD, mgN/kg"
+Measurement	MeasSoilChem	NO3 STD mgN/kg	"Nitrate, soil, StdDev, milligrams of N per kilogram soil"	0	1000000	mg N/kg	YES	decimal	9	3	---	MeasSoilChem	"NO3 STD, mgN/kg"
+Measurement	MeasSoilChem	P STD mgP/kg	"Phosphorus, soil, StdDev, milligrams P per kilogram soil"	0	1000000	mg P/kg	YES	decimal	9	3	---	MeasSoilChem	"P STD, mgP/kg"
+Measurement	MeasSoilChem	K STD mgK/kg	"Potassium, soil, StdDev, milligrams K per kilogram soil"	0	1000000	mg K/kg	YES	decimal	9	3	---	MeasSoilChem	"K STD, mgK/kg"
+Measurement	MeasSoilChem	Ca STD mgCa/kg	"Calcium, soil, StdDev, milligrams Ca per kilogram soil"	0	1000000	mg Ca/kg	YES	decimal	9	3	---	MeasSoilChem	"Ca STD, mgCa/kg"
+Measurement	MeasSoilChem	Mg STD mgMg/kg	"Magnesium, soil, StdDev, milligrams Mg per kilogram soil"	0	1000000	mg Mg/kg	YES	decimal	9	3	---	MeasSoilChem	"Mg STD, mgMg/kg"
+Measurement	MeasSoilChem	Cu STD mgCu/kg	"Copper, soil, StdDev, milligrams Cu per kilogram soil"	0	1000000	mg Cu/kg	YES	decimal	9	3	---	MeasSoilChem	"Cu STD, mgCu/kg"
+Measurement	MeasSoilChem	Fe STD mgFe/kg	"Iron, soil, StdDev, milligrams Fe per kilogram soil"	0	1000000	mg Fe/kg	YES	decimal	9	3	---	MeasSoilChem	"Fe STD, mgFe/kg"
+Measurement	MeasSoilChem	Mn STD mgMN/kg	"Manganese, soil, StdDev, milligrams Mn per kilogram soil"	0	1000000	mg Mn/kg	YES	decimal	9	3	---	MeasSoilChem	"Mn STD, mgMN/kg"
+Measurement	MeasSoilChem	Zn STD mgZn/kg	"Zinc, soil, StdDev, milligrams Zn per kilogram soil"	0	1000000	mg Zn/kg	YES	decimal	9	3	---	MeasSoilChem	"Zn STD, mgZn/kg"
+Measurement	MeasSoilChem	Mineralizable N STD gN/kg	"Potentially Mineralizable N, soil, StdDev, grams N per kilogram soil"	0	1000	g/kg	YES	decimal	9	3	---	MeasSoilChem	"Mineralizable N STD, gN/kg"
+Measurement	MeasSoilChem	Nitrite STD mgN/kg	"Nitrite, soil, StdDev, milligrams per kilogram soil"	0	1000000	mg/kg	YES	decimal	9	3	---	MeasSoilChem	"Nitrite STD, mgN/kg"
+Measurement	MeasSoilChem	Cesium-137 STD Bq/kg	 Bq/kg	 0	10000	 Bq/kg	YES	decimal	9	3	---		
+Measurement	MeasSoilChem	Lead-210 STD Bq/kg	 Bq/kg	 0	10000	 Bq/kg	YES	decimal	9	3	---		
+Measurement	MeasSoilChem	Beryllium-7 STD Bq/kg	 Bq/kg	 0	10000	 Bq/kg	YES	decimal	9	3	---		
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Measurement	MeasSoilBiol	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999	MeasSoilBiol	Exp Unit ID
+Measurement	MeasSoilBiol	Date	Measurement identifier	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	MeasSoilBiol	Date
+Measurement	MeasSoilBiol	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999	MeasSoilBiol	Treatment ID
+Measurement	MeasSoilBiol	Upper cm	"Upper soil layer, soil, centimeters"	0	200	cm	YES	Long Integer	---	---	---	MeasSoilBiol	"Upper, cm"
+Measurement	MeasSoilBiol	Lower cm	"Lower soil layer, soil, centimeters"	0	200	cm	YES	Long Integer	---	---	---	MeasSoilBiol	"Lower, cm"
+Measurement	MeasSoilBiol	Model if simulated	"If the observation is simulated, what model was used?"	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasSoilBiol	Glucosidase mg/kg/hr	"Beta_Glucosidase, soil, milligram ?-nitrophenol released per kilogram soil per hour"	0		mg ?-nitrophenol released kg-1 soil h-1	YES	decimal	9	3	---	MeasSoilBiol	"Glucosidase, mg/kg/hr"
+Measurement	MeasSoilBiol	Glucosaminidase mg/kg/hr	"Beta_Glucosaminidase_NAG, soil, milligram ?-nitrophenol released per kilogram soil per hour"	0		mg ?-nitrophenol released kg-1 soil h-1	YES	decimal	9	3	---	MeasSoilBiol	"Glucosaminidase, mg/kg/hr"
+Measurement	MeasSoilBiol	Acid Phosphatase mg/kg/hr	"Acid_Phosphatase, soil, milligram ?-nitrophenol per kilogram soil per hour"	0		mg ?-n per kg-1 soil h-0	YES	decimal	9	3	---	MeasSoilBiol	"Acid Phosphatase, mg/kg/hr"
+Measurement	MeasSoilBiol	Alk Phosphatase mg/kg/hr	"Alkaline_Phosphatase, soil, milligram ?-nitrophenol per kilogram soil per hour"	0		mg ?-n per kg-1 soil h-1	YES	decimal	9	3	---	MeasSoilBiol	"Alk Phosphatase, mg/kg/hr"
+Measurement	MeasSoilBiol	Fluorescein Diacetate Hydrol mg/kg/hr	"Fluorescein_Diacetate_Hydrolysis, soil, milligram fluorescein per kilogram soil per hour"	0		mg kg-1 h-1	YES	decimal	9	3	---	MeasSoilBiol	"Fluorescein Diacetate Hydrol, mg/kg/hr"
+Measurement	MeasSoilBiol	Glomalin g/kg	"Glomalin, soil, gram per kilogram"	0		g/kg	YES	decimal	9	3	---	MeasSoilBiol	"Glomalin, g/kg"
+Measurement	MeasSoilBiol	FAME	"Fatty Acid Methyl Esters, soil, were they measured"	Yes	No	none	YES	Yes/No	---	---	---	MeasSoilBiol	FAME
+Measurement	MeasSoilBiol	PLFA	"Phospholipid Fatty Acids, soil, were they measured"	Yes	No	none	YES	Yes/No	---	---	---	MeasSoilBiol	PLFA
+Measurement	MeasSoilBiol	DNA	"DNA, soil, was it measured"	Yes	No	none	YES	Yes/No	---	---	---	MeasSoilBiol	DNA
+Measurement	MeasSoilBiol	Iden Plant Material gC/kg	"Identifiable Plant Material, soil, grams carbon per kilogram soil"	0	1000	g C/kg	YES	decimal	9	3	---	MeasSoilBiol	"Iden Plant Material, gC/kg"
+Measurement	MeasSoilBiol	POM gC/kg	"Particulate organic matter, soil, mean or single measurement, grams C per kilogram soil"	0	1000	g C/kg	YES	decimal	9	3	---	MeasSoilBiol	"POM, gC/kg"
+Measurement	MeasSoilBiol	Microbe Bio C mgC/kg	"Microbial biomass carbon, soil, milligrams C per kilogram soil"	0	" 1,000,000 "	mg C/kg	YES	decimal	9	3	---	MeasSoilBiol	"Microbe Bio C, mgC/kg"
+Measurement	MeasSoilBiol	Microbe Bio N mgN/kg	"Microbial biomass nitrogen, soil, milligrams N per kilogram soil"	0	" 1,000,000 "	mg N/kg	YES	decimal	9	3	---	MeasSoilBiol	"Microbe Bio N, mgN/kg"
+Measurement	MeasSoilBiol	Glucosidase STD mg/kg/hr	"Beta_Glucosidase, soil, StdDev, milligram ?-nitrophenol released per kilogram soil per hour"	0		mg ?-nitrophenol released kg-1 soil h-1	YES	decimal	9	3	---	MeasSoilBiol	"Glucosidase STD, mg/kg/hr"
+Measurement	MeasSoilBiol	Glucosaminidase STD mg/kg/hr	"Beta_Glucosaminidase_NAG, soil, StdDev, milligram ?-nitrophenol released per kilogram soil per hour"	0		mg ?-nitrophenol released kg-1 soil h-1	YES	decimal	9	3	---	MeasSoilBiol	"Glucosaminidase STD, mg/kg/hr"
+Measurement	MeasSoilBiol	Acid Phosphatase STD mg/kg/hr	"Acid_Phosphatase, soil, StdDev, milligram ?-nitrophenol per kilogram soil per hour"	0		mg ?-n per kg-1 soil h-0	YES	decimal	9	3	---	MeasSoilBiol	"Acid Phosphatase STD, mg/kg/hr"
+Measurement	MeasSoilBiol	Alk Phosphatase STD mg/kg/hr	"Alkaline_Phosphatase, soil, StdDev, milligram ?-nitrophenol per kilogram soil per hour"	0		mg ?-n per kg-1 soil h-1	YES	decimal	9	3	---	MeasSoilBiol	"Alk Phosphatase STD, mg/kg/hr"
+Measurement	MeasSoilBiol	Fluorescein Diacetate Hydrol STD mg/kg/hr	"Fluorescein_Diacetate_Hydrolysis, soil, StdDev, milligram fluorescein per kilogram soil per hour"	0		mg kg-1 h-1	YES	decimal	9	3	---	MeasSoilBiol	"Fluorescein Diacetate Hydrol STD, mg/kg/hr"
+Measurement	MeasSoilBiol	Glomalin STD g/kg	"Glomalin, soil, StdDev, gram per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasSoilBiol	"Glomalin STD, g/kg"
+Measurement	MeasSoilBiol	Iden Plant Material STD gC/kg	"Identifiable Plant Material, soil, StdDev, grams carbon per kilogram soil"	0	1000	g C/kg	YES	decimal	9	3	---	MeasSoilBiol	"Iden Plant Material STD, gC/kg"
+Measurement	MeasSoilBiol	POM STD gC/kg	"Particulate organic matter, soil, StdDev, grams C per kilogram soil"	0	1000	g C/kg	YES	decimal	9	3	---	MeasSoilBiol	"POM STD, gC/kg"
+Measurement	MeasSoilBiol	Microbe Bio C STD mgC/kg	"Microbial biomass carbon, soil, StdDev, milligrams C per kilogram soil"	0	" 1,000,000 "	mg C/kg	YES	decimal	9	3	---	MeasSoilBiol	"Microbe Bio C STD, mgC/kg"
+Measurement	MeasSoilBiol	Microbe Bio N STD mgN/kg	"Microbial biomass nitrogen, soil, StdDev, milligrams N per kilogram soil"	0	" 1,000,000 "	mg N/kg	YES	decimal	9	3	---	MeasSoilBiol	"Microbe Bio N STD, mgN/kg"
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Measurement	MeasSoilCover	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999	MeasSoilCover	Exp Unit ID
+Measurement	MeasSoilCover	Date	Date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	MeasSoilCover	Date
+Measurement	MeasSoilCover	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999	MeasSoilCover	Treatment ID
+Measurement	MeasSoilCover	Timing Descriptor	When this was measured	a	z	none	YES	Memo	---	---	63999	MeasSoilCover	Timing Descriptor
+Measurement	MeasSoilCover	Crop	Crop name	a	z	none	YES	Memo	---	---	63999	MeasSoilCover	Crop
+Measurement	MeasSoilCover	Soil w/Residue %	"Residue cover, soil, percent"	0	100	%	YES	Long Integer	---	---	---	MeasSoilCover	"Soil w/Residue, %"
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Measurement	MeasARGenes	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999	MeasARGenes	Exp Unit ID
+Measurement	MeasARGenes	Date	Date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	MeasARGenes	Date
+Measurement	MeasARGenes	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999	MeasARGenes	Treatment ID
+Measurement	MeasARGenes	Sample Type										MeasARGenes	Sample Type
+Measurement	MeasARGenes	Sample Details										MeasARGenes	Sample Details
+Measurement	MeasARGenes	Upper cm	"Upper soil layer, soil, centimeters"	0	200	cm	YES	Long Integer	---	---	---	MeasARGenes	"Upper, cm"
+Measurement	MeasARGenes	Lower cm	"Lower soil layer, soil, centimeters"	0	200	cm	YES	Long Integer	---	---	---	MeasARGenes	"Lower, cm"
+Measurement	MeasARGenes	Target										MeasARGenes	Target
+Measurement	MeasARGenes	Presence or Absence of Target										MeasARGenes	Presence or Absence
+Measurement	MeasARGenes	Value										MeasARGenes	Value
+Measurement	MeasARGenes	Units										MeasARGenes	Units
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Measurement	MeasGHGFlux	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999	MeasGHGFlux	Exp Unit ID
+Measurement	MeasGHGFlux	Date	Date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	MeasGHGFlux	Date
+Measurement	MeasGHGFlux	Time	"Sampling time, hours and minutes"	0:01	23:59	Hours:minutes	YES	Date/Time	---	---	63999	MeasGHGFlux	Time
+Measurement	MeasGHGFlux	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999	MeasGHGFlux	Treatment ID
+Measurement	MeasGHGFlux	Crop	Crop name	a	z	none	YES	Memo	---	---	63999	MeasGHGFlux	Crop
+Measurement	MeasGHGFlux	Chamber Placement	Chamber placement	a	z	none	YES	Memo	---	---	63999	MeasGHGFlux	Chamber Placement
+Measurement	MeasGHGFlux	N2O gN/ha/d	"Nitrous oxide, air, daily, mean or single measurement, grams N per hectare"	-100	"10,000"	g N/ha/d	YES	decimal	9	3	---	MeasGHGFlux	N2O gN/ha/d
+Measurement	MeasGHGFlux	N2O Interp=0 Obs=1	N2O Measurement value type	0	1	none	YES	Long Integer	---	---	---	MeasGHGFlux	N2O Interp=0 Obs=1
+Measurement	MeasGHGFlux	CO2 gC/ha/d	"Carbon dioxide, air, daily, mean or single measurement, grams C per hectare"	-100	"10,000"	g C/ha/d	YES	decimal	9	3	---	MeasGHGFlux	CO2 gC/ha/d
+Measurement	MeasGHGFlux	CO2 Interp=0 Obs=1	CO2 Measurement value type	0	1	none	YES	Long Integer	---	---	---	MeasGHGFlux	CO2 Interp=0 Obs=1
+Measurement	MeasGHGFlux	CH4 gC/ha/d	"Methane, air, daily, mean or single measurement, grams C per hectare"	"-10,000"	"10,000"	g C/ha/d	YES	decimal	9	3	---	MeasGHGFlux	CH4 gC/ha/d
+Measurement	MeasGHGFlux	CH4 Interp=0 Obs=1	CH4 Measurement value type	0	1	none	YES	Long Integer	---	---	---	MeasGHGFlux	CH4 Interp=0 Obs=1
+Measurement	MeasGHGFlux	Air Temp degC	"Temperature, air, sample period, mean or single measurement, degrees Celsius"	-20	40	degrees Celsius	YES	decimal	9	3	---	MeasGHGFlux	"Air Temp, degC"
+Measurement	MeasGHGFlux	Soil Temp degC	"Temperature, soil, sample period, mean or single measurement, degrees Celsius"	-20	40	degrees Celsius	YES	decimal	9	3	---	MeasGHGFlux	"Soil Temp, degC"
+Measurement	MeasGHGFlux	Soil Moisture % vol	"Soil moisture, soil, mean or single measurement, percent volume"	1	100	% vol (cu cm H2O/cu cm soil*100)	YES	decimal	9	3	---	MeasGHGFlux	"Soil Moisture, % vol"
+Measurement	MeasGHGFlux	Soil Moisture Depth cm	"Depth of soil moisture sample, soil, centimeters"	0	100	cm	YES	decimal	9	3	---	MeasGHGFlux	"Soil Moisture Depth, cm"
+Measurement	MeasGHGFlux	N2O STD gN/ha/d	"Nitrous oxide, air, daily, StdDev, grams N per hectare"	-100	"10,000"	g N/ha/d	YES	decimal	---	---	---	MeasGHGFlux	"N2O STD, gN/ha/d"
+Measurement	MeasGHGFlux	CO2 STD gC/ha/d	"Carbon dioxide, air, daily, StdDev, grams C per hectare"	-100	"10,000"	g C/ha/d	YES	decimal	---	---	---	MeasGHGFlux	"CO2 STD, gC/ha/d"
+Measurement	MeasGHGFlux	CH4 STD gC/ha/d	"Methane, air, daily, StdDev, grams C per hectare"	"-10,000"	"10,000"	g C/ha/d	YES	decimal	---	---	---	MeasGHGFlux	"CH4 STD, gC/ha/d"
+Measurement	MeasGHGFlux	Air Temp STD degC	"Temperature, air, StdDev, degrees Celsius"	-20	40	degrees Celsius	YES	decimal	9	3	---	MeasGHGFlux	"Air Temp STD, degC"
+Measurement	MeasGHGFlux	Soil Temp STD degC	"Temperature, soil, StdDev, degrees Celsius"	-20	40	degrees Celsius	YES	decimal	9	3	---	MeasGHGFlux	"Soil Temp STD, degC"
+Measurement	MeasGHGFlux	Soil Moisture STD % vol	"Soil moisture, soil, StdDev, percent volume"	1	100	% vol (cu cm H2O/cu cm soil*100)	YES	decimal	9	3	---	MeasGHGFlux	"Soil Moisture STD, % vol"
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Measurement	MeasResidueMgnt	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999	MeasHarvestRemoval	Exp Unit ID
+Measurement	MeasResidueMgnt	Date	Date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	MeasHarvestRemoval	Date
+Measurement	MeasResidueMgnt	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999	MeasHarvestRemoval	Treatment ID
+Measurement	MeasResidueMgnt	Growth Stage	Growth stage	a	z	none	YES	Memo	---	---	63999	MeasHarvestRemoval	Growth Stage
+Measurement	MeasResidueMgnt	Crop	Crop name	a	z	none	YES	Memo	---	---	63999	MeasHarvestRemoval	Crop
+Measurement	MeasResidueMgnt	Harvested Frac	Harvest Fraction	a	z	none	YES	Memo	---	---	63999	MeasHarvestRemoval	Harvested Frac
+Measurement	MeasResidueMgnt	Corn Ear Height cm	"Corn height, plant tissue, centimeters"	0	"50,000"	cm	YES	decimal	9	3	---	MeasHarvestRemoval	"Corn Ear Height, cm"
+Measurement	MeasResidueMgnt	Above G Biomass kg/ha	"Biomass, aboveground, plant tissue, mean or single measurement, kilograms per hectare"	0	"50,000"	kg biomass/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"Above G Biomass, kg/ha"
+Measurement	MeasResidueMgnt	Unit Grain Weight mg	"Individual kernel weight, plant tissue, mean or single measurement, megagrams"	0	1000	mg biomass	YES	decimal	9	3	---	MeasHarvestRemoval	"Unit Grain Weight, mg"
+Measurement	MeasResidueMgnt	Grain Dry Matt kg/ha	"Grain harvest, plant tissue, mean or single measurement, kilograms per hectare"	0	"50,000"	kg biomass/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"Grain Dry Matt, kg/ha"
+Measurement	MeasResidueMgnt	Grain Moist %	"Grain moisture content, plant tissue, mean or single measurement, percent"	0	100	%	YES	decimal	9	3	---	MeasHarvestRemoval	"Grain Moist, %"
+Measurement	MeasResidueMgnt	Grain C kgC/ha	"Carbon, grain, plant tissue, mean or single measurement, kilograms of carbon per hectare"	0	"25,000"	kg C/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"Grain C, kgC/ha"
+Measurement	MeasResidueMgnt	Grain N kgN/ha	"Nitrogen, grain, plant tissue, mean or single measurement, kilograms of nitrogen per hectare"	0	"10,000"	kg N/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"Grain N, kgN/ha"
+Measurement	MeasResidueMgnt	Harv NonGrain Bio kg/ha	"Crop residue, harvested aboveground, plant tissue, mean or single measurement, kilograms per hectare"	0	"50,000"	kg biomass/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"Harv NonGrain Bio, kg/ha"
+Measurement	MeasResidueMgnt	Harv Res Moist %	"Crop residue moisture content, plant tissue, mean or single measurement, percent"	0	100	%	YES	decimal	9	3	---	MeasHarvestRemoval	"Harv Res Moist, %"
+Measurement	MeasResidueMgnt	Harv Res C kgC/ha	"Carbon, harvested crop residue, plant tissue, mean or single measurement, kilograms of carbon per hectare"	0	"25,000"	kg C/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"Harv Res C, kgC/ha"
+Measurement	MeasResidueMgnt	Harv Res N kgN/ha	"Nitrogen, harvested crop residue, plant tissue, mean or single measurement, kilograms of carbon per hectare"	0	"25,000"	kg N/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"Harv Res N, kgN/ha"
+Measurement	MeasResidueMgnt	NonHarv NonGrain Bio kg/ha	"Crop residue, non harvested aboveground, plant tissue, mean or single measurement, kilograms per hectare"	0	"5,000"	kg biomass/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"NonHarv NonGrain Bio, kg/ha"
+Measurement	MeasResidueMgnt	NonHarv Res Moist %	"Crop residue moisture content, plant tissue, mean or single measurement, percent"	0	100	%	YES	decimal	9	3	---	MeasHarvestRemoval	"NonHarv Res Moist, %"
+Measurement	MeasResidueMgnt	NonHarv Res C kgC/ha	"Carbon, non harvested crop residue, plant tissue, mean or single measurement, kilograms of carbon per hectare"	0	"25,000"	kg C/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"NonHarv Res C, kgC/ha"
+Measurement	MeasResidueMgnt	NonHarv Res N kgN/ha	"Nitrogen, non harvested crop residue, plant tissue, mean or single measurement, kilograms of nitrogen per hectare"	0	"10,000"	kg N/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"NonHarv Res N, kgN/ha"
+Measurement	MeasResidueMgnt	Root Dry Matt kg/ha	"Crop root, biomass, plant tissue, mean or single measurement, kilograms per hectare"	0	"50,000"	kg biomass/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"Root Dry Matt, kg/ha"
+Measurement	MeasResidueMgnt	Root Moist %	"Crop root, moisture content, mean or single measurement, plant tissue, percent"	0	100	%	YES	decimal	9	3	---	MeasHarvestRemoval	"Root Moist, %"
+Measurement	MeasResidueMgnt	Root C kgC/ha	"Carbon, crop root, plant tissue, mean or single measurement, kilograms of carbon per hectare"	0	"25,000"	kg C/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"Root C, kgC/ha"
+Measurement	MeasResidueMgnt	Root N kgN/ha	"Nitrogen, crop root, plant tissue, mean or single measurement, kilograms of nitrogen per hectare"	0	"10,000"	kg N/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"Root N, kgN/ha"
+Measurement	MeasResidueMgnt	Corn Ear Height STD cm	"Corn height, plant tissue, StdDev. centimeters"	0	"50,000"	cm	YES	decimal	9	3	---	MeasHarvestRemoval	"Corn Ear Height STD, cm"
+Measurement	MeasResidueMgnt	Above G Biomass STD kg/ha	"Biomass aboveground, plant tissue, StdDev, kilograms per hectare"	0	"50,000"	kg biomass/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"Above G Biomass STD, kg/ha"
+Measurement	MeasResidueMgnt	Unit Grain Weight STD mg	"Grain weight, plant tissue, StdDev, megagrams"	0	1000	mg biomass	YES	decimal	9	3	---	MeasHarvestRemoval	"Unit Grain Weight STD, mg"
+Measurement	MeasResidueMgnt	Grain Dry Matt STD kg/ha	"Grain harvest, plant tissue, StdDev, kilograms per hectare"	0	"50,000"	kg biomass/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"Grain Dry Matt STD, kg/ha"
+Measurement	MeasResidueMgnt	Grain Moist STD %	"Grain moisture content, plant tissue, StdDev, percent"	0	100	%	YES	decimal	9	3	---	MeasHarvestRemoval	"Grain Moist STD, %"
+Measurement	MeasResidueMgnt	Grain C STD kgC/ha	"Carbon, grain, plant tissue, StdDev, kilograms of carbon per hectare"	0	"25,000"	kg C/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"Grain C STD, kgC/ha"
+Measurement	MeasResidueMgnt	Grain N STD kgN/ha	"Nitrogen, grain, plant tissue, StdDev, kilograms of nitrogen per hectare"	0	"10,000"	kg N/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"Grain N STD, kgN/ha"
+Measurement	MeasResidueMgnt	Harv NonGrain Bio STD kg/ha	"Crop residue, harvested aboveground, plant tissue, StdDev, kilograms per hectare"	0	"50,000"	kg biomass/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"Harv NonGrain Bio STD, kg/ha"
+Measurement	MeasResidueMgnt	Harv Res Moist STD %	"Crop residue moisture content, plant tissue, StdDev, percent"	0	100	%	YES	decimal	9	3	---	MeasHarvestRemoval	"Harv Res Moist STD, %"
+Measurement	MeasResidueMgnt	Harv Res C STD kgC/ha	"Carbon, harvested crop residue, plant tissue, StdDev, kilograms of carbon per hectare"	0	"25,000"	kg C/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"Harv Res C STD, kgC/ha"
+Measurement	MeasResidueMgnt	Harv Res N STD kgN/ha	"Nitrogen, harvested crop residue, plant tissue, StdDev, kilograms of nitrogen per hectare"	0	"25,000"	kg N/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"Harv Res N STD, kgN/ha"
+Measurement	MeasResidueMgnt	NonHarv NonGrain Bio STD kg/ha	"Crop residue, aboveground, plant tissue, StdDev, kilograms per hectare"	0	"5,000"	kg biomass/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"NonHarv NonGrain Bio STD, kg/ha"
+Measurement	MeasResidueMgnt	NonHarv Res Moist STD %	"Crop residue moisture content, plant tissue, StdDev, percent"	0	100	%	YES	decimal	9	3	---	MeasHarvestRemoval	"NonHarv Res Moist STD, %"
+Measurement	MeasResidueMgnt	NonHarv Res C STD kgC/ha	"Carbon, crop residue, plant tissue, StdDev, kilograms of carbon per hectare"	0	"25,000"	kg C/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"NonHarv Res C STD, kgC/ha"
+Measurement	MeasResidueMgnt	NonHarv Res N STD kgN/ha	"Nitrogen, crop residue, plant tissue, StdDev, kilograms of nitrogen per hectare"	0	"10,000"	kg N/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"NonHarv Res N STD, kgN/ha"
+Measurement	MeasResidueMgnt	Root Dry Matt STD kg/ha	"Crop root, biomass, plant tissue, StdDev, kilograms per hectare"	0	"50,000"	kg biomass/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"Root Dry Matt STD, kg/ha"
+Measurement	MeasResidueMgnt	Root Moist STD %	"Crop root, moisture content, StdDev, plant tissue, percent"	0	100	%	YES	decimal	9	3	---	MeasHarvestRemoval	"Root Moist STD, %"
+Measurement	MeasResidueMgnt	Root C STD kgC/ha	"Carbon, crop root, plant tissue, StdDev, kilograms of carbon per hectare"	0	"25,000"	kg C/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"Root C STD, kgC/ha"
+Measurement	MeasResidueMgnt	Root N STD kgN/ha	"Nitrogen, crop root, plant tissue, StdDev, kilograms of nitrogen per hectare"	0	"10,000"	kg N/ha	YES	decimal	9	3	---	MeasHarvestRemoval	"Root N STD, kgN/ha"
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Measurement	MeasHarvestFraction	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999	MeasPlantFraction	Exp Unit ID
+Measurement	MeasHarvestFraction	Sampling Date	Date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	MeasPlantFraction	Sampling Date
+Measurement	MeasHarvestFraction	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999	MeasPlantFraction	Treatment ID
+Measurement	MeasHarvestFraction	Growth Stage	Growth stage	a	z	none	YES	Memo	---	---	63999	MeasPlantFraction	Growth Stage
+Measurement	MeasHarvestFraction	Crop	Crop name	a	z	none	YES	Memo	---	---	63999	MeasPlantFraction	Crop
+Measurement	MeasHarvestFraction	Plant Fraction	Plant fraction	a	z	none	YES	Memo	---	---	63999	MeasPlantFraction	Plant Fraction
+Measurement	MeasHarvestFraction	Frac Dry Matt kg/ha	"Dry Matter of plant fraction, plant tissue, kilograms per hectare"	0	50000	kg/ha	YES	decimal	9	3	---	MeasPlantFraction	"Frac Dry Matt, kg/ha"
+Measurement	MeasHarvestFraction	Frac Moist %	"Moisture in plant fraction, plant tissue, percent"	0	100	%	YES	decimal	9	3	---	MeasPlantFraction	"Frac Moist, %"
+Measurement	MeasHarvestFraction	Frac C kgC/ha	"Carbon in plant fraction, plant tissue, kilograms carbon per hectare"	0	"25,000"	kg C/ha	YES	decimal	9	3	---	MeasPlantFraction	"Frac C, kgC/ha"
+Measurement	MeasHarvestFraction	Frac N kgN/ha	"Nitrogen in plant fraction, plant tissue, kilograms nitrogen per hectare"	0	"10,000"	kg N/ha	YES	decimal	9	3	---	MeasPlantFraction	"Frac N, kgN/ha"
+Measurement	MeasHarvestFraction	Grain Weight mg/kernel	"Kernel weight, plant tissue, milligrams per kernel"	0	"1,000"	mg/kernel	YES	decimal	9	3	---	MeasPlantFraction	"Grain Weight, mg/kernel"
+Measurement	MeasHarvestFraction	Frac Dry Matt STD kg/ha	"Dry Matter of plant fraction, plant tissue, StdDev, kilograms per hectare"	0	50000	kg/ha	YES	decimal	9	3	---	MeasPlantFraction	"Frac Dry Matt STD, kg/ha"
+Measurement	MeasHarvestFraction	Frac Moist STD %	"Moisture in plant fraction, plant tissue, StdDev, percent"	0	100	%	YES	decimal	9	3	---	MeasPlantFraction	"Frac Moist STD, %"
+Measurement	MeasHarvestFraction	Frac C STD kgC/ha	"Carbon in plant fraction, plant tissue, StdDev, kilograms carbon per hectare"	0	"25,000"	kg C/ha	YES	decimal	9	3	---	MeasPlantFraction	"Frac C STD, kgC/ha"
+Measurement	MeasHarvestFraction	Frac N STD kgN/ha	"Nitrogen in plant fraction, plant tissue, StdDev, kilograms nitrogen per hectare"	0	"10,000"	kg N/ha	YES	decimal	9	3	---	MeasPlantFraction	"Frac N STD, kgN/ha"
+Measurement	MeasHarvestFraction	Grain Weight STD mg/kernel	"Kernel weight, plant tissue, StdDev, milligrams per kernel"	0	"1,000"	mg/kernel	YES	decimal	9	3	---	MeasPlantFraction	"Grain Weight STD, mg/kernel"
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Measurement	MeasBiomassCHO	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999	MeasBiomassCHO	Exp Unit ID
+Measurement	MeasBiomassCHO	Date	Date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	MeasBiomassCHO	Date
+Measurement	MeasBiomassCHO	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999	MeasBiomassCHO	Treatment ID
+Measurement	MeasBiomassCHO	Growth Stage	Growth stage	a	z	none	YES	Memo	---	---	63999	MeasBiomassCHO	Growth Stage
+Measurement	MeasBiomassCHO	Crop	Crop name	a	z	none	YES	Memo	---	---	63999	MeasBiomassCHO	Crop
+Measurement	MeasBiomassCHO	Plant Fraction	Plant fraction	a	z	none	YES	Memo	---	---	63999	MeasBiomassCHO	Plant Fraction
+Measurement	MeasBiomassCHO	Glucan g/kg	"Glucan, plant tissue, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Glucan, g/kg"
+Measurement	MeasBiomassCHO	Xylan g/kg	"Xylan, plant tissue, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Xylan, g/kg"
+Measurement	MeasBiomassCHO	Galactan g/kg	"Galactan, plant tissue, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Galactan, g/kg"
+Measurement	MeasBiomassCHO	Arabinan g/kg	"Arabinan, plant tissue, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Arabinan, g/kg"
+Measurement	MeasBiomassCHO	Mannan g/kg	"Mannan, plant tissue, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Mannan, g/kg"
+Measurement	MeasBiomassCHO	Lignin g/kg	"Lignin, plant tissue, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Lignin, g/kg"
+Measurement	MeasBiomassCHO	Neutral Det Fiber g/kg	"Neutral Detergent Fiber, plant tissue, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Neutral Det Fiber, g/kg"
+Measurement	MeasBiomassCHO	Acid Det Fiber g/kg	"Acid Detergent Fiber, plant tissue, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Acid Det Fiber, g/kg"
+Measurement	MeasBiomassCHO	Acid Soluble Lignin g/kg	"Acid Soluble Lignin, plant tissue, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Acid Soluble Lignin, g/kg"
+Measurement	MeasBiomassCHO	Acid Insoluble Lignin g/kg	"Acid Insoluble Lignin, plant tissue, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Acid Insoluble Lignin, g/kg"
+Measurement	MeasBiomassCHO	Crude Protein g/kg	"Crude Protein, plant tissue, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Crude Protein, g/kg"
+Measurement	MeasBiomassCHO	Non-fiber Carbs g/kg	"Non-fiber Carbohydrates, plant tissue, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Non-fiber Carbs, g/kg"
+Measurement	MeasBiomassCHO	Ash g/kg	"Ash, plant tissue, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Ash, g/kg"
+Measurement	MeasBiomassCHO	Glucan STD g/kg	"Glucan, plant tissue, StdDev, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Glucan STD, g/kg"
+Measurement	MeasBiomassCHO	Xylan STD g/kg	"Xylan, plant tissue, StdDev, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Xylan STD, g/kg"
+Measurement	MeasBiomassCHO	Galactan STD g/kg	"Galactan, plant tissue, StdDev, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Galactan STD, g/kg"
+Measurement	MeasBiomassCHO	Arabinan STD g/kg	"Arabinan, plant tissue, StdDev, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Arabinan STD, g/kg"
+Measurement	MeasBiomassCHO	Mannan STD g/kg	"Mannan, plant tissue, StdDev, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Mannan STD, g/kg"
+Measurement	MeasBiomassCHO	Lignin STD g/kg	"Lignin, plant tissue, StdDev, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Lignin STD, g/kg"
+Measurement	MeasBiomassCHO	Neutral Det Fiber STD g/kg	"Neutral Detergent Fiber, plant tissue, StdDev, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Neutral Det Fiber STD, g/kg"
+Measurement	MeasBiomassCHO	Acid Det Fiber STD g/kg	"Acid Detergent Fiber, plant tissue, StdDev, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Acid Det Fiber STD, g/kg"
+Measurement	MeasBiomassCHO	Acid Soluble Lignin STD g/kg	"Acid Soluble Lignin, plant tissue, StdDev, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Acid Soluble Lignin STD, g/kg"
+Measurement	MeasBiomassCHO	Acid Insoluble Lignin STD g/kg	"Acid Insoluble Lignin, plant tissue, StdDev, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Acid Insoluble Lignin STD, g/kg"
+Measurement	MeasBiomassCHO	Crude Protein STD g/kg	"Crude Protein, plant tissue, StdDev, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Crude Protein STD, g/kg"
+Measurement	MeasBiomassCHO	Non-fiber Carbs STD g/kg	"Non-fiber Carbohydrates, plant tissue, StdDev, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Non-fiber Carbs STD, g/kg"
+Measurement	MeasBiomassCHO	Ash STD g/kg	"Ash, plant tissue, StdDev, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassCHO	"Ash STD, g/kg"
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Measurement	MeasBiomassEnergy	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999	MeasBiomassEnergy	Exp Unit ID
+Measurement	MeasBiomassEnergy	Date	Date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	MeasBiomassEnergy	Date
+Measurement	MeasBiomassEnergy	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999	MeasBiomassEnergy	Treatment ID
+Measurement	MeasBiomassEnergy	Growth Stage	Growth stage	a	z	none	YES	Memo	---	---	63999	MeasBiomassEnergy	Growth Stage
+Measurement	MeasBiomassEnergy	Crop	Crop name	a	z	none	YES	Memo	---	---	63999	MeasBiomassEnergy	Crop
+Measurement	MeasBiomassEnergy	Plant Fraction	Plant fraction	a	z	none	YES	Memo	---	---	63999	MeasBiomassEnergy	Plant Fraction
+Measurement	MeasBiomassEnergy	Volatile Matter g/kg	"Volatile Matter, plant tissue, grams per kilogram dry matter"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassEnergy	"Volatile Matter, g/kg"
+Measurement	MeasBiomassEnergy	Mineral Matter g/kg	"Mineral Matter, plant tissue, StdDev, grams per kilogram dry matter"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassEnergy	"Mineral Matter, g/kg"
+Measurement	MeasBiomassEnergy	Gross Calorific Value MJ/kg	"Gross Calorific Value, plant tissue, megajoules per kilogram dry matter"	0		MJ/kg	YES	decimal	9	3	---	MeasBiomassEnergy	"Gross Calorific Value, MJ/kg"
+Measurement	MeasBiomassEnergy	Volatile Matter STD g/kg	"Volatile Matter, plant tissue, StdDev, grams per kilogram dry matter"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassEnergy	"Volatile Matter STD, g/kg"
+Measurement	MeasBiomassEnergy	Ash STD g/kg	"Mineral Matter, plant tissue, StdDev, StdDev, grams per kilogram dry matter"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassEnergy	"Ash STD, g/kg"
+Measurement	MeasBiomassEnergy	Gross Calorific Value STD MJ/kg	"Gross Calorific Value, plant tissue, StdDev, megajoules per kilogram dry matter"	0		MJ/kg	YES	decimal	9	3	---	MeasBiomassEnergy	"Gross Calorific Value STD, MJ/kg"
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Measurement	MeasBiomassMinAn	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999	MeasBiomassMinAn	Exp Unit ID
+Measurement	MeasBiomassMinAn	Date	Date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	MeasBiomassMinAn	Date
+Measurement	MeasBiomassMinAn	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999	MeasBiomassMinAn	Treatment ID
+Measurement	MeasBiomassMinAn	Growth Stage	Growth stage	a	z	none	YES	Memo	---	---	63999	MeasBiomassMinAn	Growth Stage
+Measurement	MeasBiomassMinAn	Crop	Crop name	a	z	none	YES	Memo	---	---	63999	MeasBiomassMinAn	Crop
+Measurement	MeasBiomassMinAn	Plant Fraction	Plant fraction	a	z	none	YES	Memo	---	---	63999	MeasBiomassMinAn	Plant Fraction
+Measurement	MeasBiomassMinAn	C Concentration g/kg	"C Concentration, plant tissue, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"C Concentration, g/kg"
+Measurement	MeasBiomassMinAn	N Concentration g/kg	"N Concentration, plant tissue, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"N Concentration, g/kg"
+Measurement	MeasBiomassMinAn	P Concentration g/kg	"P Concentration, plant tissue, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"P Concentration, g/kg"
+Measurement	MeasBiomassMinAn	K Concentration g/kg	"K Concentration, plant tissue, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"K Concentration, g/kg"
+Measurement	MeasBiomassMinAn	Ca Concentration g/kg	"Ca Concentration, plant tissue, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"Ca Concentration, g/kg"
+Measurement	MeasBiomassMinAn	Mg Concentration g/kg	"Mg Concentration, plant tissue, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"Mg Concentration, g/kg"
+Measurement	MeasBiomassMinAn	S Concentration g/kg	"S Concentration, plant tissue, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"S Concentration, g/kg"
+Measurement	MeasBiomassMinAn	Na Concentration g/kg	"Na Concentration, plant tissue, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"Na Concentration, g/kg"
+Measurement	MeasBiomassMinAn	Cl Concentration g/kg	"Cl Concentration, plant tissue, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"Cl Concentration, g/kg"
+Measurement	MeasBiomassMinAn	Al Concentration mg/kg	"Al Concentration, plant tissue, milligrams per kilogram"	0	1000	mg/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"Al Concentration, mg/kg"
+Measurement	MeasBiomassMinAn	B Concentration mg/kg	"B Concentration, plant tissue, milligrams per kilogram"	0	1000	mg/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"B Concentration, mg/kg"
+Measurement	MeasBiomassMinAn	Cu Concentration mg/kg	"Cu Concentration, plant tissue, milligrams per kilogram"	0	1000	mg/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"Cu Concentration, mg/kg"
+Measurement	MeasBiomassMinAn	Fe Concentration mg/kg	"Fe Concentration, plant tissue, milligrams per kilogram"	0	1000	mg/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"Fe Concentration, mg/kg"
+Measurement	MeasBiomassMinAn	Mn Concentration mg/kg	"Mn Concentration, plant tissue, milligrams per kilogram"	0	1000	mg/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"Mn Concentration, mg/kg"
+Measurement	MeasBiomassMinAn	Zn Concentration mg/kg	"Zn Concentration, plant tissue, milligrams per kilogram"	0	1000	mg/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"Zn Concentration, mg/kg"
+Measurement	MeasBiomassMinAn	C Concentration STD g/kg	"C Concentration, plant tissue, StdDev, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"C Concentration STD, g/kg"
+Measurement	MeasBiomassMinAn	N Concentration STD g/kg	"N Concentration, plant tissue, StdDev, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"N Concentration STD, g/kg"
+Measurement	MeasBiomassMinAn	P Concentration STD g/kg	"P Concentration, plant tissue, StdDev, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"P Concentration STD, g/kg"
+Measurement	MeasBiomassMinAn	K Concentration STD g/kg	"K Concentration, plant tissue, StdDev, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"K Concentration STD, g/kg"
+Measurement	MeasBiomassMinAn	Ca Concentration STD g/kg	"Ca Concentration, plant tissue, StdDev, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"Ca Concentration STD, g/kg"
+Measurement	MeasBiomassMinAn	Mg Concentration STD g/kg	"Mg Concentration, plant tissue, StdDev, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"Mg Concentration STD, g/kg"
+Measurement	MeasBiomassMinAn	S Concentration STD g/kg	"S Concentration, plant tissue, StdDev, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"S Concentration STD, g/kg"
+Measurement	MeasBiomassMinAn	Na Concentration STD g/kg	"Na Concentration, plant tissue, StdDev, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"Na Concentration STD, g/kg"
+Measurement	MeasBiomassMinAn	Cl Concentration STD g/kg	"Cl Concentration, plant tissue, StdDev, grams per kilogram"	0	1000	g/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"Cl Concentration STD, g/kg"
+Measurement	MeasBiomassMinAn	Al Concentration STD mg/kg	"Al Concentration, plant tissue, StdDev, milligrams per kilogram"	0	1000	mg/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"Al Concentration STD, mg/kg"
+Measurement	MeasBiomassMinAn	B Concentration STD mg/kg	"B Concentration, plant tissue, StdDev, milligrams per kilogram"	0	1000	mg/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"B Concentration STD, mg/kg"
+Measurement	MeasBiomassMinAn	Cu Concentration STD mg/kg	"Cu Concentration, plant tissue, StdDev, milligrams per kilogram"	0	1000	mg/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"Cu Concentration STD, mg/kg"
+Measurement	MeasBiomassMinAn	Fe Concentration STD mg/kg	"Fe Concentration, plant tissue, StdDev, milligrams per kilogram"	0	1000	mg/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"Fe Concentration STD, mg/kg"
+Measurement	MeasBiomassMinAn	Mn Concentration STD mg/kg	"Mn Concentration, plant tissue, StdDev, milligrams per kilogram"	0	1000	mg/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"Mn Concentration STD, mg/kg"
+Measurement	MeasBiomassMinAn	Zn Concentration STD mg/kg	"Zn Concentration, plant tissue, StdDev, milligrams per kilogram"	0	1000	mg/kg	YES	decimal	9	3	---	MeasBiomassMinAn	"Zn Concentration STD, mg/kg"
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Measurement	MeasGrazingPlants	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999	MeasGrazingPlants	Exp Unit ID
+Measurement	MeasGrazingPlants	Date	Date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	MeasGrazingPlants	Date
+Measurement	MeasGrazingPlants	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999	MeasGrazingPlants	Treatment ID
+Measurement	MeasGrazingPlants	Species Mix	Species composition	a	z	none	YES	Memo	---	---	63999	MeasGrazingPlants	Species Mix
+Measurement	MeasGrazingPlants	Growth Stage	"Growth stage, harvest"	a	z	none	YES	Memo	---	---	63999	MeasGrazingPlants	Growth Stage
+Measurement	MeasGrazingPlants	Broadleaf vs Grass	Leaf type	a	z	none	YES	Memo	---	---	63999	MeasGrazingPlants	Broadleaf vs Grass
+Measurement	MeasGrazingPlants	AboveGr Bio kg/ha (dry)	"Biomass, aboveground live, plant tissue, mean or single measurement, kilograms per hectare"	0	"50,000"	kg/ha (dryweight)	YES	decimal	9	3	---	MeasGrazingPlants	"AboveGr Bio, kg/ha (dry)"
+Measurement	MeasGrazingPlants	Surface Litter kg/ha (dry)	"Biomass, surface litter, plant tissue, mean or single measurement, kilograms per hectare"	0	"50,000"	kg/ha (dryweight)	YES	decimal	9	3	---	MeasGrazingPlants	"Surface Litter, kg/ha (dry)"
+Measurement	MeasGrazingPlants	Standing Dead kg/ha (dry)	"Biomass, aboveground dead, plant tissue, mean or single measurement, kilograms per hectare"	0	"50,000"	kg/ha (dryweight)	YES	decimal	9	3	---	MeasGrazingPlants	"Standing Dead, kg/ha (dry)"
+Measurement	MeasGrazingPlants	LAI kg/ha (dry)	"Leaf area index, live, none, mean or single measurement, fraction of land area, kilograms per hectare"	0	10	surface area of leaves/surface area of land	YES	decimal	9	3	---	MeasGrazingPlants	"LAI, kg/ha (dry)"
+Measurement	MeasGrazingPlants	Biomass N %	"Nitrogen, biomass, plant tissue, mean or single measurement, percent"	0	100	% (N mass/biomass mass*100)	YES	decimal	9	3	---	MeasGrazingPlants	"Biomass N, %"
+Measurement	MeasGrazingPlants	Lignin %	"Lignin, biomass, plant tissue, mean or single measurement, percent"	0	100	% (lignin mass/biomass mass*100)	YES	decimal	9	3	---	MeasGrazingPlants	"Lignin, %"
+Measurement	MeasGrazingPlants	Ground Cover %	"Ground cover, vegetated, none, mean or single measurement, fraction of land area, percent"	0	100	% (surface area of vegetation/surface area of land)	YES	decimal	9	3	---	MeasGrazingPlants	"Ground Cover, %"
+Measurement	MeasGrazingPlants	AboveGr Bio C kgC/ha	"Carbon, aboveground live, plant tissue, mean or single measurement, kilograms of carbon per hectare"	0	"25,000"	kg C/ha	YES	decimal	9	3	---	MeasGrazingPlants	"AboveGr Bio C, kgC/ha"
+Measurement	MeasGrazingPlants	AboveGr Bio N kgN/ha	"Nitrogen, aboveground live, plant tissue, mean or single measurement, kilograms of nitrogen per hectare"	0	"2,500"	kg N/ha	YES	decimal	9	3	---	MeasGrazingPlants	"AboveGr Bio N, kgN/ha"
+Measurement	MeasGrazingPlants	BelowGr Bio C kgC/ha	"Carbon, belowground live, plant tissue, mean or single measurement, kilograms of carbon per hectare"	0	"25,000"	kg C/ha	YES	decimal	9	3	---	MeasGrazingPlants	"BelowGr Bio C, kgC/ha"
+Measurement	MeasGrazingPlants	BelowGr Bio N kgN/ha	"Nitrogen, belowground live, plant tissue, mean or single measurement, kilograms of nitrogen per hectare"	0	"2,500"	kg N/ha	YES	decimal	9	3	---	MeasGrazingPlants	"BelowGr Bio N, kgN/ha"
+Measurement	MeasGrazingPlants	ANPP C kgC/ha/yr	"Carbon, aboveground NPP, plant tissue, yearly, mean or single measurement, kilograms of carbon per hectare"	0	"25,000"	kg C/ha/yr	YES	decimal	9	3	---	MeasGrazingPlants	"ANPP C, kgC/ha/yr"
+Measurement	MeasGrazingPlants	ANPP N kgN/ha/yr	"Nitrogen, aboveground NPP, plant tissue, yearly, mean or single measurement, kilograms of nitrogen per hectare"	0	"2,500"	kg N/ha/yr	YES	decimal	9	3	---	MeasGrazingPlants	"ANPP N, kgN/ha/yr"
+Measurement	MeasGrazingPlants	BNPP C kgC/ha/yr	"Carbon, belowground NPP, plant tissue, yearly, mean or single measurement, kilograms of carbon per hectare"	0	"25,000"	kg C/ha/yr	YES	decimal	9	3	---	MeasGrazingPlants	"BNPP C, kgC/ha/yr"
+Measurement	MeasGrazingPlants	BNPP N kgN/ha/yr	"Nitrogen, belowground NPP, plant tissue, yearly, mean or single measurement, kilograms of nitrogen per hectare"	0	"2,500"	kg N/ha/yr	YES	decimal	9	3	---	MeasGrazingPlants	"BNPP N, kgN/ha/yr"
+Measurement	MeasGrazingPlants	AboveGr Bio STD kg/ha (dry)	"Biomass, aboveground live, plant tissue, StdDev, kilograms per hectare"	0	"50,000"	kg/ha (dryweight)	YES	decimal	9	3	---	MeasGrazingPlants	"AboveGr Bio, kg/ha (dry)"
+Measurement	MeasGrazingPlants	Surface Litter STD kg/ha (dry)	"Biomass, surface litter, plant tissue, StdDev, kilograms per hectare"	0	"50,000"	kg/ha (dryweight)	YES	decimal	9	3	---	MeasGrazingPlants	"Surface Litter STD, kg/ha (dry)"
+Measurement	MeasGrazingPlants	Standing Dead STD kg/ha (dry)	"Biomass, aboveground dead, plant tissue, StdDev, kilograms per hectare"	0	"50,000"	kg/ha (dryweight)	YES	decimal	9	3	---	MeasGrazingPlants	"Standing Dead STD, kg/ha (dry)"
+Measurement	MeasGrazingPlants	LAI STD kg/ha	"Leaf area index, live, none, StdDev, fraction of land area, kilograms per hectare"	0	10	surface area of leaves/surface area of land	YES	decimal	9	3	---	MeasGrazingPlants	"LAI STD, kg/ha"
+Measurement	MeasGrazingPlants	Biomass N STD %	"Nitrogen, biomass, plant tissue, StdDev, percent"	0	100	% (N mass/biomass mass*100)	YES	decimal	9	3	---	MeasGrazingPlants	"Biomass N STD, %"
+Measurement	MeasGrazingPlants	Lignin STD %	"Lignin, biomass, plant tissue, StdDev, percent"	0	100	% (lignin mass/biomass mass*100)	YES	decimal	9	3	---	MeasGrazingPlants	"Lignin STD, %"
+Measurement	MeasGrazingPlants	Ground Cover STD %	"Ground cover, vegetated, none, StdDev, fraction of land area, percent"	0	100	% (surface area of vegetation/surface area of land)	YES	decimal	9	3	---	MeasGrazingPlants	"Ground Cover STD, %"
+Measurement	MeasGrazingPlants	AboveGr Bio C STD kgC/ha	"Carbon, aboveground live, plant tissue, StdDev, kilograms of carbon per hectare"	0	"25,000"	kg C/ha	YES	decimal	9	3	---	MeasGrazingPlants	"AboveGr Bio C STD, kgC/ha"
+Measurement	MeasGrazingPlants	AboveGr Bio N STD kgN/ha	"Nitrogen, aboveground live, plant tissue, StdDev, kilograms of nitrogen per hectare"	0	"2,500"	kg N/ha	YES	decimal	9	3	---	MeasGrazingPlants	"AboveGr Bio N STD, kgN/ha"
+Measurement	MeasGrazingPlants	BelowGr Bio C STD kgC/ha	"Carbon, belowground live, plant tissue, StdDev, kilograms of carbon per hectare"	0	"25,000"	kg C/ha	YES	decimal	9	3	---	MeasGrazingPlants	"BelowGr Bio C STD, kgC/ha"
+Measurement	MeasGrazingPlants	BelowGr Bio N STD kgN/ha	"Nitrogen, belowground live, plant tissue, StdDev, kilograms of nitrogen per hectare"	0	"2,500"	kg N/ha	YES	decimal	9	3	---	MeasGrazingPlants	"BelowGr Bio N STD, kgN/ha"
+Measurement	MeasGrazingPlants	ANPP C STD kgC/ha/yr	"Carbon, aboveground NPP, plant tissue, yearly, StdDev, kilograms of carbon per hectare"	0	"25,000"	kg C/ha/yr	YES	decimal	9	3	---	MeasGrazingPlants	"ANPP C STD, kgC/ha/yr"
+Measurement	MeasGrazingPlants	ANPP N STD kgN/ha/yr	"Nitrogen, aboveground NPP, plant tissue, yearly, StdDev, kilograms of nitrogen per hectare"	0	"2,500"	kg N/ha/yr	YES	decimal	9	3	---	MeasGrazingPlants	"ANPP N STD, kgN/ha/yr"
+Measurement	MeasGrazingPlants	BNPP C STD kgC/ha/yr	"Carbon, belowground NPP, plant tissue, yearly, StdDev, kilograms of carbon per hectare"	0	"25,000"	kg C/ha/yr	YES	decimal	9	3	---	MeasGrazingPlants	"BNPP C STD, kgC/ha/yr"
+Measurement	MeasGrazingPlants	BNPP N STD kgN/ha/yr	"Nitrogen, belowground NPP, plant tissue, yearly, StdDev, kilograms of nitrogen per hectare"	0	"2,500"	kg N/ha/yr	YES	decimal	9	3	---	MeasGrazingPlants	"BNPP N STD, kgN/ha/yr"
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Measurement	MeasYieldNutrientUptake	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999		
+Measurement	MeasYieldNutrientUptake	Sampling Date	Date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---		
+Measurement	MeasYieldNutrientUptake	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasYieldNutrientUptake	Growth Stage	Growth stage	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasYieldNutrientUptake	Crop	Crop name	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasYieldNutrientUptake	Plant Fraction	Plant fraction	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasYieldNutrientUptake	Model if simulated	"If the observation is simulated, what model was used?"	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasYieldNutrientUptake	Frac Dry Matt kg/ha YNU	"Dry biomass plant fraction, kilograms per hectare"			kg/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac Moist % YNU	"Plant fraction moisture content, percent"			%	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac C kgC/ha YNU	"Plant fraction carbon content, kilograms per hectare"			kg C/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac N kgN/ha YNU	"Plant fraction nitrogen content, kilograms per hectare"			kg N/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac P kgP/ha	"Plant fraction phosphorus content, kilograms per hectare"			kg N/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac K kgK/ha	"Plant fraction potassium content, kilograms per hectare"			kg P/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac S kgS/ha	"Plant fraction sulfur content, kilograms per hectare"			kg K/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac Ca kgCa/ha	"Plant fraction calcium content, kilograms per hectare"			kg Ca/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac Mg kgMg/ha	"Plant fraction magnesium content, kilograms per hectare"			kg Mg/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac Cu gCu/ha	"Plant fraction copper content, grams per hectare"			g Cu/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac Fe gFe/ha	"Plant fraction iron content, grams per hectare"			g Fe/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac Mn gMn/ha	"Plant fraction manganese content, grams per hectare"			g Mn/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac Zn gZn/ha	"Plant fraction zinc content, grams per hectare"			g Zn/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac B gB/ha	"Plant fraction boron content, grams per hectare"			g B/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac Mo gMo/ha	"Plant fraction molybdenum content, grams per hectare"			g Mo/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Grain Weight mg/kernel YNU	"Grain kernal weight, milligrams per kernal"			mg/kernal	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac Dry Matt STD kg/ha YNU	"Dry biomass plant fraction, StdDev, kilograms per hectare"			kg/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac Moist STD % YNU	"Plant fraction moisture content, StdDev, percent"			%	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac C STD kgC/ha YNU	"Plant fraction carbon content, StdDev, kilograms per hectare"			kg C/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac N STD kgN/ha YNU	"Plant fraction nitrogen content, StdDev, kilograms per hectare"			kg N/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac P STD kgP/ha	"Plant fraction phosphorus content, StdDev, kilograms per hectare"			kg N/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac K STD kgK/ha	"Plant fraction potassium content, StdDev, kilograms per hectare"			kg P/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac S STD kgS/ha	"Plant fraction sulfur content, StdDev, kilograms per hectare"			kg K/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac Ca STD kgCa/ha	"Plant fraction calcium content, StdDev, kilograms per hectare"			kg Ca/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac Mg STD kgMg/ha	"Plant fraction magnesium content, StdDev, kilograms per hectare"			kg Mg/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac Cu STD gCu/ha	"Plant fraction copper content, StdDev, grams per hectare"			kg Cu/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac Fe STD gFe/ha	"Plant fraction iron content, StdDev, grams per hectare"			kg Fe/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac Mn STD gMn/ha	"Plant fraction manganese content, StdDev, grams per hectare"			kg Mn/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac Zn STD gZn/ha	"Plant fraction zinc content, StdDev, grams per hectare"			kg Zn/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac B STD gB/ha	"Plant fraction boron content, StdDev, grams per hectare"			kg B/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Frac Mo STD gMo/ha	"Plant fraction molybdenum content, StdDev, grams per hectare"			kg Mo/ha	YES	decimal	9	3	---		
+Measurement	MeasYieldNutrientUptake	Grain Weight STD mg/kernel YNU	"Grain kernal weight, StdDev, milligrams per kernal"			mg/kernal	YES	decimal	9	3	---		
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Measurement	MeasGasNutrientLoss	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999		
+Measurement	MeasGasNutrientLoss	Date	Date	1	43392	mm/dd/yyyy	NO	Date/Time	---	---	---		
+Measurement	MeasGasNutrientLoss	Time	Time	0:00:00	23:59:59	hr/min/sec							
+Measurement	MeasGasNutrientLoss	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasGasNutrientLoss	Growth Stage	Growth stage	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasGasNutrientLoss	Crop	Crop name	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasGasNutrientLoss	Sampling Start-Stop Interval	Date Time Status	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasGasNutrientLoss	Model if simulated	Model if simulated	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasGasNutrientLoss	NOx-N g/ha/day	"Greenhouse gas NOx gas, grams per hectare per day"	-100	"10,000"	g/ha/day	YES	decimal	9	3	---		
+Measurement	MeasGasNutrientLoss	N2-N g/ha/day	"Denitrified nitrogen gas, grams per hectare per day"	-100	"10,000"	g/ha/day	YES	decimal	9	3	---		
+Measurement	MeasGasNutrientLoss	N2O-N g/ha/day	"Denitrified nitrous oxide, grams per hectare per day"	-100	"10,000"	g/ha/day	YES	decimal	9	3	---		
+Measurement	MeasGasNutrientLoss	NH3-N kg/ha/day	"Ammonia volatilization ammonia, kilogram per hectare per day"	"-10,000"	"50,000"	kg/ha/day	YES	decimal	9	3	---		
+Measurement	MeasGasNutrientLoss	NOx-N STD g/ha/day	"Greenhouse gas NOx gas, StdDev, grams per hectare per day"	-100	"10,000"	g/ha/day							
+Measurement	MeasGasNutrientLoss	N2-N STD g/ha/day	"Denitrified nitrogen gas, StdDev, grams per hectare per day"	-100	"10,000"	g/ha/day							
+Measurement	MeasGasNutrientLoss	N2O-N STD g/ha/day	"Denitrified nitrous oxide, StdDev, grams per hectare per day"	-100	"10,000"	g/ha/day							
+Measurement	MeasGasNutrientLoss	NH3-N STD kg/ha/day	"Ammonia volatilization ammonia, StdDev, kilogram per hectare per day"	"-10,000"	"50,000"	kg/ha/day							
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Measurement	MeasWaterQualityConc	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999		
+Measurement	MeasWaterQualityConc	Date	Date	1	43392	mm/dd/yyyy	NO	Date/Time	---	---	---		
+Measurement	MeasWaterQualityConc	Time	Time	0:00:00	23:59:59	hr/min/sec							
+Measurement	MeasWaterQualityConc	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasWaterQualityConc	Growth Stage	Growth stage	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasWaterQualityConc	Crop	Crop name	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasWaterQualityConc	Sampling Start-Stop Interval	Date Time Status	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasWaterQualityConc	Model if simulated	Model if simulated	a	z	none	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Surface or leaching	Is the data for surface or leaching loss?	a	z	none	NO	Memo	---	---	63999		
+Measurement	MeasWaterQualityConc	Sampling Depth cm	"If the data is for a leaching event, at what sampling depth was the data observed or simulated?"	0	200	cm	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Losses or deposition	"If the data is for a surface erosion event, then is the data assessing erosion losses or deposition?"	a	z	none							
+Measurement	MeasWaterQualityConc	Method											
+Measurement	MeasWaterQualityConc	Erosion kg (sediment)	Erosion kg (sediment)	0	10000	kg	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Erosion Total suspended solids kg	Erosion Total suspended solids kg	0	1000	kg	YES	decimal					
+Measurement	MeasWaterQualityConc	Erosion Total solids kg	Erosion Total solids kg	0	1000	kg	YES	decimal					
+Measurement	MeasWaterQualityConc	Soil organic matter mg SOM/L	Soil organic matter mg SOM/L	0	1000	mg SOM/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Soil organic carbon mg C/L	Soil organic carbon mg C/L	0	1000	mg C/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Water mm	Water mm	0	1000	mm	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	mg total N/L	mg total N/L	0	1000	mg total N/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	mg Total P/L	mg Total P/L	0	1000	mg Total P/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	mg NH4-N/L	mg NH4-N/L	0	1000	mg NH4-N/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	mg NO3-N/L	mg NO3-N/L	0	1000	mg NO3-N/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Total Dissolved N mg/L	Total Dissolved N mg/L		1000	Total Dissolved N mg/L							
+Measurement	MeasWaterQualityConc	mg Total Dissolved P/L	mg Total Dissolved P/L	0	1000	mg Total Dissolved P/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	mg Cl/L	mg Cl/L		1000	mg Cl/L							
+Measurement	MeasWaterQualityConc	pH	pH	0	14								
+Measurement	MeasWaterQualityConc	EC mS/cm 	EC mS/cm 	0	1000	mS/cm							
+Measurement	MeasWaterQualityConc	Dissolved mg K/L	Dissolved mg K/L	0	1000	mg K/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Dissolved mg S/L	Dissolved mg S/L	0	1000	mg S/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Dissolved mg Ca/L	Dissolved mg Ca/L	0	1000	mg Ca/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Dissolved mg Mg/L	Dissolved mg Mg/L	0	1000	mg Mg/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Dissolved ug Cu/L	Dissolved ug Cu/L	0	1000	ug Cu/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Dissolved ug Fe/L	Dissolved ug Fe/L	0	1000	ug Fe/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Dissolved ug Mn/L	Dissolved ug Mn/L	0	1000	ug Mn/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Dissolved ug Zn/L	Dissolved ug Zn/L	0	1000	ug Zn/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Dissolved ug B/L	Dissolved ug B/L	0	1000	ug B/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Dissolved ug Mo/L	Dissolved ug Mo/L	0	1000	ug Mo/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Dissolved mg Al/L	Dissolved mg Al/L	0	1000	mg Al/L	YES	decimal	9	3			
+Measurement	MeasWaterQualityConc	Dissolved mg Na/L	Dissolved mg Na/L	0	1000	mg Na/L	YES	decimal	9	3			
+Measurement	MeasWaterQualityConc	Dissolved mg Si/L	Dissolved mg Si/L	0	1000	mg Si/L	YES	decimal	9	3			
+Measurement	MeasWaterQualityConc	Erosion kg (sediment) STD	Erosion kg (sediment) STD	0	10000	kg	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Erosion Total suspended solids kg STD	Erosion Total suspended solids kg STD	0	1000	kg	YES	decimal					
+Measurement	MeasWaterQualityConc	Erosion Total solids kg STD	Erosion Total solids kg STD	0	1000	kg	YES	decimal					
+Measurement	MeasWaterQualityConc	Soil organic matter mg SOM/L STD	Soil organic matter mg SOM/L STD	0	1000	mg SOM/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Soil organic carbon mg C/L STD	Soil organic carbon mg C/L STD	0	1000	mg C/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Water mm STD	Water mm STD	0	1000	mm	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	mg total N/L STD	mg total N/L STD	0	1000	mg total N/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	mg Total P/L STD	mg Total P/L STD	0	1000	mg Total P/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	mg NH4-N/L STD	mg NH4-N/L STD	0	1000	mg NH4-N/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	mg NO3-N/L STD	mg NO3-N/L STD	0	1000	mg NO3-N/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Total Dissolved N mg/L STD	Total Dissolved N mg/L STD	0	1000	Total Dissolved N mg/L							
+Measurement	MeasWaterQualityConc	mg Total Dissolved P/L STD	mg Total Dissolved P/L STD	0	1000	mg Total Dissolved P/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	mg Cl/L STD	mg Cl/L STD	0	1000	mg Cl/L							
+Measurement	MeasWaterQualityConc	pH STD	pH STD	0	3								
+Measurement	MeasWaterQualityConc	EC mS/cm STD	EC mS/cm STD	0	1000	mS/cm							
+Measurement	MeasWaterQualityConc	Dissolved mg K/L STD	Dissolved mg K/L STD	0	1000	mg K/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Dissolved mg S/L STD	Dissolved mg S/L STD	0	1000	mg S/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Dissolved mg Ca/L STD	Dissolved mg Ca/L STD	0	1000	mg Ca/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Dissolved mg Mg/L STD	Dissolved mg Mg/L STD	0	1000	mg Mg/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Dissolved ug Cu/L STD	Dissolved ug Cu/L STD	0	1000	ug Cu/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Dissolved ug Fe/L STD	Dissolved ug Fe/L STD	0	1000	ug Fe/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Dissolved ug Mn/L STD	Dissolved ug Mn/L STD	0	1000	ug Mn/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Dissolved ug Zn/L STD	Dissolved ug Zn/L STD	0	1000	ug Zn/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Dissolved ug B/L STD	Dissolved ug B/L STD	0	1000	ug B/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Dissolved ug Mo/L STD	Dissolved ug Mo/L STD	0	1000	ug Mo/L	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityConc	Dissolved mg Al/L STD	Dissolved mg Al/L STD	0	1000	mg Al/L	YES	decimal	9	3			
+Measurement	MeasWaterQualityConc	Dissolved mg Na/L STD	Dissolved mg Na/L STD	0	1000	mg Na/L	YES	decimal	9	3			
+Measurement	MeasWaterQualityConc	Dissolved mg Si/L STD	Dissolved mg Si/L STD	0	1000	mg Si/L	YES	decimal	9	3			
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Measurement	MeasWaterQualityArea	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999		
+Measurement	MeasWaterQualityArea	Date	Date	1	43392	mm/dd/yyyy	NO	Date/Time	---	---	---		
+Measurement	MeasWaterQualityArea	Time	Time	0:00:00	23:59:59	hr/min/sec							
+Measurement	MeasWaterQualityArea	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasWaterQualityArea	Growth Stage	Growth stage	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasWaterQualityArea	Crop	Crop name	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasWaterQualityArea	Sampling Start-Stop Interval	Date Time Status	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasWaterQualityArea	Model if simulated	Model if simulated	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasWaterQualityArea	Surface or leaching	Is the data for surface or leaching loss?	a	z	none							
+Measurement	MeasWaterQualityArea	Sampling Depth cm	"If the data is for a leaching event, at what sampling depth was the data observed or simulated?"	0	200	cm	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Losses or deposition	"If the data is for a surface erosion event, then is the data assessing erosion losses or deposition?"	a	z	none	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Erosion Method											
+Measurement	MeasWaterQualityArea	Erosion t (sediment)/ha	Erosion t (sediment)/ha	0	500	t/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Erosion Total suspended solids t/ha	Erosion Total suspended solids t/ha	0	1000	t/ha	YES	decimal					
+Measurement	MeasWaterQualityArea	Erosion Total solidst/ha	Erosion Total solids t/ha	0	1000	t/ha	YES	decimal					
+Measurement	MeasWaterQualityArea	Soil organic matter kg/ha	Soil organic matter kg/ha	0	1000	kg/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Soil organic carbon kg C/ha	Soil organic carbon kg C/ha	0	1000	kg C/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Water mm	Water mm	0	1000	mm	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	kg total N/ha	kg total N/ha	0	500	kg N/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	kg Total P/ha	kg Total P/ha	0	100	kg P/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	kg NH4-N/ha	kg NH4-N/ha	0	500	kg NH4-N/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	kg NO3-N/ha	kg NO3-N/ha	0	500	kg NO3-N/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Total Dissolved N kg N/ha	Total Dissolved N kg N/ha	0	100	kg N/ha							
+Measurement	MeasWaterQualityArea	kg Total Dissolved P/ha	kg Total Dissolved P/ha	0	100	kg DP/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	kg total Cl/ha	kg total Cl/ha	0	100	kg Cl/ha							
+Measurement	MeasWaterQualityArea	pH	pH	0	14								
+Measurement	MeasWaterQualityArea	EC mS/cm	EC mS/cm 	0	1000	mS/cm							
+Measurement	MeasWaterQualityArea	Dissolved kg K/ha	Dissolved kg K/ha	0	100	kg K/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Dissolved kg S/ha	Dissolved kg S/ha	0	100	kg S/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Dissolved kg Ca/ha	Dissolved kg Ca/ha	0	100	kg Ca/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Dissolved kg Mg/ha	Dissolved kg Mg/ha	0	100	kg Mg/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Dissolved g Cu/ha	Dissolved g Cu/ha	0	100	g Cu/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Dissolved g Fe/ha	Dissolved g Fe/ha	0	2000	g Fe/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Dissolved g Mn/ha	Dissolved g Mn/ha	0	1000	g Mn/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Dissolved g Zn/ha	Dissolved g Zn/ha	0	1000	g Zn/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Dissolved g B/ha	Dissolved g B/ha	0	100	g B/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Dissolved g Mo/ha	Dissolved g Mo/ha	0	100	g Mo/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Dissolved kg Al/ha	Dissolved kg Al/ha	0	100	kg Al/ha	YES	decimal	9	3			
+Measurement	MeasWaterQualityArea	Dissolved kg Na/ha	Dissolved kg Na/ha	0	100	kg Na/ha	YES	decimal	9	3			
+Measurement	MeasWaterQualityArea	Dissolved kg Si/ha	Dissolved kg Si/ha	0	100	kg Si/ha	YES	decimal	9	3			
+Measurement	MeasWaterQualityArea	Erosion t (sediment)/ha STD	Erosion t (sediment)/ha STD	0	500	t/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Erosion Total suspended solids t/ha STD	Erosion Total suspended solids t/ha	0	1000	t/ha	YES	decimal					
+Measurement	MeasWaterQualityArea	Erosion Total solids t/ha STD	Erosion Total solids t/ha	0	1000	t/ha	YES	decimal					
+Measurement	MeasWaterQualityArea	Soil organic matter kg/ha STD	Soil organic matter kg/ha STD	0	1000	kg/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Soil organic carbon kg C/ha STD	Soil organic carbon kg C/ha STD	0	1000	kg C/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Water mm STD	Water mm STD	0	1000	mm	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	kg total N/ha STD	kg total N/ha STD	0	500	kg N/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	kg Total P/ha STD	kg Total P/ha STD	0	100	kg P/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	kg NH4-N/ha STD	kg NH4-N/ha STD	0	500	kg NH4-N/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	kg NO3-N/ha STD	kg NO3-N/ha STD	0	500	kg NO3-N/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Total Dissolved N kg N/ha STD	Total Dissolved N kg N/ha STD	0	100	kg N/ha							
+Measurement	MeasWaterQualityArea	kg Total Dissolved P/ha STD	kg Total Dissolved P/ha STD	0	100	kg DP/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	kg total Cl/ha STD	kg total Cl/ha STD	0	100	kg Cl/ha							
+Measurement	MeasWaterQualityArea	pH STD	pH STD	0	3								
+Measurement	MeasWaterQualityArea	EC mS/cm STD	EC mS/cm STD	0	1000	mS/cm							
+Measurement	MeasWaterQualityArea	Dissolved kg K/ha STD	Dissolved kg K/ha STD	0	100	kg K/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Dissolved kg S/ha STD	Dissolved kg S/ha STD	0	100	kg S/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Dissolved kg Ca/ha STD	Dissolved kg Ca/ha STD	0	100	kg Ca/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Dissolved kg Mg/ha STD	Dissolved kg Mg/ha STD	0	100	kg Mg/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Dissolved g Cu/ha STD	Dissolved g Cu/ha STD	0	100	g Cu/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Dissolved g Fe/ha STD	Dissolved g Fe/ha STD	0	2000	g Fe/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Dissolved g Mn/ha STD	Dissolved g Mn/ha STD	0	1000	g Mn/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Dissolved g Zn/ha STD	Dissolved g Zn/ha STD	0	1000	g Zn/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Dissolved g B/ha STD	Dissolved g B/ha STD	0	100	g B/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Dissolved g Mo/ha STD	Dissolved g Mo/ha STD	0	100	g Mo/ha	YES	decimal	9	3	---		
+Measurement	MeasWaterQualityArea	Dissolved kg Al/ha STD	Dissolved kg Al/ha STD	0	100	kg Al/ha	YES	decimal	9	3			
+Measurement	MeasWaterQualityArea	Dissolved kg Na/ha STD	Dissolved kg Na/ha STD	0	100	kg Na/ha	YES	decimal	9	3			
+Measurement	MeasWaterQualityArea	Dissolved kg Si/ha STD	Dissolved kg Si/ha STD	0	100	kg Si/ha	YES	decimal	9	3			
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Measurement	MeasPlantMonitoring	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999		
+Measurement	MeasPlantMonitoring	Date	Date	1	43392	mm/dd/yyyy	NO	Date/Time	---	---	---		
+Measurement	MeasPlantMonitoring	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasPlantMonitoring	Sample Depth Upper cm	cm	0	100	cm							
+Measurement	MeasPlantMonitoring	Sample Depth Lower cm	cm	0	100	cm							
+Measurement	MeasPlantMonitoring	Growth Stage	Growth stage	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasPlantMonitoring	Crop	Crop name	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasPlantMonitoring	Model if simulated	Model if simulated	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasPlantMonitoring	Test Value											
+Measurement	MeasPlantMonitoring	Test Units											
+Measurement	MeasPlantMonitoring	Crop Monitoring Test											
+Measurement	MeasPlantMonitoring	Test Value STD											
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Measurement	MeasCropForageQuality	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999		
+Measurement	MeasCropForageQuality	Date	Date	1	43392	mm/dd/yyyy	NO	Date/Time	---	---	---		
+Measurement	MeasCropForageQuality	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasCropForageQuality	Growth Stage	Growth stage	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasCropForageQuality	Crop	Crop name	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasCropForageQuality	Plant Fraction	Plant fraction	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasCropForageQuality	Model if simulated	Model if simulated	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasCropForageQuality	Value											
+Measurement	MeasCropForageQuality	Unit											
+Measurement	MeasCropForageQuality	Chemical Compound											
+Measurement	MeasCropForageQuality	Value STD											
+---	---	---	---	---	---	---	---	---	---	---	---		
+Measurement	MeasCropNutrientCycling	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999		
+Measurement	MeasCropNutrientCycling	Date	Date	1	43392	mm/dd/yyyy	NO	Date/Time	---	---	---		
+Measurement	MeasCropNutrientCycling	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasCropNutrientCycling	Growth Stage	Growth stage	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasCropNutrientCycling	Crop	Crop name	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasCropNutrientCycling	Harvested Fraction											
+Measurement	MeasCropNutrientCycling	Model if simulated	Model if simulated										
+Measurement	MeasCropNutrientCycling	Corn Ear Height cm		0	500	cm							
+Measurement	MeasCropNutrientCycling	Above G Biomass kg/ha		0	"50,000"	kg/ha							
+Measurement	MeasCropNutrientCycling	Unit Grain Weight mg		0	1000	mg							
+Measurement	MeasCropNutrientCycling	Grain Dry Matt kg/ha		0	"50,000"	kg/ha							
+Measurement	MeasCropNutrientCycling	Grain Moist %		0	100	%							
+Measurement	MeasCropNutrientCycling	Grain C kgC/ha		0	"25,000"	kgC/ha							
+Measurement	MeasCropNutrientCycling	Grain N kgN/ha		0	"1,000"	kgN/ha							
+Measurement	MeasCropNutrientCycling	Grain P kgP/ha		0	100	kgP/ha							
+Measurement	MeasCropNutrientCycling	Grain K kgK/ha		0	"1,000"	kgK/ha							
+Measurement	MeasCropNutrientCycling	Grain S kgS/ha		0	"1,000"	kgS/ha							
+Measurement	MeasCropNutrientCycling	Grain Ca kgCa/ha		0	"1,000"	kgCa/ha							
+Measurement	MeasCropNutrientCycling	Grain Mg kgMg/ha		0	"1,000"	kgMg/ha							
+Measurement	MeasCropNutrientCycling	Grain Cu gCu/ha		0	500	gCu/ha							
+Measurement	MeasCropNutrientCycling	Grain Fe gFe/ha		0	"5,000"	gFe/ha							
+Measurement	MeasCropNutrientCycling	Grain Mn gMn/ha		0	"1,000"	gMn/ha							
+Measurement	MeasCropNutrientCycling	Grain Zn gZn/ha		0	"1,000"	gZn/ha							
+Measurement	MeasCropNutrientCycling	Grain B gB/ha		0	500	gB/ha							
+Measurement	MeasCropNutrientCycling	Grain Mo gMo/ha		0	500	gMo/ha							
+Measurement	MeasCropNutrientCycling	Harv NonGrain Bio kg/ha		0	"50,000"	kg/ha							
+Measurement	MeasCropNutrientCycling	Harv Res Moist %		0	100	%							
+Measurement	MeasCropNutrientCycling	Harv Res C kgC/ha		0	"25,000"	kgC/ha							
+Measurement	MeasCropNutrientCycling	Harv Res N kgN/ha		0	"1,000"	kgN/ha							
+Measurement	MeasCropNutrientCycling	Harv Res P kgP/ha		0	100	kgP/ha							
+Measurement	MeasCropNutrientCycling	Harv Res K kgK/ha		0	"1,000"	kgK/ha							
+Measurement	MeasCropNutrientCycling	Harv Res S kgS/ha		0	"1,000"	kgS/ha							
+Measurement	MeasCropNutrientCycling	Harv Res Ca kgCa/ha		0	"1,000"	kgCa/ha							
+Measurement	MeasCropNutrientCycling	Harv Res Mg kgMg/ha		0	"1,000"	kgMg/ha							
+Measurement	MeasCropNutrientCycling	Harv Res Cu gCu/ha		0	500	gCu/ha							
+Measurement	MeasCropNutrientCycling	Harv Res Fe gFe/ha		0	"5,000"	gFe/ha							
+Measurement	MeasCropNutrientCycling	Harv Res Mn gMn/ha		0	"1,000"	gMn/ha							
+Measurement	MeasCropNutrientCycling	Harv Res Zn gZn/ha		0	"1,000"	gZn/ha							
+Measurement	MeasCropNutrientCycling	Harv Res B gB/ha		0	500	gB/ha							
+Measurement	MeasCropNutrientCycling	Harv Res Mo gMo/ha		0	500	gMo/ha							
+Measurement	MeasCropNutrientCycling	NonHarv NonGrain Bio kg/ha		0	"50,000"	kg/ha							
+Measurement	MeasCropNutrientCycling	NonHarv Res Moist %		0	100	%							
+Measurement	MeasCropNutrientCycling	NonHarv Res C kgC/ha		0	"25,000"	kgC/ha							
+Measurement	MeasCropNutrientCycling	NonHarv Res N kgN/ha		0	"1,000"	kgN/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res P kgP/ha		0	100	kgP/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res K kgK/ha		0	"1,000"	kgK/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res S kgS/ha		0	"1,000"	kgS/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res Ca kgCa/ha		0	"1,000"	kgCa/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res Mg kgMg/ha		0	"1,000"	kgMg/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res Cu gCu/ha		0	500	gCu/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res Fe gFe/ha		0	"5,000"	gFe/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res Mn gMn/ha		0	"1,000"	gMn/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res Zn gZn/ha		0	"1,000"	gZn/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res B gB/ha		0	500	gB/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res Mo gMo/ha		0	500	gMo/ha							
+Measurement	MeasCropNutrientCycling	Corn Ear Height STD		0	500	cm							
+Measurement	MeasCropNutrientCycling	Above Ground Biomass STD		0	"50,000"	kg/ha						Above G Biomass kg/ha	
+Measurement	MeasCropNutrientCycling	Unit Grain Weight STD		0	1000	mg						Unit Grain Weight mg	
+Measurement	MeasCropNutrientCycling	Grain DryMatter STD		0	"50,000"	kg/ha						Grain Dry Matt kg/ha	
+Measurement	MeasCropNutrientCycling	Grain MoisturePct STD		0	100	%						Grain Moist %	
+Measurement	MeasCropNutrientCycling	Grain C STD		0	"25,000"	kgC/ha						Grain C kgC/ha	
+Measurement	MeasCropNutrientCycling	Grain N STD		0	"1,000"	kgN/ha							
+Measurement	MeasCropNutrientCycling	Grain P STD		0	100	kgP/ha							
+Measurement	MeasCropNutrientCycling	Grain K STD		0	"1,000"	kgK/ha							
+Measurement	MeasCropNutrientCycling	Grain S STD		0	"1,000"	kgS/ha							
+Measurement	MeasCropNutrientCycling	Grain Ca STD		0	"1,000"	kgCa/ha							
+Measurement	MeasCropNutrientCycling	Grain Mg STD		0	"1,000"	kgMg/ha							
+Measurement	MeasCropNutrientCycling	Grain Cu STD		0	500	gCu/ha							
+Measurement	MeasCropNutrientCycling	Grain Fe STD		0	"5,000"	gFe/ha							
+Measurement	MeasCropNutrientCycling	Grain Mn STD		0	"1,000"	gMn/ha							
+Measurement	MeasCropNutrientCycling	Grain Zn STD		0	"1,000"	gZn/ha							
+Measurement	MeasCropNutrientCycling	Grain B STD		0	500	gB/ha							
+Measurement	MeasCropNutrientCycling	Grain Mo STD		0	500	gMo/ha							
+Measurement	MeasCropNutrientCycling	Harv Res DryMatter STD		0	"50,000"	kg/ha							
+Measurement	MeasCropNutrientCycling	HarvRes MoisturePct STD		0	100	%							
+Measurement	MeasCropNutrientCycling	Harv Res C STD		0	"25,000"	kgC/ha							
+Measurement	MeasCropNutrientCycling	Harv Res N STD		0	"1,000"	kgN/ha							
+Measurement	MeasCropNutrientCycling	Harv Res P STD		0	100	kgP/ha							
+Measurement	MeasCropNutrientCycling	Harv Res K STD		0	"1,000"	kgK/ha							
+Measurement	MeasCropNutrientCycling	Harv Res S STD		0	"1,000"	kgS/ha							
+Measurement	MeasCropNutrientCycling	Harv Res Ca STD		0	"1,000"	kgCa/ha							
+Measurement	MeasCropNutrientCycling	Harv Res Mg STD		0	"1,000"	kgMg/ha							
+Measurement	MeasCropNutrientCycling	Harv Res Cu STD		0	500	gCu/ha							
+Measurement	MeasCropNutrientCycling	Harv Res Fe STD		0	"5,000"	gFe/ha							
+Measurement	MeasCropNutrientCycling	Harv Res Mn STD		0	"1,000"	gMn/ha							
+Measurement	MeasCropNutrientCycling	Harv Res Zn STD		0	"1,000"	gZn/ha							
+Measurement	MeasCropNutrientCycling	Harv Res B STD		0	500	gB/ha							
+Measurement	MeasCropNutrientCycling	Harv Res Mo STD		0	500	gMo/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res DryMatter STD		0	"50,000"	kg/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res MoisturePct STD		0	100	%							
+Measurement	MeasCropNutrientCycling	nonHarv Res C STD		0	"25,000"	kgC/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res N STD		0	"1,000"	kgN/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res P STD		0	100	kgP/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res K STD		0	"1,000"	kgK/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res S STD		0	"1,000"	kgS/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res Ca STD		0	"1,000"	kgCa/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res Mg STD		0	"1,000"	kgMg/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res Cu STD		0	500	gCu/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res Fe STD		0	"5,000"	gFe/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res Mn STD		0	"1,000"	gMn/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res Zn STD		0	"1,000"	gZn/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res B STD		0	500	gB/ha							
+Measurement	MeasCropNutrientCycling	nonHarv Res Mo STD		0	500	gMo/ha							
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Measurement	MeasWindErosionConc	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999		
+Measurement	MeasWindErosionConc	Date	Date	1	43392	mm/dd/yyyy	NO	Date/Time	---	---	---		
+Measurement	MeasWindErosionConc	Time	Time	0:00:00	23:59:59	hr/min/sec							
+Measurement	MeasWindErosionConc	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasWindErosionConc	Growth Stage	Growth stage	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasWindErosionConc	Crop	Crop name	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasWindErosionConc	Sampling Start-Stop Interval	Date Time Status	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasWindErosionConc	Model if simulated	Model if simulated				Is the observation for surface or leaching?						
+Measurement	MeasWindErosionConc	Method											
+Measurement	MeasWindErosionConc	Losses or deposition	"If the observation is for a wind erosion event, then is the observation assessing erosion losses or deposition?"				Is the observation observed or simulated?						
+Measurement	MeasWindErosionConc	Soil t	t	0	1000	t							
+Measurement	MeasWindErosionConc	Soil organic matter mg SOM/kg	mg SOM/kg	0	1000	mg SOM/kg							
+Measurement	MeasWindErosionConc	Soil organic carbon mg C/kg	mg C/kg	0	1000	mg C/kg							
+Measurement	MeasWindErosionConc	pH		0	14								
+Measurement	MeasWindErosionConc	EC mS/cm	mS/cm	0	1000	mS/cm							
+Measurement	MeasWindErosionConc	mg total N/kg	mg N/kg	0	1000	mg N/kg							
+Measurement	MeasWindErosionConc	mg NH4-N/kg	mg NH4-N/kg	0	1000	mg NH4-N/kg							
+Measurement	MeasWindErosionConc	mg NO3-N/kg	mg NO3-N/kg	0	1000	mg NO3-N/kg							
+Measurement	MeasWindErosionConc	mg P/kg	mg P/kg	0	1000	mg P/kg							
+Measurement	MeasWindErosionConc	mg K/kg	mg K/kg	0	1000	mg K/kg							
+Measurement	MeasWindErosionConc	mg S/kg	mg S/kg	0	1000	mg S/kg							
+Measurement	MeasWindErosionConc	mg Ca/kg	mg Ca/kg	0	1000	mg Ca/kg							
+Measurement	MeasWindErosionConc	mg Mg/kg	mg Mg/kg	0	1000	mg Mg/kg							
+Measurement	MeasWindErosionConc	ug Cu/kg	ug Cu/kg	0	100	ug Cu/kg							
+Measurement	MeasWindErosionConc	ug Fe/kg	ug Fe/kg	0	2000	ug Fe/kg							
+Measurement	MeasWindErosionConc	ug Mn/kg	ug Mn/kg	0	2000	ug Mn/kg							
+Measurement	MeasWindErosionConc	ug Zn/kg	ug Zn/kg	0	2000	ug Zn/kg							
+Measurement	MeasWindErosionConc	ug B/kg	ug B/kg	0	1000	ug B/kg							
+Measurement	MeasWindErosionConc	ug Mo/kg	ug Mo/kg	0	1000	ug Mo/kg							
+Measurement	MeasWindErosionConc	mg Al/kg	mg Al/kg	0	1000	mg Al/kg							
+Measurement	MeasWindErosionConc	mg Na/kg	mg Na/kg	0	1000	mg Na/kg							
+Measurement	MeasWindErosionConc	mg Si/kg	mg Si/kg	0	1000	mg Si/kg							
+Measurement	MeasWindErosionConc	Soil t STD 	t	0	1000	t							
+Measurement	MeasWindErosionConc	Soil organic matter mg SOM/kg STD	mg SOM/kg	0	1000	mg SOM/kg							
+Measurement	MeasWindErosionConc	Soil organic carbon mg C/kg STD	mg C/kg	0	1000	mg C/kg							
+Measurement	MeasWindErosionConc	pH STD		0	14								
+Measurement	MeasWindErosionConc	EC mS/cm STD	mS/cm	0	1000	mS/cm							
+Measurement	MeasWindErosionConc	mg total N/kg STD	mg N/kg	0	1000	mg N/kg							
+Measurement	MeasWindErosionConc	mg NH4-N/kg STD	mg NH4-N/kg	0	1000	mg NH4-N/kg							
+Measurement	MeasWindErosionConc	mg NO3-N/kg STD	mg NO3-N/kg	0	1000	mg NO3-N/kg							
+Measurement	MeasWindErosionConc	mg P/kg STD	mg P/kg	0	1000	mg P/kg							
+Measurement	MeasWindErosionConc	mg K/kg STD	mg K/kg	0	1000	mg K/kg							
+Measurement	MeasWindErosionConc	mg S/kg STD	mg S/kg	0	1000	mg S/kg							
+Measurement	MeasWindErosionConc	mg Ca/kg STD	mg Ca/kg	0	1000	mg Ca/kg							
+Measurement	MeasWindErosionConc	mg Mg/kg STD	mg Mg/kg	0	1000	mg Mg/kg							
+Measurement	MeasWindErosionConc	ug Cu/kug STD	ug Cu/kg	0	100	ug Cu/kg							
+Measurement	MeasWindErosionConc	ug Fe/kug STD	ug Fe/kg	0	2000	ug Fe/kg							
+Measurement	MeasWindErosionConc	ug Mn/kug STD	ug Mn/kg	0	2000	ug Mn/kg							
+Measurement	MeasWindErosionConc	ug Zn/kug STD	ug Zn/kg	0	2000	ug Zn/kg							
+Measurement	MeasWindErosionConc	ug B/kug STD	ug B/kg	0	1000	ug B/kg							
+Measurement	MeasWindErosionConc	ug Mo/kg STD	ug Mo/kg	0	1000	ug Mo/kg							
+Measurement	MeasWindErosionConc	mg Al/kg STD	mg Al/kg	0	1000	mg Al/kg							
+Measurement	MeasWindErosionConc	mg Na/kg STD	mg Na/kg	0	1000	mg Na/kg							
+Measurement	MeasWindErosionConc	mg Si/kg STD	mg Si/kg	0	1000	mg Si/kg							
+---	---	---	---	---	---	---	---	---	---	---	---		
+Measurement	MeasWindErosionArea	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999		
+Measurement	MeasWindErosionArea	Date	Date	1	43392	mm/dd/yyyy	NO	Date/Time	---	---	---	---	---
+Measurement	MeasWindErosionArea	Time	Time	0:00:00	23:59:59	hr/min/sec							
+Measurement	MeasWindErosionArea	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasWindErosionArea	Growth Stage	Growth stage	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasWindErosionArea	Crop	Crop name	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasWindErosionArea	Sampling Start-Stop Interval	Date Time Status	a	z	none	YES	Memo	---	---	63999		
+Measurement	MeasWindErosionArea	Model if simulated	Model if simulated				Is the observation for surface or leaching?						
+Measurement	MeasWindErosionArea	Method											
+Measurement	MeasWindErosionArea	Losses or deposition	"If the observation is for a wind erosion event, then is the observation assessing erosion losses or deposition?"				Is the observation observed or simulated?						
+Measurement	MeasWindErosionArea	Soil t/ha	t/ha	0	1000	t/ha							
+Measurement	MeasWindErosionArea	Soil organic matter kg/ha	Soil organic matter kg/ha	0	1000	kg/ha							
+Measurement	MeasWindErosionArea	Soil organic carbon kg C/ha	Soil organic carbon kg C/ha	0	1000	kg C/ha							
+Measurement	MeasWindErosionArea	pH		0	14								
+Measurement	MeasWindErosionArea	EC mS/cm	mS/cm	0	100	mS/cm							
+Measurement	MeasWindErosionArea	kg total N/ha	kg total N/ha	0	500	kg N/ha							
+Measurement	MeasWindErosionArea	kg NH4-N/ha	kg NH4-N/ha	0	500	kg NH4-N/ha							
+Measurement	MeasWindErosionArea	kg NO3-N/ha	kg NO3-N/ha	0	500	kg NO3-N/ha							
+Measurement	MeasWindErosionArea	kg P/ha	kg P/ha	0	100	kg P/ha							
+Measurement	MeasWindErosionArea	kg K/ha	kg K/ha	0	100	kg K/ha							
+Measurement	MeasWindErosionArea	kg S/ha	kg S/ha	0	100	kg S/ha							
+Measurement	MeasWindErosionArea	kg Ca/ha	kg Ca/ha	0	100	kg Ca/ha							
+Measurement	MeasWindErosionArea	kg Mg/ha	kg Mg/ha	0	100	kg Mg/ha							
+Measurement	MeasWindErosionArea	g Cu/ha	g Cu/ha	0	100	g Cu/ha							
+Measurement	MeasWindErosionArea	g Fe/ha	g Fe/ha	0	2000	g Fe/ha							
+Measurement	MeasWindErosionArea	g Mn/ha	g Mn/ha	0	1000	g Mn/ha							
+Measurement	MeasWindErosionArea	g Zn/ha	g Zn/ha	0	1000	g Zn/ha							
+Measurement	MeasWindErosionArea	g B/ha	g B/ha	0	100	g B/ha							
+Measurement	MeasWindErosionArea	g Mo/ha	g Mo/ha	0	100	g Mo ha							
+Measurement	MeasWindErosionArea	kg Al/ha	kg Al/ha	0	100	kg Al/ha							
+Measurement	MeasWindErosionArea	kg Na/ha	kg Na/ha	0	100	kg Na/ha							
+Measurement	MeasWindErosionArea	kg Si/ha	kg Si/ha	0	100	kg Si/ha							
+Measurement	MeasWindErosionArea	Soil t/ha STD	t/ha	0	1000	t/ha							
+Measurement	MeasWindErosionArea	Soil organic matter kg/ha STD	Soil organic matter kg/ha	0	1000	kg/ha							
+Measurement	MeasWindErosionArea	Soil organic carbon kg C/ha STD	Soil organic carbon kg C/ha	0	1000	kg C/ha							
+Measurement	MeasWindErosionArea	pH STD		0	14								
+Measurement	MeasWindErosionArea	EC mS/cm STD	mS/cm	0	100	mS/cm							
+Measurement	MeasWindErosionArea	kg total N/ha STD	kg total N/ha	0	500	kg N/ha							
+Measurement	MeasWindErosionArea	kg NH4-N/ha STD	kg NH4-N/ha	0	500	kg NH4-N/ha							
+Measurement	MeasWindErosionArea	kg NO3-N/ha STD	kg NO3-N/ha	0	500	kg NO3-N/ha							
+Measurement	MeasWindErosionArea	kg P/ha STD	kg P/ha	0	100	kg P/ha							
+Measurement	MeasWindErosionArea	kg K/ha STD	kg K/ha	0	100	kg K/ha							
+Measurement	MeasWindErosionArea	kg S/ha STD	kg S/ha	0	100	kg S/ha							
+Measurement	MeasWindErosionArea	kg Ca/ha STD	kg Ca/ha	0	100	kg Ca/ha							
+Measurement	MeasWindErosionArea	kg Mg/ha STD	kg Mg/ha	0	100	kg Mg/ha							
+Measurement	MeasWindErosionArea	g Cu/ha STD	g Cu/ha	0	100	g Cu/ha							
+Measurement	MeasWindErosionArea	g Fe/ha STD	g Fe/ha	0	2000	g Fe/ha							
+Measurement	MeasWindErosionArea	g Mn/ha STD	g Mn/ha	0	1000	g Mn/ha							
+Measurement	MeasWindErosionArea	g Zn/ha STD	g Zn/ha	0	1000	g Zn/ha							
+Measurement	MeasWindErosionArea	g B/ha STD	g B/ha	0	100	g B/ha							
+Measurement	MeasWindErosionArea	g Mo/ha STD	g Mo/ha	0	100	g Mo ha							
+Measurement	MeasWindErosionArea	kg Al/ha STD	kg Al/ha	0	100	kg Al/ha							
+Measurement	MeasWindErosionArea	kg Na/ha STD	kg Na/ha	0	100	kg Na/ha							
+Measurement	MeasWindErosionArea	kg Si/ha STD	kg Si/ha	0	100	kg Si/ha							
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Measurement	MeasSuppRes	Exp Unit ID	Experimental Unit ID	a	z	none	NO	Memo	---	---	63999	MeasSuppRes	Exp Unit ID
+Measurement	MeasSuppRes	Sampling Date	Date	1/1/1900	10/19/2018	mm/dd/yyyy	NO	Date/Time	---	---	---	MeasSuppRes	Sampling Date
+Measurement	MeasSuppRes	Treatment ID	Treatment identifier	a	z	none	YES	Memo	---	---	63999	MeasSuppRes	Treatment ID
+Measurement	MeasSuppRes	What is Measured	What is being measured?	a	z	none	YES	Memo	---	---	63999	MeasSuppRes	What is Measured
+Measurement	MeasSuppRes	Measurement Value	Measured value	0	10000000	none	YES	decimal	9	3	---	MeasSuppRes	Measurement Value
+Measurement	MeasSuppRes	Measurement Units	Measured units	a	z	none	YES	Memo	---	---	63999	MeasSuppRes	Measurement Units
+---	---	---	---	---	---	---	---	---	---	---	---	---	---
+Comments	AllCellComments	Site ID	Site identifier	a	z	none	YES	Memo	---	---	63999	AllCellComments	Site ID
+Comments	AllCellComments	Date Entered	Date	1/1/1900	10/19/2018	mm/dd/yyyy	YES	Date/Time	---	---	---	AllCellComments	Date Entered
+Comments	AllCellComments	Sheet Name	Sheet name	a	z	none	YES	Memo	---	---	63999	AllCellComments	Sheet Name
+Comments	AllCellComments	Field Name	Field name	a	z	none	YES	Memo	---	---	63999	AllCellComments	Field Name
+Comments	AllCellComments	Reporting Person Name	Person reporting	a	z	none	YES	Memo	---	---	63999	AllCellComments	Reporting Person Name
+Comments	AllCellComments	Comment	Comment	a	z	none	YES	Memo	---	---	63999	AllCellComments	Comment
+													

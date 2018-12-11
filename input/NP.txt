@@ -1,0 +1,65 @@
+LTARSite Code	Category	DataSetVariableName	AttributeDescription	Units	TemporalResolution	StartDate	EndDate	ResponsiblePersons	StorageFormat	URLdataAccess	LocationIDoutsideNetwork	SpatialExtentDescription	PublicAccess
+NP	Micrometeorology 		NP = Northern Plains						"CSV, Excel, shapefiles, geodatabase, ArcGIS online"				
+NP	Micrometeorology 		H5 = Field H5 at Area IV SCD										
+NP	Micrometeorology 		yyyy-MM-ddThh:mm:ss-6UTC										
+NP	Micrometeorology 		C = Common										
+NP	Micrometeorology 		"Eddy covariance; fluxes of CO2, water vapor and sensible heat"						.CSV				
+NP	Micrometeorology 		"Ambient temperature at 2.8 m above ground surface, models HMP45 and FW3"						.CSV				
+NP	Micrometeorology 		"Canopy surface temperature, model SI-111"						.CSV				
+NP	Micrometeorology 		"Wind speed from 3-D sonic anemometer, model CSAT3"						.CSV				
+NP	Micrometeorology 		"Wind direction from 3-D sonic anemometer, model CSAT3"						.CSV				
+NP	Micrometeorology 		"Ambient relative humidity at 2.8 m above ground surface, model HMP45"						.CSV				
+NP	Micrometeorology 		"Precipitation, model TE525 -  tipping bucket rain gauge at Fields H5 and I2"						.CSV				
+NP	Micrometeorology 		"Precipitation, model AEPG II by Belfort - weighing rain gauge at Field H2"						.CSV				
+NP	Micrometeorology 		"Atmospheric pressure, transducer in IRGA model LI-7500A"						.CSV				
+NP	Micrometeorology 		"Photosynthetically active radiation (PAR), quantum sensor model LI-190SB"						.CSV				
+NP	Micrometeorology 		"Incoming short-wave radiation, up-looking pyranometer model CNR4"						.CSV				
+NP	Micrometeorology 		"Incoming long-wave radiation, up-looking pyrgeometer model CNR4"						.CSV				
+NP	Micrometeorology 		"Outgoing short-wave radiation, down-looking pyranometer model CNR4"						.CSV				
+NP	Micrometeorology 		"Outgoing long-wave radiation, down-looking pyrgeometer model CNR4"						.CSV				
+NP	Micrometeorology 		"Soil heat flux, model HFT3.1"						.CSV				
+NP	Micrometeorology 		"Soil moisture at various depths, models: EnviroScan, CS616, 5TM"						.CSV				
+NP	Micrometeorology 		"Soil temperature at various depths, models: TCAV, 5TM, SO-110"						.CSV				
+NP	Micrometeorology 		"Soil oxygen at various depths, model SO-110"						.CSV				
+NP	Micrometeorology 												
+NP	Phenology		"Phenocam at each eddy covariance station, BAU (Field H5) and ASP (Field I2)"						.JPG				
+NP	Phenology		"Spectral reflectance sensors, models SRS-NDVI and SRS-PRI"						.CSV				
+NP	Phenology		Landsat 8 imageries						.TIF				
+NP	Phenology												
+NP	Vegetation		"Above-ground biomass, plant height, phenology, leaf area index (LAI)"						.XLS				
+NP	Vegetation		"Biomass, aboveground, plant tissue, mean or single measurement, kilograms per hectare"						".XLS, Access database"				
+NP	Vegetation		"Individual kernel weight, plant tissue, mean or single measurement, megagrams"						".XLS, Access database"				
+NP	Vegetation		"Grain harvest, plant tissue, mean or single measurement, kilograms per hectare"						".XLS, Access database"				
+NP	Vegetation		"Grain moisture content, plant tissue, mean or single measurement, percent"						".XLS, Access database"				
+NP	Vegetation		"Carbon, grain, plant tissue, mean or single measurement, kilograms of carbon per hectare"						".XLS, Access database"				
+NP	Vegetation		"Nitrogen, grain, plant tissue, mean or single measurement, kilograms of nitrogen per hectare"						".XLS, Access database"				
+NP	Vegetation		"Crop residue, harvested aboveground, plant tissue, mean or single measurement, kilograms per hectare"						".XLS, Access database"				
+NP	Vegetation		"Crop residue moisture content, plant tissue, mean or single measurement, percent"						".XLS, Access database"				
+NP	Vegetation		"Carbon, harvested crop residue, plant tissue, mean or single measurement, kilograms of carbon per hectare"						".XLS, Access database"				
+NP	Vegetation		"Nitrogen, harvested crop residue, plant tissue, mean or single measurement, kilograms of carbon per hectare"						".XLS, Access database"				
+NP	Vegetation		"Crop residue, non harvested aboveground, plant tissue, mean or single measurement, kilograms per hectare"						".XLS, Access database"				
+NP	Vegetation		"Crop residue moisture content, plant tissue, mean or single measurement, percent"						".XLS, Access database"				
+NP	Vegetation		"Carbon, non harvested crop residue, plant tissue, mean or single measurement, kilograms of carbon per hectare"						".XLS, Access database"				
+NP	Vegetation		"Nitrogen, non harvested crop residue, plant tissue, mean or single measurement, kilograms of nitrogen per hectare"						".XLS, Access database"				
+NP	Vegetation		"Neutral Detergent Fiber, plant tissue, grams per kilogram"						".XLS, Access database"				
+NP	Vegetation		"Acid Detergent Fiber, plant tissue, grams per kilogram"						".XLS, Access database"				
+NP	Vegetation		"Acid Soluble Lignin, plant tissue, grams per kilogram"						".XLS, Access database"				
+NP	Vegetation		"Acid Insoluble Lignin, plant tissue, grams per kilogram"						".XLS, Access database"				
+NP	Vegetation		"Crude Protein, plant tissue, grams per kilogram"						".XLS, Access database"				
+NP	Vegetation		"Ash, plant tissue, grams per kilogram"						".XLS, Access database"				
+NP	Vegetation		"C Concentration, plant tissue, grams per kilogram"						".XLS, Access database"				
+NP	Vegetation		"N Concentration, plant tissue, grams per kilogram"						".XLS, Access database"				
+NP	Vegetation		"P Concentration, plant tissue, grams per kilogram"						".XLS, Access database"				
+NP	Vegetation												
+NP	Soil Properties		"Various soil physical, chemical, and biological properties and processes"						".XLS, .ACCDB, .MDB"				
+NP	Soil Properties												
+NP	Soil-Atmosphere Gas Flux		"CO2, CH4, N2O flux (static chamber)"						".XLS, .ACCDB, .MDB"				
+NP	Soil-Atmosphere Gas Flux		Soil temperature						".XLS, .ACCDB, .MDB"				
+NP	Soil-Atmosphere Gas Flux		Soil water content						".XLS, .ACCDB, .MDB"				
+NP	Soil-Atmosphere Gas Flux												
+NP	Landbase		"area_acres, field ID, Crop, Variety,  Individaul, Project, Treatments, Tillage ,Comments"						"Shapefile, geodatabase, Excel, ArcGIS online"				
+NP	Landbase		"LocationID, Exp_UnitID, State, Town, Plot, Yield_Ac, County, "										
+NP	Landbase		"Description, "										
+NP	Landbase												
+NP	Projects Data		We have several ongoing projects (studies) related to LTAR. 						"CSV, Excel  shapefile, geodatabases, ArcGIS online"				
+NP	Projects Data		"Some of these data sets are available to public via GRACEnet, etc."										

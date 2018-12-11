@@ -1,0 +1,420 @@
+LTARSite Code	Category	DataSetVariableName	AttributeDescription	Units	TemporalResolution	StartDate	EndDate	ResponsiblePersons	StorageFormat	URLdataAccess	LocationIDoutsideNetwork	SpatialExtentDescription	PublicAccess
+UCB	BIOMASS CARBOHYDRATE ANALYSIS	Acid Detergent Fiber		g/kg harvested material				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS CARBOHYDRATE ANALYSIS	Acid Insoluble Lignin 		g/kg harvested material				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS CARBOHYDRATE ANALYSIS	Acid Soluble Lignin		g/kg harvested material				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS CARBOHYDRATE ANALYSIS	Arabinan		g/kg harvested material				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS CARBOHYDRATE ANALYSIS	Ash		g/kg harvested material				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS CARBOHYDRATE ANALYSIS	Crude Protein		g/kg harvested material				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS CARBOHYDRATE ANALYSIS	Galactan		g/kg harvested material				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS CARBOHYDRATE ANALYSIS	Glucan		g/kg harvested material				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS CARBOHYDRATE ANALYSIS	Lignin		g/kg harvested material				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS CARBOHYDRATE ANALYSIS	Mannan		g/kg harvested material				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS CARBOHYDRATE ANALYSIS	Neutral Detergent Fiber		g/kg harvested material				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS CARBOHYDRATE ANALYSIS	Non-fiber Carbohydrates		g/kg harvested material				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS CARBOHYDRATE ANALYSIS	Xylan		g/kg harvested material				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS ENERGY	Ash		g/kg dry matter				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS ENERGY	Gross_Calorific_Value		MJ/kg dry matter				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS ENERGY	Volatile_Matter		g/kg dry matter				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS MINERAL ANALYSIS	Al		mg/kg				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS MINERAL ANALYSIS	B		mg/kg				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS MINERAL ANALYSIS	C		g/kg				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS MINERAL ANALYSIS	Ca		g/kg				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS MINERAL ANALYSIS	Cl		g/kg				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS MINERAL ANALYSIS	Cu		mg/kg				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS MINERAL ANALYSIS	Fe		mg/kg				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS MINERAL ANALYSIS	K		g/kg				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS MINERAL ANALYSIS	Mg		g/kg				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS MINERAL ANALYSIS	Mn		mg/kg				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS MINERAL ANALYSIS	N		g/kg				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS MINERAL ANALYSIS	Na		g/kg				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS MINERAL ANALYSIS	P		g/kg				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS MINERAL ANALYSIS	S		g/kg				Dell	GRACEnet	GRACEnet			
+UCB	BIOMASS MINERAL ANALYSIS	Zn		mg/kg				Dell	GRACEnet	GRACEnet			
+UCB	Gass Fraction	N2O			Annual	1/2/2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	Gass Fraction	NH3			Annual	1/2/2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	GRAZING PLANTS	Above Ground Biomass		kg/ha (dry weight)				Dell	GRACEnet	GRACEnet			
+UCB	GRAZING PLANTS	Above Ground Biomass C		kg C/ha				Dell	GRACEnet	GRACEnet			
+UCB	GRAZING PLANTS	Above Ground Net Primary Production C		kg C/ha/yr				Dell	GRACEnet	GRACEnet			
+UCB	GRAZING PLANTS	AGB N		kg N/ha				Dell	GRACEnet	GRACEnet			
+UCB	GRAZING PLANTS	ANPP N		kg N/ha/yr				Dell	GRACEnet	GRACEnet			
+UCB	GRAZING PLANTS	Below Ground Biomass C		kg C/ha				Dell	GRACEnet	GRACEnet			
+UCB	GRAZING PLANTS	Below Ground Net Primary Production C		kg C/ha/yr				Dell	GRACEnet	GRACEnet			
+UCB	GRAZING PLANTS	BGB N		kg N/ha				Dell	GRACEnet	GRACEnet			
+UCB	GRAZING PLANTS	BNPP N		kg N/ha/yr				Dell	GRACEnet	GRACEnet			
+UCB	GRAZING PLANTS	GroundCoverPct		%				Dell	GRACEnet	GRACEnet			
+UCB	GRAZING PLANTS	LAI		surface area leaves/surface area land				Dell	GRACEnet	GRACEnet			
+UCB	GRAZING PLANTS	LigninPct		%				Dell	GRACEnet	GRACEnet			
+UCB	GRAZING PLANTS	NPct		%				Dell	GRACEnet	GRACEnet			
+UCB	GRAZING PLANTS	Standing_Dead		kg/ha (dry weight)				Dell	GRACEnet	GRACEnet			
+UCB	GRAZING PLANTS	Surface_Litter		kg/ha (dry weight)				Dell	GRACEnet	GRACEnet			
+UCB	GREENHOUSE GAS FLUX	Air Temp		Deg C				Dell	GRACEnet	GRACEnet			
+UCB	GREENHOUSE GAS FLUX	CH4		g C/ha/day				Dell	GRACEnet	GRACEnet			
+UCB	GREENHOUSE GAS FLUX	CO2		g C/ha/day				Dell	GRACEnet	GRACEnet			
+UCB	GREENHOUSE GAS FLUX	N2O		g N/ha/day				Dell	GRACEnet	GRACEnet			
+UCB	GREENHOUSE GAS FLUX	Soil Moisture		% vol (cm3H2O/cm3soil)				Dell	GRACEnet	GRACEnet			
+UCB	GREENHOUSE GAS FLUX	Soil Temp		Deg C				Dell	GRACEnet	GRACEnet			
+UCB	HARVEST REMOVAL	Above Ground Biomass		kg biomass/ha	Annual	1/2/2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	HARVEST REMOVAL	Above Ground Biomass		kg biomass/ha				Dell	GRACEnet	GRACEnet			
+UCB	HARVEST REMOVAL	Corn Ear Height		cm				Dell	GRACEnet	GRACEnet			
+UCB	HARVEST REMOVAL	Grain C		kg C/ha				Dell	GRACEnet	GRACEnet			
+UCB	HARVEST REMOVAL	Grain Dry Matter		kg biomass/ha				Dell	GRACEnet	GRACEnet			
+UCB	HARVEST REMOVAL	Grain Moisture %		%				Dell	GRACEnet	GRACEnet			
+UCB	HARVEST REMOVAL	Grain N		kg N/ha				Dell	GRACEnet	GRACEnet			
+UCB	HARVEST REMOVAL	Harv Res C		kg C/ha	Annual	1/2/2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	HARVEST REMOVAL	Harv Res C		kg C/ha				Dell	GRACEnet	GRACEnet			
+UCB	HARVEST REMOVAL	Harv Res Dry Matter		kg biomass/ha	Annual	1/2/2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	HARVEST REMOVAL	Harv Res Dry Matter		kg biomass/ha				Dell	GRACEnet	GRACEnet			
+UCB	HARVEST REMOVAL	Harv Res N		kg N/ha	Annual	1/2/2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	HARVEST REMOVAL	Harv Res N		kg N/ha				Dell	GRACEnet	GRACEnet			
+UCB	HARVEST REMOVAL	HarvRes Moisture %		%	Annual	1/2/2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	HARVEST REMOVAL	HarvRes Moisture %		%				Dell	GRACEnet	GRACEnet			
+UCB	HARVEST REMOVAL	nonHarv Res C		kg C/ha				Dell	GRACEnet	GRACEnet			
+UCB	HARVEST REMOVAL	nonHarv Res Dry Matter		kg biomass/ha				Dell	GRACEnet	GRACEnet			
+UCB	HARVEST REMOVAL	nonHarv Res Moisture %		%				Dell	GRACEnet	GRACEnet			
+UCB	HARVEST REMOVAL	nonHarv Res N		kg N/ha				Dell	GRACEnet	GRACEnet			
+UCB	HARVEST REMOVAL	Root C		kg C/ha				Dell	GRACEnet	GRACEnet			
+UCB	HARVEST REMOVAL	Root Dry Matter		kg biomass/ha				Dell	GRACEnet	GRACEnet			
+UCB	HARVEST REMOVAL	Root Moisture %		%				Dell	GRACEnet	GRACEnet			
+UCB	HARVEST REMOVAL	Root N		kg N/ha				Dell	GRACEnet	GRACEnet			
+UCB	HARVEST REMOVAL	Unit Grain Weight		mg biomass				Dell	GRACEnet	GRACEnet			
+UCB	HYDROLOGY	Discharge		L/s	15 minute	9/1/2013	Present	Kennedy		Excel Sheets		FR-D	
+UCB	HYDROLOGY	Discharge		L/s	15 minute	9/1/2013	Present	Kennedy		Excel Sheets		RB-HF2	
+UCB	HYDROLOGY	Discharge		L/s	15 minute	7/1/2014	Present	Kennedy		Excel Sheets		TID3	
+UCB	HYDROLOGY	Discharge   		cfs	5 minute	1/1/1997	Present	Folmar	Excel Sheets	Excel Sheets		FD-36	
+UCB	HYDROLOGY	Discharge   		cfs	5 minute	1/1/1968	Present	Folmar	Excel Sheets	Excel Sheets		WE-38	
+UCB	Hydrology	Flow		L/5 min	 5 minute	1/2/2011	Present	Folmar		Excel Sheets		Kepler Lysimeters	
+UCB	LAND-ATMOSPHERE FLUXES (EC)											Hawbecker Eddy	
+UCB	LAND-ATMOSPHERE FLUXES (EC)											Housel Eddy	
+UCB	LAND-ATMOSPHERE FLUXES (EC)											Pratt Eddy	
+UCB	LAND-ATMOSPHERE FLUXES (EC)											Weise Eddy	
+UCB	Manure	Available N		lbs/Ton	Annual	1/2/2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	Manure	NH4-N		lbs/Ton	Annual	1/2/2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	Manure	pH			Annual	1/2/2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	Manure	Solids		lbs/Ton	Annual	1/2/2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	Manure	Total N		lbs/Ton	Annual	1/2/2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	Manure	Total P205		lbs/Ton	Annual	1/2/2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	METEOROLOGY	Air Pressure		kPa	15 minute	6/4/2015	Present	Gonet	NAL LTAR Data Portal	NAL LTAR Data Portal		Hawbecker LTAR	
+UCB	METEOROLOGY	Air Pressure		kPa	 5 minute	1/1/2011	Present	Folmar		Excel Sheets		Kepler Lysimeters	
+UCB	METEOROLOGY	Air Temperature		Deg F	5 minute	9/1/2012	Present	Folmar	Excel Sheets	Excel Sheets		Andersen Creek	
+UCB	METEOROLOGY	Air Temperature		Deg C	15 minute	6/4/2015	Present	Gonet	NAL LTAR Data Portal	NAL LTAR Data Portal		Hawbecker LTAR	
+UCB	METEOROLOGY	Air Temperature		Deg F	 5 minute	1/1/2011	Present	Folmar		Excel Sheets		Kepler Lysimeters	
+UCB	METEOROLOGY	Air Temperature		Deg F	5 minute	1/1/1997	Present	Folmar	Excel Sheets	Excel Sheets		MD-38	
+UCB	METEOROLOGY	Air Temperature		Deg F	Daily	1/1/1979	12/31/1996	Folmar	Excel Sheets	Excel Sheets		MD-38	
+UCB	METEOROLOGY	Incoming longwave radiation		W/m2	15 minute	11/20/2015	Present	Gonet	NAL LTAR Data Portal	NAL LTAR Data Portal		Hawbecker Eddy	
+UCB	METEOROLOGY	Incoming longwave radiation		W/m2	 5 minute	1/1/2011	Present	Folmar		Excel Sheets		Kepler Lysimeters	
+UCB	METEOROLOGY	Incoming shortwave radiation		W/m2	15 minute	11/20/2015	Present	Gonet	NAL LTAR Data Portal	NAL LTAR Data Portal		Hawbecker Eddy	
+UCB	METEOROLOGY	Photosynthetically Active Radiation		µmol/m2/s	15 minute	11/20/2015	Present	Gonet	NAL LTAR Data Portal	NAL LTAR Data Portal		Hawbecker Eddy	
+UCB	METEOROLOGY	Photosynthetically Active Radiation		µmol/m2/s	 5 minute	1/1/2011	Present	Folmar		Excel Sheets		Kepler Lysimeters	
+UCB	METEOROLOGY	Photosynthetically Active Radiation		µmol/m2/s	5 minute	1/1/1997	Present	Folmar	Excel Sheets	Excel Sheets		MD-38	
+UCB	METEOROLOGY	Relative Humidity		%	5 minute	9/1/2012	Present	Folmar	Excel Sheets	Excel Sheets		Andersen Creek	
+UCB	METEOROLOGY	Relative Humidity		%	15 minute	6/4/2015	Present	Gonet	NAL LTAR Data Portal	NAL LTAR Data Portal		Hawbecker LTAR	
+UCB	METEOROLOGY	Relative Humidity		%	 5 minute	1/1/2011	Present	Folmar		Excel Sheets		Kepler Lysimeters	
+UCB	METEOROLOGY	Relative Humidity		%	5 minute	1/1/1997	Present	Folmar	Excel Sheets	Excel Sheets		MD-38	
+UCB	METEOROLOGY	Relative Humidity		%	Daily	1/1/1979	12/31/1996	Folmar	Excel Sheets	Excel Sheets		MD-38	
+UCB	METEOROLOGY	Wind Direction		Deg	15 minute	6/4/2015	Present	Gonet	NAL LTAR Data Portal	NAL LTAR Data Portal		Hawbecker LTAR	
+UCB	METEOROLOGY	Wind Direction		Deg	 5 minute	1/1/2011	Present	Folmar		Excel Sheets		Kepler Lysimeters	
+UCB	METEOROLOGY	Wind Speed		mph	5 minute	9/1/2012	Present	Folmar	Excel Sheets	Excel Sheets		Andersen Creek	
+UCB	METEOROLOGY	Wind Speed		m/s	15 minute	6/4/2015	Present	Gonet	NAL LTAR Data Portal	NAL LTAR Data Portal		Hawbecker LTAR	
+UCB	METEOROLOGY	Wind Speed		m/s	 5 minute	1/1/2011	Present	Folmar		Excel Sheets		Kepler Lysimeters	
+UCB	METEOROLOGY	Wind Speed		mph	5 minute	1/1/1997	Present	Folmar	Excel Sheets	Excel Sheets		MD-38	
+UCB	PLANT FRACTION	C		kg C/ha	Annual	1/2/2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	PLANT FRACTION	C		kg C/ha				Dell	GRACEnet	GRACEnet			
+UCB	PLANT FRACTION	Dry Matter		kg biomass/ha				Dell	GRACEnet	GRACEnet			
+UCB	PLANT FRACTION	Moisture %		%				Dell	GRACEnet	GRACEnet			
+UCB	PLANT FRACTION	N		kg N/ha	Annual	1/2/2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	PLANT FRACTION	N		kg N/ha				Dell	GRACEnet	GRACEnet			
+UCB	PLANT FRACTION	Unit Grain Weight		mg biomass				Dell	GRACEnet	GRACEnet			
+UCB	PRECIPITATION	Precipitation		inches	 5 minute	9/1/2012	Present	Folmar	Excel Sheets	Excel Sheets		Anderson Creek	
+UCB	PRECIPITATION	Precipitation		mm	15 minute	6/4/2015	Present	Gonet	NAL LTAR Data Portal	NAL LTAR Data Portal		Hawbecker LTAR	
+UCB	PRECIPITATION	Precipitation		inches	 5 minute	1/1/2011	Present	Folmar		Excel Sheets		Kepler Lysimeters	
+UCB	PRECIPITATION	Precipitation		inches	 5 minute	1/1/1979	Present	Folmar	Excel Sheets	Excel Sheets		MD-38	
+UCB	PRECIPITATION	Precipitation		inches	 5 minute	1/1/1968	Present	Folmar	Excel Sheets	Excel Sheets		RB-37	
+UCB	PRECIPITATION	Precipitation		inches	 5 minute	1/1/1968	Present	Folmar	Excel Sheets	Excel Sheets		RE-37	
+UCB	SOIL BIOLOGY	Acid Phosphatase		mg ?-nitrophenol released kg-1 soil  h-1 @ ph 6.5				Dell	GRACEnet	GRACEnet			
+UCB	SOIL BIOLOGY	Alkaline Phosphatase		mg ?-nitrophenol released kg-1 soil  h-1 @ pH 11.0				Dell	GRACEnet	GRACEnet			
+UCB	SOIL BIOLOGY	Beta Glucosaminidase NAG		mg ?-nitrophenol released kg-1 soil  h-1				Dell	GRACEnet	GRACEnet			
+UCB	SOIL BIOLOGY	Beta Glucosidase		mg ?-nitrophenol released kg-1 soil  h-1				Dell	GRACEnet	GRACEnet			
+UCB	SOIL BIOLOGY	Fluorescein Diacetate Hydrolysis		mg fluorescein kg-1 h-1				Dell	GRACEnet	GRACEnet			
+UCB	SOIL BIOLOGY	Glomalin		g/kg				Dell	GRACEnet	GRACEnet			
+UCB	SOIL BIOLOGY	Identifiable Plant Material		g C/kg soil				Dell	GRACEnet	GRACEnet			
+UCB	SOIL BIOLOGY	MoBio Carbon		mg C/kg soil				Dell	GRACEnet	GRACEnet			
+UCB	SOIL BIOLOGY	MoBio Nitrogen		mg N/kg soil				Dell	GRACEnet	GRACEnet			
+UCB	SOIL BIOLOGY	Particulate Organic Matter		g C/kg soil				Dell	GRACEnet	GRACEnet			
+UCB	SOIL CHEMISTRY	Ca		mg Ca/kg soil	Annual	2012	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	SOIL CHEMISTRY	Ca		mg Ca/kg soil				Dell	GRACEnet	GRACEnet			
+UCB	SOIL CHEMISTRY	CEC		cmol/kg	Annual	2012	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	SOIL CHEMISTRY	CEC		cmol/kg				Dell	GRACEnet	GRACEnet			
+UCB	SOIL CHEMISTRY	Cu		mg Cu/kg soil	Annual	2012	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	SOIL CHEMISTRY	Cu		mg Cu/kg soil				Dell	GRACEnet	GRACEnet			
+UCB	SOIL CHEMISTRY	EC		dS/m				Dell	GRACEnet	GRACEnet			
+UCB	SOIL CHEMISTRY	Fe		Fe mg/kg soil	Annual	2012	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	SOIL CHEMISTRY	Fe		Fe mg/kg soil				Dell	GRACEnet	GRACEnet			
+UCB	SOIL CHEMISTRY	Inorganic C		g C/kg soil				Dell	GRACEnet	GRACEnet			
+UCB	SOIL CHEMISTRY	K		mg K/kg soil	Annual	2012	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	SOIL CHEMISTRY	K		mg K/kg soil				Dell	GRACEnet	GRACEnet			
+UCB	SOIL CHEMISTRY	Mg		mg Mg/kg soil	Annual	2012	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	SOIL CHEMISTRY	Mg		mg Mg/kg soil				Dell	GRACEnet	GRACEnet			
+UCB	SOIL CHEMISTRY	Mineral Assoc C		g C/kg soil				Dell	GRACEnet	GRACEnet			
+UCB	SOIL CHEMISTRY	Mn		Mn mg/kg soil	Annual	2012	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	SOIL CHEMISTRY	Mn		Mn mg/kg soil				Dell	GRACEnet	GRACEnet			
+UCB	SOIL CHEMISTRY	NH4		mg N/kg soil	Annual	2012	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	SOIL CHEMISTRY	NH4		mg N/kg soil				Dell	GRACEnet	GRACEnet			
+UCB	SOIL CHEMISTRY	Nitrite		mg/kg	Annual	2012	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	SOIL CHEMISTRY	Nitrite		mg/kg				Dell	GRACEnet	GRACEnet			
+UCB	SOIL CHEMISTRY	NO3		mg N/kg soil	Annual	2012	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	SOIL CHEMISTRY	NO3		mg N/kg soil				Dell	GRACEnet	GRACEnet			
+UCB	SOIL CHEMISTRY	Organic C		g C/kg soil				Dell	GRACEnet	GRACEnet			
+UCB	SOIL CHEMISTRY	P		mg P/kg soil	Annual	2012	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	SOIL CHEMISTRY	P		mg P/kg soil				Dell	GRACEnet	GRACEnet			
+UCB	SOIL CHEMISTRY	pH		NA	Annual	2012	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	SOIL CHEMISTRY	pH		NA				Dell	GRACEnet	GRACEnet			
+UCB	SOIL CHEMISTRY	Potentially Mineralizable N		g/kg				Dell	GRACEnet	GRACEnet			
+UCB	SOIL CHEMISTRY	Soluble Organic C		mg C/kg soil				Dell	GRACEnet	GRACEnet			
+UCB	SOIL CHEMISTRY	Total Soil C		g C/kg soil	Annual	2012	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	SOIL CHEMISTRY	Total Soil C		g C/kg soil				Dell	GRACEnet	GRACEnet			
+UCB	SOIL CHEMISTRY	Total Soil N		g N/kg soil	Annual	2012	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	SOIL CHEMISTRY	Total Soil N		g N/kg soil				Dell	GRACEnet	GRACEnet			
+UCB	SOIL CHEMISTRY	Zn		Zn mg/kg soil	Annual	2012	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	SOIL CHEMISTRY	Zn		Zn mg/kg soil				Dell	GRACEnet	GRACEnet			
+UCB	SOIL COVER	Soil Covered w/ Residue		%				Dell	GRACEnet	GRACEnet			
+UCB	SOIL PHYSICS	% moisture		m^3 m^3	5 minute	2012	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	SOIL PHYSICS	Bulk Density		g/cm3	One time	2012	intermittent	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	SOIL PHYSICS	Bulk Density		g/cm3				Dell	GRACEnet	GRACEnet			
+UCB	SOIL PHYSICS	Field Capacity		% vol				Dell	GRACEnet	GRACEnet			
+UCB	SOIL PHYSICS	Ksat		cm/sec				Dell	GRACEnet	GRACEnet			
+UCB	SOIL PHYSICS	Macro-aggregation		%				Dell	GRACEnet	GRACEnet			
+UCB	SOIL PHYSICS	Mid Near Infrared Total C		g C/kg soil				Dell	GRACEnet	GRACEnet			
+UCB	SOIL PHYSICS	Particle-Size Distribution		%	One time	2012	intermittent	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	SOIL PHYSICS	Particle-Size Distribution		%				Dell	GRACEnet	GRACEnet			
+UCB	SOIL PHYSICS	Soil Heat Flux		MJ/m2				Dell	GRACEnet	GRACEnet			
+UCB	SOIL PHYSICS	Water Stable Aggregates		g C/kg soil				Dell	GRACEnet	GRACEnet			
+UCB	SOIL PHYSICS	Wilting Point		% vol				Dell	GRACEnet	GRACEnet			
+UCB	VEGETATION	Phenocam		NA	30 minute	9/24/2015	Present	Saporito	Phenocam Network Web Site	Phenocam Network Web Site		Hawbecker Phenocam	
+UCB	WATER QUALITY	Al		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Al		µg/ml	Event	2011	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	Alkaline Persulfate Total Nitrogen		µg/ml	Event	9/1/2013	Present	Kennedy		Excel Sheets		FR-D	
+UCB	WATER QUALITY	Alkaline Persulfate Total Nitrogen		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Alkaline Persulfate Total Nitrogen		µg/ml	Event	9/1/2013	Present	Kennedy		Excel Sheets		RB-HF2	
+UCB	WATER QUALITY	Alkaline Persulfate Total Nitrogen		µg/ml	Event	7/1/2014	Present	Kennedy		Excel Sheets		TID3	
+UCB	WATER QUALITY	Alkaline Persulfate Total Nitrogen		µg/ml	Event	2010	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	As		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	As		µg/ml	Event	2011	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	Ca		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Ca		µg/ml	Event	2011	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	Ca		ppm	Event	1984	Present	Folmar	Excel Sheets	Excel Sheets		WE-38	
+UCB	WATER QUALITY	Cd		µg/ml	Event	2011	2011	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Cd		µg/ml	Event	2011	2011	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	Cl		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Cl		µg/ml	Event	2011	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	Cl		ppm	Event	1984	Present	Folmar	Excel Sheets	Excel Sheets		WE-38	
+UCB	WATER QUALITY	Cu		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Cu		µg/ml	Event	2011	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	Dissolved Al		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Dissolved Al		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Dissolved Al		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Dissolved As		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Dissolved As		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Dissolved As		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Dissolved Ca		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Dissolved Ca		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Dissolved Ca		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Dissolved Cu		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Dissolved Cu		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Dissolved Cu		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Dissolved Fe		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Dissolved Fe		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Dissolved Fe		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Dissolved Hg		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Dissolved Hg		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Dissolved Hg		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Dissolved K		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Dissolved K		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Dissolved K		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Dissolved La		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Dissolved La		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Dissolved La		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Dissolved Mg		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Dissolved Mg		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Dissolved Mg		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Dissolved Mn		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Dissolved Mn		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Dissolved Mn		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Dissolved Mo		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Dissolved Mo		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Dissolved Mo		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Dissolved Na		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Dissolved Na		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Dissolved Na		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Dissolved Ni		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Dissolved Ni		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Dissolved Ni		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Dissolved P		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Dissolved P		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Dissolved P		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Dissolved Pb		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Dissolved Pb		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Dissolved Pb		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Dissolved S		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Dissolved S		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Dissolved S		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Dissolved Si		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Dissolved Si		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Dissolved Si		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Dissolved Yb		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Dissolved Yb		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Dissolved Yb		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Dissolved Zn		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Dissolved Zn		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Dissolved Zn		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	DRP		ppm	Event	2009	2011	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	EC		µS/cm	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	EC		µS/cm	Event	2010	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	EC		µS/cm	Event	1984	Present	Folmar	Excel Sheets	Excel Sheets		WE-38	
+UCB	WATER QUALITY	Fe		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Fe		µg/ml	Event	2011	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	Hg		µg/ml	Event	2011	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	K		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	K		µg/ml	Event	2011	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	K		ppm	Event	1984	Present	Folmar	Excel Sheets	Excel Sheets		WE-38	
+UCB	WATER QUALITY	La		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	La		µg/ml	Event	2011	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	Mg		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Mg		µg/ml	Event	2011	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	Mg		ppm	Event	1984	Present	Folmar	Excel Sheets	Excel Sheets		WE-38	
+UCB	WATER QUALITY	Mn		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Mn		µg/ml	Event	2011	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	Mo		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Mo		µg/ml	Event	2011	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	Na		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Na		µg/ml	Event	2011	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	Na		ppm	Event	1984	Present	Folmar	Excel Sheets	Excel Sheets		WE-38	
+UCB	WATER QUALITY	NH3/NH4		ppm	Event	1997	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	NH3/NH4		ppm	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	NH3/NH4		ppm	Event	2001	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	NH3/NH4		ppm	Event	2010	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	NH3/NH4		ppm	Event	1984	Present	Folmar	Excel Sheets	Excel Sheets		WE-38	
+UCB	WATER QUALITY	Ni		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Ni		µg/ml	Event	2011	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	NO3		ppm	Event	1997	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	NO3		ppm	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	NO3		ppm	Event	2001	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	NO3		ppm	Event	2009	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	NO3		ppm	Event	1984	Present	Folmar	Excel Sheets	Excel Sheets		WE-38	
+UCB	WATER QUALITY	Ortho P		ppm	Event	1997	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Ortho P		ppm	Event	2001	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Ortho P		ppm	Event	1984	Present	Folmar	Excel Sheets	Excel Sheets		WE-38	
+UCB	WATER QUALITY	P		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	P		µg/ml	Event	2011	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	Pb		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Pb		µg/ml	Event	2011	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	pH		NA	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	pH		NA	Event	2009	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	pH		NA	Event	1984	Present	Folmar	Excel Sheets	Excel Sheets		WE-38	
+UCB	WATER QUALITY	S		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	S		µg/ml	Event	2011	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	S		ppm	Event	1984	Present	Folmar	Excel Sheets	Excel Sheets		WE-38	
+UCB	WATER QUALITY	Se		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Se		µg/ml	Event	2011	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	Sediments		g/l	Event	1997	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Sediments		g/l	Event	2001	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Si		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Si		µg/ml	Event	2011	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	Silicate		ppm	Event	1997	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Silicate		ppm	Event	2001	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	SiO2		µg/ml	Event	2011	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	Sissolved Se		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Sissolved Se		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Sissolved Se		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Solids		mg/L	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Solids		mg/L	Event	2009	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	Total Al		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Total Al		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Total Al		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Total Al		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Total As		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Total As		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Total As		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Total As		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Total Ca		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Total Ca		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Total Ca		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Total Ca		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Total Cd		µg/ml	Event	2011	2011	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Total Cl		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Total Cu		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Total Cu		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Total Cu		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Total Cu		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Total Fe		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Total Fe		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Total Fe		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Total Fe		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Total Hg		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Total Hg		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Total Hg		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Total K		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Total K		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Total K		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Total K		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Total La		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Total La		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Total La		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Total La		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Total Mg		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Total Mg		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Total Mg		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Total Mg		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Total Mn		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Total Mn		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Total Mn		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Total Mn		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Total Mo		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Total Mo		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Total Mo		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Total Mo		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Total N		ppm	Event	1997	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Total N		ppm	Event	2001	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Total Na		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Total Na		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Total Na		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Total Na		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Total Ni		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Total Ni		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Total Ni		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Total Ni		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Total P		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Total P		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Total P		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Total P		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Total Pb		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Total Pb		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Total Pb		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Total Pb		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Total S		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Total S		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Total S		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Total S		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Total Se		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Total Se		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Total Se		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Total Se		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Total Si		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Total Si		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Total Si		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Total Si		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Total Yb		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Total Yb		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Total Yb		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Total Yb		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	Total Zn		µg/ml	Event	2009	Present	Folmar		Excel Sheets		FD-36	
+UCB	WATER QUALITY	Total Zn		µg/ml	Event	2009	Present	Folmar		Excel Sheets		Mattern	
+UCB	WATER QUALITY	Total Zn		µg/ml	Event	2009	Present	Folmar		Excel Sheets		WE-38	
+UCB	WATER QUALITY	TP		ppm	Event	2011	2011	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	TP		ppm	Event	2009	2011	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	Urea		µg N/L	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Urea		µg N/L	Event	2010	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	Yb		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Yb		µg/ml	Event	2011	Present	Bryant	Excel Sheets	Excel Sheets		UMES	
+UCB	WATER QUALITY	Zn		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Zn		µg/ml	Event	2011	Present	Saporito		Excel Sheets		Kepler Lysimeters	
+UCB	WATER QUALITY	Zn		µg/ml	Event	2011	Present	Bryant	Excel Sheets	Excel Sheets		UMES	

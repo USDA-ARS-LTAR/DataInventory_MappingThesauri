@@ -1,0 +1,127 @@
+LTARSite Code	Category	DataSetVariableName	AttributeDescription	Units	TemporalResolution	StartDate	EndDate	ResponsiblePersons	StorageFormat	URLdataAccess	LocationIDoutsideNetwork	SpatialExtentDescription	PublicAccess
+TG	Hydrology	rainfall		inches	"Subdaily, daily"	1938	Present		txt files	website			Open
+TG	Hydrology	runoff		cfs	"Subdaily, daily"	1939	Present		txt files	website			Open
+TG	Hydrology	thiessen weights		acres	Event	1938	Present		excel files	website			Open
+TG	Hydrology	eline??	"well level, well head, groundwater wells"	ft??	Daily	2000	2015?		excel files	website			Open
+TG	Hydrology	below surface??	"well level, well head, groundwater wells"	ft??	Daily	2000	2015?		excel files	website			Open
+TG	Hydrology	water	lat??	"in, ft"	Daily	2000	2015?		excel files	website			Open
+TG	Hydrology	over v??	lat??	ft	Daily	2000	2015?		excel files	website			Open
+TG	Hydrology	flow	lat??	cfs	Daily	2000	2015?		excel files	website			Open
+TG	Land Management	plant			Event	1943	Present		excel files	website			Open
+TG	Land Management	harvest	"cut, strip, combine, thrashing, topping, cotton picking"		Event	1943	Present		excel files	website			Open
+TG	Land Management	pesticide	"herbicide, insecticide, fungicide"		Event	1943	Present		excel files	website			Open
+TG	Land Management	shred	stalk cutter		Event	1943	Present		excel files	website			Open
+TG	Land Management	tillage	"plow, disc, cultivate, chisel, roll, layoff, rebedded"		Event	1943	Present		excel files	website			Open
+TG	Land Management	fertilize	top dress		Event	1943	Present		excel files	website			Open
+TG	Land Management	plowed terraces	terrace work		Event	1943	Present		excel files	website			Open
+TG	Land Management	bale			Event	1943	Present		excel files	website			Open
+TG	Land Management	defoliate			Event	1943	Present		excel files	website			Open
+TG	Land Management	burn			Event	1943	Present		excel files	website			Open
+TG	Land Management	worked waterway			Event	1943	Present		excel files	website			Open
+TG	Land Management	remove runoff structure			Event	1943	Present		excel files	website			Open
+TG	Land Management	shaulking			Event	1943	Present		excel files	website			Open
+TG	Land Management	mow			Event	1943	Present		excel files	website			Open
+TG	Land Management	cleanout tanks			Event	1943	Present		excel files	website			Open
+TG	Land Management	begin/end grazing			Event	1943	Present		excel files	website			Open
+TG	Meterology	max temp	"Riesel, Temple"	C	"Daily, hourly"	1940	Present		excel files	website			Open
+TG	Meterology	min temp	"Riesel, Temple"	C	"Daily, hourly"	1940	Present		excel files	website			Open
+TG	Meterology	avg temp	Riesel	C	Hourly	2001	Present		txt files	website			Open
+TG	Meterology	precipitation	"Riesel, Temple"	"inches, mm"	"Daily, hourly"	1914	Present		excel files	website			Open
+TG	Meterology	max RH	"Riesel, Temple"	%	Hourly	1996	Present		txt files	website			Open
+TG	Meterology	min RH	"Riesel, Temple"	%	Hourly	1996	Present		txt files	website			Open
+TG	Meterology	total solar rad	"Riesel, Temple"	kJ/m2	Hourly	1996	Present		txt files	website			Open
+TG	Meterology	max wind speed	Riesel	m/s	Hourly	2001	Present		txt files	website			Open
+TG	Meterology	avg wind speed	"Riesel, Temple"	m/s	Hourly	1996	Present		txt files	website			Open
+TG	Meterology	avg wind direction	"Riesel, Temple"	deg	Hourly	1996	Present		txt files	website			Open
+TG	Meterology	max soil temp	"Riesel, Temple"	C	Hourly	1996	Present		txt files	website			Open
+TG	Meterology	min soil temp	"Riesel, Temple"	C	Hourly	1996	Present		txt files	website			Open
+TG	Meterology	avg soil temp	Riesel	C	Hourly	2001	Present		txt files	website			Open
+TG	Meterology	deg. Days cool??	Temple	??	"Daily, hourly?"	1996	Present		excel files	website			Open
+TG	Meterology	deg. Days heat??	Temple	??	"Daily, hourly?"	1996	Present		excel files	website			Open
+TG	Meterology	avg vapor pressure	Temple	kPa	"Daily, hourly?"	1996	Present		excel files	website			Open
+TG	Plant	species list	flora checklist		Event	2015	2016	"Singhurst, Merkord, Quast"	??	website			Open
+TG	Sediment	sediment concentration		ppm	Subdaily	1962	Present		txt files	website			Open
+TG	Sediment	sediment amount		t/a	"Subdaily, daily, monthly"	1939	Present		txt files	website			Open
+TG	Water Quality	NO3-N	runoff 	mg/L	Event	2000	2012		excel file	website			Open
+TG	Water Quality	NH4-N	runoff	mg/L	Event	2000	2012		excel file	website			Open
+TG	Water Quality	PO4-P	runoff	mg/L	Event	2000	2012		excel file	website			Open
+TG	Water Quality	NO3-N	baseflow	mg/L	Event	2004	2012		excel file	website			Open
+TG	Water Quality	NH4-N	baseflow	mg/L	Event	2004	2012		excel file	website			Open
+TG	Water Quality	PO4-P	baseflow	mg/L	Event	2004	2012		excel file	website			Open
+TG	Water Quality	NO3-N	rain	mg/L	Event	2007	2012		excel file	website			Open
+TG	Water Quality	NH4-N	rain	mg/L	Event	2007	2012		excel file	website			Open
+TG	Water Quality	PO4-P	rain	mg/L	Event	2007	2012		excel file	website			Open
+TG	Greenhouse Gases	CO2 conc	"CO2 gradient, chamber CO2 concentration"	ppm	?	1997	Present	"Johnson, Polley, Tischler, Derner, Wilsey"	?				Closed?
+TG	Plant	aboveground biomass	"CO2 gradient, CO2 chamber"	?	?	1997	Present	"Johnson, Polley, Tischler, Derner, Wilsey"	?				Closed?
+TG	Plant	belowground biomass	"CO2 gradient, CO2 chamber"	?	?	1997	Present	"Johnson, Polley, Tischler, Derner, Wilsey"	?				Closed?
+TG	Soil	C	"CO2 gradient, CO2 chamber"	?	?	1997	Present	"Johnson, Polley, Tischler, Derner, Wilsey"	?				Closed?
+TG	Hydrology	dry-bulb temperature	"Evapotranspiration, CO2 gradient, CO2 chamber"	C	?	1997	Present	"Johnson, Polley, Tischler, Derner, Wilsey"	?				Closed?
+TG	Hydrology	dew point temperature	"Evapotranspiration, CO2 gradient, CO2 chamber"	C	?	1997	Present	"Johnson, Polley, Tischler, Derner, Wilsey"	?				Closed?
+TG	Plant	species composition	"CO2 gradient, CO2 chamber"		?	1997	Present	"Johnson, Polley, Tischler, Derner, Wilsey"	?				Closed?
+TG	Soil	volumetric soil water content	"CO2 gradient, CO2 chamber"	%?	?	1997	Present	"Johnson, Polley, Tischler, Derner, Wilsey"	?				Closed?
+TG	Plant	xylem pressure potential	"CO2 gradient, CO2 chamber"	Pa?	?	1997	Present	"Johnson, Polley, Tischler, Derner, Wilsey"	?				Closed?
+TG	Crop	treatment type	"fertilizer type, tillage type, variety"	chemical	Event	2003	?	Haney	?				?
+TG	Crop	yield		bu/acre	Event	2003	?	Haney	?				?
+TG	Manure	poultry litter application	"poultry litter, application rates"	tons/acre	Event	2000	Present	Harmel	?				?
+TG	Manure	total N	TN in poultry litter	g/kg	Yearly	2001	2004	Harmel	?				?
+TG	Manure	total P	TP in poultry litter	g/kg	Yearly	2001	2004	Harmel	?				?
+TG	Manure	organic C	OC in poultry litter	g/kg	Yearly	2001	2004	Harmel	?				?
+TG	Manure	NO3-N	NO3-N in poultry litter	mg/kg	Yearly	2001	2004	Harmel	?				?
+TG	Manure	NH4-N	NH4-N in poultry litter	mg/kg	Yearly	2001	2004	Harmel	?				?
+TG	Manure	soluble reactive phosphorus	SRP in poultry litter	mg/kg	Yearly	2001	2004	Harmel	?				?
+TG	Manure	moisture	water in poultry litter	%	Yearly	2001	2004	Harmel	?				?
+TG	Soil	total carbon	soil properties w/ poultry litter application	g/kg	Event	2000	2004	Harmel	?				?
+TG	Soil	organic carbon	soil properties w/ poultry litter application	g/kg	Event	2000	2004	Harmel	?				?
+TG	Soil	total nitrogen	soil properties w/ poultry litter application	g/kg	Event	2000	2004	Harmel	?				?
+TG	Soil	total phosphorus	soil properties w/ poultry litter application	g/kg	Event	2000	2004	Harmel	?				?
+TG	Soil	pH	soil properties w/ poultry litter application	g/kg	Event	2000	2004	Harmel	?				?
+TG	Soil biology	microbial biomass carbon	soil properties w/ poultry litter application	mg/kg	Event	2002	2004	Harmel	?				?
+TG	Soil biology	microbial biomass nitrogen	soil properties w/ poultry litter application	mg/kg	Event	2002	2004	Harmel	?				?
+TG	Soil biology	beta-glucosidase	soil properties w/ poultry litter application	mg PN/kg	Yearly	2002	2004	Harmel	?				?
+TG	Soil biology	alpha-glucosidase	soil properties w/ poultry litter application	mg PN/kg	Yearly	2002	2004	Harmel	?				?
+TG	Soil biology	beta-glucosaminidase	soil properties w/ poultry litter application	mg PN/kg	Yearly	2002	2004	Harmel	?				?
+TG	Soil biology	arylsulfatase	soil properties w/ poultry litter application	mg PN/kg	Yearly	2002	2004	Harmel	?				?
+TG	Soil biology	alkaline phosphatase	soil properties w/ poultry litter application	mg PN/kg	Yearly	2002	2004	Harmel	?				?
+TG	Water Quality	E. coli concentration	"e coli in stream flow, stormwater runoff"	?	?	?	?	Harmel	?				?
+TG	Crop	sum degree days	12 cultivars of spring canola like mustard	days	Yearly?	2013	2015	Kiniry	?				?
+TG	Crop	days after planting	13 cultivars of spring canola like mustard	days	Yearly?	2013	2015	Kiniry	?				?
+TG	Crop	total biomass	"biomass sorghum, performance evaluation"	Mg/ha	Yearly	2012	2013	Meki	?				?
+TG	Crop	leaf biomass	"biomass sorghum, performance evaluation"	Mg/ha	Yearly	2012	2013	Meki	?				?
+TG	Crop	stem biomass	"biomass sorghum, performance evaluation"	Mg/ha	Yearly	2012	2013	Meki	?				?
+TG	Crop	head dry biomass	"biomass sorghum, performance evaluation"	Mg/ha	Yearly	2012	2013	Meki	?				?
+TG	Crop	height	"biomass sorghum, performance evaluation"	m	Yearly	2012	2013	Meki	?				?
+TG	Crop	leaf area indices	"biomass sorghum, performance evaluation"		Yearly	2012	2013	Meki	?				?
+TG	Crop	avg light extinction coefficient	"biomass sorghum, performance evaluation"		Yearly	2012	2013	Meki	?				?
+TG	Crop	plant growth rate	"biomass sorghum, performance evaluation"	kg/ha/day	Yearly	2012	2013	Meki	?				?
+TG	Crop	avg radiation use efficiency	"biomass sorghum, performance evaluation"	g/MJ	Yearly	2012	2013	Meki	?				?
+TG	Plant	canopy height	"switchgrass genotypic variation, c4 grass, functional trait"	cm	Event	2011	2011?	"Johnson, Kiniry, Fay"	?				?
+TG	Plant	basal area	"switchgrass genotypic variation, c4 grass, functional trait"	cm2	Event	2011	2011?	"Johnson, Kiniry, Fay"	?				?
+TG	Plant	leaf length	"switchgrass genotypic variation, c4 grass, functional trait"	cm	Event	2011	2011?	"Johnson, Kiniry, Fay"	?				?
+TG	Plant	leaf width	"switchgrass genotypic variation, c4 grass, functional trait"	mm	Event	2011	2011?	"Johnson, Kiniry, Fay"	?				?
+TG	Plant	tiller internode length	"switchgrass genotypic variation, c4 grass, functional trait"	cm	Event	2011	2011?	"Johnson, Kiniry, Fay"	?				?
+TG	Plant	internode diameter	"switchgrass genotypic variation, c4 grass, functional trait"	mm	Event	2011	2011?	"Johnson, Kiniry, Fay"	?				?
+TG	Plant	ANPP	"switchgrass genotypic variation, c4 grass, functional trait"	g/m2	Event	2011	2011?	"Johnson, Kiniry, Fay"	?				?
+TG	Plant	tiller number	"switchgrass genotypic variation, c4 grass, functional trait"	count	Event	2011	2011?	"Johnson, Kiniry, Fay"	?				?
+TG	Plant	tiller mass	"switchgrass genotypic variation, c4 grass, functional trait"	g/tiller	Event	2011	2011?	"Johnson, Kiniry, Fay"	?				?
+TG	Plant	leaf net CO2 assimilation	"switchgrass genotypic variation, c4 grass, functional trait"	umol/m2/s	Event	2011	2011?	"Johnson, Kiniry, Fay"	?				?
+TG	Plant	leaf stomatal conductance to water vapour	"switchgrass genotypic variation, c4 grass, functional trait"	mmol/m2/s	Event	2011	2011?	"Johnson, Kiniry, Fay"	?				?
+TG	Plant	intrinsic water use efficiency	"switchgrass genotypic variation, c4 grass, functional trait"	umol/mmol	Event	2011	2011?	"Johnson, Kiniry, Fay"	?				?
+TG	Plant	photochemical quenching of PSII	"switchgrass genotypic variation, c4 grass, functional trait"	qP	Event	2011	2011?	"Johnson, Kiniry, Fay"	?				?
+TG	Plant	PSII efficiency	"switchgrass genotypic variation, c4 grass, functional trait"	psi(PSII)	Event	2011	2011?	"Johnson, Kiniry, Fay"	?				?
+TG	Plant	leaf mass/unit leaf area	"switchgrass genotypic variation, c4 grass, functional trait"	g/m2	Event	2011	2011?	"Johnson, Kiniry, Fay"	?				?
+TG	Plant	leaf C	"switchgrass genotypic variation, c4 grass, functional trait"	g/kg	Event	2011	2011?	"Johnson, Kiniry, Fay"	?				?
+TG	Plant	leaf N	"switchgrass genotypic variation, c4 grass, functional trait"	g/kg	Event	2011	2011?	"Johnson, Kiniry, Fay"	?				?
+TG	Meterology	PAR	"creosote morphological traits, reference"	?	Event	2016	2016	"Kim, Kiniry"	?				?
+TG	Plant	fresh weight	creosote morphological traits	kg	Event	2016	2016	"Kim, Kiniry"	?				?
+TG	Plant	dry weight	creosote morphological traits	kg	Event	2016	2016	"Kim, Kiniry"	?				?
+TG	Plant	height	creosote morphological traits	m	Event	2016	2016	"Kim, Kiniry"	?				?
+TG	Plant	crown diameter	creosote morphological traits	m	Event	2016	2016	"Kim, Kiniry"	?				?
+TG	Plant	leaf area index	creosote morphological traits		Event	2016	2016	"Kim, Kiniry"	?				?
+TG	Plant	light extinction coefficient	creosote morphological traits		Event	2016	2016	"Kim, Kiniry"	?				?
+TG	Plant	stem diameter tiller	"creosote morphological traits, largest tiller"	mm	Event	2016	2016	"Kim, Kiniry"	?				?
+TG	Plant	growth ring count	creosote morphological traits	count	Event	2016	2016	"Kim, Kiniry"	?				?
+TG	Plant	growth rate	creosote morphological traits	cm/count??	Event	2016	2016	"Kim, Kiniry"	?				?
+TG	Plant	biomass	"switchgrass, Mxg"	Mg/ha	Yearly?	2009	2015	Kiniry	?				?
+TG	Plant	avg P	"switchgrass, Mxg"	g/kg	Yearly?	2009	2015	Kiniry	?				?
+TG	Plant	avg N	"switchgrass, Mxg"	g/kg	Yearly?	2009	2015	Kiniry	?				?
+TG	Plant	avg K	"switchgrass, Mxg"	g/kg???	Yearly?	2009	2015	Kiniry	?				?

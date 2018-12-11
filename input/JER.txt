@@ -1,0 +1,41 @@
+LTARSite Code	Category	DataSetVariableName	AttributeDescription	Units	TemporalResolution	StartDate	EndDate	ResponsiblePersons	StorageFormat	URLdataAccess	LocationIDoutsideNetwork	SpatialExtentDescription	PublicAccess
+JER	Animal	Red Lake GPS	GPS location of individual cattle 	Lat/Long	5 minutes during 4 seasons	6/12/2008	11/30/2008	Sheri Spiegal	CSV	Responsible Person Custody			Closed
+JER	Animal	DNA Metabarcoding	Operational Taxonomic Unit (OTU) concentration in fecal sample	percent concentration (%)	"seasonal (summer, winter)"	8/6/2015	2/24/2017	Sheri Spiegal	CSV	Responsible Person Custody			Closed
+JER	Phenology	phenocam	"plant phenology, production, greenness"	image	30 minutes during daylight hours	5/15/2014	Present	Dawn Browning	JPEG	https://phenocam.sr.unh.edu/webcam/gallery/			Open
+JER	Phenology	fleaf	month of first leaf	month	monthly	1993	Present	Dawn Browning	CSV	Responsible Person Custody			Closed
+JER	Phenology	flower	month of first fruit	month	monthly	1993	Present	Dawn Browning	CSV	Responsible Person Custody			Closed
+JER	Phenology	ffruit	month of first flower	month	monthly	1993	Present	Dawn Browning	CSV	Responsible Person Custody			Closed
+JER	Wind Erosion	wind speed	"wind speed from cup anemometers at 0.5m, 1m, 2m, 5m, and 10m"	meters per second	minute (averaged over 60 seconds))	14-Jul	Present	Nick Webb	CSV	https://winderosionnetwork.org/	JER		Open to registered users
+JER	Wind Erosion	wind direction	wind sentry at 10m	degrees (0-359)	minute (averaged over 60 seconds))	14-Jul	Present	Nick Webb	CSV	https://winderosionnetwork.org/	JER		Open to registered users
+JER	Wind Erosion	air temperature	"shielded temperatur probes at 2m, 4m, and 10m"	degress Celsius	minute (averaged over 60 seconds))	14-Jul	Present	Nick Webb	CSV	https://winderosionnetwork.org/	JER		Open to registered users
+JER 	Wind Erosion	relative humidity	relative humidity at 4m	percent	minute (averaged over 60 seconds))	14-Jul	Present	Nick Webb	CSV	https://winderosionnetwork.org/	JER		Open to registered users
+JER 	Wind Erosion	precipitation	event-based precipitation summarized per hour	mm per hours	hour (summed over events)	14-Jul	Present	Nick Webb	CSV	https://winderosionnetwork.org/	JER		Open to registered users
+JER 	Wind Erosion	DustTrak	air dust particulates measured with DustTrak DRX laser photometers at 2m and 4m by size class	mg/m3 per unit of time	minute (averaged over 60 seconds))	14-Aug	Present	Nick Webb	CSV	https://winderosionnetwork.org/	JER		Open to registered users
+JER	Wind Erosion	sediment mass flux	Sensit model H14-LIN	counts per second	minute (averaged over 60 seconds))	14-Sep	Present	Nick Webb	CSV	https://winderosionnetwork.org/	JER		Open to registered users
+JER	Wind Erosion	sediment flux	"MWAC (Modified Wilson and Cooke) stack on rotating masts with samplers at 10cm, 25cm, 50cm, and 85cm"	grams per meter per day	28 days	14-Jul	Present	Nick Webb	CSV	https://winderosionnetwork.org/	JER		Open to registered users
+JER	Wind Erosion	dust deposition	3 dust deposition traps at 1.75m	mg/m2 per day	quarterly (4 times per year)	14-Jul	Present	Nick Webb	CSV	https://winderosionnetwork.org/	JER		Open to registered users
+JER	Wind Erosion	phenocam	"plant phenology, production, greenness"	image	continuous durling daylight hours	14-Jul	Present	Nick Webb	JPEG	https://phenocam.sr.unh.edu/webcam/gallery/	JER		Open to registered users
+JER 	Wind Erosion	time lapse camera	"plant phenology, production, greenness"	image	30 minutes around solar noon	14-Jul	Present	Nick Webb	JPEG	https://winderosionnetwork.org/	JER		Open to registered users
+JER	Wind Erosion	line-point intercept	line-point intercept measured according to Monitoring Manual (Herrick et al. 2018) methods	percent cover by response	seasonal (4 times per year)	14-Jul	Present	Nick Webb	Microsoft Access 	https://winderosionnetwork.org/	JER		Open to registered users
+JER	Wind Erosion	canopy gap	canopy gap measured according to Monitoring Manual methods	percent gaps per size class	seasonal (4 times per year)	14-Jul	Present	Nick Webb	Microsoft Access 	https://winderosionnetwork.org/	JER		Open to registered users
+JER	Wind Erosion	plant height	plant height measured according to Monitoring Manual methods	centimeters	seasonal (4 times per year)	14-Jul	Present	Nick Webb	Microsoft Access 	https://winderosionnetwork.org/	JER		Open to registered users
+JER 	Wind Erosion	transect photo points	transect photo points taken according to Monitoring Manual methods	image	seasonal (4 times per year)	14-Jul	Present	Nick Webb	JPEG	https://winderosionnetwork.org/	JER		Open to registered users
+JER 	Vegetation Composition	jer_perm_quad_cover	"cover of individual plants, by species, in each 1m2 quadrat"	m2	5 years	1915	Present	Darren James	CSV	Responsible Person Custody			Closed
+JER 	Vegetation Composition	jer_perm_quad_density	"count of individual plants, by species, in each 1m2 quadrat"	count	5 years	1915	Present	Darren James	CSV	Responsible Person Custody			Closed
+JER 	Vegetation Composition	StressorII_vegetation	foliar cover by species in each treatment plot	percent cover by response	6 years	1996	2016	Darren James	CSV	Responsible Person Custody			Closed
+JER 	Meteorology	Photosynthetically Active Radiation	Photosynthetically Active Radiation (PAR)	Hertz	minute	14-Sep	Present	Dawn Browning	CSV	http://data.neonscience.org/browse-data?siteCode=JORN	JORN		Open
+JER 	Meteorology	Photosynthetically Active Radiation	Photosynthetically Active Radiation (PAR)	Hertz	30 minutes	14-Sep	Present	Dawn Browning	CSV	http://data.neonscience.org/browse-data?siteCode=JORN	JORN		Open
+JER 	Meteorology	Barometric Pressure	Photosynthetically Active Radiation (PAR)	kPa	minute	14-Sep	Present	Dawn Browning	CSV	http://data.neonscience.org/browse-data?siteCode=JORN	JORN		Open
+JER 	Primary Production	annual NPP (g/m2)	annual net primary production at each of 15 sites	g/m2	annual	5-Jun	Present	Deb Peters	CSV	https://jornada.nmsu.edu/lter/data/plant 			Open
+JER	Meteorology	panEvap	calculated pan evaporation 	inches	twice weekly	7/12/1983	Present	John Anderson	CSV	https://jornada.nmsu.edu/lter/data/climate			Open
+JER 	Meteorology	prec_in	monthly precipitation from standard rain gauges	inches	monthly	1915	Present	Darren James	CSV	https://jornada.nmsu.edu/lter/data/climate			Open
+JER 	Meteorology	prec_in	daily precipitation from Belfort weighing rain gauges	inches	daily	1976	2011	Dave Thatcher	CSV	https://jornada.nmsu.edu/lter/data/climate			Open
+JER 	Meteorology	WS_ms_Avg	average wind speed	m/s	5 minutes	2011	Present	Darren James	CSV	Responsible Person Custody			Closed
+JER 	Meteorology	WindDir	wind direction	degrees (0-359)	5 minutes	2011	Present	Darren James	CSV	Responsible Person Custody			Closed
+JER 	Meteorology	AirTC_Avg	average air temperature	degress Celsius	5 minutes	2011	Present	Darren James	CSV	Responsible Person Custody			Closed
+JER 	Meteorology	RH_Max	maximum relative humidity	percent	5 minutes	2011	Present	Darren James	CSV	Responsible Person Custody			Closed
+JER 	Meteorology	Rain_in_Tot	total precipitation	inches	5 minutes	2011	Present	Darren James	CSV	Responsible Person Custody			Closed
+JER 	Meteorology	PRCP	total precipitation at Headquarters station	inches	daily	6/1/1914	Present	Dave Thatcher	CSV	https://www.ncdc.noaa.gov/	USC00294426		Open
+JER 	Meteorology	SNOW	total snow at Headquarters station	inches	daily	6/1/1914	Present	Dave Thatcher	CSV	https://www.ncdc.noaa.gov/	USC00294426		Open
+JER 	Meteorology	TMAX	maximum temperature at Headquarters station	degrees Fahrenheit	daily	6/4/1914	Present	Dave Thatcher	CSV	https://www.ncdc.noaa.gov/	USC00294426		Open
+JER 	Meteorology	TMIN	minimum temperature at Headquarters station	degrees Fahrenheit	daily	6/4/1914	Present	Dave Thatcher	CSV	https://www.ncdc.noaa.gov/	USC00294426		Open

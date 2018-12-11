@@ -1,0 +1,50 @@
+LTARSite Code	Category	DataSetVariableName	AttributeDescription	Units	TemporalResolution	StartDate	EndDate	ResponsiblePersons	StorageFormat	URLdataAccess	LocationIDoutsideNetwork	SpatialExtentDescription	PublicAccess
+LCB	WATER QUALITY	nitrate-N		mg/L	Event	2005	2007	Hapeman	SQL Server DB	STEWARDS		Choptank River - multiple sites	Open
+LCB	WATER QUALITY	orthophosphate		mg/L	Event	2005	2007	Hapeman	SQL Server DB	STEWARDS		Choptank River - multiple sites	Open
+LCB	WATER QUALITY	conductivity		mS/cm	Event	2005	2007	Hapeman	SQL Server DB	STEWARDS		Choptank River - multiple sites	Open
+LCB	WATER QUALITY	temperature		°C	Event	2005	2007	Hapeman	SQL Server DB	STEWARDS		Choptank River - multiple sites	Open
+LCB	WATER QUALITY	atrazine		µg/L	Event	2005	2007	Hapeman	SQL Server DB	STEWARDS		Choptank River - multiple sites	Open
+LCB	WATER QUALITY	metolachlor		µg/L	Event	2005	2007	Hapeman	SQL Server DB	STEWARDS		Choptank River - multiple sites	Open
+LCB	WATER QUALITY	CIAT		µg/L	Event	2005	2007	Hapeman	SQL Server DB	STEWARDS		Choptank River - multiple sites	Open
+LCB	WATER QUALITY	MESA		µg/L	Event	2005	2007	Hapeman	Excel Sheets	Responsible Person Custody			Closed
+LCB	WATER QUALITY	nitrate-N		mg/L	Event	2007	present	Hapeman	Excel Sheets	Responsible Person Custody			Closed
+LCB	WATER QUALITY	orthophosphate		mg/L	Event	2007	present	Hapeman	Excel Sheets	Responsible Person Custody			Closed
+LCB	WATER QUALITY	conductivity		mS/cm	Event	2007	present	Hapeman	Excel Sheets	Responsible Person Custody			Closed
+LCB	WATER QUALITY	temperature		°C	Event	2007	present	Hapeman	Excel Sheets	Responsible Person Custody			Closed
+LCB	WATER QUALITY	atrazine		µg/L	Event	2007	present	Hapeman	Excel Sheets	Responsible Person Custody			Closed
+LCB	WATER QUALITY	metolachlor		µg/L	Event	2007	present	Hapeman	Excel Sheets	Responsible Person Custody			Closed
+LCB	WATER QUALITY	CIAT		µg/L	Event	2007	present	Hapeman	Excel Sheets	Responsible Person Custody			Closed
+LCB	WATER QUALITY	MESA		µg/L	Event	2007	present	Hapeman	Excel Sheets	Responsible Person Custody			Closed
+LCB	GREENHOUSE GAS FLUX	Air Temperature		Deg C	every 15 minutes	2005	2011	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	GREENHOUSE GAS FLUX	N2O		g N/ha/day	Event based	2005	2011	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	GREENHOUSE GAS FLUX	Soil Moisture		% vol (cm3H2O/cm3soil)	Event based	2005	2011	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	GREENHOUSE GAS FLUX	Soil Temp		Deg C	Event based	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	HARVEST REMOVAL	Above Ground Biomass		kg biomass/ha	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	HARVEST REMOVAL	Grain Dry Matter		kg biomass/ha	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	HARVEST REMOVAL	Grain Moisture %		%	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	HARVEST REMOVAL	Harv Res Dry Matter		kg biomass/ha	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	HARVEST REMOVAL	HarvRes Moisture %		%	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	HARVEST REMOVAL	nonHarv Res Dry Matter		kg biomass/ha	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	HARVEST REMOVAL	nonHarv Res Moisture %		%	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	CROP	Population		plants/ha	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	Manure	Available N		lbs/Ton	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	Manure	NH4-N		lbs/Ton	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	Manure	pH		pH	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	Manure	Solids		lbs/Ton	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	Manure	Total N		lbs/Ton	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	Manure	Total P205		lbs/Ton	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	Soil	Organic C		kg C/ha	Periodic	"1996, 2006, 2011, 2016"	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	Soil	Total N		kg C/ha	Periodic	"1996, 2006, 2011, 2016"	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	Soil	Particulate Organic Matter		g C/kg soil	Periodic	2006		Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	Soil	pH		pH	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	Soil	Mehlich-3 P		ppm	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	Soil	Potassium		ppm	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	Soil	Magnesium		ppm	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	Soil	Iron		ppm	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	Soil	Cation Exchange Capacity		meq/100g	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	Soil	Calcium		ppm	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	Soil	Aluminum		ppm	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	Weed	% cover		%	Annual	1996	present	Cavigelli	Excel Sheets	Responsible Person Custody			Closed
+LCB	SOIL PHYSICS	FSP-Soil Water	Soil water content	m^3 m^3	15 to 60 min during the corn growing season	2014	Present	Schomberg	ASCI / Campbell/Spreadsheet 	Responsible Person Custody			Closed
+LCB	SOIL PHYSICS	CCSP-Soil Water	Soil water content	m^3 m^3	15 to 30 min during the corn growing season	2016	Present	Schomberg	ASCI / Campbell/Spreadsheet 	Responsible Person Custody			Closed
+LCB	SOIL PHYSICS	CCSP-Soil Water	Soil water content	m^3 m^3	15 to 30 min 	2017	Present	Schomberg	ASCI / Campbell/Spreadsheet 	Responsible Person Custody			Closed

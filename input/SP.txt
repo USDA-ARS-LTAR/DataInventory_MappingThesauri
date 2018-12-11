@@ -1,0 +1,80 @@
+LTARSite Code	Category	DataSetVariableName	AttributeDescription	Units	TemporalResolution	StartDate	EndDate	ResponsiblePersons	StorageFormat	URLdataAccess	LocationIDoutsideNetwork	SpatialExtentDescription	PublicAccess
+SP	METEOROLOGY	"Precipitation, RAINt"	precipitation (analog)	"mm, in"	"5 min, 15 min, daily"	1/1/1995	Present	Teet	".txt, .csv, access"	"GRL, ars.mesonet.org, STEWARDS"			Open
+SP	METEOROLOGY	Precipitation	precipitation (digital)	"mm, in"	"5 min, 15 min, daily"	2018	Present	Teet	".txt, .csv"	"GRL, ars.mesonet.org"			Open
+SP	METEOROLOGY	PAR	photosynthetically active radiation	"MJ/m^2, micromole/m^2 sec"	"5 min, daily"	2017	Present	Teet	".txt, .csv"	GRL			Open
+SP	METEOROLOGY	TS	soil temperature 	deg C	"5 min, daily"	1/1/1995	Present	Teet	".txt, .csv"	"GRL, ars.mesonet.org"			Open
+SP	METEOROLOGY	SKIN(a/x/n)	skin temperature (adjusted)	deg C	"5 min, daily"	1/1/2007	Present	Teet	".txt, .csv., .xls"	"GRL, ars.mesonet.org"			Open
+SP	METEOROLOGY + EC	"AirPressure, air_pressure"	barometric pressure	kPa	"5 min, daily"	2013	Present	Wagle/Teet	".txt, .csv, .xls"	GRL			
+SP	METEOROLOGY + EC	"Temperature, TAIR(a/x/n)"	air temperature	deg C	"5 min, 15 min, daily"	1/1/1995	Present	Wagle/Teet	".txt, .csv, access, .xls"	"GRL, ars.mesonet.org, STEWARDS"			
+SP	METEOROLOGY + EC	"RelativeHumidity, RH, RELH(a/x/n)"	relative humidity	%	"5 min, 15 min, daily"	1/1/1995	Present	Wagle/Teet	".txt, .csv, access, .xls"	"GRL, ars.mesonet.org, STEWARDS"			
+SP	METEOROLOGY + EC	LongWaveIn	incoming long wave radiation	W/m^2	"5 min, daily, Bi Weekly"	2013	Present	Wagle/Teet	".txt, .csv, .xls"	GRL			
+SP	METEOROLOGY + EC	ShortWaveIn	incoming short wave radiation	W/m^2	"5 min, daily"	2013	Present	Wagle/Teet	".txt, .csv, .xls"	GRL			
+SP	METEOROLOGY + EC	SRADt	total solar radiation 	MJ/m^2	"5 min, daily"	1/1/1995	Present	Wagle/Teet	".txt, .csv, .xls"	"GRL, ars.mesonet.org"			
+SP	EDDY COVARIANCE	ET	evapotranspiration	mm/hr	60 min	2013	Present	Wagle	.xls	GRL			Closed
+SP	EDDY COVARIANCE	RN	net radiation	W/m^2	"5 min, daily"	2013	Present	Wagle	.xls	GRL			Closed
+SP	EDDY COVARIANCE		outgoing long wave radiation	W/m^2	"5 min, daily"	2013	Present	Wagle	.xls	GRL			Closed
+SP	EDDY COVARIANCE		outgoing short wave radiation	W/m^2	"5 min, daily"	2013	Present	Wagle	.xls	GRL			Closed
+SP	EDDY COVARIANCE	H	sensible heat flux	W/m^2	"5 min, daily"	2013	Present	Wagle	.xls	GRL			Closed
+SP	EDDY COVARIANCE	LE	latent heat flux	W/m^2	"5 min, daily"	2013	Present	Wagle	.xls	GRL			Closed
+SP	EDDY COVARIANCE		Saturated Vapor Pressure	kPa	"5 min, daily"	2013	Present	Wagle	.xls	GRL			Closed
+SP	EDDY COVARIANCE		Water Vapor Concentration	mmol/mol	"5 min, daily"	2013	Present	Wagle	.xls	GRL			Closed
+SP	EDDY COVARIANCE	water_vapor_density	Water Vapor density	mmol/m^3	"5 min, daily"	2013	Present	Wagle	.xls	GRL			Closed
+SP	EDDY COVARIANCE	VPD	Vapor Pressure Deficit	kPa	"5 min, daily"	2013	Present	Wagle	.xls	GRL			Closed
+SP	EDDY COVARIANCE		Friction Velocity	m/s	"5 min, daily"	2013	Present	Wagle	.xls	GRL			Closed
+SP	EDDY COVARIANCE		CO2 Concentration	umol/mol	"5 min, daily"	2013	Present	Wagle	.xls	GRL			Closed
+SP	EDDY COVARIANCE	co2_molar_density	CO2 Density	mmol/m^3	"5 min, daily"	2013	Present	Wagle	.xls	GRL			Closed
+SP	EDDY COVARIANCE	co2_flux	CO2 Flux	umol/m^2/s	"5 min, daily"	2013	Present	Wagle	.xls	GRL			Closed
+SP	EDDY COVARIANCE	h2o_flux	Water Vapor Flux	umol/m^2/s	"5 min, daily"	2013	Present	Wagle	.xls	GRL			Closed
+SP	EDDY COVARIANCE	ch4_flux	Methane Flux	"umol/m^2/s, g/day/cow"	"5 min, daily"	2013	Present	Wagle	.xls	GRL			Closed
+SP	SOIL FLUXES		soil CO2 fluxes	-	"Bi-Weekly, Monthly"	3/1/2015	Present	Peterson-Munks	.xls	GRL			
+SP	SOIL FLUXES		soil CH4 fluxes	-	"Bi-Weekly, Monthly"	3/1/2015	Present	Peterson-Munks	.xls	GRL			
+SP	SOIL FLUXES		soil N2O fluxes	-	"Bi-Weekly, Monthly"	3/1/2015	Present	Peterson-Munks	.xls	GRL			
+SP	SOIL FLUXES		methane flux	milligram/m^2 sec	Bi-Weekly	10/31/2016	Present	Peterson-Munks	.xls	GRL			
+SP	SOIL FLUXES		nitrous oxide flux	milligram/m^2 sec	Bi-Weekly	10/31/2016	Present	Peterson-Munks	.xls	GRL			
+SP	SOIL WATER	"VW(a/x/n), (Avg/Max/Min)VWC(depth)"	volumetric water content 	"water fraction by volume, %"	"5 min, daily, bi-weekly"	6/1/2005	Present	Starks	".csv, access"	"GRL, STEWARDS"			
+SP	SOIL WATER		K-sat	um/s	-	-	Present	Starks	.xls	GRL			
+SP	SOIL WATER		soil moisture	m^3/m^3	"5 min, 3 times yearly"	3/1/2015	Present	Starks	.xls	GRL			
+SP	SOIL CHARACTERISTICS		soil texture 	%makeup	as needed	9/26/2005	4/11/2006	Starks	.xls	"GRL, STEWARDS"			
+SP	SOIL CHARACTERISTICS		 soil bulk density	kg	3 times yearly	3/1/2015	Present	Starks	.xls	GRL			
+SP	SOIL CHARACTERISTICS		soil pH	pH	3 times yearly	3/1/2015	Present	Peterson-Munks	.xls	GRL			
+SP	SOIL CHARACTERISTICS		soil dissolved organic C	-	Bi-Weekly	3/1/2015	Present	Peterson-Munks	.xls	GRL			
+SP	SOIL CHARACTERISTICS		soil dissolved organic N	-	Bi-Weekly	3/1/2015	Present	Peterson-Munks	.xls	GRL			
+SP	SOIL CHARACTERISTICS		soil dissolved inorganic N	-	Bi-Weekly	3/1/2015	Present	Peterson-Munks	.xls	GRL			
+SP	SOIL CHARACTERISTICS	TS(depth/a/x/n)	soil temperature	deg C	5 min	6/1/2005	Present	Peterson-Munks	".csv, access"	"GRL, STEWARDS"			
+SP	SOIL CHARACTERISTICS		soil EC	dS/cm	"5 min, 3 times yearly"	3/1/2015	Present	Peterson-Munks	.xls	GRL			
+SP	SOIL MICROBIAL		soil microbial C biomass	-	3 times yearly	3/1/2015	Present	Peterson-Munks	.xls	GRL			
+SP	SOIL MICROBIAL		soil microbial N biomass	-	3 times yearly	3/1/2015	Present	Peterson-Munks	.xls	GRL			
+SP	SOIL MICROBIAL		soil microbial community composition	PLFA	3 times yearly	3/1/2015	Present	Peterson-Munks	.xls	GRL			
+SP	SOIL ECOSYSTEM EXCHANGES		net ecosystem exchange	microgram/m^2 sec	Bi-Weekly	10/31/2016	Present	Peterson-Munks	.xls	GRL			
+SP	SOIL ECOSYSTEM EXCHANGES		ecosystem respiration	microgram/m^2 sec	Bi-Weekly	10/31/2016	Present	Peterson-Munks	.xls	GRL			
+SP	SOIL ECOSYSTEM EXCHANGES		gross primary productivity	microgram/m^2 sec	Bi-Weekly	10/31/2016	Present	Peterson-Munks	.xls	GRL			
+SP	VEGETATION		plant biomass	kg/Ha	3 times yearly	3/1/2015	Present		.xls	GRL			
+SP	VEGETATION		plant residue	kg/Ha	3 times yearly	3/1/2015	Present		.xls	GRL			
+SP	VEGETATION		LAI (leaf area index)	ratio	-	-	Present		.xls	GRL			
+SP	VEGETATION		plant water content	%	-	-	Present		.xls	GRL			
+SP	VEGETATION		plant quality metrics	-	-	-	Present		.xls	GRL			
+SP	VEGETATION		crop yield	"bushels/acre, kg/Ha"	seasonally	7/8/1905	Present		.xls	GRL			
+SP	VEGETATION		ratio vegetation index	unitless	Bi-Weekly	10/31/2016	Present	Moriasi	.xls	GRL			
+SP	WATER	Discharge	"streamflow, discharge (USGS)"	m^3/sec	Daily	4/1/1940	Present	Moriasi	".csv, access"	"GRL, STEWARDS"			Open
+SP	WATER	"Q, RUNOFF"	runoff (flumes)	cm^3/sec	Event	2017	Present			GRL			
+SP	WATER	SEDIMENT	water sediment	kg/ha	Event	1979	1981	Moriasi	".csv, access"	"GRL, STEWARDS"			Open
+SP	WATER	NO3	nitrate	mg/L	Event	1979	1981	Moriasi	".csv, access"	"GRL, STEWARDS"			Open
+SP	WATER	NH3-N	ammonium-nitrogen	mg/L	Event	1979	1981	Moriasi	".csv, access"	"GRL, STEWARDS"			Open
+SP	WATER	TKN	total kjeldahl nitrogen	mg/L	Event	1979	1981	Moriasi	".csv, access"	"GRL, STEWARDS"			Open
+SP	WATER	Bio-P	bio-available phosphorus	ug/L	Event	1979	1981	Moriasi	".csv, access"	"GRL, STEWARDS"			Open
+SP	WATER	WS-P/REA-P	water soluble phosphorus	ug/L	Event	1979	1981	Moriasi	".csv, access"	"GRL, STEWARDS"			Open
+SP	WATER	TOT-P	total phosphorus	ug/L	Event	1979	1981	Moriasi	".csv, access"	"GRL, STEWARDS"			Open
+SP	WATER	CL	chloride	mg/L	Event	1979	1981	Moriasi	".csv, access"	"GRL, STEWARDS"			Open
+SP	WATER	SO4	sulfate	mg/L	Event	1979	1981	Moriasi	".csv, access"	"GRL, STEWARDS"			Open
+SP	WATER	COND	conductivity	uS/cm	Event	1979	1981	Moriasi	".csv, access"	"GRL, STEWARDS"			Open
+SP	WATER	NA	sodium	mg/L	Event	1979	1981	Moriasi	".csv, access"	"GRL, STEWARDS"			Open
+SP	WATER	K	potassium	mg/L	Event	1979	1981	Moriasi	".csv, access"	"GRL, STEWARDS"			Open
+SP	WATER	CA	calcium	mg/L	Event	1979	1981	Moriasi	".csv, access"	"GRL, STEWARDS"			Open
+SP	WATER	MG	magnesium	mg/L	Event	1979	1981	Moriasi	".csv, access"	"GRL, STEWARDS"			Open
+SP	ANIMAL		Weight	kg	as needed	-	Present	Neel	.xls	GRL			Closed
+SP	ANIMAL		Health related paramters	observational	"Daily, Weekly"	-	Present	Neel	.xls	GRL			Closed
+SP	ANIMAL		CH4 fluxes	g/day/cow	Daily	2015	Present	Neel	.xls	GRL			Closed
+SP	RESERVOIR		sedimentation depth (bathometric surveys)	m	"Decadal, Event"	2015	Present	Moriasi	.xls	GRL			Closed
+SP	RESERVOIR		sediment texture	% composition	"Decadal, Event"	2015	Present	Moriasi	.xls	GRL			Closed
+SP	RESERVOIR		sediment bulk density	kg/L	"Decadal, Event"	2015	Present	Moriasi	.xls	GRL			Closed
+SP	RESERVOIR		sedimentation rates	mm/yr	"Decadal, Event"	2015	Present	Moriasi	.xls	GRL			Closed

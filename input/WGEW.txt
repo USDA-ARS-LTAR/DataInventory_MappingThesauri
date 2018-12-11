@@ -1,0 +1,55 @@
+LTARSite Code	Category	DataSetVariableName	AttributeDescription	Units	TemporalResolution	StartDate	EndDate	ResponsiblePersons	StorageFormat	URLdataAccess	LocationIDoutsideNetwork	SpatialExtentDescription	PublicAccess
+WGEW	METEOROLOGY		Precipitation (analog)	mm/in	"Event, Daily"	1/1/1953	12/31/1999	"Kautz, Armendariz, Wong"	SQL Server DB	https://www.tucson.ars.ag.gov/dap			Open
+WGEW	METEOROLOGY		Precipitation (digital)	mm/in	"Event, 15-Min, Daily"	1/1/2000	Present	"Kautz, Armendariz, Wong"	SQL Server DB	"https://www.tucson.ars.ag.gov/dap, https://ltar.nal.usda.gov/"	"WGEW-081, WGEW-082m WGEW-083, WGEW-423"		Open
+WGEW	HYDROLOGY		Runoff volume (analog)	mm/in/cf	"Event, Daily"	1/1/1953	12/31/1999	"Kautz, Armendariz, Wong"	SQL Server DB	https://www.tucson.ars.ag.gov/dap			Open
+WGEW	HYDROLOGY		Runoff rate (analog)	in/hr	"Event, Daily"	1/1/1953	12/31/1999	"Kautz, Armendariz, Wong"	SQL Server DB	https://www.tucson.ars.ag.gov/dap			Open
+WGEW	HYDROLOGY		Runoff volume (digital)	mm/in/cf	"Event, Daily"	1/1/2000	Present	"Kautz, Armendariz, Wong"	SQL Server DB	https://www.tucson.ars.ag.gov/dap			Open
+WGEW	HYDROLOGY		Runoff rate(digital)	in/hr	"Event, Daily"	1/1/2000	Present	"Kautz, Armendariz, Wong"	SQL Server DB	https://www.tucson.ars.ag.gov/dap			Open
+WGEW	HYDROLOGY		"Sediment yield, Concentration(weighted fraction solids)"	lbs/kg	"Daily, Event"	"7/24/1975 (SR), 7/18/1995(WG)"	Present	"Kautz, Armendariz, Wong"	SQL Server DB	https://www.tucson.ars.ag.gov/dap			Open
+WGEW	HYDROLOGY		Sediment (Event Volume (Including Spill Vol) cubic meter)	cubic meters	"Daily, Event"	1/1/2004	12/31/2012	"Kautz, Armendariz, Wong"	SQL Server DB				Closed
+WGEW	METEOROLOGY		Soil heat flux	W/m2	30 minute	1996	Present	"Kautz, Armendariz, Wong"	"SQL Server DB, CSV"	ftp://www-ftp.tucson.ars.ag.gov/metDAP/			Open
+WGEW	METEOROLOGY		Incoming photosynthetically active radiation	umol/m2/s	30 minute	"8/16/90,8/16/90,8/5/97, 5/18/95"	Present	"Kautz, Armendariz, Wong"	"SQL Server DB, CSV"	"ftp://www-ftp.tucson.ars.ag.gov/metDAP/, https://ltar.nal.usda.gov/"	"WGEW-081, WGEW-082, WGEW-083, WGEW-423"		Open
+WGEW	METEOROLOGY		Outgoing photosynthetically active radiation	umol/m2/s	30 minute	"8/16/90,8/16/90,8/5/97"	Present	"Kautz, Armendariz, Wong"	CSV				Closed
+WGEW	METEOROLOGY		Barometric pressure	kPa	30 minute	"8/16/90,8/16/90,8/5/97, 5/18/95"	Present	"Kautz, Armendariz, Wong"	"SQL Server DB, CSV"	"ftp://www-ftp.tucson.ars.ag.gov/metDAP/, https://ltar.nal.usda.gov/"	"WGEW-081, WGEW-082m WGEW-083, WGEW-423"		Open
+WGEW	METEOROLOGY		Incoming solar radiation	W/m2	30 minute	"8/16/90,8/16/90,8/5/97, 5/18/95"	Present	"Kautz, Armendariz, Wong"	"SQL Server DB, CSV"	ftp://www-ftp.tucson.ars.ag.gov/metDAP/			Open
+WGEW	METEOROLOGY		Relative humidity of air	%	15 and 30 minute	"8/16/90,8/16/90,8/5/97, 5/18/95"	Present	"Kautz, Armendariz, Wong"	"SQL Server DB, CSV"	ftp://www-ftp.tucson.ars.ag.gov/metDAP/			Open
+WGEW	METEOROLOGY		Soil moisture volumetric content (5cm)	%	30 minute	1996	Present	"Kautz, Armendariz, Wong"	"SQL Server DB, CSV"	ftp://www-ftp.tucson.ars.ag.gov/metDAP/			Open
+WGEW	METEOROLOGY		Soil moisture volumetric content (15cm)	%	30 minute	1996	Present	"Kautz, Armendariz, Wong"	"SQL Server DB, CSV"	ftp://www-ftp.tucson.ars.ag.gov/metDAP/			Open
+WGEW	METEOROLOGY		Air temperature	deg C	15 and 30 minute	1996	Present	"Kautz, Armendariz, Wong"	"SQL Server DB, CSV"	"ftp://www-ftp.tucson.ars.ag.gov/metDAP/, https://ltar.nal.usda.gov/"	"WGEW-081, WGEW-082m WGEW-083, WGEW-423"		Open
+WGEW	METEOROLOGY		Soil temperature (5cm)	deg C	30 minute	1996	Present	"Kautz, Armendariz, Wong"	"SQL Server DB, CSV"	ftp://www-ftp.tucson.ars.ag.gov/metDAP/			Open
+WGEW	METEOROLOGY		Soil temperature (15cm)	deg C	30 minute	1996	Present	"Kautz, Armendariz, Wong"	"SQL Server DB, CSV"	ftp://www-ftp.tucson.ars.ag.gov/metDAP/			Open
+WGEW	METEOROLOGY		"Soil temperature (1,2,6cm)"	deg C	30 minute	1996	Present	"Kautz, Armendariz, Wong"	"SQL Server DB, CSV"	ftp://www-ftp.tucson.ars.ag.gov/metDAP/			Open
+WGEW	METEOROLOGY		Surface or skin temperature	deg C	30 minute	2004	Present	"Kautz, Armendariz, Wong"	"SQL Server DB, CSV"	ftp://www-ftp.tucson.ars.ag.gov/metDAP/			Open
+WGEW	METEOROLOGY		Wind direction	Deg	15 and 30 minute	"8/16/90,8/16/90,8/5/97, 5/18/95"	Present	"Kautz, Armendariz, Wong"	"SQL Server DB, CSV"	ftp://www-ftp.tucson.ars.ag.gov/metDAP/			Open
+WGEW	METEOROLOGY		Wind speed	m/s	15 and 30 minute	"8/16/90,8/16/90,8/5/97, 5/18/95"	Present	"Kautz, Armendariz, Wong"	"SQL Server DB, CSV"	"ftp://www-ftp.tucson.ars.ag.gov/metDAP/, https://ltar.nal.usda.gov/"	"WGEW-081, WGEW-082m WGEW-083, WGEW-423"		Open
+WGEW	METEOROLOGY (EC)		CO2 concentration	µmol/mol	30 minute	"2004,2007,2008, 2003"	Present	"Scott, Bryant"	CSV	http://ameriflux.lbl.gov/sites/site-search	"US-Wkg, US-Whs, US-SRG, US-SRM "		Open
+WGEW	METEOROLOGY (EC)		CO2 density	mmol/m3	30 minute	"2004,2007,2008, 2003"	Present	"Scott, Bryant"	CSV	http://ameriflux.lbl.gov/sites/site-search	"US-Wkg, US-Whs, US-SRG, US-SRM "		Open
+WGEW	METEOROLOGY (EC)		CO2 flux	µmol/m2/s	30 minute	"2004,2007,2008, 2003"	Present	"Scott, Bryant"	CSV	http://ameriflux.lbl.gov/sites/site-search	"US-Wkg, US-Whs, US-SRG, US-SRM "		Open
+WGEW	METEOROLOGY (EC)		Water vapor flux	mmol/m2/s	30 minute	"2004,2007,2008, 2003"	Present	"Scott, Bryant"	CSV	http://ameriflux.lbl.gov/sites/site-search	"US-Wkg, US-Whs, US-SRG, US-SRM "		Open
+WGEW	METEOROLOGY (EC)		Sensible heat flux	W/m2	30 minute	"2004,2007,2008, 2003"	Present	"Scott, Bryant"	CSV	http://ameriflux.lbl.gov/sites/site-search	"US-Wkg, US-Whs, US-SRG, US-SRM "		Open
+WGEW	METEOROLOGY (EC)		Water vapor concentration	mmol/mol	30 minute	"2004,2007,2008, 2003"	Present	"Scott, Bryant"	CSV	http://ameriflux.lbl.gov/sites/site-search	"US-Wkg, US-Whs, US-SRG, US-SRM "		Open
+WGEW	METEOROLOGY (EC)		Water vapor density	mmol/m3	30 minute	"2004,2007,2008, 2003"	Present	"Scott, Bryant"	CSV	http://ameriflux.lbl.gov/sites/site-search	"US-Wkg, US-Whs, US-SRG, US-SRM "		Open
+WGEW	METEOROLOGY (EC)		Latent heat flux	W/m2	30 minute	"2004,2007,2008, 2003"	Present	"Scott, Bryant"	CSV	http://ameriflux.lbl.gov/sites/site-search	"US-Wkg, US-Whs, US-SRG, US-SRM "		Open
+WGEW	METEOROLOGY (EC)		Precipitation	mm	30 minute	"2004,2007,2008, 2003"	Present	"Scott, Bryant"	CSV	http://ameriflux.lbl.gov/sites/site-search	"US-Wkg, US-Whs, US-SRG, US-SRM "		Open
+WGEW	METEOROLOGY (EC)		Precipitation annual cumulative	mm	30 minute	"2004,2007,2008, 2003"	Present	"Scott, Bryant"	CSV	http://ameriflux.lbl.gov/sites/site-search	"US-Wkg, US-Whs, US-SRG, US-SRM "		Open
+WGEW	METEOROLOGY (EC)		Incoming long wave radiation	W/m2	30 minute	"2004,2007,2008, 2003"	Present	"Scott, Bryant"	CSV	http://ameriflux.lbl.gov/sites/site-search	"US-Wkg, US-Whs, US-SRG, US-SRM "		Open
+WGEW	METEOROLOGY (EC)		Incoming solar radiation	W/m2	30 minute	"2004,2007,2008, 2003"	Present	"Scott, Bryant"	CSV	http://ameriflux.lbl.gov/sites/site-search	"US-Wkg, US-Whs, US-SRG, US-SRM "		Open
+WGEW	METEOROLOGY (EC)		Outgoing long wave radiation	W/m2	30 minute	"2004,2007,2008, 2003"	Present	"Scott, Bryant"	CSV	http://ameriflux.lbl.gov/sites/site-search	"US-Wkg, US-Whs, US-SRG, US-SRM "		Open
+WGEW	METEOROLOGY (EC)		Outgoing global solar radiation	W/m2	30 minute	"2004,2007,2008, 2003"	Present	"Scott, Bryant"	CSV	http://ameriflux.lbl.gov/sites/site-search	"US-Wkg, US-Whs, US-SRG, US-SRM "		Open
+WGEW	METEOROLOGY (EC)		Net radiation	W/m2	30 minute	"2004,2007,2008, 2003"	Present	"Scott, Bryant"	CSV	http://ameriflux.lbl.gov/sites/site-search	"US-Wkg, US-Whs, US-SRG, US-SRM "		Open
+WGEW	METEOROLOGY (EC)		Saturated vapor pressure	kPa	30 minute	"2004,2007,2008, 2003"	Present	"Scott, Bryant"	CSV	http://ameriflux.lbl.gov/sites/site-search	"US-Wkg, US-Whs, US-SRG, US-SRM "		Open
+WGEW	METEOROLOGY (EC)		Temperature from sonic anemometer	deg C	30 minute	"2004,2007,2008, 2003"	Present	"Scott, Bryant"	CSV	http://ameriflux.lbl.gov/sites/site-search	"US-Wkg, US-Whs, US-SRG, US-SRM "		Open
+WGEW	METEOROLOGY (EC)		Friction velocity	m/s	30 minute	"2004,2007,2008, 2003"	Present	"Scott, Bryant"	CSV	http://ameriflux.lbl.gov/sites/site-search	"US-Wkg, US-Whs, US-SRG, US-SRM "		Open
+WGEW	METEOROLOGY (EC)		Vapor pressure deficit	kPa	30 minute	"2004,2007,2008, 2003"	Present	"Scott, Bryant"	CSV	http://ameriflux.lbl.gov/sites/site-search	"US-Wkg, US-Whs, US-SRG, US-SRM "		Open
+WGEW	METEOROLOGY (EC)		Height of eddy covariance sensors	m	30 minute	"2004,2007,2008, 2003"	Present	"Scott, Bryant"	CSV	http://ameriflux.lbl.gov/sites/site-search	"US-Wkg, US-Whs, US-SRG, US-SRM "		Open
+WGEW	VEGETATION		Foliar cover by species	%	Experiment based	1994	Present	Holifield	XLS	https://www.tucson.ars.ag.gov/dap			Open
+WGEW	VEGETATION		Ground cover	%	Experiment based	1994	Present	Holifield	XLS	https://www.tucson.ars.ag.gov/dap			Open
+WGEW	MODELING		Rainfall Simulation - Rainfall rate	mm/hr	Experiment based	2002	2013	"Polyakov, Williams"	XLS	"https://www.tucson.ars.ag.gov/dap, https://data.nal.usda.gov/dataset/rainfall-simulation-experiments-southwestern-usa-using-walnut-gulch-rainfall-simulator"			Open
+WGEW	MODELING		Rainfall Simulation - Runon	mm/hr	Experiment based	2002	2013	"Polyakov, Williams"	XLS	"https://www.tucson.ars.ag.gov/dap, https://data.nal.usda.gov/dataset/rainfall-simulation-experiments-southwestern-usa-using-walnut-gulch-rainfall-simulator"			Open
+WGEW	MODELING		Rainfall Simulation - Discharge	mm/hr	Experiment based	2002	2013	"Polyakov, Williams"	XLS	"https://www.tucson.ars.ag.gov/dap, https://data.nal.usda.gov/dataset/rainfall-simulation-experiments-southwestern-usa-using-walnut-gulch-rainfall-simulator"			Open
+WGEW	MODELING		Rainfall Simulation - Sediment conc.	%	Experiment based	2002	2013	"Polyakov, Williams"	XLS	"https://www.tucson.ars.ag.gov/dap, https://data.nal.usda.gov/dataset/rainfall-simulation-experiments-southwestern-usa-using-walnut-gulch-rainfall-simulator"			Open
+WGEW	MODELING		Rainfall Simulation - Sediment discharge	g/s	Experiment based	2002	2013	"Polyakov, Williams"	XLS	"https://www.tucson.ars.ag.gov/dap, https://data.nal.usda.gov/dataset/rainfall-simulation-experiments-southwestern-usa-using-walnut-gulch-rainfall-simulator"			Open
+WGEW	MODELING		Rainfall Simulation - Flow velocity	m/s	Experiment based	2002	2013	"Polyakov, Williams"	XLS	"https://www.tucson.ars.ag.gov/dap, https://data.nal.usda.gov/dataset/rainfall-simulation-experiments-southwestern-usa-using-walnut-gulch-rainfall-simulator"			Open
+WGEW	MODELING		Rainfall Simulation - Ground Cover	%	Experiment based	2002	2013	"Polyakov, Williams"	XLS	"https://www.tucson.ars.ag.gov/dap, https://data.nal.usda.gov/dataset/rainfall-simulation-experiments-southwestern-usa-using-walnut-gulch-rainfall-simulator"			Open
+WGEW	MODELING		Rainfall Simulation - Vegeetation Cover	%	Experiment based	2002	2013	"Polyakov, Williams"	XLS	"https://www.tucson.ars.ag.gov/dap, https://data.nal.usda.gov/dataset/rainfall-simulation-experiments-southwestern-usa-using-walnut-gulch-rainfall-simulator"			Open
+WGEW	PHENOLOGY		Phenocam RGB image	image	30 minute	2012	Present	"Scott, Bryant"	.JPG	https://phenocam.sr.unh.edu/webcam/sites 	"luckyhills, kendall"		Open

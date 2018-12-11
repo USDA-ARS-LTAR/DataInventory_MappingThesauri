@@ -1,0 +1,224 @@
+LTARSite Code	Category	DataSetVariableName	AttributeDescription	Units	TemporalResolution	StartDate	EndDate	ResponsiblePersons	StorageFormat	URLdataAccess	LocationIDoutsideNetwork	SpatialExtentDescription	PublicAccess
+ABS-UF	Evapotranspiration	height	loss of water	cm	Event	2018	Present		excel files				
+ABS-UF	Evapotranspiration	weight	loss of water	g	Event	2018	Present		excel files				
+ABS-UF	Forage	aboveground biomass		kg/ha	Event	2007	Present		excel files				
+ABS-UF	Forage	aboveground tissue C		g/kg	Event	2007	Present		excel files				
+ABS-UF	Forage	aboveground tissue N		g/kg	Event	2007	Present		excel files				
+ABS-UF	Forage	aboveground tissue P		g/kg	Event	2007	Present		excel files				
+ABS-UF	Forage	belowground biomass		kg/ha	Event	2010-2011; 2017	Present		excel files				
+ABS-UF	Forage	belowground tissue lignin		g/kg	Event	2010-2011; 2017	Present		excel files				
+ABS-UF	Forage	belowground tissue N		g/kg	Event	2010-2011; 2017	Present		excel files				
+ABS-UF	Forage	biomass	"pre-burn, post-burn, post-stocking"	"g/m2, g/cm2"	Event	2015	Present		"excel files, access db"				
+ABS-UF	Forage	Ca	"wetlands, embedded wetlands in pastures, variable stocking rate"	%	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Forage	CP(DM)	"pre-burn, post-burn, post-stocking, embedded wetlands"	%	Event; yearly; once in 2 years	2006	Present		"excel files, access db"				
+ABS-UF	Forage	crude protein	"variable stocking rate, biomass"	%	monthly	1999	2003		excel files				
+ABS-UF	Forage	crude protein		g/kg	Event	2007	Present		excel files				
+ABS-UF	Forage	Cu	"wetlands, embedded wetlands in pastures, variable stocking rate"	ppm	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Forage	digestibility		g/kg	Event	2007	Present		excel files				
+ABS-UF	Forage	DM	"pre-burn, post-burn, post-stocking"	%	Event	2010	Present		"excel files, access db"				
+ABS-UF	Forage	Fe	"wetlands, embedded wetlands in pastures, variable stocking rate"	ppm	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Forage	fiber	"wetlands, embedded wetlands in pastures, variable stocking rate"	%	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Forage	height	"pre-burn, post-burn, post-stocking"	cm	Event	2016	Present		"excel files, access db"				
+ABS-UF	Forage	Horse DE	"wetlands, embedded wetlands in pastures, variable stocking rate, horse digestible energy"	Mcal/lb	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Forage	horse tdn	"wetlands, embedded wetlands in pastures, variable stocking rate, total digestible nutrients"	%	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Forage	IVOMD	"pre-burn, post-burn, post-stocking"	%	Event	2010	Present		"excel files, access db"				
+ABS-UF	Forage	ivomd	"variable stocking rate, biomass"	%	monthly	1999	2003		excel files				
+ABS-UF	Forage	ivtd [48h]	"wetlands, embedded wetlands in pastures, variable stocking rate, in vitro digestibility of forage"	%	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Forage	K	"wetlands, embedded wetlands in pastures, variable stocking rate"	%	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Forage	lignin		g/kg	Event	2007	Present		excel files				
+ABS-UF	Forage	Mb	"wetlands, embedded wetlands in pastures, variable stocking rate"	ppm	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Forage	Mg	"wetlands, embedded wetlands in pastures, variable stocking rate"	%	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Forage	Mn	"wetlands, embedded wetlands in pastures, variable stocking rate"	ppm	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Forage	moisture	"wetlands, embedded wetlands in pastures, variable stocking rate"	%	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Forage	N(DM)	"pre-burn, post-burn, post-stocking"	%	Event	2010	Present		"excel files, access db"				
+ABS-UF	Forage	Na	"wetlands, embedded wetlands in pastures, variable stocking rate"	%	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Forage	ndfd [48h]	"wetlands, embedded wetlands in pastures, variable stocking rate, neutral detergent fiber digestibility"	%	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Forage	NEG	"wetlands, embedded wetlands in pastures, variable stocking rate, net energy for tissue gain"	Mcal/lb	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Forage	NEL	"wetlands, embedded wetlands in pastures, variable stocking rate, net energy for lactation"	Mcal/lb	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Forage	NEM	"wetlands, embedded wetlands in pastures, variable stocking rate, net energy for maintenance"	Mcal/lb	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Forage	nfc	"wetlands, embedded wetlands in pastures, variable stocking rate, non-fibrous carbohydrates"	%	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Forage	OM(DM)	"pre-burn, post-burn, post-stocking"	%	Event	2010	Present		"excel files, access db"				
+ABS-UF	Forage	P	"wetlands, embedded wetlands in pastures, variable stocking rate"	%	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Forage	P(DM)	"pre-burn, post-burn, post-stocking"	%	Event	2016	Present		"excel files, access db"				
+ABS-UF	Forage	phos	"variable stocking rate, biomass"	%	monthly	1999	2003		excel files				
+ABS-UF	Forage	productivity	"pre-burn, post-burn, post-stocking"	g/m2	Event	2016	Present		"excel files, access db"				
+ABS-UF	Forage	root/shoot C	"variable stocking rate, biomass"	%	monthly	1999	2003		excel files				
+ABS-UF	Forage	root/shoot DM	"variable stocking rate, root/shoot dry weight"	kg/ha	monthly	1999	2003		excel files				
+ABS-UF	Forage	root/shoot N	"variable stocking rate, biomass"	%	monthly	1999	2003		excel files				
+ABS-UF	Forage	root/shoot P	"variable stocking rate, biomass"	%	monthly	1999	2003		excel files				
+ABS-UF	Forage	root/shoot TP	"variable stocking rate, biomass"	%	monthly	1999	2003		excel files				
+ABS-UF	Forage	tdn	"wetlands, embedded wetlands in pastures, variable stocking rate, total digestible nutrients"	%	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Forage	utilization	"variable stocking rate, biomass"	%	monthly	1999	2003		excel files				
+ABS-UF	Forage	yield	variable stocking rate	kg/ha	monthly	1999	2003		excel files				
+ABS-UF	Forage	Zn	"wetlands, embedded wetlands in pastures, variable stocking rate"	ppm	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Geospatial	shapefiles	"general site shapefiles, habitat, ditches, roads, fences, monitoring equipment, burns, supplementation"	"30 m2, pixel, block"	Event	1992	Present	Sclater	.shp files 	GIS Library			
+ABS-UF	Habitat	habitat list		categorical	Event	2000	2000		.doc file				
+ABS-UF	Hydrology	depth	"ponds, wetlands, water depth, staff guage depth"	cm	Event	2001; 2010	2014		excel files				
+ABS-UF	Hydrology	flow rate	"nutrient load, off site, NEPES, FRESP"	ft3/s	15 min/20 min	1999	Present		".dat files, excel files"				
+ABS-UF	Hydrology	flow temperature	"off site, NEPES, FRESP"	F	15 min	2007	Present		".dat files, excel files"				
+ABS-UF	Hydrology	groundwater elevation	"groundwater wells, FRESP, NEPES"	ft	15 min/hourly	2000	Present		access db				
+ABS-UF	Hydrology	groundwater pressure	"groundwater wells, FRESP, NEPES, head"	PSI	15 min/hourly	2000	Present		access db				
+ABS-UF	Hydrology	groundwater temperature	"groundwater wells, FRESP, NEPES"	C	15 min/hourly	2000	Present		access db				
+ABS-UF	Hydrology	rainfall	"off site, NEPES, FRESP"	inches	15 min	2007	Present		".dat files, excel files"				
+ABS-UF	Hydrology	water pumped	pumping	gallons	monthly	1998	Present		excel files				
+ABS-UF	Hydrology	wetland depth	wetlands	cm	Event	2000	2003		excel files				
+ABS-UF	Land Management	burn 	"burn records, full burn, patch burn, burn time, mixing height, coverage, burn type"	"acres, min, ft, %, categorical"	Event	1992	Present		access db	sql server			
+ABS-UF	Land Management	chemical applications	"fertilizer, herbicide, lime, spray"	acres	Event	1993	Present		access db	sql server			
+ABS-UF	Land Management	mechanical treatments	"aerate, chop, disc, ditch clean, dragging, mow, roll, seeding"	acres	Event	1995	Present		access db	sql server			
+ABS-UF	Land Management	pumping	fuel used to pump water	"gallons, usd"	monthly	1998	Present		excel files				
+ABS-UF	Meterology	Air density		kg/m3	30 min	2016	Present		.dat files				
+ABS-UF	Meterology	Air temperature	"min, max"	F	15 min	1997	Present		".dat files, access db"				
+ABS-UF	Meterology	Albedo		arb	30 min	2012	Present		.dat files				
+ABS-UF	Meterology	Avg ambient temperature		C	30 min	2016	Present		.dat files				
+ABS-UF	Meterology	Barometric pressure		"mm Hg, kPa"	15 min	1997	Present		".dat files, access db"				
+ABS-UF	Meterology	CO2 conc		W/m2	30 min	2016	Present		.dat files				
+ABS-UF	Meterology	CO2 flux		W/m2	30 min	2016	Present		.dat files				
+ABS-UF	Meterology	Friction velocity		m/s	30 min	2016	Present		.dat files				
+ABS-UF	Meterology	H2O conc		W/m2	30 min	2016	Present		.dat files				
+ABS-UF	Meterology	Latent heat flux		W/m2	30 min	2016	Present		.dat files				
+ABS-UF	Meterology	Longwave radiation	"net, max, min"	W/m2	30 min	2012	Present		.dat files				
+ABS-UF	Meterology	Net radiation		W/m2	30 min	2012	Present		.dat files				
+ABS-UF	Meterology	PAR	"photosynthetically active radiation, up, down"	umol/m2/s	15 min	1997	Present		".dat files, access db"				
+ABS-UF	Meterology	Precipitation		inches	15 min	1997	Present		".dat files, access db"				
+ABS-UF	Meterology	Relative humidity		%	15 min	1997	Present		".dat files, access db"				
+ABS-UF	Meterology	Saturated vapour pressure		kPa	30 min	2016	Present		.dat files				
+ABS-UF	Meterology	Sensible heat flux		W/m2	30 min	2012	Present		.dat files				
+ABS-UF	Meterology	Shortwave radiation	"net, max, min"	W/m2	30 min	2012	Present		.dat files				
+ABS-UF	Meterology	Soil conductivity		dS/m	30 min	2016	Present		.dat files				
+ABS-UF	Meterology	Soil moisture		%	15 min	1997	Present		".dat files, access db"				
+ABS-UF	Meterology	Soil temperature	"min, max"	F	15 min	1997	Present		".dat files, access db"				
+ABS-UF	Meterology	Solar radiation		W/m2	15 min	1997	Present		".dat files, access db"				
+ABS-UF	Meterology	Sonic temp corrected for humidity		C	30 min	2016	Present		.dat files				
+ABS-UF	Meterology	T dew		C	30 min	2012	Present		.dat files				
+ABS-UF	Meterology	Vapour density		g/m3	30 min	2016	Present		.dat files				
+ABS-UF	Meterology	Vapour pressure		kPa	30 min	2016	Present		.dat files				
+ABS-UF	Meterology	Wind direction		degrees	15 min	1997	Present		".dat files, access db"				
+ABS-UF	Meterology	Wind speed		m/s	15 min	1997	Present		".dat files, access db"				
+ABS-UF	Plant	bare ground cover	pastures	%	Twice-yearly	2016	Present		"excel files, access db"				
+ABS-UF	Plant	biomass	wetlands	Mg/ha	Event	2000	2001		excel files				
+ABS-UF	Plant	biomass	wetlands	g/m2	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Plant	C	"biomass, fire plot"	%	yearly; once in 2 years	2000	Present		excel files				
+ABS-UF	Plant	canopy coverage	"wetlands, wetland reserve program"	%	Event; once in 2 years	2005	Present		excel files				
+ABS-UF	Plant	DNA sequences?	wetlands	?	Event	2000	2001		excel files				
+ABS-UF	Plant	dung cover	pastures	%	Yearly	2016	Present		"excel files, access db"				
+ABS-UF	Plant	height	"biomass, fire plot"	cm	Twice yearly	2003	2003		excel files				
+ABS-UF	Plant	height	"pastures, rangelands, vegetation around eddy towers"	cm	monthly; twice-yearly	2016	Present		excel files				
+ABS-UF	Plant	Invasive species	invasives	categorical	Twice-yearly	2016	Present		excel files				
+ABS-UF	Plant	lichen cover	pastures	%	Yearly	2016	Present		"excel files, access db"				
+ABS-UF	Plant	litter	"biomass, fire plot"	Mg/ha	Twice yearly; event	2002	2006;2011		excel files				
+ABS-UF	Plant	litter cover	pastures	%	Twice-yearly	2016	Present		"excel files, access db"				
+ABS-UF	Plant	live	"biomass, fire plot"	Mg/ha	Twice yearly; event	2002	2006;2011		excel files				
+ABS-UF	Plant	N	"biomass, fire plot"	%	yearly; once in 2 years	2000	Present		excel files				
+ABS-UF	Plant	obligate wetland species cover		%	Event	2010	2014		excel files				
+ABS-UF	Plant	P	"biomass, fire plot"	%	yearly; once in 2 years	2000	Present		excel files				
+ABS-UF	Plant	rock cover	pastures	%	Yearly	2016	Present		"excel files, access db"				
+ABS-UF	Plant	species abundance	wetlands	count	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Plant	species composition	"pastures, rangelands, wetlands, variable stocking rate"	categorical	monthly; twice-yearly; once in 2 years	1999	2015		excel files				
+ABS-UF	Plant	species cover	"pastures, rangelands, wetlands, variable stocking rate"	%	monthly; twice-yearly; once in 2 years	1999	2015		excel files				
+ABS-UF	Plant	species list	"plant list, plant database"	categorical	Event		Present		excel files				
+ABS-UF	Plant	species richness	wetlands	count	yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Plant	standing dead	"biomass, fire plot"	Mg/ha	Twice yearly; event	2002	2006;2011		excel files				
+ABS-UF	Plant	standing live	"biomass, fire plot"	Mg/ha	Twice yearly; event	2002	2006;2011		excel files				
+ABS-UF	Plant	vegetation gap development		m2	Once in 2 years	2017	Present		excel files				
+ABS-UF	Rangeland	bull exposure	"pregnancy records, cattle operations"	breed.days	Event	1994	Present		access db	sql server			
+ABS-UF	Rangeland	cattle age	"individual records, cattle operations"	year	Yearly	1992	Present		access db	sql server			
+ABS-UF	Rangeland	cattle breed	"individual records, cattle operations"	categorical	Static	1992	Present		access db	sql server			
+ABS-UF	Rangeland	cattle classification	"cattle as assets,"	categorical	"Event, Yearly"	1992	Present		access db	sql server			
+ABS-UF	Rangeland	cattle demography	"births, deaths"	count	Event	1992	Present		access db	sql server			
+ABS-UF	Rangeland	cattle medical records	"veterinary, medications, body condition"	categorical	Event	2004	Present		access db	sql server			
+ABS-UF	Rangeland	cattle movements	"stocking density, cattle operations"	#head/acre/day	Event	2005	Present		access db	sql server			
+ABS-UF	Rangeland	cattle transfers	"source, disposal"	"categorical, count"	Event	2004	Present		access db	sql server			
+ABS-UF	Rangeland	cost of labour		$/year	Yearly	1993	Present		access db	sql server			
+ABS-UF	Rangeland	cost of operations	"cost of feed, fertilizer, medications"	$/year	Yearly	1993	Present		access db	sql server			
+ABS-UF	Rangeland	cost per head	cost per cow/bull/weaned calf	$/year	Yearly	1993	Present		access db	sql server			
+ABS-UF	Rangeland	pregnancy rate	"pregnancy records, cattle operations"	%	Event	1994	Present		access db	sql server			
+ABS-UF	Rangeland	supplementation	"cattle operations, cattle supplements, cubes, hay, feed, mineral, molasses"	lb	Event	2006	Present		access db	sql server			
+ABS-UF	Rangeland	weaned calves	"pregnancy records, cattle operations"	%	Event	1994	Present		access db	sql server			
+ABS-UF	Remote sensing	aerial photos	drone imagery	"variable, pixel, 2 cm2"	"Event, Yearly"	2017	Present	Sclater	.tif files	GIS Library			
+ABS-UF	Remote sensing	historic aerial photos	"rectified historic imagery, aerial"	"pixel, variable resolution"	Event	1940	Present	Sclater	.tif or .img	GIS Library			
+ABS-UF	Remote sensing	LIDAR			Event	2006	2006	Sclater	point cloud and ESRI GRID	GIS Library			
+ABS-UF	Remote sensing	satellite imagery	satellite photos		Once in 3 years	2002	Present	Sclater	.tif	GIS Library			
+ABS-UF	Soil	aggregate classes		"categorical, %"	Event	2017	2018		excel files				
+ABS-UF	Soil	aggregate stability/distribution		g/kg	Event	2009-2012; 2017	Present		excel files				
+ABS-UF	Soil	Al		kg/ha	Twice-yearly	2016	Present		excel files				
+ABS-UF	Soil	AMF/DSE colonization	"arbuscular mycorrhizal fungi, dark septate endophytes"	%	Event	2017	2018		excel files				
+ABS-UF	Soil	avg detrital depth		cm	"yearly, event"	2006-2009; 2016	Present		excel files				
+ABS-UF	Soil	bulk density		g/cm3	Event	2000;2003	2003		excel files				
+ABS-UF	Soil	bulk density	"pastures, wetlands"	g/cm3	Yearly; once in 2 years	2006	Present		excel files				
+ABS-UF	Soil	C13		%	Once in 2 years	2017	Present		excel files				
+ABS-UF	Soil	Ca		kg/ha	Twice-yearly	2016	Present		excel files				
+ABS-UF	Soil	cation exchange capacity		cmol(+)/kg	Twice-yearly	2016	Present		excel files				
+ABS-UF	Soil	CFI Bio-C	carbon farming initiative	ug/g soil	yearly	1999	2003		excel files				
+ABS-UF	Soil	CFI MBN	carbon farming initiative	ug/g soil	Event	2000	2001		excel files				
+ABS-UF	Soil	Cmin		ug/g soil	yearly; event	2003	2006;2011		excel files				
+ABS-UF	Soil	CO2 emission		umol/s	Twice-yearly	2016	Present		excel files				
+ABS-UF	Soil	CO2-C	carbon dioxide carbon	ug/g soil; mg/g soil	yearly; event	2000	2006;2011		excel files				
+ABS-UF	Soil	Cum. Cmin		ug/g soil	yearly	1999	2003		excel files				
+ABS-UF	Soil	DAP	diammonium phosphate	g/m2; ug/g soil	yearly; event	2003	2006;2011		excel files				
+ABS-UF	Soil	denitrification		g/ha/day N	Event	2001	2002		excel files				
+ABS-UF	Soil	Fe		kg/ha	Twice-yearly	2016	Present		excel files				
+ABS-UF	Soil	final P		ug/g soil	monthly for 5 months/yr	2005	2006		excel files				
+ABS-UF	Soil	GWC	gravimetric water content	%	Event; seasonal	2016	Present		excel files				
+ABS-UF	Soil	K		kg/ha	Twice-yearly	2016	Present		excel files				
+ABS-UF	Soil	KCl extractable NO3+NH4		mg/kg	Event	2007	Present		excel files				
+ABS-UF	Soil	labile C		g/kg	Event	2009	Present		excel files				
+ABS-UF	Soil	leachate N		kg/ha	"weekly, monthly"	2017	Present		excel files				
+ABS-UF	Soil	leachate P		kg/ha	"weekly, monthly"	2017	Present		excel files				
+ABS-UF	Soil	MBN	microbial nitrogen	ug/g soil	yearly; event	1999	2006;2011		excel files				
+ABS-UF	Soil	Mehlich 3 extractable Al		mg/kg	Event	2007	Present		excel files				
+ABS-UF	Soil	Mehlich 3 extractable Ca		mg/kg	Event	2007	Present		excel files				
+ABS-UF	Soil	Mehlich 3 extractable Fe		mg/kg	Event	2007	Present		excel files				
+ABS-UF	Soil	Mehlich 3 extractable K		mg/kg	Event	2007	Present		excel files				
+ABS-UF	Soil	Mehlich 3 extractable Mg		mg/kg	Event	2007	Present		excel files				
+ABS-UF	Soil	Mehlich 3 extractable P		mg/kg	Event	2007	Present		excel files				
+ABS-UF	Soil	Mg		kg/ha	Twice-yearly	2016	Present		excel files				
+ABS-UF	Soil	moisture		%	Event; yearly	2000	2006; 2011		excel files				
+ABS-UF	Soil	moisture	"pastures, wetlands"	%; g/g soil	Once in 2 years	2016	Present		excel files				
+ABS-UF	Soil	moisture	around eddy flux towers	%	"monthly, weekly"	2016	Present		excel files				
+ABS-UF	Soil	N	nitrogen	%	Once in 2 years	2017	Present		excel files				
+ABS-UF	Soil	NH4-N	ammonium nitrogen 	ug/g soil	yearly; event; twice-yearly	2000	Present		excel files				
+ABS-UF	Soil	NH4-N + NO3-N	"ammonium nitrogen, nitrate nitrogen"	ug/g soil	yearly	1999	2003		excel files				
+ABS-UF	Soil	N-min		ug/g soil	yearly; event	1999	2006;2011		excel files				
+ABS-UF	Soil	NO3-N	nitrate nitrogen	ug/g soil	yearly; event; twice-yearly	2000	Present		excel files				
+ABS-UF	Soil	OM	"pastures, wetlands"	%	Event; yearly; once in 2 years	2000	Present		excel files				
+ABS-UF	Soil	P		kg/ha	Twice-yearly	2016	Present		excel files				
+ABS-UF	Soil	P conc/resin	phosphorus in resin	ppm/cm2	monthly for 5 months/yr	2005	2006		excel files				
+ABS-UF	Soil	PAR	photosynthetically active radiation	umol/m2/s	Twice-yearly	2015	Present		excel files				
+ABS-UF	Soil	pH		pH	"Twice-yearly, event"	2007	Present		excel files				
+ABS-UF	Soil	PLFA	soil phospholipid fatty acid	nmol/g soil	Event	2017	Present		excel files				
+ABS-UF	Soil	soil microbial diversity		categorical	Seasonal	2016	Present		excel files				
+ABS-UF	Soil	soils list		categorical	Event	2010	2010		".doc file, shapefiles"				
+ABS-UF	Soil	TC	total carbon	%	"yearly, event"	2006	Present		excel files				
+ABS-UF	Soil	temperature	around eddy flux towers	C	"monthly, weekly"	2016	Present		excel files				
+ABS-UF	Soil	TN	total nitrogen	ug/g soil	Event	2000	2001		excel files				
+ABS-UF	Soil	TN	total nitrogen	%	yearly; event	2006	Present		excel files				
+ABS-UF	Soil	total detrital weight		g/m2	"yearly, event"	2006-2009; 2016	Present		excel files				
+ABS-UF	Soil	TP	"total phosphorus, pastures, wetlands"	"g/m2, ppm, %"	Event; yearly; once in 2 years	2003	Present		excel files				
+ABS-UF	Soil	types	soil survey	categorical	Event	1997	1997		.adf files				
+ABS-UF	Soil	WSP/WEP	"water soluble phosphate, water extractable phosphate"	g/m2	Event	2003; 2017	Present		excel files				
+ABS-UF	Soil/Plant	CH4 flux		"g/m2/day, mg/m2/day"	Every other month; weekly; monthly	2014; 2016	Present		excel files				
+ABS-UF	Soil/Plant	CO2 flux		"g/m2/day, mg/m2/day"	Every other month; weekly; monthly	2014; 2016	Present		excel files				
+ABS-UF	Soil/Plant	N2O flux		"mg/m2/min, mg/m2/day"	Every other month; weekly; monthly	2014; 2016	Present		excel files				
+ABS-UF	Species list	species list	"invertebrates, fish, birds, mammals, herpetofauna"	categorical	Event	1997	2007		"excel files, .doc files, shapefiles"	website			
+ABS-UF	Water Quality	chlorophyll a	"wetlands, water chemistry, water biology"	ug/L	Yearly	2006	2008		excel files				
+ABS-UF	Water Quality	conductivity	"ditches, harney pond canal, runoff, ponds, EPA ES, water physics"	"mS/cm, uS/cm"	monthly; event; yearly	1998	Present		excel files				
+ABS-UF	Water Quality	dissolved oxygen	"ditches, harney pond canal, runoff, wetlands, ponds, EPA ES, water chemistry"	mg/L	monthly; event; yearly	1998	Present		excel files				
+ABS-UF	Water Quality	NH4-N	"ditches, harney pond canal, runoff, wetlands, off site, FRESP, water chemistry"	mg/L	monthly; event; yearly	1998	Present		excel files				
+ABS-UF	Water Quality	NO3-N	"ditches, harney pond canal, wetlands, off site, FRESP, water chemistry"	mg/L	monthly; event; yearly	1998	Present		excel files				
+ABS-UF	Water Quality	NOx-N	"runoff, wetlands"	mg/L	Yearly	1999	2002		excel files				
+ABS-UF	Water Quality	orthophosphates	"ditches, harney pond canal, wetlands, runoff, water chemistry"	mg/L	monthly; event; yearly	1998	Present		excel files				
+ABS-UF	Water Quality	pH	"ditches, harney pond canal, runoff, ponds, EPA ES, water chemistry"	pH	monthly; event; yearly	1998	Present		excel files				
+ABS-UF	Water Quality	phosphorus	"off site, FRESP, water chemistry"	mg/L	Event	2007	2011		excel files				
+ABS-UF	Water Quality	temperature	"ditches, harney pond canal, runoff, ponds, EPA ES, water physics"	C	monthly; event	1998	Present		excel files				
+ABS-UF	Water Quality	total kjeldahl nitrogen	"off site, FRESP, water chemistry"	mg/L	Event	2007	2011		excel files				
+ABS-UF	Water Quality	total kjeldahl nitrogen	"runoff, wetlands, water chemistry"	mg/L	Event	1999	2002		excel files				
+ABS-UF	Water Quality	total nitrogen	"ditches, harney pond canal, wetlands, ponds, EPA ES, off site, FRESP, water chemistry"	mg/L	monthly; event; yearly	1998	Present		excel files				
+ABS-UF	Water Quality	total phosphorus	"ditches, harney pond canal, runoff, wetlands, ponds, EPA ES, water chemistry"	mg/L	monthly; event; yearly	1998	Present		excel files				
+ABS-UF	Water Quality	total suspended solids	"wetlands, water physics"	mg/L	Event	2001	2001		excel files				
+ABS-UF	Water Quality	turbidity	"wetlands, water physics"	NTU	Yearly	2006	Present		excel files				
+ABS-UF	Wildlife	bird nests	"nest location, barred owl, osprey, hawks, wading birds, crane, kingbird, shrike, pileated xx, gcfly"	geolocation	Yearly; quarterly; monthly; event	1989	2008		excel files				
+ABS-UF	Wildlife	location	"feral swine location, geolocation"	lat long	30 min	2015	Present		".txt files, shapefiles"				
+ABS-UF	Wildlife	pathology	"feral swine, disease sampling, individuals"	categorical	Yearly	2015	Present		excel files				
+ABS-UF	Wildlife	resighting game camera array	"feral swine, camera trap"	"km2, .tif"	Continual	2015	Present		"image, sql db"				
+ABS-UF	Wildlife	rooting damage	feral swine	m2	4 times/year	2016	Present		"mosaic, shapefiles"				
+ABS-UF	Wildlife	wetland fauna surveys		categorical	Yearly	2015	Present		excel files				
