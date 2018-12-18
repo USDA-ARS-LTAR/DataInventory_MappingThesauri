@@ -1,6 +1,6 @@
 ##Script to pull in data inventories from the LTAR NEtwork, bind and anlyze them
 ##Nicole Kaplan, 6/14/2018
-map.thesauri <- function() {
+get.inventory <- function() {
   library(tidyverse)
   #library(fuzzyjoin)
   
@@ -129,6 +129,17 @@ map.thesauri <- function() {
     
   #### 4. Work on attribute names as mapped to AgCROS, by site within a specific category ####
   ## bring in AgCROS value domains ##
+#  var.names <- read.delim("input/var.names.txt", header = T, sep = "\t", stringsAsFactors = FALSE, na.strings = "")
+#  var.names <- var.names %>%
+#    select(TYPE, TABLE, COLUMN, ParameterDescription, Units) %>%
+#    filter(COLUMN != "---") %>%
+#    arrange(COLUMN) 
+#  names(var.names)[3] <-"AgCROS.VarName"
+  
+  return(alldata)
+}
+
+get.AgCROS.domains <- function() {
   var.names <- read.delim("input/var.names.txt", header = T, sep = "\t", stringsAsFactors = FALSE, na.strings = "")
   var.names <- var.names %>%
     select(TYPE, TABLE, COLUMN, ParameterDescription, Units) %>%
@@ -136,7 +147,7 @@ map.thesauri <- function() {
     arrange(COLUMN) 
   names(var.names)[3] <-"AgCROS.VarName"
   
-  return(alldata)
+  return(var.names)
 }
 
 write.csv.inventory <- function(df, site.code = NULL, network.category = NULL) {
