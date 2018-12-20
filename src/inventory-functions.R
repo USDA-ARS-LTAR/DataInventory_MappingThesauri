@@ -150,8 +150,26 @@ get.AgCROS.domains <- function() {
   return(var.names)
 }
 
-write.csv.inventory <- function(df, site.code = NULL, network.category = NULL) {
+write.csv.agcross <- function(df, table.name = NULL) {
+  write.path <- "output/agcross-"
+  df.out <- df
+  
+  if(!is.null(table.name)) {
+    df.out <- df %>% 
+      filter(TABLE == table.name)
+    write.path <- paste(write.path, table.name, sep = "")
+  }
+  else {
+    write.path <- paste(write.path, "all", sep = "")
+  }
+  
   dateToday <- format(Sys.Date(), "%Y%m%d")
+  write.path <- paste(write.path, "_", dateToday, ".csv", sep = "")
+  write.csv(df.out, file = write.path, na = "", row.names = FALSE)
+}
+
+write.csv.inventory <- function(df, site.code = NULL, network.category = NULL) {
+
   write.path <- "output/inventory-"
   df.out <- df
   
@@ -159,21 +177,21 @@ write.csv.inventory <- function(df, site.code = NULL, network.category = NULL) {
     df.out <- df %>% 
       filter(LTARSite.Code == site.code,
              Network.Category == network.category)
-    write.path <- paste(write.path, site.code, "-", network.category, "_", sep = "")
+    write.path <- paste(write.path, site.code, "-", network.category, sep = "")
   }else if(!is.null(site.code) & is.null(network.category)) {
     df.out <- df %>% 
       filter(LTARSite.Code == site.code)
-    write.path <- paste(write.path, site.code, "_", sep = "")
+    write.path <- paste(write.path, site.code, sep = "")
   }else if(is.null(site.code) & !is.null(network.category)) {
     df.out <- df %>% 
       filter(Network.Category == network.category)
-    write.path <- paste(write.path, network.category, "_", sep = "")
+    write.path <- paste(write.path, network.category, sep = "")
   } else {
     write.path <- paste(write.path, "alldata_", sep = "")
   }
   
-  write.path <- paste(write.path, dateToday, ".csv", sep = "")
-  
+  dateToday <- format(Sys.Date(), "%Y%m%d")
+  write.path <- paste(write.path, "_", dateToday, ".csv", sep = "")
   write.csv(df.out, file = write.path, na = "", row.names = FALSE)
 }
 
