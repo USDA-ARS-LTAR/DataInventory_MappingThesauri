@@ -1,6 +1,6 @@
 source("src/inventory-functions.R")
 
-df <- map.thesauri()
+df <- get.inventory()
 df.agcros <- get.AgCROS.domains()
 
 write.csv.agcross(df.agcros)
