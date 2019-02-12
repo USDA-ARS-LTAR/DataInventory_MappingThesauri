@@ -1,3 +1,4 @@
+# This script will be used to subset the LTAR inventory data for WGEW
 source("src/inventory-functions.R")
 
 df <- get.inventory()
