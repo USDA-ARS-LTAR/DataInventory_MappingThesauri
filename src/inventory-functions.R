@@ -1,5 +1,8 @@
 ##Script to pull in data inventories from the LTAR NEtwork, bind and anlyze them
-##Nicole Kaplan, 6/14/2018
+##Assign Network categories and keywords, as well as attributes to AgCROS tables
+##Next version shall assign only one category, yet allow multiple terms comma-delimited to be listed under keywords
+##Nicole Kaplan, Bryan Carlson 3/7/2019
+
 get.inventory <- function() {
   library(tidyverse)
   #library(fuzzyjoin)
@@ -45,49 +48,49 @@ get.inventory <- function() {
   
   alldata<- inventory.1
   
-  
-  #### 3.1 assign network categories to site categories from NALT and cleaning ####
-  
-  alldata$Network.Category[alldata$Category%in%c("Animal", "Animals", "ANIMAL", "Rangeland")]<-"Animals, Animal Science, Rangeland"
-  alldata$Network.Category[alldata$Category%in%c("Manure")]<-"Animals, Soil, Manure"
+  #### 3.1 assign ONE network category to each site category ####
+  alldata$Network.Category[alldata$Category%in%c("Animal", "Animals", "ANIMAL", "Rangeland")]<-"Animals"
+  alldata$Network.Category[alldata$Category%in%c("Manure")]<-"Manure"
   alldata$Network.Category[alldata$Category%in%c("Wildlife", "Biodiversity", "Species List", "Habitat")]<-"Biodiversity"
   alldata$Network.Category[alldata$Category%in%c("Geospatial", "Landbase")]<-"Geospatial Data"
   alldata$Network.Category[alldata$Category%in%c("Gass Fraction", "Gas Fraction", "GREENHOUSE GAS FLUX", "Greenhouse Gas Flux", "greenhouse gas flux", "Greenhouse Gases")]<-"Greenhouse Gas Emissions"
   alldata$Network.Category[alldata$Category%in%c("Water Flow", "Hydrology", "Ecohydrology", "RUNOFF", "Runoff")]<-"Hydrology"
-  alldata$Network.Category[alldata$Category%in%c("Evapotranspiration")]<-"Hydrology, Evapotranspiration"
+  alldata$Network.Category[alldata$Category%in%c("Evapotranspiration")]<-"Evapotranspiration"
   alldata$Network.Category[alldata$Category%in%c("Land Management")]<-"Land Management"
-  alldata$Network.Category[alldata$Category%in%c("Farm Management", "FarmManagement")]<-"Land Management, Farm Management"
-  alldata$Network.Category[alldata$Category%in%c("Land Management") & alldata$Site.VariableName%in%c("harvest")]<-"Land Management, Harvesting"
-  alldata$Network.Category[alldata$Category%in%c("LAND USE", "Land Use")]<-"Land Use, Geospatial Data"
+  alldata$Network.Category[alldata$Category%in%c("Farm Management", "FarmManagement")]<-"Land Management"
+  alldata$Network.Category[alldata$Category%in%c("Land Management") & alldata$Site.VariableName%in%c("harvest")]<-"Land Management"
+  alldata$Network.Category[alldata$Category%in%c("LAND USE", "Land Use")]<-"Land Management"
   alldata$Network.Category[alldata$Category%in%c("Meteorological", "Meteorology", "Meterology", "Precipitation")]<-"Meteorology"
-  alldata$Network.Category[alldata$Category%in%c("EC Flux Towers", "Ecosystem Flux", "Eddy Flux", "Eddy flux", "METEOROLOGY (Eddy covariance)", "EDDY COVARIANCE", "Covariance Easy Flux Continous", "LAND-ATMOSPHERE FLUXES (EC)", "METEOROLOGY + EC", "METEOROLOGY (EC)")]<-"Meteorology, Eddy Covariance"
+  alldata$Network.Category[alldata$Category%in%c("EC Flux Towers", "Ecosystem Flux", "Eddy Flux", "Eddy flux", "METEOROLOGY (Eddy covariance)", "EDDY COVARIANCE", "Covariance Easy Flux Continous", "LAND-ATMOSPHERE FLUXES (EC)", "METEOROLOGY + EC", "METEOROLOGY (EC)")]<-"Eddy Covariance"
   alldata$Network.Category[alldata$Category%in%c("Micrometeorology")]<-"Meteorology"
   alldata$Network.Category[alldata$Category%in%c("Modeling", "MODELING")]<-"Models"
   alldata$Network.Category[alldata$Category%in%c("pesticide")]<-"Pesticides"
   alldata$Network.Category[alldata$Category%in%c("RemoteSensing, Remote Sensing", "Remote sensing", "AERIAL IMAGERY", "DEM")]<-"Remote Sensing"
-  alldata$Network.Category[alldata$Category%in%c("Phenology", "Phenocam Continuous", "Phenocam", "PHENOLOGY")]<-"Remote Sensing, Phenology"
+  alldata$Network.Category[alldata$Category%in%c("Phenology", "Phenocam Continuous", "Phenocam", "PHENOLOGY")]<-"Phenology"
   alldata$Network.Category[alldata$Category%in%c("Projects Data")]<-"Research Projects"
   alldata$Network.Category[alldata$Category%in%c("Reservior", "RESERVIOR", "Sediment", "SEDIMENT")]<-"Sediments"
   alldata$Network.Category[alldata$Category%in%c("Soil", "Soils", "SOIL", "Soil characteristics", "SOIL CHARACTERISTICS", "SOIL WATER", "SOIL COVER", "soils")]<-"Soil"
-  alldata$Network.Category[alldata$Category%in%c("SOIL PHYSICS")]<-"Soil Physics"
-  alldata$Network.Category[alldata$Category%in%c("SOIL BIOLOGY", "SOIL MICROBIAL")]<-"Soil, Soil Biology"
-  alldata$Network.Category[alldata$Category%in%c("Soil Properties")]<-"Soil, Soil Biology, Soil Physics, Soil Chemistry"
-  alldata$Network.Category[alldata$Category%in%c("SOIL CHEMISTRY", "Soil Sampling Mineral Analysis 2016", "Soil Sampling Mineral Analysis 2017","Soil Sampling Mineral Analysis 2018", "Soil Sampling Physical Analysis 2016", "Soil Sampling Physical Analysis 2017","Soil Sampling Physical Analysis 2018")]<-"Soil, Soil Chemistry"
-  alldata$Network.Category[alldata$Category%in%c("Soil-Atmosphere Gas Flux", "SOIL ECOSYSTEM EXCHANGES")]<-"Soil, Soil Respiration"
-  alldata$Network.Category[alldata$Category%in%c("Soil/Plant")]<-"Soil, Vegetation, Soil Respiration, Greenhouse Gas Emissions"
+  alldata$Network.Category[alldata$Category%in%c("SOIL PHYSICS")]<-"Soil"
+  alldata$Network.Category[alldata$Category%in%c("SOIL BIOLOGY", "SOIL MICROBIAL")]<-"Soil"
+  alldata$Network.Category[alldata$Category%in%c("Soil Properties")]<-"Soil"
+  alldata$Network.Category[alldata$Category%in%c("SOIL CHEMISTRY", "Soil Sampling Mineral Analysis 2016", "Soil Sampling Mineral Analysis 2017","Soil Sampling Mineral Analysis 2018", "Soil Sampling Physical Analysis 2016", "Soil Sampling Physical Analysis 2017","Soil Sampling Physical Analysis 2018")]<-"Soil"
+  alldata$Network.Category[alldata$Category%in%c("Soil-Atmosphere Gas Flux", "SOIL ECOSYSTEM EXCHANGES")]<-"Soil"
+  alldata$Network.Category[alldata$Category%in%c("Soil/Plant")]<-"Soil Plant Interactions"
   alldata$Network.Category[alldata$Category%in%c("Plant", "PLANT FRACTION", "Vegetation", "VEGETATION", "Primary Production", "Vegetation Composition")]<-"Vegetation"
-  alldata$Network.Category[alldata$Category%in%c("BIOMASS CARBOHYDRATE ANALYSIS", "BIOMASS MINERAL ANALYSIS", "BIOMASS ENERGY")]<-"Vegetation, Biomass"
-  alldata$Network.Category[alldata$Category%in%c("Crop", "CROP")]<-"Vegetation, Crop"
-  alldata$Network.Category[alldata$Category%in%c("HARVEST REMOVAL")]<-"Vegetation, Crop, Harvesting"
-  alldata$Network.Category[alldata$Category%in%c("Forage", "GRAZING PLANTS")]<-"Vegetation, Grazing"
-  alldata$Network.Category[alldata$Category%in%c("Forage")]<-"Vegetation, Grazing, Biomass"
-  alldata$Network.Category[alldata$Category%in%c("Weed")]<-"Vegetation, Invasive Species"
+  alldata$Network.Category[alldata$Category%in%c("BIOMASS CARBOHYDRATE ANALYSIS", "BIOMASS MINERAL ANALYSIS", "BIOMASS ENERGY")]<-"Vegetation"
+  alldata$Network.Category[alldata$Category%in%c("Crop", "CROP")]<-"Vegetation"
+  alldata$Network.Category[alldata$Category%in%c("HARVEST REMOVAL")]<-"Vegetation"
+  alldata$Network.Category[alldata$Category%in%c("Forage", "GRAZING PLANTS")]<-"Vegetation"
+  alldata$Network.Category[alldata$Category%in%c("Forage")]<-"Vegetation"
+  alldata$Network.Category[alldata$Category%in%c("Weed")]<-"Vegetation"
   alldata$Network.Category[alldata$Category%in%c("Water Quality", "WATER QUALITY", "water/soil chemistry")]<-"Water Quality"
-  alldata$Network.Category[alldata$Category%in%c("STREAM CROSS-SECTION SURVEYS", "STREAM THALWEG SURVEYS")]<-"Water Quality, Hydrology"
-  alldata$Network.Category[alldata$Category%in%c("Lake")]<-"Water Quality, Lake"
-  alldata$Network.Category[alldata$Category%in%c("Water Quality") & alldata$Site.VariableName%in%c("pp' -DDD", "pp'DDE", "pp'-DDT")]<-"Water Quality, Pesticides"
+  alldata$Network.Category[alldata$Category%in%c("STREAM CROSS-SECTION SURVEYS", "STREAM THALWEG SURVEYS")]<-"Hydrology"
+  alldata$Network.Category[alldata$Category%in%c("Lake")]<-"Water Quality"
+  alldata$Network.Category[alldata$Category%in%c("Water Quality") & alldata$Site.VariableName%in%c("pp' -DDD", "pp'DDE", "pp'-DDT")]<-"Water Quality"
   alldata$Network.Category[alldata$Category%in%c("Wind Erosion")]<-"Wind Erosion"
-  alldata$Network.Category[alldata$Category%in%c("Wind Erosion") & alldata$Site.VariableName%in%c("time lapse camera")]<-"Water Quality, Phenology"
+  alldata$Network.Category[alldata$Category%in%c("Wind Erosion") & alldata$Site.VariableName%in%c("time lapse camera")]<-"Wind Erosion"
+  
+  
   
   
   
@@ -125,7 +128,52 @@ get.inventory <- function() {
   alldata$AgCROS.Table[alldata$Network.Category%in%c("Water Quality")] <-"STEWARDS Water Quality table that will be added to AgCROS"
   alldata$AgCROS.Table[alldata$Network.Category%in%c("Wind Erosion" )] <-"MeasWindErosionArea, MeasWindErosionConc"
   
-  #### 3.3 #unique(alldata$LTARSite.Code)  # need to split out St Paul and Morris as subsites ####
+  
+  #### 3.3 assign NALT keywords ####
+  
+  alldata$NALT.Keywords[alldata$Category%in%c("Animal", "Animals", "ANIMAL", "Rangeland")]<-"Animals, Animal Science, Rangeland"
+  alldata$NALT.Keywords[alldata$Category%in%c("Manure")]<-"Animals, Soil, Manure"
+  alldata$NALT.Keywords[alldata$Category%in%c("Wildlife", "Biodiversity", "Species List", "Habitat")]<-"Biodiversity"
+  alldata$NALT.Keywords[alldata$Category%in%c("Geospatial", "Landbase")]<-"Geospatial Data"
+  alldata$NALT.Keywords[alldata$Category%in%c("Gass Fraction", "Gas Fraction", "GREENHOUSE GAS FLUX", "Greenhouse Gas Flux", "greenhouse gas flux", "Greenhouse Gases")]<-"Greenhouse Gas Emissions"
+  alldata$NALT.Keywords[alldata$Category%in%c("Water Flow", "Hydrology", "Ecohydrology", "RUNOFF", "Runoff")]<-"Hydrology"
+  alldata$NALT.Keywords[alldata$Category%in%c("Evapotranspiration")]<-"Hydrology, Evapotranspiration"
+  alldata$NALT.Keywords[alldata$Category%in%c("Land Management")]<-"Land Management"
+  alldata$NALT.Keywords[alldata$Category%in%c("Farm Management", "FarmManagement")]<-"Land Management, Farm Management"
+  alldata$NALT.Keywords[alldata$Category%in%c("Land Management") & alldata$Site.VariableName%in%c("harvest")]<-"Land Management, Harvesting"
+  alldata$NALT.Keywords[alldata$Category%in%c("LAND USE", "Land Use")]<-"Land Use, Geospatial Data"
+  alldata$NALT.Keywords[alldata$Category%in%c("Meteorological", "Meteorology", "Meterology", "Precipitation")]<-"Meteorology"
+  alldata$NALT.Keywords[alldata$Category%in%c("EC Flux Towers", "Ecosystem Flux", "Eddy Flux", "Eddy flux", "METEOROLOGY (Eddy covariance)", "EDDY COVARIANCE", "Covariance Easy Flux Continous", "LAND-ATMOSPHERE FLUXES (EC)", "METEOROLOGY + EC", "METEOROLOGY (EC)")]<-"Meteorology, Eddy Covariance"
+  alldata$NALT.Keywords[alldata$Category%in%c("Micrometeorology")]<-"Meteorology"
+  alldata$NALT.Keywords[alldata$Category%in%c("Modeling", "MODELING")]<-"Models"
+  alldata$NALT.Keywords[alldata$Category%in%c("pesticide")]<-"Pesticides"
+  alldata$NALT.Keywords[alldata$Category%in%c("RemoteSensing, Remote Sensing", "Remote sensing", "AERIAL IMAGERY", "DEM")]<-"Remote Sensing"
+  alldata$NALT.Keywords[alldata$Category%in%c("Phenology", "Phenocam Continuous", "Phenocam", "PHENOLOGY")]<-"Remote Sensing, Phenology"
+  alldata$NALT.Keywords[alldata$Category%in%c("Projects Data")]<-"Research Projects"
+  alldata$NALT.Keywords[alldata$Category%in%c("Reservior", "RESERVIOR", "Sediment", "SEDIMENT")]<-"Sediments"
+  alldata$NALT.Keywords[alldata$Category%in%c("Soil", "Soils", "SOIL", "Soil characteristics", "SOIL CHARACTERISTICS", "SOIL WATER", "SOIL COVER", "soils")]<-"Soil"
+  alldata$NALT.Keywords[alldata$Category%in%c("SOIL PHYSICS")]<-"Soil Physics"
+  alldata$NALT.Keywords[alldata$Category%in%c("SOIL BIOLOGY", "SOIL MICROBIAL")]<-"Soil, Soil Biology"
+  alldata$NALT.Keywords[alldata$Category%in%c("Soil Properties")]<-"Soil, Soil Biology, Soil Physics, Soil Chemistry"
+  alldata$NALT.Keywords[alldata$Category%in%c("SOIL CHEMISTRY", "Soil Sampling Mineral Analysis 2016", "Soil Sampling Mineral Analysis 2017","Soil Sampling Mineral Analysis 2018", "Soil Sampling Physical Analysis 2016", "Soil Sampling Physical Analysis 2017","Soil Sampling Physical Analysis 2018")]<-"Soil, Soil Chemistry"
+  alldata$NALT.Keywords[alldata$Category%in%c("Soil-Atmosphere Gas Flux", "SOIL ECOSYSTEM EXCHANGES")]<-"Soil, Soil Respiration"
+  alldata$NALT.Keywords[alldata$Category%in%c("Soil/Plant")]<-"Soil, Vegetation, Soil Respiration, Greenhouse Gas Emissions"
+  alldata$NALT.Keywords[alldata$Category%in%c("Plant", "PLANT FRACTION", "Vegetation", "VEGETATION", "Primary Production", "Vegetation Composition")]<-"Vegetation"
+  alldata$NALT.Keywords[alldata$Category%in%c("BIOMASS CARBOHYDRATE ANALYSIS", "BIOMASS MINERAL ANALYSIS", "BIOMASS ENERGY")]<-"Vegetation, Biomass"
+  alldata$NALT.Keywords[alldata$Category%in%c("Crop", "CROP")]<-"Vegetation, Crop"
+  alldata$NALT.Keywords[alldata$Category%in%c("HARVEST REMOVAL")]<-"Vegetation, Crop, Harvesting"
+  alldata$NALT.Keywords[alldata$Category%in%c("Forage", "GRAZING PLANTS")]<-"Vegetation, Grazing"
+  alldata$NALT.Keywords[alldata$Category%in%c("Forage")]<-"Vegetation, Grazing, Biomass"
+  alldata$NALT.Keywords[alldata$Category%in%c("Weed")]<-"Vegetation, Invasive Species"
+  alldata$NALT.Keywords[alldata$Category%in%c("Water Quality", "WATER QUALITY", "water/soil chemistry")]<-"Water Quality"
+  alldata$NALT.Keywords[alldata$Category%in%c("STREAM CROSS-SECTION SURVEYS", "STREAM THALWEG SURVEYS")]<-"Water Quality, Hydrology"
+  alldata$NALT.Keywords[alldata$Category%in%c("Lake")]<-"Water Quality, Lake"
+  alldata$NALT.Keywords[alldata$Category%in%c("Water Quality") & alldata$Site.VariableName%in%c("pp' -DDD", "pp'DDE", "pp'-DDT")]<-"Water Quality, Pesticides"
+  alldata$NALT.Keywords[alldata$Category%in%c("Wind Erosion")]<-"Wind Erosion"
+  alldata$NALT.Keywords[alldata$Category%in%c("Wind Erosion") & alldata$Site.VariableName%in%c("time lapse camera")]<-"Water Quality, Phenology"
+  
+  
+  #### 3.4 #unique(alldata$LTARSite.Code)  # need to split out St Paul and Morris as subsites ####
     
   #### 4. Work on attribute names as mapped to AgCROS, by site within a specific category ####
   ## bring in AgCROS value domains ##
