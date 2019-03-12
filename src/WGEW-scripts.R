@@ -2,6 +2,9 @@
 source("src/inventory-functions.R")
 
 df <- get.inventory()
+
+df.GS <- get.inventory.from.GoolgeSheets()
+
 df.agcros <- get.AgCROS.domains()
 
 write.csv.agcross(df.agcros)

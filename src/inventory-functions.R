@@ -243,6 +243,32 @@ write.csv.inventory <- function(df, site.code = NULL, network.category = NULL) {
   write.csv(df.out, file = write.path, na = "", row.names = FALSE)
 }
 
+
+###### 
+# 
+# Code added by Gerardo
+# Purpose: this function will query Google Sheets for the complete LTAR inventory and build a data frame
+#          In order for this code to work, the Google Sheet has to be copied to your Google account.
+#
+#####
+get.inventory.from.GoolgeSheets <- function(){
+  library(googlesheets)
+  
+  # list all of the users Google Sheets
+  my_sheets <- gs_ls()
+  
+  # read Google Sheet and create data frame
+  GS <- gs_title("LTAR_Inventory_alldata")
+  
+  # list worksheets
+  gs_ws_ls(GS)
+  
+  alldata.GoogleSheets <- gs_read(ss=GS, ws = "alldata", skip=0)
+  
+  return(alldata.GoogleSheets)
+}
+
+
 #### 5. Filter by Site and Category ####
 
 #plants.CPER.data <- filter(alldata, alldata$LTARSite.Code == "CPER" & alldata$Network.Category == "Vegetation")
