@@ -1,33 +1,33 @@
-LTARSite.Code	Category	DataSetVariableName	AttributeDescription	Units	TemporalResolution	TemporalExtent (StartDate)	TemporalExtent (EndDate)	ResponsiblePersons	StorageFormat	URLdataAccess	LocationIDoutsideNetwork	PublicAccess	
-PRHPA	METEOROLOGY	short wave incoming radiation		?mol m-2 s-1		Spring 2001	Present	Suyker	excel sheets	Ameriflux		open	
-PRHPA	METEOROLOGY	short wave outgoing radiation		?mol m-2 s-1		Spring 2001	Present	Suyker	excel sheets	Ameriflux		open	
-PRHPA	METEOROLOGY	long wave incoming radiation		?mol m-2 s-1		Spring 2001	Present	Suyker	excel sheets	Ameriflux		open	
-PRHPA	METEOROLOGY	long wave outgoing radiation		?mol m-2 s-1		Spring 2001	Present	Suyker	excel sheets	Ameriflux		open	
-PRHPA	METEOROLOGY	long wave incoming radiation		?mol m-2 s-1	15 minutes	Spring 2001	Present	Suyker	excel sheets	"NAL LTAR Data Portal, Ameriflux"		open	
-PRHPA	METEOROLOGY	long wave outgoing radiation		?mol m-2 s-1	15 minutes	Spring 2001	Present	Suyker	excel sheets	"NAL LTAR Data Portal, Ameriflux"		open	
-PRHPA	METEOROLOGY	net radiation		?mol m-2 s-1		Spring 2001	Present	Suyker	excel sheets	Ameriflux		open	
-PRHPA	METEOROLOGY	Photosynthetically Active Radiation incoming		?mol m-2 s-1		Spring 2001	Present	Suyker	excel sheets	Ameriflux		open	
-PRHPA	METEOROLOGY	Photosynthetically Active Radiation outgoing		?mol m-2 s-1		Spring 2001	Present	Suyker	excel sheets	Ameriflux		open	
-PRHPA	METEOROLOGY	Diffuse Photosynthetically Active Radiation		?mol m-2 s-1	15 minute	Spring 2001	Present	Suyker	excel sheets	Ameriflux		open	
-	METEOROLOGY	CO2 flux 		?mol m-2 s-2		Spring 2001	Present	Suyker	excel sheets	Ameriflux			
-	METEOROLOGY	H2O flux		mmol m-2 s-3		Spring 2001	Present	Suyker	excel sheets	Ameriflux			
-	METEOROLOGY	CO2 concentration		ppm		Spring 2001	Present	Suyker	excel sheets	Ameriflux			
-	METEOROLOGY	CO2 Density		kgm-3		Spring 2001	Present	Suyker	excel sheets	Ameriflux			
-PRHPA	METEOROLOGY	Air Pressure		pascal	15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"		open	
-PRHPA	METEOROLOGY	Air temperature 		°C	 5 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"		Open	
-PRHPA	METEOROLOGY	Relative humidity		%	15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"		Open	
-PRHPA	METEOROLOGY	Eddy Covariance tower height 		meters		Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"		Open	
-PRHPA	METEOROLOGY	wind direction 			15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"		Open	
-PRHPA	METEOROLOGY	Battery voltage		volts	 15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"		Open	
-PRHPA	METEOROLOGY	panel temperature		°C	15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"		Open	
-PRHPA	METEOROLOGY	wind speed		ms-1	15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"		Open	
-PRHPA	METEOROLOGY	precipitation		mm	15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"		Open	
-PRHPA	METEOROLOGY	Precipitation		mm	15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"		Open	
-PRHPA	METEOROLOGY	soil heat flux		W m-2		Spring 2001		Suyker	excel sheets	 Ameriflux		Open	
-PRHPA	METEOROLOGY	soil temperature within row		°C		Spring 2001		Suyker	excel sheets	 Ameriflux		Open	
-PRHPA	METEOROLOGY	soil temperature between row		°C		Spring 2001		Suyker	excel sheets	 Ameriflux		Open	
-PRHPA	METEOROLOGY	soil temperature at 25cm depth		°C		Spring 2001		Suyker	excel sheets	 Ameriflux		Open	
-PRHPA	METEOROLOGY	soil temperature at 50 cm depth		°C		Spring 2001		Suyker	excel sheets	 Ameriflux		Open	
+LTARSite.Code	Category	DataSetVariableName	AttributeDescription	Units	TemporalResolution	StartDate	EndDate	ResponsiblePersons	StorageFormat	URLdataAccess	LocationIDoutsideNetwork	SpatialExtentDescription	PublicAccess
+PRHPA	METEOROLOGY	short wave incoming radiation		?mol m-2 s-1		Spring 2001	Present	Suyker	excel sheets	Ameriflux			open
+PRHPA	METEOROLOGY	short wave outgoing radiation		?mol m-2 s-1		Spring 2001	Present	Suyker	excel sheets	Ameriflux			open
+PRHPA	METEOROLOGY	long wave incoming radiation		?mol m-2 s-1		Spring 2001	Present	Suyker	excel sheets	Ameriflux			open
+PRHPA	METEOROLOGY	long wave outgoing radiation		?mol m-2 s-1		Spring 2001	Present	Suyker	excel sheets	Ameriflux			open
+PRHPA	METEOROLOGY	long wave incoming radiation		?mol m-2 s-1	15 minutes	Spring 2001	Present	Suyker	excel sheets	"NAL LTAR Data Portal, Ameriflux"			open
+PRHPA	METEOROLOGY	long wave outgoing radiation		?mol m-2 s-1	15 minutes	Spring 2001	Present	Suyker	excel sheets	"NAL LTAR Data Portal, Ameriflux"			open
+PRHPA	METEOROLOGY	net radiation		?mol m-2 s-1		Spring 2001	Present	Suyker	excel sheets	Ameriflux			open
+PRHPA	METEOROLOGY	Photosynthetically Active Radiation incoming		?mol m-2 s-1		Spring 2001	Present	Suyker	excel sheets	Ameriflux			open
+PRHPA	METEOROLOGY	Photosynthetically Active Radiation outgoing		?mol m-2 s-1		Spring 2001	Present	Suyker	excel sheets	Ameriflux			open
+PRHPA	METEOROLOGY	Diffuse Photosynthetically Active Radiation		?mol m-2 s-1	15 minute	Spring 2001	Present	Suyker	excel sheets	Ameriflux			open
+PRHPA	METEOROLOGY	CO2 flux 		?mol m-2 s-2		Spring 2001	Present	Suyker	excel sheets	Ameriflux			
+PRHPA	METEOROLOGY	H2O flux		mmol m-2 s-3		Spring 2001	Present	Suyker	excel sheets	Ameriflux			
+PRHPA	METEOROLOGY	CO2 concentration		ppm		Spring 2001	Present	Suyker	excel sheets	Ameriflux			
+PRHPA	METEOROLOGY	CO2 Density		kgm-3		Spring 2001	Present	Suyker	excel sheets	Ameriflux			
+PRHPA	METEOROLOGY	Air Pressure		pascal	15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"			open
+PRHPA	METEOROLOGY	Air temperature 		?C	 5 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"			Open
+PRHPA	METEOROLOGY	Relative humidity		%	15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"			Open
+PRHPA	METEOROLOGY	Eddy Covariance tower height 		meters		Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"			Open
+PRHPA	METEOROLOGY	wind direction 			15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"			Open
+PRHPA	METEOROLOGY	Battery voltage		volts	 15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"			Open
+PRHPA	METEOROLOGY	panel temperature		?C	15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"			Open
+PRHPA	METEOROLOGY	wind speed		ms-1	15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"			Open
+PRHPA	METEOROLOGY	precipitation		mm	15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"			Open
+PRHPA	METEOROLOGY	Precipitation		mm	15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"			Open
+PRHPA	METEOROLOGY	soil heat flux		W m-2		Spring 2001		Suyker	excel sheets	 Ameriflux			Open
+PRHPA	METEOROLOGY	soil temperature within row		?C		Spring 2001		Suyker	excel sheets	 Ameriflux			Open
+PRHPA	METEOROLOGY	soil temperature between row		?C		Spring 2001		Suyker	excel sheets	 Ameriflux			Open
+PRHPA	METEOROLOGY	soil temperature at 25cm depth		?C		Spring 2001		Suyker	excel sheets	 Ameriflux			Open
+PRHPA	METEOROLOGY	soil temperature at 50 cm depth		?C		Spring 2001		Suyker	excel sheets	 Ameriflux			Open
 PRHPA	SOIL BIOLOGY	Total PLFA		nmol/g Oven Dry soil		9/16/2016; pending (6/7/2017)		Okalebo	Excel Sheets	Responsible Person Custody			
 PRHPA	SOIL BIOLOGY	General Bacteria		nmol/g Oven Dry soil		9/16/2016; pending (6/7/2017)		Okalebo	Excel Sheets	Responsible Person Custody			
 PRHPA	SOIL BIOLOGY	Fungi		nmol/g Oven Dry soil		9/16/2016; pending (6/7/2017)		Okalebo	Excel Sheets	Responsible Person Custody			
@@ -35,602 +35,36 @@ PRHPA	SOIL BIOLOGY	Bacteria to Fungi		ratio		9/16/2016; pending (6/7/2017)		Okal
 PRHPA	SOIL BIOLOGY	Gram - Bacteria				9/16/2016; pending (6/7/2017)		Okalebo	Excel Sheets	Responsible Person Custody			
 PRHPA	SOIL BIOLOGY	Gram + bacteria				9/16/2016; pending (6/7/2017)		Okalebo	Excel Sheets	Responsible Person Custody			
 PRHPA	SOIL BIOLOGY	Gram+ to Gram -		ratio		9/16/2016; pending (6/7/2017)		Okalebo	Excel Sheets	Responsible Person Custody			
-PRHPA	SOIL CHEMISTRY	1:1 Soil pH			Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL CHEMISTRY	WDRF Buffer pH						Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL CHEMISTRY	1:1 Solube Salts		mmho/cm	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL CHEMISTRY	Texture No						Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL CHEMISTRY	Organic Matter		 LOI %	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL CHEMISTRY	Nitrate-N		ppm				Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL CHEMISTRY	N		lbs/A				Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL CHEMISTRY	Potassium		ppm	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL CHEMISTRY	Sulfate-S		ppm				Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL CHEMISTRY	Zinc		ppm				Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL CHEMISTRY	Iron		ppm	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL CHEMISTRY	Manganese		ppm				Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL CHEMISTRY	Copper		ppm	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL CHEMISTRY	Calcium		ppm				Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL CHEMISTRY	Magnesium		ppm				Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL CHEMISTRY	Sodium		ppm	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL CHEMISTRY	Boron		ppm				Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL CHEMISTRY	CEC		me/100g	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL CHEMISTRY	%H Sat		%				Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL CHEMISTRY	%K Sat		%	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL CHEMISTRY	%Ca Sat		%				Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL CHEMISTRY	%Mg Sat		%	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL CHEMISTRY	%Na Sat		%				Okalebo	Excel Sheets	Responsible Person Custody		Closed	
+PRHPA	SOIL CHEMISTRY	1:1 Soil pH			Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL CHEMISTRY	WDRF Buffer pH						Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL CHEMISTRY	1:1 Solube Salts		mmho/cm	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL CHEMISTRY	Texture No						Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL CHEMISTRY	Organic Matter		 LOI %	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL CHEMISTRY	Nitrate-N		ppm				Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL CHEMISTRY	N		lbs/A				Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL CHEMISTRY	Potassium		ppm	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL CHEMISTRY	Sulfate-S		ppm				Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL CHEMISTRY	Zinc		ppm				Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL CHEMISTRY	Iron		ppm	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL CHEMISTRY	Manganese		ppm				Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL CHEMISTRY	Copper		ppm	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL CHEMISTRY	Calcium		ppm				Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL CHEMISTRY	Magnesium		ppm				Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL CHEMISTRY	Sodium		ppm	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL CHEMISTRY	Boron		ppm				Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL CHEMISTRY	CEC		me/100g	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL CHEMISTRY	%H Sat		%				Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL CHEMISTRY	%K Sat		%	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL CHEMISTRY	%Ca Sat		%				Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL CHEMISTRY	%Mg Sat		%	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL CHEMISTRY	%Na Sat		%				Okalebo	Excel Sheets	Responsible Person Custody			Closed
 PRHPA	SOIL CHEMISTRY	Chloride		ppm				Okalebo	Excel Sheets	Responsible Person Custody			
-PRHPA	SOIL CHEMISTRY	Mehlich P-III 		ppm	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL PHYSICS	% moisture		m^3 m^3	twice	2017	Present	Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL PHYSICS	Bulk Density		g/cm3	One time	2017	intermittent	Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL PHYSICS	Field Capacity		% vol				Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	SOIL PHYSICS	Ksat		cm/sec				Okalebo	Excel Sheets	Responsible Person Custody		Closed	
-PRHPA	VEGETATION	Phenocam		NA	30 minute		present	Suyker	Phenocam Network Web Site	Phenocam Network Web Site		Open	
+PRHPA	SOIL CHEMISTRY	Mehlich P-III 		ppm	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL PHYSICS	% moisture		m^3 m^3	twice	2017	Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL PHYSICS	Bulk Density		g/cm3	One time	2017	intermittent	Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL PHYSICS	Field Capacity		% vol				Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	SOIL PHYSICS	Ksat		cm/sec				Okalebo	Excel Sheets	Responsible Person Custody			Closed
+PRHPA	VEGETATION	Phenocam		NA	30 minute		present	Suyker	Phenocam Network Web Site	Phenocam Network Web Site			Open
 PRHPA	VEGETATION	Biomass			intermittently		present	Suyker	excel sheets	Responsible Person Custody			
 PRHPA	VEGETATION	Leaf Area Index			intermittently		present	Suyker	excel sheets	Responsible Person Custody			
 PRHPA	VEGETATION	Yield			end of season		present	Suyker	excel sheets	Responsible Person Custody			
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
-													
