@@ -1,26 +1,23 @@
-##Script to pull in data inventories from the LTAR NEtwork, bind and anlyze them
-##Assign Network categories and keywords, as well as attributes to AgCROS tables
-##Next version shall assign only one category, yet allow multiple terms comma-delimited to be listed under keywords
-##Nicole Kaplan, Bryan Carlson 3/7/2019
+############################
+### Script to pull in data inventories from the LTAR NEtwork, bind and anlyze them
+### Assign Network categories and keywords, as well as attributes to AgCROS tables
+### Next version shall assign only one category, yet allow multiple terms comma-delimited to be listed under keywords
+#   Nicole Kaplan, Bryan Carlson, Gerardo Armendariz (4/9/2019)
+
+
+############################
+### Parts 1, 2, and 3:  Create initial merged inventory from individual site inventories
+##  
 
 get.inventory <- function() {
   library(tidyverse)
-  #library(fuzzyjoin)
-  
-  #dir <- "//10.177.16.112/cdo/TEAM/inventories"
-  #setwd(dir)
-  
-  
+
   #### 1. appending all of the inventories into one ####
-  #setwd("Y:/inventories/csv_Inventories")
-  
   filename<-as.data.frame(dir("input/csv_inventories")) 
   colnames(filename)[1]<-'filename'
   filename$filename<-as.character(filename$filename)
   filename<-filename %>%  
-    filter(str_detect(filename, paste(c("txt")))) 
-  
-  
+  filter(str_detect(filename, paste(c("txt")))) 
   
   l<-NROW(filename$filename)
   
@@ -36,13 +33,13 @@ get.inventory <- function() {
   
   #### 2. Adding additional columns to further categorize data (still as general typology vs attribute definition - next step) ####
   
-  inventory.1$Network.Category <- ""  #Assigned in section 3.1
-  inventory.1$AgCROS.Table <-""       #Assigned in section 3.2
-  inventory.1$AgCROS.VarName <- ""    # Assigned by site and work through individual categories first, perhaps as google sheet with lookup, section 4.1?
-  inventory.1$Repo.Name <- "" #(eg AmeriFlux, ) #Assigned in section 3.2
-  inventory.1$subsite <- ""           #Needs to be addessed by each site, see MN as an example 3.3
-  inventory.1$NALT.Keywords <- ""     #3.4
-  #inventory.1$Model.Name <- ""  #3.5 Ask Bryan if there is a list of models that may have included simulated data to be included as a lookup
+  inventory.1$Network.Category <- ""  #Assigned one in section 3.1
+  inventory.1$AgCROS.Table <-"NA"       #Assigned in section 3.2 from Bruce's mapping
+  inventory.1$AgCROS.VarName <- ""    # To be assigned by site and work through individual categories first, perhaps as google sheet with lookup
+  inventory.1$NALT.Keywords <- ""     #3.3
+  inventory.1$subsite <- ""           #Needs to be addessed by each site, see MN as an example 3.4
+  inventory.1$Repo.Name <- "" #(eg AmeriFlux, ) #Assigned in section 3.5
+  inventory.1$Model.Name <- ""  #3.6 Ask Bryan if there is a list of models that may have included simulated data to be included as a lookup
   
   #### 3. Working with intgrated data frame from all sites ####
   
@@ -83,7 +80,7 @@ get.inventory <- function() {
   alldata$Network.Category[alldata$Category%in%c("Forage", "GRAZING PLANTS")]<-"Vegetation"
   alldata$Network.Category[alldata$Category%in%c("Forage")]<-"Vegetation"
   alldata$Network.Category[alldata$Category%in%c("Weed")]<-"Vegetation"
-  alldata$Network.Category[alldata$Category%in%c("Water Quality", "WATER QUALITY", "water/soil chemistry")]<-"Water Quality"
+  alldata$Network.Category[alldata$Category%in%c("Water Quality", "WATER QUALITY", "water/soil chemistry", "water quality")]<-"Water Quality"
   alldata$Network.Category[alldata$Category%in%c("STREAM CROSS-SECTION SURVEYS", "STREAM THALWEG SURVEYS")]<-"Hydrology"
   alldata$Network.Category[alldata$Category%in%c("Lake")]<-"Water Quality"
   alldata$Network.Category[alldata$Category%in%c("Water Quality") & alldata$Site.VariableName%in%c("pp' -DDD", "pp'DDE", "pp'-DDT")]<-"Water Quality"
@@ -92,9 +89,8 @@ get.inventory <- function() {
   
   
   
-  
-  
   #### 3.2 assign AgCROS table names from enterprise data system or Repo.Name to Network.Categories  ####
+  
   alldata$AgCROS.Table[alldata$Network.Category%in%c("Animals, Animal Science, Rangeland")] <-"MgtAnimal, MeasAnimal"
   alldata$AgCROS.Table[alldata$Network.Category%in%c("Biodiversity")] <-"New AgCROS table TBD"
   alldata$AgCROS.Table[alldata$Network.Category%in%c("Vegetation, Biomass")] <-"MeasBiomassCHO, MeasBiomassEnergy, MeasBiomassMinAn"
@@ -118,7 +114,7 @@ get.inventory <- function() {
   alldata$Repo.Name[alldata$SpatialExtentDescription%in%c("Drone")] <-"ARS Imagery Server"
   alldata$Repo.Name[alldata$SpatialExtentDescription%in%c("Phenocam, Drone")] <-"PhenoCam Network"
   alldata$AgCROS.Table[alldata$Network.Category%in%c("Research Projects")] <-"AgCROS overview tables"
-  alldata$AgCROS.Table[alldata$Network.Category%in%c("Sediments")] <-" Soil, Soil Biology, Soil Chemistry, or Soil Physical"
+  alldata$AgCROS.Table[alldata$Network.Category%in%c("Sediments")] <-" MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol"
   alldata$AgCROS.Table[alldata$Network.Category%in%c("Soil", "Soil, Soil Biology, Soil Physics, Soil Chemistry")] <-"MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol"
   alldata$AgCROS.Table[alldata$Network.Category%in%c("Soil, Soil Chemistry")] <-"MeasSoilChem"
   alldata$AgCROS.Table[alldata$Network.Category%in%c("Soil Physics")] <-"MeasSoilPhys"
@@ -174,29 +170,62 @@ get.inventory <- function() {
   
   
   #### 3.4 #unique(alldata$LTARSite.Code)  # need to split out St Paul and Morris as subsites ####
-    
-  #### 4. Work on attribute names as mapped to AgCROS, by site within a specific category ####
-  ## bring in AgCROS value domains ##
-#  var.names <- read.delim("input/var.names.txt", header = T, sep = "\t", stringsAsFactors = FALSE, na.strings = "")
-#  var.names <- var.names %>%
-#    select(TYPE, TABLE, COLUMN, ParameterDescription, Units) %>%
-#    filter(COLUMN != "---") %>%
-#    arrange(COLUMN) 
-#  names(var.names)[3] <-"AgCROS.VarName"
-  
   return(alldata)
 }
 
+############################
+#### 4. Filter AgCROS variable names for mapping from network to AgCROS ####
+## bring in AgCROS value domains ##
+
 get.AgCROS.domains <- function() {
-  var.names <- read.delim("input/var.names.txt", header = T, sep = "\t", stringsAsFactors = FALSE, na.strings = "")
+  var.names <- read.delim("input/var.names.txt", header = T, sep = "\t", stringsAsFactors = FALSE, na.strings = "", check.names = FALSE)
+  
+  var.names <- select(var.names, TYPE, TABLE, 'Parameter Description Name (long)','Parameter Description Name (short)', 'Units (short)', TYPE) 
+  
+  names(var.names)[3] <-"Variable Description"
+  names(var.names)[4] <-"AgCROS.VarName"
+  names(var.names)[5] <-"AgCROS.Unit"
+  
   var.names <- var.names %>%
-    select(TYPE, TABLE, COLUMN, ParameterDescription, Units) %>%
-    filter(COLUMN != "---") %>%
-    arrange(COLUMN) 
-  names(var.names)[3] <-"AgCROS.VarName"
+    filter(TYPE %in% c("Measurement", "Management", "Characterization")) %>%
+    filter(!str_detect(AgCROS.VarName, paste(c("STD")))) %>%
+    na.omit(var.names$AgCROS.Unit)
+  
   
   return(var.names)
 }
+
+#### 4.1 Filter the AgCROS variable associated with various tables to create systematic approach to mapping ####
+
+filter.agcros.variables <- function(){
+  var.names.soil <- var.names %>% filter(TABLE %in% c("MeasSoilCover", "MeasSoilChem", "MeasSoilPhys", "MeasSoilBiol"))  
+  var.names.ghg <- var.names %>% filter(TABLE %in% c("MeasGHGFlux"))
+  var.names.plants <- var.names %>% filter(TABLE %in% c("MeasGrazingPlants", "MeasResidueMgt", "MeasHarvestFraction"))
+  var.names.wind <- var.names %>% filter(TABLE %in% c("MeasWindErosionArea", "MeasWindErosionConc"))
+  var.names.mgmt <- var.names %>%
+    filter(TABLE %in% c("MgtAmendments", "MgtPlanting", "MgtTillage", "MgtGrowthStages", "MgtResidue", "MgtGrazing"))
+  var.names.weather <- var.names %>%
+    filter(TABLE %in% c("WeatherDaily", "WeatherStation"))
+  var.names.stewards.waterQual <- var.names %>%
+    filter(TABLE %in% c("STEWARDS Water Quality table that will be added to AgCROS"))
+  var.names.stewards.waterDisc <- var.names %>%
+    filter(TABLE %in% c("STEWARDS Water Quality, Discharge, and Runoff tables that will be added to DET"))
+}
+
+#### 4.1.1 Output the AgCROS variable associated with various tables to create systematic approach to mapping ####
+
+write.filtered.agcros.variables <- function(){
+  write.table(var.names.soil, "output/var.names.soil.txt", sep = "\t") 
+  write.table(var.names.ghg, "output/var.names.ghg.txt", sep = "\t") 
+  write.table(var.names.plants, "output/var.names.plants.txt", sep = "\t") 
+  write.table(var.names.wind, "output/var.names.wind.txt", sep = "\t") 
+  write.table(var.names.mgmt, "output/var.names.mgmt.txt", sep = "\t") 
+  write.table(var.names.weather, "output/var.names.weather.txt", sep = "\t") 
+  write.table(var.names.stewards.waterQual, "output/var.names.stewards.waterQual.txt", sep = "\t") 
+  write.table(var.names.stewards.waterDisc, "output/var.names.stewards.waterDisc.txt", sep = "\t") 
+}
+
+#### 4.2 Write the AgCROS variable names to a CSV file ####
 
 write.csv.agcross <- function(df, table.name = NULL) {
   write.path <- "output/agcross-"
@@ -212,12 +241,15 @@ write.csv.agcross <- function(df, table.name = NULL) {
   }
   
   dateToday <- format(Sys.Date(), "%Y%m%d")
-  write.path <- paste(write.path, "_", dateToday, ".csv", sep = "")
+  write.path <- paste(write.path, "_", dateToday, ".csv", sep = "\t")
   write.csv(df.out, file = write.path, na = "", row.names = FALSE)
 }
 
-write.csv.inventory <- function(df, site.code = NULL, network.category = NULL) {
 
+#### 4.3 Write the full inventory to a CSV ####
+
+write.csv.inventory <- function(df, site.code = NULL, network.category = NULL) {
+  
   write.path <- "output/inventory-"
   df.out <- df
   
@@ -244,39 +276,111 @@ write.csv.inventory <- function(df, site.code = NULL, network.category = NULL) {
 }
 
 
-###### 
-# 
-# Code added by Gerardo
-# Purpose: this function will query Google Sheets for the complete LTAR inventory and build a data frame
+############################
+### 5. Get data from Google to work with in R ####
+##  Purpose: this function will query Google Sheets for the complete LTAR inventory and build a data frame
+#   Code added by Gerardo
 #          In order for this code to work, the Google Sheet has to be copied to your Google account.
-#
-#####
-get.inventory.from.GoolgeSheets <- function(){
+
+get.inventory.from.GoolgeSheets <- function(sheetname){
   library(googlesheets)
   
   # list all of the users Google Sheets
   my_sheets <- gs_ls()
   
   # read Google Sheet and create data frame
-  GS <- gs_title("LTAR_Inventory_alldata")
+  GS <- gs_title("LTAR_Inventory_alldata_2019")
   
   # list worksheets
   gs_ws_ls(GS)
   
-  alldata.GoogleSheets <- gs_read(ss=GS, ws = "alldata", skip=0)
+  alldata.GoogleSheets <- gs_read(ss=GS, ws = sheetname, skip=0)
   
   return(alldata.GoogleSheets)
 }
 
+#### 5.1 Update Network Category, add NAL subject, and add ISO topic ####
+## Added as next step by Nicole to re-assign categories per discussions with NAL, AgCROS and project members ##
 
-#### 5. Filter by Site and Category ####
+update.inventory.with.NALSubject.and.ISOTopic <- function(df) {
+  
+#### 5.1.1 Update Meteorology category to include evapotranspiration ###
+  df$Network.Category[df$Category%in%c("Evapotranspiration")]<-"Meteorology"
+  
+#### 5.1.2 Add NALT Subject area mapped from network categories ####
+  
+  df$NALT.Subject<-""
+  
+  df$NALT.Subject[df$Network.Category%in%c("Animals")]<-"Animal Science and Animal Products"
+  df$NALT.Subject[df$Network.Category%in%c("Biodiversity")]<-"Natural Resources, Earth and Environmental Sciences"
+  df$NALT.Subject[df$Network.Category%in%c("Eddy Covariance")]<-"Research, Technology and Engineering"
+  df$NALT.Subject[df$Network.Category%in%c("Geospatial Data")]<-"Research, Technology and Engineering"
+  df$NALT.Subject[df$Network.Category%in%c("Greenhouse Gas Emissions")]<-"Physical and Chemical Sciences"
+  df$NALT.Subject[df$Network.Category%in%c("Hydrology")]<-"Natural Resources, Earth and Environmental Sciences"
+  df$NALT.Subject[df$Network.Category%in%c("Land Management")]<-"Farms and Farming Systems"
+  df$NALT.Subject[df$Network.Category%in%c("Manure")]<-"Farms and Farming Systems"
+  df$NALT.Subject[df$Network.Category%in%c("Meteorology")]<-"Natural Resources, Earth and Environmental Sciences"
+  df$NALT.Subject[df$Network.Category%in%c("Models")]<-"Research, Technology and Engineering"
+  df$NALT.Subject[df$Network.Category%in%c("Phenology")]<-"Natural Resources, Earth and Environmental Sciences"
+  df$NALT.Subject[df$Network.Category%in%c("Remote Sensing")]<-"Research, Technology and Engineering"
+  df$NALT.Subject[df$Network.Category%in%c("Sediments")]<-"Natural Resources, Earth and Environmental Sciences"
+  df$NALT.Subject[df$Network.Category%in%c("Soil")]<-"Natural Resources, Earth and Environmental Sciences"
+  df$NALT.Subject[df$Network.Category%in%c("Soil Plant Interactions")]<-"Natural Resources, Earth and Environmental Sciences"
+  df$NALT.Subject[df$Network.Category%in%c("Vegetation")]<-"Natural Resources, Earth and Environmental Sciences"
+  df$NALT.Subject[df$Network.Category%in%c("Water Quality")]<-"Natural Resources, Earth and Environmental Sciences"
+  df$NALT.Subject[df$Network.Category%in%c("Wind Erosion")]<-"Natural Resources, Earth and Environmental Sciences"
+  
+####5.1.3 Add ISO topics mapped from network categories ####
+  df$ISO.Topic<-""
+  
+  df$ISO.Topic[df$Network.Category%in%c("Animals")]<-"farming"
+  df$ISO.Topic[df$Network.Category%in%c("Biodiversity")]<-"climatologyMeteorologyAtmosphere"
+  df$ISO.Topic[df$Network.Category%in%c("Eddy Covariance")]<-"climatologyMeteorologyAtmosphere"
+  df$ISO.Topic[df$Network.Category%in%c("Geospatial Data")]<-"planningCadastre"
+  df$ISO.Topic[df$Network.Category%in%c("Greenhouse Gas Emissions")]<-"climatologyMeteorologyAtmosphere"
+  df$ISO.Topic[df$Network.Category%in%c("Hydrology")]<-"inlandWaters"
+  df$ISO.Topic[df$Network.Category%in%c("Land Management")]<-"environment"
+  df$ISO.Topic[df$Network.Category%in%c("Manure")]<-"farming"
+  df$ISO.Topic[df$Network.Category%in%c("Meteorology")]<-"climatologyMeteorologyAtmosphere"
+  df$ISO.Topic[df$Network.Category%in%c("Models")]<-""
+  df$ISO.Topic[df$Network.Category%in%c("Phenology")]<-"biota"
+  df$ISO.Topic[df$Network.Category%in%c("Remote Sensing")]<-"imageryBaseMapsEarthCover"
+  df$ISO.Topic[df$Network.Category%in%c("Sediments")]<-"geoscientificInformation"
+  df$ISO.Topic[df$Network.Category%in%c("Soil")]<-"geoscientificInformation"
+  df$ISO.Topic[df$Network.Category%in%c("Soil Plant Interactions")]<-"biota"
+  df$ISO.Topic[df$Network.Category%in%c("Vegetation")]<-"biota"
+  df$ISO.Topic[df$Network.Category%in%c("Water Quality")]<-"inlandWaters"
+  df$ISO.Topic[df$Network.Category%in%c("Wind Erosion")]<-"environment"
+  
+  return(df)
+}
+
+
+############################
+#### 6.0 saving revised data inventory back out to Google sheet workbook ####
+
+upload.inventory.to.googlesheets <- function(df) {
+  require(googlesheets)
+  suppressMessages(library(dplyr))
+  #first get the existing spreadsheet
+  LTAR_Inventory_alldata_2019 <- gs_title("LTAR_Inventory_alldata_2019")  
+  #Then add the new worksheet to the existing sheet 
+  LTAR_Inventory_alldata_2019 %>% gs_ws_new(ws_title = "alldata.GoogleSheets_NUEVO"  #make sure it doesn't exist already
+            , row_extent = 5000
+            , col_extent = 24
+            , input = df #data.frame or data.table
+            , trim = FALSE  #optional if you want your worksheet trimed
+            , verbose = TRUE
+  )
+}
+
+
+############################
+#### 7. ?? More development for later .... Filter by Site and Category for site to work with data later ??####
 
 #plants.CPER.data <- filter(alldata, alldata$LTARSite.Code == "CPER" & alldata$Network.Category == "Vegetation")
 
-
 #plants.var.name <- filter(var.names, var.names$TABLE == "MeasGrazingPlants")
-
-
 
 #write.table(plants.CPER.data, paste("output/plants.CPER.data_", dateToday, ".txt", sep = ""), col.names = TRUE, sep = "\t")
 
