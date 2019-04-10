@@ -1,0 +1,1147 @@
+LTARSite Code	Category	DataSetVariableName	AttributeDescription	Units	TemporalResolution	StartDate	EndDate	ResponsiblePersons	StorageFormat	URLdataAccess	LocationIDoutsideNetwork	SpatialExtentDescription	PublicAccess
+GB	LAND-ATMOSPHERE FLUXES (EC)	q138h08ecflux_albedo	average albedo	dimensionless	30 minute	8/16/05	3/24/19	Flerchinger	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qlosecflux_albedo	average albedo	dimensionless	30 minute	7/29/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rls		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qmbsecflux_albedo	average albedo	dimensionless	30 minute	7/31/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rms		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qwbsecflux_albedo	average albedo	dimensionless	30 minute	9/16/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rws		Open
+GB	GREENHOUSE GAS FLUX	q127eco2_cfx004i	CO_ concentration	ppm	15 minute	9/6/16	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q127eco2_cfx004s	CO_ concentration	ppm	15 minute	9/6/16	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	h098fco2_cfx006i	CO_ concentration	ppm	1 hour	7/17/15	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	h098fco2_cfx006s	CO_ concentration	ppm	1 hour	7/17/15	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q177co2_cfx007p	CO_ concentration	ppm	15 minute	1/25/18	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q177co2_cfx010i	CO_ concentration	ppm	15 minute	10/21/16	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q177co2_cfx010s	CO_ concentration	ppm	15 minute	10/21/16	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q127eco2_cfx018	CO_ concentration	ppm	15 minute	9/6/16	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q127eco2_cfx023	CO_ concentration	ppm	15 minute	9/6/16	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q177co2_cfx024	CO_ concentration	ppm	15 minute	10/21/16	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q177co2_cfx025	CO_ concentration	ppm	15 minute	10/21/16	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	h098fco2_cfx026i	CO_ concentration	ppm	1 hour	7/17/15	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	h098fco2_cfx026s	CO_ concentration	ppm	1 hour	7/17/15	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q177co2_cfx031p	CO_ concentration	ppm	15 minute	1/25/18	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	h098fco2_cfx041s	CO_ concentration	ppm	1 hour	7/17/15	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q177co2_cfx042	CO_ concentration	ppm	15 minute	10/21/16	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q177co2_cfx043	CO_ concentration	ppm	15 minute	10/21/16	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	h098fco2_cfx044i	CO_ concentration	ppm	1 hour	7/17/15	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	h098fco2_cfx063i	CO_ concentration	ppm	1 hour	7/17/15	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	h098fco2_cfx063s	CO_ concentration	ppm	1 hour	7/17/15	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q177co2_cfx070	CO_ concentration	ppm	15 minute	10/21/16	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q177co2_cfx071	CO_ concentration	ppm	15 minute	10/21/16	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q127eco2_cfx079	CO_ concentration	ppm	15 minute	9/6/16	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q127eco2_cfx085	CO_ concentration	ppm	15 minute	9/6/16	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q127eco2_cfx113	CO_ concentration	ppm	15 minute	9/6/16	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q127eco2_cfx114	CO_ concentration	ppm	15 minute	9/6/16	3/24/19	Seyfried	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	q138h08ecflux_co2_cr	CO_ concentration	mg/m_/s	30 minute	8/16/05	3/24/19	Flerchinger	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qlosecflux_co2_cr	CO_ concentration	mg/m_/s	30 minute	9/10/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rls		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qmbsecflux_co2_cr	CO_ concentration	mg/m_/s	30 minute	7/31/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rms		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qwbsecflux_co2_cr	CO_ concentration	mg/m_/s	30 minute	9/16/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rws		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	q138h08ecflux_fc_un_cr	CO_ flux	mg/m_	30 minute	8/16/05	3/24/19	Flerchinger	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qlosecflux_fc_un_cr	CO_ flux	mg/m_	30 minute	9/10/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rls		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qwbsecflux_fc_un_cr	CO_ flux	mg/m_	30 minute	9/16/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rws		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	q138h08ecflux_h2o_cr	water vapor density	g/m_	30 minute	8/16/05	3/24/19	Flerchinger	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qlosecflux_h2o_cr	water vapor density	g/m_	30 minute	9/10/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rls		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qmbsecflux_h2o_cr	water vapor density	g/m_	30 minute	7/31/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rms		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qwbsecflux_h2o_cr	water vapor density	g/m_	30 minute	9/16/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rws		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	q138h08ecflux_h_un_cr	sensible heat flux	W/m_	30 minute	8/16/05	3/24/19	Flerchinger	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qlosecflux_h_un_cr	sensible heat flux	W/m_	30 minute	9/10/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rls		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qwbsecflux_h_un_cr	sensible heat flux	W/m_	30 minute	9/16/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rws		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	q138h08ecflux_ir_tc	infrared surface temperature	¡C	30 minute	1/26/06	3/24/19	Flerchinger	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qlosecflux_ir_tc	infrared surface temperature	¡C	30 minute	4/30/15	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rls		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qmbsecflux_ir_tc	infrared surface temperature	¡C	30 minute	5/6/15	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rms		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qwbsecflux_ir_tc	infrared surface temperature	¡C	30 minute	4/30/15	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rws		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	q138h08ecflux_le_un_cr	latent heat flux	W/m_	30 minute	8/16/05	3/24/19	Flerchinger	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qlosecflux_le_un_cr	latent heat flux	W/m_	30 minute	9/10/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rls		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qwbsecflux_le_un_cr	latent heat flux	W/m_	30 minute	9/16/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rws		Open
+GB	GREENHOUSE GAS FLUX	q127eo2_ofx004s		kPa	15 minute	9/6/16	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q177o2_ofx009		kPa	15 minute	10/21/16	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q127eo2_ofx019		kPa	15 minute	9/6/16	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q177o2_ofx024		kPa	15 minute	10/21/16	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q177o2_ofx040		kPa	15 minute	10/21/16	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q177o2_ofx070		kPa	15 minute	10/21/16	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q127eo2_ofx082		kPa	15 minute	9/6/16	3/24/19	Seyfried	SAS V9				Open
+GB	GREENHOUSE GAS FLUX	q127eo2_ofx116		kPa	15 minute	9/6/16	3/24/19	Seyfried	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	q138h08ecflux_par	photosynthetically active radiation	photons/m2/s	30 minute	4/30/15	3/24/19	Flerchinger	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qlosecflux_par	photosynthetically active radiation	photons/m2/s	30 minute	4/30/15	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rls		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qmbsecflux_par	photosynthetically active radiation	photons/m2/s	30 minute	5/6/15	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rms		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qwbsecflux_par	photosynthetically active radiation	photons/m2/s	30 minute	4/30/15	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rws		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	q138h08ecflux_press_cr	air pressure	kPa	30 minute	8/16/05	3/24/19	Flerchinger	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qlosecflux_press_cr	air pressure	kPa	30 minute	9/10/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rls		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qmbsecflux_press_cr	air pressure	kPa	30 minute	7/31/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rms		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qwbsecflux_press_cr	air pressure	kPa	30 minute	9/16/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rws		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	q138h08ecflux_rl_dwnwell	incoming thermal radiation	W/m_	30 minute	8/16/05	3/24/19	Flerchinger	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qlosecflux_rl_dwnwell	incoming thermal radiation	W/m_	30 minute	7/29/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rls		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qmbsecflux_rl_dwnwell	incoming thermal radiation	W/m_	30 minute	7/31/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rms		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qwbsecflux_rl_dwnwell	incoming thermal radiation	W/m_	30 minute	9/16/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rws		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	q138h08ecflux_rl_upwell	outgoing thermal radiation	W/m_	30 minute	8/16/05	3/24/19	Flerchinger	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qlosecflux_rl_upwell	outgoing thermal radiation	W/m_	30 minute	7/29/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rls		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qmbsecflux_rl_upwell	outgoing thermal radiation	W/m_	30 minute	7/31/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rms		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qwbsecflux_rl_upwell	outgoing thermal radiation	W/m_	30 minute	9/16/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rws		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	q138h08ecflux_rs_dwnwell	incoming thermal radiation	W/m_	30 minute	8/16/05	3/24/19	Flerchinger	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qlosecflux_rs_dwnwell	incoming thermal radiation	W/m_	30 minute	7/29/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rls		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qmbsecflux_rs_dwnwell	incoming thermal radiation	W/m_	30 minute	7/31/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rms		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qwbsecflux_rs_dwnwell	incoming thermal radiation	W/m_	30 minute	9/16/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rws		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	q138h08ecflux_rs_upwell	outgoing solar radiation	W/m_	30 minute	8/16/05	3/24/19	Flerchinger	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qlosecflux_rs_upwell	outgoing solar radiation	W/m_	30 minute	7/29/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rls		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qmbsecflux_rs_upwell	outgoing solar radiation	W/m_	30 minute	7/31/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rms		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qwbsecflux_rs_upwell	outgoing solar radiation	W/m_	30 minute	9/16/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rws		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qlosecflux_shf_1	soil heat flux	W/m_	30 minute	7/29/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rls		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qwbsecflux_shf_1	soil heat flux	W/m_	30 minute	9/16/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rws		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	q138h08ecflux_shf_2	soil heat flux	W/m_	30 minute	8/16/05	3/24/19	Flerchinger	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qlosecflux_shf_2	soil heat flux	W/m_	30 minute	7/29/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rls		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qmbsecflux_shf_2	soil heat flux	W/m_	30 minute	8/18/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rms		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qwbsecflux_shf_2	soil heat flux	W/m_	30 minute	9/16/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rws		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	q138h08ecflux_shf_3	soil heat flux	W/m_	30 minute	8/16/05	3/24/19	Flerchinger	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qlosecflux_shf_3	soil heat flux	W/m_	30 minute	7/29/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rls		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qwbsecflux_shf_3	soil heat flux	W/m_	30 minute	9/16/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rws		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	q138h08ecflux_shf_4	soil heat flux	W/m_	30 minute	8/16/05	3/24/19	Flerchinger	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qlosecflux_shf_4	soil heat flux	W/m_	30 minute	7/29/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rls		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qmbsecflux_shf_4	soil heat flux	W/m_	30 minute	7/31/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rms		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qwbsecflux_shf_4	soil heat flux	W/m_	30 minute	9/16/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rws		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	q138h08ecflux_shf_5	soil heat flux	W/m_	30 minute	8/16/05	3/24/19	Flerchinger	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qlosecflux_shf_5	soil heat flux	W/m_	30 minute	7/29/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rls		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qmbsecflux_shf_5	soil heat flux	W/m_	30 minute	8/18/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rms		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qwbsecflux_shf_5	soil heat flux	W/m_	30 minute	9/16/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rws		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	q138h08ecflux_shf_6	soil heat flux	W/m_	30 minute	8/16/05	3/24/19	Flerchinger	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qlosecflux_shf_6	soil heat flux	W/m_	30 minute	7/29/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rls		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qwbsecflux_shf_6	soil heat flux	W/m_	30 minute	9/16/14	3/24/19	Flerchinger	SAS V9	Ameriflux	US-Rws		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qmbsecflux_fc_un_cr	CO_ flux	mg/m_	30 minute	7/31/14	3/23/19	Flerchinger	SAS V9	Ameriflux	US-Rms		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qmbsecflux_h_un_cr	sensible heat flux	W/m_	30 minute	7/31/14	3/23/19	Flerchinger	SAS V9	Ameriflux	US-Rms		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qmbsecflux_le_un_cr	latent heat flux	W/m_	30 minute	7/31/14	3/23/19	Flerchinger	SAS V9	Ameriflux	US-Rms		Open
+GB	METEOROLOGY	l1_urt_climate_wnd2dr	resultant wind direction	¡N	15 minute	8/31/04	3/9/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_urt_climate_wnd2sa	average wind speed	m/s	15 minute	11/14/03	3/9/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_urt_climate_wnd2sr	resultant wind speed	m/s	15 minute	8/31/04	3/9/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_urt_climate_wnd2sx	maximum wind speed	m/s	15 minute	11/14/03	3/9/19	Marks	SAS V9				Open
+GB	SOIL PHYSICS	hourly_076_soiltemperature_stm005	soil temperature	¡C	1 hour	12/22/77	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098_soiltemperature_stm005	soil temperature	¡C	1 hour	6/14/85	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_127_soiltemperature_stm005	soil temperature	¡C	1 hour	9/19/90	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_057_soiltemperature_stm010	soil temperature	¡C	1 hour	3/27/81	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_076_soiltemperature_stm010	soil temperature	¡C	1 hour	12/22/77	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098_soiltemperature_stm010	soil temperature	¡C	1 hour	11/5/81	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_127_soiltemperature_stm010	soil temperature	¡C	1 hour	10/13/81	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_138f06_soiltemperature_stm010wla	soil temperature	¡C	1 hour	10/1/03	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_057_soiltemperature_stm020	soil temperature	¡C	1 hour	8/7/90	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_076_soiltemperature_stm020	soil temperature	¡C	1 hour	12/22/77	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098_soiltemperature_stm020	soil temperature	¡C	1 hour	9/27/90	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_127_soiltemperature_stm020	soil temperature	¡C	1 hour	9/19/90	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_057_soiltemperature_stm030	soil temperature	¡C	1 hour	3/27/81	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_076_soiltemperature_stm030	soil temperature	¡C	1 hour	12/22/77	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098_soiltemperature_stm030	soil temperature	¡C	1 hour	11/5/81	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_127_soiltemperature_stm030	soil temperature	¡C	1 hour	10/13/81	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_138f06_soiltemperature_stm030wla	soil temperature	¡C	1 hour	10/1/03	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_057_soiltemperature_stm040	soil temperature	¡C	1 hour	8/7/90	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098_soiltemperature_stm040	soil temperature	¡C	1 hour	9/27/90	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_127_soiltemperature_stm040	soil temperature	¡C	1 hour	9/19/90	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_057_soiltemperature_stm050	soil temperature	¡C	1 hour	8/7/90	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098_soiltemperature_stm050	soil temperature	¡C	1 hour	9/27/90	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_127_soiltemperature_stm050	soil temperature	¡C	1 hour	9/19/90	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_057_soiltemperature_stm060	soil temperature	¡C	1 hour	3/27/81	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_076_soiltemperature_stm060	soil temperature	¡C	1 hour	8/2/85	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098_soiltemperature_stm060	soil temperature	¡C	1 hour	11/5/81	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_127_soiltemperature_stm060	soil temperature	¡C	1 hour	10/13/81	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_138f06_soiltemperature_stm060wla	soil temperature	¡C	1 hour	10/1/03	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_057_soiltemperature_stm090	soil temperature	¡C	1 hour	3/27/81	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_076_soiltemperature_stm090	soil temperature	¡C	1 hour	8/2/85	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098_soiltemperature_stm090	soil temperature	¡C	1 hour	11/5/81	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_127_soiltemperature_stm090	soil temperature	¡C	1 hour	10/13/81	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_138f06_soiltemperature_stm090wla	soil temperature	¡C	1 hour	10/1/03	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_057_soiltemperature_stm120	soil temperature	¡C	1 hour	3/27/81	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_076_soiltemperature_stm120	soil temperature	¡C	1 hour	6/7/94	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098_soiltemperature_stm120	soil temperature	¡C	1 hour	11/5/81	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_127_soiltemperature_stm120	soil temperature	¡C	1 hour	10/13/81	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_057_soiltemperature_stm180	soil temperature	¡C	1 hour	3/27/81	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_076_soiltemperature_stm180	soil temperature	¡C	1 hour	6/7/94	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098_soiltemperature_stm180	soil temperature	¡C	1 hour	6/14/85	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_127_soiltemperature_stm180	soil temperature	¡C	1 hour	10/13/81	1/31/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_176_soiltemperature_stm005	soil temperature	¡C	1 hour	8/27/90	1/30/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_176_soiltemperature_stm010	soil temperature	¡C	1 hour	10/14/81	1/30/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_176_soiltemperature_stm020	soil temperature	¡C	1 hour	8/27/90	1/30/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_176_soiltemperature_stm030	soil temperature	¡C	1 hour	10/14/81	1/30/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_176_soiltemperature_stm040	soil temperature	¡C	1 hour	8/27/90	1/30/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_176_soiltemperature_stm050	soil temperature	¡C	1 hour	8/27/90	1/30/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_176_soiltemperature_stm060	soil temperature	¡C	1 hour	10/14/81	1/30/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_176_soiltemperature_stm090	soil temperature	¡C	1 hour	10/14/81	1/30/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_176_soiltemperature_stm120	soil temperature	¡C	1 hour	10/14/81	1/30/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_176_soiltemperature_stm180	soil temperature	¡C	1 hour	10/14/81	1/30/19	Seyfried	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_hum10	relative humidity	%	15 minute	10/7/96	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_127_climate_hum10	relative humidity	%	15 minute	10/25/95	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_128_climate_hum10	relative humidity	%	15 minute	9/26/95	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176_climate_hum10	relative humidity	%	15 minute	11/2/95	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_hum15	relative humidity	%	15 minute	2/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_043b_climate_hum3	relative humidity	%	15 minute	11/23/15	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_hum3	relative humidity	%	15 minute	10/7/96	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_095b_climate_hum3	relative humidity	%	15 minute	5/14/03	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_098c_climate_hum3	relative humidity	%	15 minute	8/24/11	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_124b_climate_hum3	relative humidity	%	15 minute	10/31/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_127_climate_hum3	relative humidity	%	15 minute	12/5/84	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_128_climate_hum3	relative humidity	%	15 minute	9/26/95	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_13803_climate_hum3	relative humidity	%	15 minute	12/13/01	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138j10_climate_hum3	relative humidity	%	15 minute	7/17/03	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138l21_climate_hum3	relative humidity	%	15 minute	7/16/03	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_145_climate_hum3	relative humidity	%	15 minute	10/2/01	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_163_climate_hum3	relative humidity	%	15 minute	11/29/99	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_166b_climate_hum3	relative humidity	%	15 minute	10/2/03	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_167_climate_hum3	relative humidity	%	15 minute	12/8/99	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_174_climate_hum3	relative humidity	%	15 minute	9/18/01	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176_climate_hum3	relative humidity	%	15 minute	2/24/83	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_hum3	relative humidity	%	15 minute	2/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_cbte_climate_hum3	relative humidity	%	15 minute	4/28/97	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_guard_climate_hum3	relative humidity	%	15 minute	10/28/97	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt1_climate_hum3	relative humidity	%	15 minute	11/4/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt2_climate_hum3	relative humidity	%	15 minute	11/4/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt4_climate_hum3	relative humidity	%	15 minute	11/1/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt5_climate_hum3	relative humidity	%	15 minute	11/1/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_orc1_climate_hum3	relative humidity	%	15 minute	6/27/96	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_rmsp3_climate_hum3	relative humidity	%	15 minute	10/27/98	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_sme2_climate_hum3	relative humidity	%	15 minute	5/1/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smf1_climate_hum3	relative humidity	%	15 minute	7/25/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smg1_climate_hum3	relative humidity	%	15 minute	11/9/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smg2_climate_hum3	relative humidity	%	15 minute	7/27/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smm1_climate_hum3	relative humidity	%	15 minute	5/16/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smm2_climate_hum3	relative humidity	%	15 minute	7/12/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_hum9	relative humidity	%	15 minute	2/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_irt0a	infrared surface temperature	¡C	15 minute	2/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_irt15a	infrared plant canopy temperature	¡C	15 minute	2/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_irt3a	infrared plant canopy temperature	¡C	15 minute	2/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_irt9a	infrared plant canopy temperature	¡C	15 minute	2/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_prs	air pressure	kPa	15 minute	2/12/87	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_radsh	diffuse solar radiation	W/m_	15 minute	2/6/02	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_043b_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	11/23/15	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	6/18/81	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_095b_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	5/14/03	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_098c_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	8/24/11	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_124b_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	10/31/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_127_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	12/5/84	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138j10_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	7/17/03	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138l21_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	7/16/03	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_145_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	10/2/01	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_163_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	11/29/99	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_167_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	12/8/99	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_174_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	9/18/01	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	2/24/83	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_cbte_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	4/28/97	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_guard_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	10/28/97	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_orc1_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	6/26/96	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_rmsp3_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	10/27/98	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_sme2_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	5/1/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smf1_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	7/25/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smg1_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	11/9/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smg2_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	7/27/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smm1_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	5/16/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smm2_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	7/12/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_tmp10	air temperature	¡C	15 minute	10/7/96	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_127_climate_tmp10	air temperature	¡C	15 minute	9/15/93	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_128_climate_tmp10	air temperature	¡C	15 minute	11/6/93	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176_climate_tmp10	air temperature	¡C	15 minute	9/8/93	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_tmp15	air temperature	¡C	15 minute	2/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_098_climate_tmp2	air temperature	¡C	15 minute	11/5/81	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_043b_climate_tmp3	air temperature	¡C	15 minute	11/23/15	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_tmp3	air temperature	¡C	15 minute	6/18/81	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_095b_climate_tmp3	air temperature	¡C	15 minute	5/14/03	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_098c_climate_tmp3	air temperature	¡C	15 minute	8/24/11	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_124b_climate_tmp3	air temperature	¡C	15 minute	10/31/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_127_climate_tmp3	air temperature	¡C	15 minute	12/5/84	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_128_climate_tmp3	air temperature	¡C	15 minute	11/6/93	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_13803_climate_tmp3	air temperature	¡C	15 minute	12/19/84	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138j10_climate_tmp3	air temperature	¡C	15 minute	7/17/03	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138l21_climate_tmp3	air temperature	¡C	15 minute	7/16/03	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_145_climate_tmp3	air temperature	¡C	15 minute	10/2/01	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_163_climate_tmp3	air temperature	¡C	15 minute	11/29/99	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_166b_climate_tmp3	air temperature	¡C	15 minute	10/2/03	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_167_climate_tmp3	air temperature	¡C	15 minute	12/8/99	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_174_climate_tmp3	air temperature	¡C	15 minute	9/18/01	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176_climate_tmp3	air temperature	¡C	15 minute	2/24/83	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_tmp3	air temperature	¡C	15 minute	2/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_cbte_climate_tmp3	air temperature	¡C	15 minute	4/28/97	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_guard_climate_tmp3	air temperature	¡C	15 minute	10/28/97	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt1_climate_tmp3	air temperature	¡C	15 minute	11/4/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt2_climate_tmp3	air temperature	¡C	15 minute	11/4/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt4_climate_tmp3	air temperature	¡C	15 minute	11/1/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt5_climate_tmp3	air temperature	¡C	15 minute	11/1/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_orc1_climate_tmp3	air temperature	¡C	15 minute	6/26/96	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_rmsp3_climate_tmp3	air temperature	¡C	15 minute	10/27/98	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_sme2_climate_tmp3	air temperature	¡C	15 minute	5/1/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smf1_climate_tmp3	air temperature	¡C	15 minute	7/25/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smg1_climate_tmp3	air temperature	¡C	15 minute	11/9/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smg2_climate_tmp3	air temperature	¡C	15 minute	7/27/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smm1_climate_tmp3	air temperature	¡C	15 minute	5/16/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smm2_climate_tmp3	air temperature	¡C	15 minute	7/12/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_tmp9	air temperature	¡C	15 minute	2/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_124b_climate_vap3	vapor pressure	kPa	15 minute	10/31/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_13803_climate_vap3	vapor pressure	kPa	15 minute	3/20/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138j10_climate_vap3	vapor pressure	kPa	15 minute	8/3/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138l21_climate_vap3	vapor pressure	kPa	15 minute	3/30/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_163_climate_vap3	vapor pressure	kPa	15 minute	7/6/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_167_climate_vap3	vapor pressure	kPa	15 minute	4/21/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_174_climate_vap3	vapor pressure	kPa	15 minute	7/6/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_cbte_climate_vap3	vapor pressure	kPa	15 minute	10/23/12	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_guard_climate_vap3	vapor pressure	kPa	15 minute	10/17/12	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt1_climate_vap3	vapor pressure	kPa	15 minute	11/4/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt2_climate_vap3	vapor pressure	kPa	15 minute	11/4/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt4_climate_vap3	vapor pressure	kPa	15 minute	11/1/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt5_climate_vap3	vapor pressure	kPa	15 minute	11/1/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_orc1_climate_vap3	vapor pressure	kPa	15 minute	10/23/12	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_sme2_climate_vap3	vapor pressure	kPa	15 minute	5/1/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smf1_climate_vap3	vapor pressure	kPa	15 minute	7/25/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smg1_climate_vap3	vapor pressure	kPa	15 minute	11/9/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smg2_climate_vap3	vapor pressure	kPa	15 minute	7/27/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smm1_climate_vap3	vapor pressure	kPa	15 minute	5/16/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smm2_climate_vap3	vapor pressure	kPa	15 minute	7/12/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_wnd10d	wind direction	¡N	15 minute	6/7/94	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_127_climate_wnd10d	wind direction	¡N	15 minute	9/15/93	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_128_climate_wnd10d	wind direction	¡N	15 minute	11/6/93	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176_climate_wnd10d	wind direction	¡N	15 minute	9/8/93	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_wnd10dr	resultant wind direction	¡N	15 minute	6/7/94	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_127_climate_wnd10dr	resultant wind direction	¡N	15 minute	9/15/93	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_128_climate_wnd10dr	resultant wind direction	¡N	15 minute	11/6/93	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176_climate_wnd10dr	resultant wind direction	¡N	15 minute	9/8/93	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_wnd10s	wind speed	m/s	15 minute	10/7/96	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_wnd10sa	average wind speed	m/s	15 minute	6/7/94	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_127_climate_wnd10sa	average wind speed	m/s	15 minute	9/15/93	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_128_climate_wnd10sa	average wind speed	m/s	15 minute	11/6/93	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176_climate_wnd10sa	average wind speed	m/s	15 minute	9/8/93	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_wnd10sr	resultant wind speed	m/s	15 minute	6/7/94	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_127_climate_wnd10sr	resultant wind speed	m/s	15 minute	9/15/93	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_128_climate_wnd10sr	resultant wind speed	m/s	15 minute	11/6/93	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176_climate_wnd10sr	resultant wind speed	m/s	15 minute	9/8/93	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_043b_climate_wnd3d	wind direction	¡N	15 minute	11/23/15	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_wnd3d	wind direction	¡N	15 minute	10/7/96	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_095b_climate_wnd3d	wind direction	¡N	15 minute	2/27/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_098c_climate_wnd3d	wind direction	¡N	15 minute	8/27/11	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_127_climate_wnd3d	wind direction	¡N	15 minute	9/28/92	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_128_climate_wnd3d	wind direction	¡N	15 minute	11/6/93	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_13803_climate_wnd3d	wind direction	¡N	15 minute	3/20/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138j10_climate_wnd3d	wind direction	¡N	15 minute	8/3/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138l21_climate_wnd3d	wind direction	¡N	15 minute	3/30/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_145_climate_wnd3d	wind direction	¡N	15 minute	11/5/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_163_climate_wnd3d	wind direction	¡N	15 minute	11/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_166b_climate_wnd3d	wind direction	¡N	15 minute	5/25/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_167_climate_wnd3d	wind direction	¡N	15 minute	11/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_174_climate_wnd3d	wind direction	¡N	15 minute	11/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176_climate_wnd3d	wind direction	¡N	15 minute	2/3/93	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_sme2_climate_wnd3d	wind direction	¡N	15 minute	5/1/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smf1_climate_wnd3d	wind direction	¡N	15 minute	9/20/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smg2_climate_wnd3d	wind direction	¡N	15 minute	7/27/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smm1_climate_wnd3d	wind direction	¡N	15 minute	5/16/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smm2_climate_wnd3d	wind direction	¡N	15 minute	7/12/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_043b_climate_wnd3dr	resultant wind direction	¡N	15 minute	11/23/15	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_wnd3dr	resultant wind direction	¡N	15 minute	10/7/96	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_095b_climate_wnd3dr	resultant wind direction	¡N	15 minute	2/27/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_098c_climate_wnd3dr	resultant wind direction	¡N	15 minute	8/27/11	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_127_climate_wnd3dr	resultant wind direction	¡N	15 minute	9/28/92	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_128_climate_wnd3dr	resultant wind direction	¡N	15 minute	11/6/93	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_13803_climate_wnd3dr	resultant wind direction	¡N	15 minute	3/20/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138j10_climate_wnd3dr	resultant wind direction	¡N	15 minute	8/3/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138l21_climate_wnd3dr	resultant wind direction	¡N	15 minute	3/30/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_145_climate_wnd3dr	resultant wind direction	¡N	15 minute	11/5/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_163_climate_wnd3dr	resultant wind direction	¡N	15 minute	11/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_166b_climate_wnd3dr	resultant wind direction	¡N	15 minute	9/20/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_167_climate_wnd3dr	resultant wind direction	¡N	15 minute	11/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_174_climate_wnd3dr	resultant wind direction	¡N	15 minute	11/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176_climate_wnd3dr	resultant wind direction	¡N	15 minute	2/3/93	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_sme2_climate_wnd3dr	resultant wind direction	¡N	15 minute	5/1/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smf1_climate_wnd3dr	resultant wind direction	¡N	15 minute	9/20/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smg2_climate_wnd3dr	resultant wind direction	¡N	15 minute	7/27/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smm1_climate_wnd3dr	resultant wind direction	¡N	15 minute	5/16/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smm2_climate_wnd3dr	resultant wind direction	¡N	15 minute	7/12/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_124b_climate_wnd3r	wind run	km	15 minute	10/31/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_13803_climate_wnd3r	wind run	km	15 minute	12/13/01	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138l21_climate_wnd3r	wind run	km	15 minute	7/16/03	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_163_climate_wnd3r	wind run	km	15 minute	11/29/99	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_167_climate_wnd3r	wind run	km	15 minute	12/8/99	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_174_climate_wnd3r	wind run	km	15 minute	9/18/01	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_wnd3s	wind speed	m/s	15 minute	10/7/96	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_rmsp3_climate_wnd3s	wind speed	m/s	15 minute	9/22/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_043b_climate_wnd3sa	average wind speed	m/s	15 minute	11/23/15	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_wnd3sa	average wind speed	m/s	15 minute	10/7/96	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_095b_climate_wnd3sa	average wind speed	m/s	15 minute	2/27/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_098c_climate_wnd3sa	average wind speed	m/s	15 minute	8/27/11	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_124b_climate_wnd3sa	average wind speed	m/s	15 minute	10/31/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_127_climate_wnd3sa	average wind speed	m/s	15 minute	9/28/92	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_128_climate_wnd3sa	average wind speed	m/s	15 minute	11/6/93	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_13803_climate_wnd3sa	average wind speed	m/s	15 minute	3/20/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138j10_climate_wnd3sa	average wind speed	m/s	15 minute	8/3/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138l21_climate_wnd3sa	average wind speed	m/s	15 minute	3/30/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_145_climate_wnd3sa	average wind speed	m/s	15 minute	11/5/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_163_climate_wnd3sa	average wind speed	m/s	15 minute	11/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_166b_climate_wnd3sa	average wind speed	m/s	15 minute	9/20/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_167_climate_wnd3sa	average wind speed	m/s	15 minute	11/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_174_climate_wnd3sa	average wind speed	m/s	15 minute	11/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176_climate_wnd3sa	average wind speed	m/s	15 minute	6/16/92	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_cbte_climate_wnd3sa	average wind speed	m/s	15 minute	10/25/12	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_guard_climate_wnd3sa	average wind speed	m/s	15 minute	10/17/12	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_orc1_climate_wnd3sa	average wind speed	m/s	15 minute	6/22/98	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_rmsp3_climate_wnd3sa	average wind speed	m/s	15 minute	9/22/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_sme2_climate_wnd3sa	average wind speed	m/s	15 minute	5/1/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smf1_climate_wnd3sa	average wind speed	m/s	15 minute	9/20/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smg1_climate_wnd3sa	average wind speed	m/s	15 minute	11/9/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smg2_climate_wnd3sa	average wind speed	m/s	15 minute	7/27/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smm1_climate_wnd3sa	average wind speed	m/s	15 minute	5/16/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smm2_climate_wnd3sa	average wind speed	m/s	15 minute	7/12/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_043b_climate_wnd3sr	resultant wind speed	m/s	15 minute	11/23/15	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_wnd3sr	resultant wind speed	m/s	15 minute	10/7/96	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_095b_climate_wnd3sr	resultant wind speed	m/s	15 minute	2/27/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_098c_climate_wnd3sr	resultant wind speed	m/s	15 minute	8/24/11	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_127_climate_wnd3sr	resultant wind speed	m/s	15 minute	9/28/92	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_128_climate_wnd3sr	resultant wind speed	m/s	15 minute	11/6/93	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_13803_climate_wnd3sr	resultant wind speed	m/s	15 minute	3/20/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138j10_climate_wnd3sr	resultant wind speed	m/s	15 minute	8/3/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138l21_climate_wnd3sr	resultant wind speed	m/s	15 minute	3/30/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_145_climate_wnd3sr	resultant wind speed	m/s	15 minute	11/5/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_163_climate_wnd3sr	resultant wind speed	m/s	15 minute	11/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_166b_climate_wnd3sr	resultant wind speed	m/s	15 minute	9/20/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_167_climate_wnd3sr	resultant wind speed	m/s	15 minute	11/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_174_climate_wnd3sr	resultant wind speed	m/s	15 minute	11/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176_climate_wnd3sr	resultant wind speed	m/s	15 minute	6/16/92	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_orc1_climate_wnd3sr	resultant wind speed	m/s	15 minute	6/22/98	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_rmsp3_climate_wnd3sr	resultant wind speed	m/s	15 minute	9/22/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_sme2_climate_wnd3sr	resultant wind speed	m/s	15 minute	5/1/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smf1_climate_wnd3sr	resultant wind speed	m/s	15 minute	9/20/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smg1_climate_wnd3sr	resultant wind speed	m/s	15 minute	11/9/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smg2_climate_wnd3sr	resultant wind speed	m/s	15 minute	7/27/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smm1_climate_wnd3sr	resultant wind speed	m/s	15 minute	5/16/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smm2_climate_wnd3sr	resultant wind speed	m/s	15 minute	7/12/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_124b_climate_wnd3sx	maximum wind speed	m/s	15 minute	10/31/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_13803_climate_wnd3sx	maximum wind speed	m/s	15 minute	3/20/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138j10_climate_wnd3sx	maximum wind speed	m/s	15 minute	8/3/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138l21_climate_wnd3sx	maximum wind speed	m/s	15 minute	3/30/06	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_145_climate_wnd3sx	maximum wind speed	m/s	15 minute	11/5/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_163_climate_wnd3sx	maximum wind speed	m/s	15 minute	11/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_167_climate_wnd3sx	maximum wind speed	m/s	15 minute	11/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_174_climate_wnd3sx	maximum wind speed	m/s	15 minute	11/4/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_cbte_climate_wnd3sx	maximum wind speed	m/s	15 minute	6/23/98	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_guard_climate_wnd3sx	maximum wind speed	m/s	15 minute	6/23/98	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_orc1_climate_wnd3sx	maximum wind speed	m/s	15 minute	6/22/98	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_sme2_climate_wnd3sx	maximum wind speed	m/s	15 minute	5/1/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smf1_climate_wnd3sx	maximum wind speed	m/s	15 minute	9/20/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smg1_climate_wnd3sx	maximum wind speed	m/s	15 minute	11/9/04	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smg2_climate_wnd3sx	maximum wind speed	m/s	15 minute	7/27/05	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smm1_climate_wnd3sx	maximum wind speed	m/s	15 minute	5/16/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smm2_climate_wnd3sx	maximum wind speed	m/s	15 minute	7/12/07	1/29/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_012_climate_hum3	relative humidity	%	15 minute	6/29/00	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_031_climate_hum3	relative humidity	%	15 minute	8/8/00	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_125_climate_hum3	relative humidity	%	15 minute	6/26/02	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_144_climate_hum3	relative humidity	%	15 minute	9/20/01	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_012_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	6/29/00	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_031_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	8/8/00	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_124_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	7/1/02	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_125_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	6/26/02	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_144_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	9/20/01	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_012_climate_tmp3	air temperature	¡C	15 minute	6/29/00	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_031_climate_tmp3	air temperature	¡C	15 minute	8/8/00	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_124_climate_tmp3	air temperature	¡C	15 minute	7/1/02	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_125_climate_tmp3	air temperature	¡C	15 minute	6/26/02	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_144_climate_tmp3	air temperature	¡C	15 minute	9/20/01	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_012_climate_vap3	vapor pressure	kPa	15 minute	2/27/06	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_031_climate_vap3	vapor pressure	kPa	15 minute	2/27/06	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_125_climate_vap3	vapor pressure	kPa	15 minute	7/7/05	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_012_climate_wnd3d	wind direction	¡N	15 minute	2/27/06	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_031_climate_wnd3d	wind direction	¡N	15 minute	2/27/06	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_124_climate_wnd3d	wind direction	¡N	15 minute	11/4/04	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_125_climate_wnd3d	wind direction	¡N	15 minute	11/4/04	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_144_climate_wnd3d	wind direction	¡N	15 minute	11/4/04	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smg1_climate_wnd3d	wind direction	¡N	15 minute	4/11/05	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_012_climate_wnd3dr	resultant wind direction	¡N	15 minute	2/27/06	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_031_climate_wnd3dr	resultant wind direction	¡N	15 minute	2/27/06	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_124_climate_wnd3dr	resultant wind direction	¡N	15 minute	11/4/04	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_125_climate_wnd3dr	resultant wind direction	¡N	15 minute	11/4/04	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_144_climate_wnd3dr	resultant wind direction	¡N	15 minute	11/4/04	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_orc1_climate_wnd3dr	resultant wind direction	¡N	15 minute	3/16/98	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_rmsp3_climate_wnd3dr	resultant wind direction	¡N	15 minute	9/22/05	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_smg1_climate_wnd3dr	resultant wind direction	¡N	15 minute	4/11/05	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_012_climate_wnd3r	wind run	km	15 minute	8/15/02	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_031_climate_wnd3r	wind run	km	15 minute	8/8/00	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_125_climate_wnd3r	wind run	km	15 minute	6/26/02	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_012_climate_wnd3sa	average wind speed	m/s	15 minute	2/27/06	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_031_climate_wnd3sa	average wind speed	m/s	15 minute	2/27/06	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_124_climate_wnd3sa	average wind speed	m/s	15 minute	11/4/04	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_125_climate_wnd3sa	average wind speed	m/s	15 minute	11/4/04	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_144_climate_wnd3sa	average wind speed	m/s	15 minute	11/4/04	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_012_climate_wnd3sr	resultant wind speed	m/s	15 minute	2/27/06	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_031_climate_wnd3sr	resultant wind speed	m/s	15 minute	2/27/06	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_124_climate_wnd3sr	resultant wind speed	m/s	15 minute	11/4/04	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_125_climate_wnd3sr	resultant wind speed	m/s	15 minute	11/4/04	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_144_climate_wnd3sr	resultant wind speed	m/s	15 minute	11/4/04	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_012_climate_wnd3sx	maximum wind speed	m/s	15 minute	2/27/06	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_031_climate_wnd3sx	maximum wind speed	m/s	15 minute	2/27/06	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_125_climate_wnd3sx	maximum wind speed	m/s	15 minute	11/4/04	1/28/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_167b_climate_hum3	relative humidity	%	15 minute	1/27/05	1/26/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_167b_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	1/27/05	1/26/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_167b_climate_tmp3	air temperature	¡C	15 minute	1/27/05	1/26/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_167b_climate_wnd3d	wind direction	¡N	15 minute	1/27/05	1/26/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_167b_climate_wnd3dr	resultant wind direction	¡N	15 minute	1/27/05	1/26/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_167b_climate_wnd3sa	average wind speed	m/s	15 minute	1/27/05	1/26/19	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_167b_climate_wnd3sr	resultant wind speed	m/s	15 minute	1/27/05	1/26/19	Marks	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qmbsecflux_shf_6	soil heat flux	W/m_	30 minute	8/18/14	1/19/19	Flerchinger	SAS V9	Ameriflux	US-Rms		Open
+GB	SOIL PHYSICS	hourly_138f06_soiltemperature_stm010wa	soil temperature	¡C	1 hour	10/1/03	1/7/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_138f06_soiltemperature_stm010wh	soil temperature	¡C	1 hour	10/1/03	1/7/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_138f06_soiltemperature_stm030wa	soil temperature	¡C	1 hour	10/1/03	1/7/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_138f06_soiltemperature_stm030wh	soil temperature	¡C	1 hour	10/1/03	1/7/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_138f06_soiltemperature_stm060wa	soil temperature	¡C	1 hour	10/1/03	1/7/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_138f06_soiltemperature_stm060wh	soil temperature	¡C	1 hour	10/1/03	1/7/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_138f06_soiltemperature_stm090wa	soil temperature	¡C	1 hour	10/1/03	1/7/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_138f06_soiltemperature_stm090wh	soil temperature	¡C	1 hour	10/1/03	1/7/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_138f06_soiltemperature_stm120wa	soil temperature	¡C	1 hour	10/1/03	1/7/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_138f06_soiltemperature_stm120wh	soil temperature	¡C	1 hour	10/1/03	1/7/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_138f06_soiltemperature_stm150wa	soil temperature	¡C	1 hour	10/1/03	1/7/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_138f06_soiltemperature_stm150wh	soil temperature	¡C	1 hour	10/1/03	1/7/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_138f06_soiltemperature_stm180wa	soil temperature	¡C	1 hour	10/1/03	1/7/19	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_138f06_soiltemperature_stm210wa	soil temperature	¡C	1 hour	10/1/03	1/7/19	Seyfried	SAS V9				Open
+GB	PRECIPITATION	hourly_012_precipitation_ppta	wind corrected precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_031_precipitation_ppta	wind corrected precipitation	mm	1 hour	1/1/68	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_043b_precipitation_ppta	wind corrected precipitation	mm	1 hour	1/1/16	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_049_precipitation_ppta	wind corrected precipitation	mm	1 hour	1/1/65	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_057_precipitation_ppta	wind corrected precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_076_precipitation_ppta	wind corrected precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_095b_precipitation_ppta	wind corrected precipitation	mm	1 hour	5/14/03	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_098c_precipitation_ppta	wind corrected precipitation	mm	1 hour	1/1/72	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_116c_precipitation_ppta	wind corrected precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_125_precipitation_ppta	wind corrected precipitation	mm	1 hour	6/26/02	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_127_precipitation_ppta	wind corrected precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_13803_precipitation_ppta	wind corrected precipitation	mm	1 hour	10/13/83	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_138j10_precipitation_ppta	wind corrected precipitation	mm	1 hour	10/8/83	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_144_precipitation_ppta	wind corrected precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_145_precipitation_ppta	wind corrected precipitation	mm	1 hour	1/1/65	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_147_precipitation_ppta	wind corrected precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_155_precipitation_ppta	wind corrected precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_163_precipitation_ppta	wind corrected precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_167_precipitation_ppta	wind corrected precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_174_precipitation_ppta	wind corrected precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_176_precipitation_ppta	wind corrected precipitation	mm	1 hour	1/1/68	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_rmsp3_precipitation_ppta	wind corrected precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_012_precipitation_ppts	shielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_031_precipitation_ppts	shielded precipitation	mm	1 hour	1/1/68	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_043b_precipitation_ppts	shielded precipitation	mm	1 hour	1/1/16	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_049_precipitation_ppts	shielded precipitation	mm	1 hour	1/1/65	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_057_precipitation_ppts	shielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_076_precipitation_ppts	shielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_095b_precipitation_ppts	shielded precipitation	mm	1 hour	5/14/03	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_098c_precipitation_ppts	shielded precipitation	mm	1 hour	1/1/72	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_116c_precipitation_ppts	shielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_124b_precipitation_ppts	shielded precipitation	mm	1 hour	10/31/06	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_125_precipitation_ppts	shielded precipitation	mm	1 hour	6/26/02	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_127_precipitation_ppts	shielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_13803_precipitation_ppts	shielded precipitation	mm	1 hour	10/13/83	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_138j10_precipitation_ppts	shielded precipitation	mm	1 hour	10/8/83	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_144_precipitation_ppts	shielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_145_precipitation_ppts	shielded precipitation	mm	1 hour	1/1/65	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_147_precipitation_ppts	shielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_155_precipitation_ppts	shielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_163_precipitation_ppts	shielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_167_precipitation_ppts	shielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_174_precipitation_ppts	shielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_176_precipitation_ppts	shielded precipitation	mm	1 hour	1/1/68	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_cbte_precipitation_ppts	shielded precipitation	mm	1 hour	4/28/97	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_guard_precipitation_ppts	shielded precipitation	mm	1 hour	10/28/97	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_orc1_precipitation_ppts	shielded precipitation	mm	1 hour	3/25/93	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_rmsp3_precipitation_ppts	shielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_sme2_precipitation_ppts	shielded precipitation	mm	1 hour	5/1/07	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_smf1_precipitation_ppts	shielded precipitation	mm	1 hour	9/20/05	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_smg1_precipitation_ppts	shielded precipitation	mm	1 hour	11/9/04	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_smg2_precipitation_ppts	shielded precipitation	mm	1 hour	7/28/05	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_smm1_precipitation_ppts	shielded precipitation	mm	1 hour	5/16/07	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_smm2_precipitation_ppts	shielded precipitation	mm	1 hour	7/12/07	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_012_precipitation_pptu	unshielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_031_precipitation_pptu	unshielded precipitation	mm	1 hour	1/1/68	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_043b_precipitation_pptu	unshielded precipitation	mm	1 hour	1/1/16	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_049_precipitation_pptu	unshielded precipitation	mm	1 hour	1/1/65	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_057_precipitation_pptu	unshielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_076_precipitation_pptu	unshielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_095b_precipitation_pptu	unshielded precipitation	mm	1 hour	5/14/03	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_098c_precipitation_pptu	unshielded precipitation	mm	1 hour	1/1/72	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_116c_precipitation_pptu	unshielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_125_precipitation_pptu	unshielded precipitation	mm	1 hour	6/26/02	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_127_precipitation_pptu	unshielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_13803_precipitation_pptu	unshielded precipitation	mm	1 hour	10/13/83	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_138j10_precipitation_pptu	unshielded precipitation	mm	1 hour	10/8/83	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_144_precipitation_pptu	unshielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_145_precipitation_pptu	unshielded precipitation	mm	1 hour	1/1/65	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_147_precipitation_pptu	unshielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_155_precipitation_pptu	unshielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_163_precipitation_pptu	unshielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_167_precipitation_pptu	unshielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_174_precipitation_pptu	unshielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_176_precipitation_pptu	unshielded precipitation	mm	1 hour	1/1/68	12/31/18	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_rmsp3_precipitation_pptu	unshielded precipitation	mm	1 hour	1/1/62	12/31/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_nich_climate_hum3	relative humidity	%	15 minute	5/20/97	12/19/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_nich_climate_tmp3	air temperature	¡C	15 minute	5/20/97	12/19/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_nich_climate_vap3	vapor pressure	kPa	15 minute	10/23/12	12/19/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt3_climate_hum3	relative humidity	%	15 minute	9/20/05	12/7/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt3b_climate_hum3	relative humidity	%	15 minute	3/4/11	12/7/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt3_climate_tmp3	air temperature	¡C	15 minute	9/20/05	12/7/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt3b_climate_tmp3	air temperature	¡C	15 minute	12/13/10	12/7/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt3_climate_wnd3d	wind direction	¡N	15 minute	9/20/05	12/7/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt3b_climate_wnd3d	wind direction	¡N	15 minute	12/22/10	12/7/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt3_climate_wnd3dr	resultant wind direction	¡N	15 minute	9/20/05	12/7/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt3b_climate_wnd3dr	resultant wind direction	¡N	15 minute	5/17/12	12/7/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt3_climate_wnd3s	wind speed	m/s	15 minute	11/14/18	12/7/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt3b_climate_wnd3s	wind speed	m/s	15 minute	8/21/18	12/7/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt3_climate_wnd3sa	average wind speed	m/s	15 minute	9/20/05	12/7/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt3b_climate_wnd3sa	average wind speed	m/s	15 minute	12/13/10	12/7/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt3_climate_wnd3sr	resultant wind speed	m/s	15 minute	9/20/05	12/7/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt3b_climate_wnd3sr	resultant wind speed	m/s	15 minute	5/17/12	12/7/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt3_climate_vap3	vapor pressure	kPa	15 minute	9/20/05	11/7/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt3_climate_wnd3r	wind run	km	15 minute	9/20/05	11/7/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt3_climate_wnd3sx	maximum wind speed	m/s	15 minute	9/20/05	11/7/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_144_climate_vap3	vapor pressure	kPa	15 minute	7/7/05	11/2/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_144_climate_wnd3r	wind run	km	15 minute	9/20/01	11/2/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_144_climate_wnd3sx	maximum wind speed	m/s	15 minute	11/5/04	11/2/18	Marks	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_116b_streamflow_qcms	discharge	m_/s	15 minute	3/29/66	10/17/18	Pierson	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qmbsecflux_shf_1	soil heat flux	W/m_	30 minute	8/18/14	10/9/18	Flerchinger	SAS V9	Ameriflux	US-Rms		Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	q138h08ecflux_shf_1	soil heat flux	W/m_	30 minute	8/16/05	9/11/18	Flerchinger	SAS V9				Open
+GB	METEOROLOGY	l1_nich_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	5/20/97	8/9/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_nich_climate_wnd3sa	average wind speed	m/s	15 minute	10/23/12	8/9/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_nich_climate_wnd3sx	maximum wind speed	m/s	15 minute	6/23/98	8/9/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt3b_climate_vap3	vapor pressure	kPa	15 minute	3/4/11	7/19/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt3b_climate_wnd3sx	maximum wind speed	m/s	15 minute	12/13/10	7/18/18	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt3b_climate_vap3s	vapor pressure	kPa	15 minute	3/4/11	7/3/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_losec_snowdepth_sno	snow depth	cm	15 minute	1/15/15	6/14/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_mbsec_snowdepth_sno	snow depth	cm	15 minute	12/18/14	6/14/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_wbsec_snowdepth_sno	snow depth	cm	15 minute	1/15/15	6/14/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_138h08ec_snowdepth_sno	snow depth	cm	15 minute	4/30/15	6/13/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_057_snowdepth_sno	snow depth	cm	15 minute	10/31/08	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_095b_snowdepth_sno	snow depth	cm	15 minute	7/1/03	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_098c_snowdepth_sno	snow depth	cm	15 minute	2/8/08	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_116c_snowdepth_sno	snow depth	cm	15 minute	10/28/08	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_124_snowdepth_sno	snow depth	cm	15 minute	7/1/02	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_124b_snowdepth_sno	snow depth	cm	15 minute	10/31/06	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_125_snowdepth_sno	snow depth	cm	15 minute	7/1/02	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_127_snowdepth_sno	snow depth	cm	15 minute	1/8/08	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_13803_snowdepth_sno	snow depth	cm	15 minute	1/21/04	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_138f06_snowdepth_sno	snow depth	cm	15 minute	7/1/04	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_138j09_snowdepth_sno	snow depth	cm	15 minute	7/1/04	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_138j10_snowdepth_sno	snow depth	cm	15 minute	7/15/03	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_144_snowdepth_sno	snow depth	cm	15 minute	9/20/01	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_145_snowdepth_sno	snow depth	cm	15 minute	10/2/01	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_147_snowdepth_sno	snow depth	cm	15 minute	11/28/07	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_163_snowdepth_sno	snow depth	cm	15 minute	11/29/99	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_167_snowdepth_sno	snow depth	cm	15 minute	12/8/99	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_167b_snowdepth_sno	snow depth	cm	15 minute	1/27/05	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_174_snowdepth_sno	snow depth	cm	15 minute	9/18/01	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_176_snowdepth_sno	snow depth	cm	15 minute	11/24/99	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_176b_snowdepth_sno	snow depth	cm	15 minute	2/6/04	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_jdt1_snowdepth_sno	snow depth	cm	15 minute	11/4/05	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_jdt2_snowdepth_sno	snow depth	cm	15 minute	11/4/05	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_jdt3_snowdepth_sno	snow depth	cm	15 minute	11/5/05	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_jdt4_snowdepth_sno	snow depth	cm	15 minute	11/1/05	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_jdt5_snowdepth_sno	snow depth	cm	15 minute	11/1/05	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_rmsp3_snowdepth_sno	snow depth	cm	15 minute	1/19/04	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_sme2_snowdepth_sno	snow depth	cm	15 minute	5/1/07	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_smf1_snowdepth_sno	snow depth	cm	15 minute	7/25/05	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_smg1_snowdepth_sno	snow depth	cm	15 minute	11/9/04	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_smg2_snowdepth_sno	snow depth	cm	15 minute	7/27/05	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_smm1_snowdepth_sno	snow depth	cm	15 minute	5/16/07	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_smm2_snowdepth_sno	snow depth	cm	15 minute	7/12/07	6/11/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_012_snowdepth_sno	snow depth	cm	15 minute	7/1/00	6/10/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_031_snowdepth_sno	snow depth	cm	15 minute	8/8/00	6/10/18	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_155_snowdepth_sno	snow depth	cm	15 minute	11/28/07	6/9/18	Marks	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_116b_streamflow_handconc	suspended sediment concentration	mg/l	sporadic	1/19/95	5/31/18	Pierson	SAS V9				Open
+GB	PRECIPITATION	l1_076_snowdepth_sno	snow depth	cm	15 minute	7/1/07	5/30/18	Marks	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_116b_streamflow_pumpconc	suspended sediment concentration	mg/l	sporadic	4/15/94	5/26/18	Pierson	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_116b_streamflow_msconc	suspended sediment concentration	mg/l	sporadic	1/15/98	5/17/18	Pierson	SAS V9				Open
+GB	SOIL PHYSICS	l1_043b_hydraprobe_wat005	soil water content	%	15 minute	9/14/16	2/18/18	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_049_hydraprobe_wat005	soil water content	%	15 minute	10/24/01	2/18/18	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_057_hydraprobe_wat005	soil water content	%	15 minute	9/14/16	2/18/18	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_076_hydraprobe_wat005	soil water content	%	15 minute	5/2/06	2/18/18	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_095b_hydraprobe_wat005	soil water content	%	15 minute	3/24/10	2/18/18	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098c_hydraprobe_wat005	soil water content	%	15 minute	2/8/02	2/18/18	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_116c_hydraprobe_wat005	soil water content	%	15 minute	3/20/06	2/18/18	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_127_hydraprobe_wat005	soil water content	%	15 minute	3/20/06	2/18/18	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_13803_hydraprobe_wat005	soil water content	%	15 minute	12/13/01	2/18/18	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_144_hydraprobe_wat005	soil water content	%	15 minute	9/20/01	2/18/18	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_145_hydraprobe_wat005	soil water content	%	15 minute	1/2/02	2/18/18	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_147_hydraprobe_wat005	soil water content	%	15 minute	3/20/06	2/18/18	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_155_hydraprobe_wat005	soil water content	%	15 minute	3/20/06	2/18/18	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_163_hydraprobe_wat005	soil water content	%	15 minute	10/2/01	2/18/18	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_167_hydraprobe_wat005	soil water content	%	15 minute	10/11/01	2/18/18	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_174_hydraprobe_wat005	soil water content	%	15 minute	11/22/01	2/18/18	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_176_hydraprobe_wat005	soil water content	%	15 minute	1/2/02	2/18/18	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_012_hydraprobe_wat005	soil water content	%	15 minute	11/7/01	2/17/18	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_031_hydraprobe_wat005	soil water content	%	15 minute	11/7/01	2/15/18	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_smg1_hydraprobe_wat005	soil water content	%	15 minute	5/4/06	2/3/18	Seyfried	SAS V9				Open
+GB	PRECIPITATION	l1_jdt3b_snowdepth_sno	snow depth	cm	15 minute	12/13/10	1/30/18	Marks	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_125b_streamflow_qcms	discharge	m_/s	15 minute	3/17/03	1/1/18	Pierson	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_135_streamflow_qcms	discharge	m_/s	15 minute	1/1/73	1/1/18	Pierson	SAS V9				Open
+GB	PRECIPITATION	hourly_nich_precipitation_ppts	shielded precipitation	mm	1 hour	5/22/97	12/31/17	Marks	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_166_streamflow_qcms	discharge	m_/s	15 minute	1/1/63	11/15/17	Pierson	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_043_streamflow_qcms	discharge	m_/s	15 minute	1/1/67	11/12/17	Pierson	SAS V9				Open
+GB	METEOROLOGY	l1_rmsp3_climate_vap3	vapor pressure	kPa	15 minute	11/8/04	10/30/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_rmsp3_climate_wnd3sx	maximum wind speed	m/s	15 minute	9/22/04	10/30/17	Marks	SAS V9				Open
+GB	LAND-ATMOSPHERE FLUXES (EC)	qmbsecflux_shf_3	soil heat flux	W/m_	30 minute	7/31/14	10/27/17	Flerchinger	SAS V9	Ameriflux	US-Rms		Open
+GB	HYDROLOGY	bkpt15min_043_streamflow_handconc	suspended sediment concentration	mg/l	sporadic	1/7/16	7/12/17	Pierson	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_043_streamflow_msconc	suspended sediment concentration	mg/l	sporadic	1/7/16	7/12/17	Pierson	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_043_streamflow_pumpconc	suspended sediment concentration	mg/l	sporadic	1/1/16	7/11/17	Pierson	SAS V9				Open
+GB	METEOROLOGY	l1_jdt2b_climate_hum3	relative humidity	%	15 minute	3/4/11	5/26/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt4b_climate_hum3	relative humidity	%	15 minute	3/4/11	5/26/17	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_jdt2b_snowdepth_sno	snow depth	cm	15 minute	12/13/10	5/26/17	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_jdt4b_snowdepth_sno	snow depth	cm	15 minute	12/13/10	5/26/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt2b_climate_tmp3	air temperature	¡C	15 minute	12/13/10	5/26/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt4b_climate_tmp3	air temperature	¡C	15 minute	12/13/10	5/26/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt2b_climate_vap3	vapor pressure	kPa	15 minute	3/4/11	5/26/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt4b_climate_vap3	vapor pressure	kPa	15 minute	3/4/11	5/26/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt2b_climate_vap3s	vapor pressure	kPa	15 minute	3/4/11	5/26/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt4b_climate_vap3s	vapor pressure	kPa	15 minute	3/4/11	5/26/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt2b_climate_wnd3d	wind direction	¡N	15 minute	12/22/10	5/26/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt4b_climate_wnd3d	wind direction	¡N	15 minute	12/22/10	5/26/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt2b_climate_wnd3dr	resultant wind direction	¡N	15 minute	5/17/12	5/26/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt4b_climate_wnd3dr	resultant wind direction	¡N	15 minute	5/17/12	5/26/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt2b_climate_wnd3sa	average wind speed	m/s	15 minute	12/13/10	5/26/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt4b_climate_wnd3sa	average wind speed	m/s	15 minute	12/17/10	5/26/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt2b_climate_wnd3sr	resultant wind speed	m/s	15 minute	5/17/12	5/26/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt4b_climate_wnd3sr	resultant wind speed	m/s	15 minute	5/17/12	5/26/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt2b_climate_wnd3sx	maximum wind speed	m/s	15 minute	12/13/10	5/26/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_jdt4b_climate_wnd3sx	maximum wind speed	m/s	15 minute	12/17/10	5/26/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_124b_climate_wnd3d	wind direction	¡N	15 minute	10/31/06	3/29/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_124b_climate_wnd3dr	resultant wind direction	¡N	15 minute	10/31/06	3/29/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_124b_climate_wnd3sr	resultant wind speed	m/s	15 minute	10/31/06	3/29/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_wnd15d	wind direction	¡N	15 minute	2/4/04	2/21/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_wnd15dr	resultant wind direction	¡N	15 minute	2/4/04	2/21/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_wnd15sa	average wind speed	m/s	15 minute	2/5/04	2/21/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_wnd15sr	resultant wind speed	m/s	15 minute	2/4/04	2/21/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_wnd3dr	resultant wind direction	¡N	15 minute	2/4/04	2/21/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_wnd3sa	average wind speed	m/s	15 minute	2/5/04	2/21/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_wnd3sr	resultant wind speed	m/s	15 minute	2/4/04	2/21/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_wnd9d	wind direction	¡N	15 minute	2/4/04	2/21/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_wnd9dr	resultant wind direction	¡N	15 minute	2/4/04	2/21/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_wnd9sa	average wind speed	m/s	15 minute	2/5/04	2/21/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_wnd9sr	resultant wind speed	m/s	15 minute	2/4/04	2/21/17	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_wnd3d	wind direction	¡N	15 minute	2/4/04	2/19/17	Marks	SAS V9				Open
+GB	SOIL PHYSICS	l1_127e_hydraprobe_wat005s	soil water content	%	15 minute	9/6/16	2/14/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_127e_hydraprobe_wat006i	soil water content	%	15 minute	9/6/16	2/14/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_177_hydraprobe_wat007i	soil water content	%	15 minute	10/21/16	2/14/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_177_hydraprobe_wat008s	soil water content	%	15 minute	10/21/16	2/14/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_177_hydraprobe_wat015	soil water content	%	15 minute	10/21/16	2/14/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_127e_hydraprobe_wat023	soil water content	%	15 minute	9/6/16	2/14/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_127e_hydraprobe_wat025	soil water content	%	15 minute	9/6/16	2/14/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_177_hydraprobe_wat031	soil water content	%	15 minute	10/21/16	2/14/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_177_hydraprobe_wat050	soil water content	%	15 minute	10/21/16	2/14/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_177_hydraprobe_wat073	soil water content	%	15 minute	10/21/16	2/14/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_127e_hydraprobe_wat080	soil water content	%	15 minute	9/6/16	2/14/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_127e_hydraprobe_wat117	soil water content	%	15 minute	9/6/16	2/14/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_124b_hydraprobe_wat005	soil water content	%	15 minute	11/22/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt1_hydraprobe_wat005	soil water content	%	15 minute	8/13/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt2_hydraprobe_wat005	soil water content	%	15 minute	8/13/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt3_hydraprobe_wat005	soil water content	%	15 minute	9/30/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt4_hydraprobe_wat005	soil water content	%	15 minute	9/30/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_mbsec_hydraprobe_wat005	soil water content	%	15 minute	10/30/14	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_124b_hydraprobe_wat005a	soil water content	%	15 minute	11/22/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098f_hydraprobe_wat005i	soil water content	%	15 minute	7/17/15	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098f_hydraprobe_wat005s	soil water content	%	15 minute	7/17/15	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_124b_hydraprobe_wat005s	soil water content	%	15 minute	11/22/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_mbsec_hydraprobe_wat015	soil water content	%	15 minute	10/30/14	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098f_hydraprobe_wat015i	soil water content	%	15 minute	7/17/15	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098f_hydraprobe_wat015s	soil water content	%	15 minute	7/17/15	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt1_hydraprobe_wat020	soil water content	%	15 minute	8/13/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt2_hydraprobe_wat020	soil water content	%	15 minute	8/13/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt3_hydraprobe_wat020	soil water content	%	15 minute	9/30/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt4_hydraprobe_wat020	soil water content	%	15 minute	9/30/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_124b_hydraprobe_wat020a	soil water content	%	15 minute	11/22/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_124b_hydraprobe_wat020s	soil water content	%	15 minute	11/22/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_mbsec_hydraprobe_wat030	soil water content	%	15 minute	10/30/14	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098f_hydraprobe_wat030i	soil water content	%	15 minute	7/17/15	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098f_hydraprobe_wat030s	soil water content	%	15 minute	7/17/15	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_124b_hydraprobe_wat035s	soil water content	%	15 minute	11/22/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt2_hydraprobe_wat049	soil water content	%	15 minute	8/13/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt1_hydraprobe_wat050	soil water content	%	15 minute	8/13/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt3_hydraprobe_wat050	soil water content	%	15 minute	9/30/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt4_hydraprobe_wat050	soil water content	%	15 minute	9/30/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_124b_hydraprobe_wat050a	soil water content	%	15 minute	11/22/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_124b_hydraprobe_wat050s	soil water content	%	15 minute	11/22/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_mbsec_hydraprobe_wat060	soil water content	%	15 minute	10/30/14	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098f_hydraprobe_wat063i	soil water content	%	15 minute	7/17/15	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098f_hydraprobe_wat064s	soil water content	%	15 minute	7/17/15	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt2_hydraprobe_wat073	soil water content	%	15 minute	8/13/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt3_hydraprobe_wat075	soil water content	%	15 minute	9/30/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt4_hydraprobe_wat075	soil water content	%	15 minute	9/30/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_124b_hydraprobe_wat075a	soil water content	%	15 minute	10/13/11	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_124b_hydraprobe_wat088a	soil water content	%	15 minute	11/22/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt1_hydraprobe_wat090	soil water content	%	15 minute	8/13/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_mbsec_hydraprobe_wat090	soil water content	%	15 minute	10/30/14	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098f_hydraprobe_wat090s	soil water content	%	15 minute	7/17/15	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098f_hydraprobe_wat097i	soil water content	%	15 minute	7/17/15	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt4_hydraprobe_wat100	soil water content	%	15 minute	9/30/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt2_hydraprobe_wat101	soil water content	%	15 minute	8/13/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt3_hydraprobe_wat101	soil water content	%	15 minute	9/30/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt1_hydraprobe_wat130	soil water content	%	15 minute	8/13/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098f_hydraprobe_wat150i	soil water content	%	15 minute	7/17/15	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098f_hydraprobe_wat150s	soil water content	%	15 minute	7/17/15	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt1_hydraprobe_wat190	soil water content	%	15 minute	8/20/10	2/13/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_176c_hydraprobe_wat005a	soil water content	%	15 minute	8/14/13	1/27/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_176c_hydraprobe_wat010m	soil water content	%	15 minute	8/14/13	1/27/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_176c_hydraprobe_wat015a	soil water content	%	15 minute	12/29/04	1/27/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_176c_hydraprobe_wat030a	soil water content	%	15 minute	12/29/04	1/27/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_176c_hydraprobe_wat030m	soil water content	%	15 minute	8/14/13	1/27/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_176c_hydraprobe_wat050m	soil water content	%	15 minute	8/14/13	1/27/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_176c_hydraprobe_wat052a	soil water content	%	15 minute	12/29/04	1/27/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_176c_hydraprobe_wat078a	soil water content	%	15 minute	12/29/04	1/27/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_176c_hydraprobe_wat097a	soil water content	%	15 minute	12/29/04	1/27/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_176c_hydraprobe_wat100m	soil water content	%	15 minute	8/14/13	1/27/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_057b_hydraprobe_wat005g	soil water content	%	15 minute	11/25/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098d_hydraprobe_wat005g	soil water content	%	15 minute	11/25/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_127d_hydraprobe_wat005g	soil water content	%	15 minute	11/19/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_057b_hydraprobe_wat005n	soil water content	%	15 minute	11/25/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098d_hydraprobe_wat005n	soil water content	%	15 minute	11/25/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_127d_hydraprobe_wat005n	soil water content	%	15 minute	11/19/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_057b_hydraprobe_wat015g	soil water content	%	15 minute	11/25/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098d_hydraprobe_wat015g	soil water content	%	15 minute	11/25/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_127d_hydraprobe_wat015g	soil water content	%	15 minute	11/19/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_057b_hydraprobe_wat015n	soil water content	%	15 minute	11/25/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098d_hydraprobe_wat015n	soil water content	%	15 minute	11/25/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_127d_hydraprobe_wat015n	soil water content	%	15 minute	11/19/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_057b_hydraprobe_wat030g	soil water content	%	15 minute	11/25/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098d_hydraprobe_wat030g	soil water content	%	15 minute	11/25/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_127d_hydraprobe_wat030g	soil water content	%	15 minute	11/19/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_057b_hydraprobe_wat030n	soil water content	%	15 minute	11/25/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098d_hydraprobe_wat030n	soil water content	%	15 minute	11/25/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_127d_hydraprobe_wat030n	soil water content	%	15 minute	11/19/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_057b_hydraprobe_wat060g	soil water content	%	15 minute	11/25/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098d_hydraprobe_wat060g	soil water content	%	15 minute	11/25/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_127d_hydraprobe_wat060g	soil water content	%	15 minute	11/19/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_057b_hydraprobe_wat060n	soil water content	%	15 minute	11/25/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098d_hydraprobe_wat060n	soil water content	%	15 minute	11/25/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_127d_hydraprobe_wat060n	soil water content	%	15 minute	11/19/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_057b_hydraprobe_wat090g	soil water content	%	15 minute	11/25/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098d_hydraprobe_wat090g	soil water content	%	15 minute	11/25/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_127d_hydraprobe_wat090g	soil water content	%	15 minute	11/19/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_057b_hydraprobe_wat090n	soil water content	%	15 minute	11/25/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_098d_hydraprobe_wat090n	soil water content	%	15 minute	11/25/08	1/20/17	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_127d_hydraprobe_wat090n	soil water content	%	15 minute	11/19/08	1/20/17	Seyfried	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_036_streamflow_qcms	discharge	m_/s	15 minute	1/1/63	1/1/17	Pierson	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_117_streamflow_qcms	discharge	m_/s	15 minute	3/7/66	1/1/17	Pierson	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_166_streamflow_pumpconc	suspended sediment concentration	mg/l	sporadic	4/21/94	12/29/16	Pierson	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_166_streamflow_msconc	suspended sediment concentration	mg/l	sporadic	3/18/97	12/15/16	Pierson	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_036_streamflow_handconc	suspended sediment concentration	mg/l	sporadic	1/19/95	12/13/16	Pierson	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_125b_streamflow_handconc	suspended sediment concentration	mg/l	sporadic	1/10/05	12/13/16	Pierson	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_135_streamflow_handconc	suspended sediment concentration	mg/l	sporadic	1/10/05	12/13/16	Pierson	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt2b_hydraprobe_wat005	soil water content	%	15 minute	12/13/10	12/7/16	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt3b_hydraprobe_wat005	soil water content	%	15 minute	12/13/10	12/7/16	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt4b_hydraprobe_wat005	soil water content	%	15 minute	12/13/10	12/7/16	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt2b_hydraprobe_wat020	soil water content	%	15 minute	12/13/10	12/7/16	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt4b_hydraprobe_wat020	soil water content	%	15 minute	12/13/10	12/7/16	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt3b_hydraprobe_wat021	soil water content	%	15 minute	12/13/10	12/7/16	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt3b_hydraprobe_wat034	soil water content	%	15 minute	12/13/10	12/7/16	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt2b_hydraprobe_wat035	soil water content	%	15 minute	12/13/10	12/7/16	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt4b_hydraprobe_wat035	soil water content	%	15 minute	12/13/10	12/7/16	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt2b_hydraprobe_wat050	soil water content	%	15 minute	12/13/10	12/7/16	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt3b_hydraprobe_wat050	soil water content	%	15 minute	12/13/10	12/7/16	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt4b_hydraprobe_wat050	soil water content	%	15 minute	12/13/10	12/7/16	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_jdt2b_hydraprobe_wat075	soil water content	%	15 minute	12/13/10	12/7/16	Seyfried	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_166_streamflow_handconc	suspended sediment concentration	mg/l	sporadic	2/1/95	11/30/16	Pierson	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_125b_streamflow_msconc	suspended sediment concentration	mg/l	sporadic	2/10/05	7/6/16	Pierson	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_125b_streamflow_pumpconc	suspended sediment concentration	mg/l	sporadic	1/5/05	7/5/16	Pierson	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_036_streamflow_msconc	suspended sediment concentration	mg/l	sporadic	1/2/97	5/26/16	Pierson	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_135_streamflow_msconc	suspended sediment concentration	mg/l	sporadic	2/2/00	5/26/16	Pierson	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_135_streamflow_pumpconc	suspended sediment concentration	mg/l	sporadic	11/18/99	5/26/16	Pierson	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_036_streamflow_pumpconc	suspended sediment concentration	mg/l	sporadic	2/26/94	5/25/16	Pierson	SAS V9				Open
+GB	METEOROLOGY	l1_095b_climate_vap3	vapor pressure	kPa	15 minute	2/27/06	2/2/16	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_095b_climate_wnd3r	wind run	km	15 minute	5/14/03	2/2/16	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_095b_climate_wnd3sx	maximum wind speed	m/s	15 minute	2/27/06	2/2/16	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_166b_climate_vap3	vapor pressure	kPa	15 minute	9/20/04	1/21/16	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176_climate_wnd10r	wind run	km	15 minute	9/8/93	1/21/16	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176_climate_wnd10sx	maximum wind speed	m/s	15 minute	9/8/93	1/21/16	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176_climate_wnd3r	wind run	km	15 minute	2/24/83	1/21/16	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_166b_climate_wnd3sx	maximum wind speed	m/s	15 minute	9/20/04	1/21/16	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176_climate_wnd3sx	maximum wind speed	m/s	15 minute	9/8/93	1/21/16	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176_climate_vap10	vapor pressure	kPa	15 minute	11/11/04	1/19/16	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176_climate_vap3	vapor pressure	kPa	15 minute	11/8/04	1/19/16	Marks	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_057_streamflow_qcms	discharge	m_/s	15 minute	1/15/72	1/1/16	Pierson	SAS V9				Open
+GB	PRECIPITATION	hourly_138l21_precipitation_ppta	wind corrected precipitation	mm	1 hour	7/16/03	12/31/15	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_138l21_precipitation_ppts	shielded precipitation	mm	1 hour	7/16/03	12/31/15	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_138l21_precipitation_pptu	unshielded precipitation	mm	1 hour	7/16/03	12/31/15	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_138l21_snowdepth_sno	snow depth	cm	15 minute	7/16/03	11/15/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_128_climate_vap10	vapor pressure	kPa	15 minute	3/20/06	10/21/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_128_climate_vap3	vapor pressure	kPa	15 minute	3/20/06	10/21/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_128_climate_wnd10r	wind run	km	15 minute	7/24/96	10/21/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_128_climate_wnd10sx	maximum wind speed	m/s	15 minute	11/6/93	10/21/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_128_climate_wnd3r	wind run	km	15 minute	7/24/96	10/21/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_128_climate_wnd3sx	maximum wind speed	m/s	15 minute	11/6/93	10/21/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_145_climate_vap3	vapor pressure	kPa	15 minute	7/7/05	9/22/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_145_climate_wnd3r	wind run	km	15 minute	10/2/01	9/22/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_vap15	vapor pressure	kPa	15 minute	5/25/05	8/27/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_vap9	vapor pressure	kPa	15 minute	5/25/05	8/27/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_wnd15sx	maximum wind speed	m/s	15 minute	2/4/04	8/26/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_wnd3sx	maximum wind speed	m/s	15 minute	2/4/04	8/26/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_wnd9sx	maximum wind speed	m/s	15 minute	2/4/04	8/26/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_vap10	vapor pressure	kPa	15 minute	5/2/06	8/19/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_vap3	vapor pressure	kPa	15 minute	5/2/06	8/19/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_098c_climate_vap3	vapor pressure	kPa	15 minute	8/24/11	8/19/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_wnd10sx	maximum wind speed	m/s	15 minute	6/7/94	8/19/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_wnd3sx	maximum wind speed	m/s	15 minute	10/7/96	8/19/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_098c_climate_wnd3sx	maximum wind speed	m/s	15 minute	8/27/11	8/19/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_124_climate_wnd3sx	maximum wind speed	m/s	15 minute	11/4/04	8/19/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_167b_climate_wnd3sx	maximum wind speed	m/s	15 minute	1/27/05	8/19/15	Marks	SAS V9				Open
+GB	SOIL PHYSICS	l1_138i23b_hydraprobe_wat005	soil water content	%	15 minute	10/17/06	7/21/15	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_138i23b_hydraprobe_wat015	soil water content	%	15 minute	10/17/06	7/21/15	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_138i23b_hydraprobe_wat031	soil water content	%	15 minute	10/17/06	7/21/15	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_138i23b_hydraprobe_wat033a	soil water content	%	15 minute	10/17/06	7/21/15	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_138i23b_hydraprobe_wat059	soil water content	%	15 minute	10/17/06	7/21/15	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_138i23b_hydraprobe_wat059a	soil water content	%	15 minute	10/17/06	7/21/15	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_138i23b_hydraprobe_wat086	soil water content	%	15 minute	10/17/06	7/21/15	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_138i23b_hydraprobe_wat121	soil water content	%	15 minute	10/17/06	7/21/15	Seyfried	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_wnd10r	wind run	km	15 minute	8/2/85	7/21/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_076_climate_wnd3r	wind run	km	15 minute	6/18/81	7/21/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_127_climate_vap10	vapor pressure	kPa	15 minute	3/20/06	7/6/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_127_climate_vap3	vapor pressure	kPa	15 minute	3/20/06	7/6/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_127_climate_wnd10sx	maximum wind speed	m/s	15 minute	9/15/93	7/6/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_127_climate_wnd3sx	maximum wind speed	m/s	15 minute	9/15/93	7/6/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_167b_climate_vap3	vapor pressure	kPa	15 minute	1/27/05	6/9/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_124_climate_wnd3r	wind run	km	15 minute	7/1/02	4/23/15	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_vap3	vapor pressure	kPa	15 minute	5/25/05	4/20/15	Marks	SAS V9				Open
+GB	SOIL PHYSICS	l1_145c_hydraprobe_wat005b	soil water content	%	15 minute	8/21/12	4/2/15	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_145c_hydraprobe_wat005u	soil water content	%	15 minute	8/21/12	4/2/15	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_145c_hydraprobe_wat010u	soil water content	%	15 minute	6/22/07	4/2/15	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_145c_hydraprobe_wat015b	soil water content	%	15 minute	8/21/12	4/2/15	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_145c_hydraprobe_wat030b	soil water content	%	15 minute	8/21/12	4/2/15	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_145c_hydraprobe_wat030u	soil water content	%	15 minute	6/22/07	4/2/15	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_145c_hydraprobe_wat060b	soil water content	%	15 minute	8/21/12	4/2/15	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_145c_hydraprobe_wat060u	soil water content	%	15 minute	6/22/07	4/2/15	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_145c_hydraprobe_wat090b	soil water content	%	15 minute	8/21/12	4/2/15	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_145c_hydraprobe_wat090u	soil water content	%	15 minute	6/22/07	4/2/15	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_145c_hydraprobe_wat120b	soil water content	%	15 minute	8/21/12	4/2/15	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	l1_145c_hydraprobe_wat120u	soil water content	%	15 minute	6/22/07	4/2/15	Seyfried	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_098_streamflow_qcms	discharge	m_/s	15 minute	12/20/71	1/1/15	Pierson	SAS V9				Open
+GB	PRECIPITATION	hourly_124_precipitation_ppta	wind corrected precipitation	mm	1 hour	1/1/62	12/31/14	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_124_precipitation_ppts	shielded precipitation	mm	1 hour	1/1/62	12/31/14	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_124_precipitation_pptu	unshielded precipitation	mm	1 hour	1/1/62	12/31/14	Marks	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_046_streamflow_qcms	discharge	m_/s	15 minute	1/29/64	10/27/14	Pierson	SAS V9				Open
+GB	SOIL PHYSICS	hourly_rmsp_soiltemperature_stm015	soil temperature	¡C	1 hour	10/24/90	10/8/14	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_rmsp2_soiltemperature_stm023	soil temperature	¡C	1 hour	1/1/99	10/8/14	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_rmsp2_soiltemperature_stm030	soil temperature	¡C	1 hour	1/1/99	10/8/14	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_rmsp_soiltemperature_stm030	soil temperature	¡C	1 hour	10/24/90	10/8/14	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_rmsp_soiltemperature_stm045	soil temperature	¡C	1 hour	10/24/90	10/8/14	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_rmsp2_soiltemperature_stm074a	soil temperature	¡C	1 hour	1/1/99	10/8/14	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_rmsp2_soiltemperature_stm074b	soil temperature	¡C	1 hour	1/1/99	10/8/14	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_rmsp2_soiltemperature_stm081a	soil temperature	¡C	1 hour	1/1/99	10/8/14	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_rmsp2_soiltemperature_stm081b	soil temperature	¡C	1 hour	1/1/99	10/8/14	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_rmsp2_soiltemperature_stm112	soil temperature	¡C	1 hour	1/1/99	10/8/14	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_rmsp2_soiltemperature_stm119	soil temperature	¡C	1 hour	1/1/99	10/8/14	Seyfried	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_hum1_5	relative humidity	%	15 minute	11/25/04	8/11/14	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_hum4_5	relative humidity	%	15 minute	11/25/04	8/11/14	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_irt0	infrared surface temperature	¡C	15 minute	11/2/04	8/11/14	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_irt1_5	infrared plant canopy temperature	¡C	15 minute	11/2/04	8/11/14	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_irt3	infrared plant canopy temperature	¡C	15 minute	11/2/04	8/11/14	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	11/25/04	8/11/14	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_tmp1_5	air temperature	¡C	15 minute	11/25/04	8/11/14	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_tmp4_5	air temperature	¡C	15 minute	11/25/04	8/11/14	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_vap1_5	vapor pressure	kPa	15 minute	11/25/04	8/11/14	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_vap4_5	vapor pressure	kPa	15 minute	11/25/04	8/11/14	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_wnd1_5dr	resultant wind direction	¡N	15 minute	11/2/04	8/11/14	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_wnd1_5r	wind run	km	15 minute	11/2/04	8/11/14	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_wnd1_5sa	average wind speed	m/s	15 minute	11/25/04	8/11/14	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_wnd1_5sr	resultant wind speed	m/s	15 minute	11/2/04	8/11/14	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_wnd1_5sx	maximum wind speed	m/s	15 minute	11/2/04	8/11/14	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_wnd3dr	resultant wind direction	¡N	15 minute	11/2/04	8/11/14	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_wnd3r	wind run	km	15 minute	11/2/04	8/11/14	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_wnd3sr	resultant wind speed	m/s	15 minute	11/2/04	8/11/14	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_wnd3sx	maximum wind speed	m/s	15 minute	11/2/04	8/11/14	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_wnd3sa	average wind speed	m/s	15 minute	11/25/04	3/28/14	Marks	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_sme_streamflow_qcms	discharge	m_/s	15 minute	1/1/08	1/1/14	Pierson	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_smf_streamflow_qcms	discharge	m_/s	15 minute	1/1/08	1/1/14	Pierson	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_smg_streamflow_qcms	discharge	m_/s	15 minute	1/1/08	1/1/14	Pierson	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_smm_streamflow_qcms	discharge	m_/s	15 minute	1/1/08	1/1/14	Pierson	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_hum3	relative humidity	%	15 minute	11/25/04	10/30/13	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_tmp3	air temperature	¡C	15 minute	11/25/04	10/30/13	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_vap3	vapor pressure	kPa	15 minute	11/25/04	10/30/13	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_13803_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	1/21/04	9/4/13	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_166b_snowdepth_sno	snow depth	cm	15 minute	10/2/03	8/27/13	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_166b_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	10/2/03	8/27/13	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_spt_climate_hum3	relative humidity	%	15 minute	9/27/00	7/24/13	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_spt_snowdepth_sno	snow depth	cm	15 minute	9/27/00	7/24/13	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_spt_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	9/27/00	7/24/13	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_spt_climate_tmp3	air temperature	¡C	15 minute	9/27/00	7/24/13	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_spt_climate_vap3	vapor pressure	kPa	15 minute	9/23/04	7/24/13	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_spt_climate_wnd3s	wind speed	m/s	15 minute	9/23/04	7/24/13	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_spt_climate_wnd3sa	average wind speed	m/s	15 minute	9/22/05	7/24/13	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_spt_climate_wnd3sr	resultant wind speed	m/s	15 minute	9/22/05	7/24/13	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_spt_climate_wnd3sx	maximum wind speed	m/s	15 minute	10/4/04	7/24/13	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_bst_climate_hum3	relative humidity	%	15 minute	7/8/04	7/11/13	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_bst_climate_irt1	infrared plant canopy temperature	¡C	15 minute	11/14/03	7/11/13	Marks	SAS V9				Open
+GB	PRECIPITATION	l1_bst_snowdepth_sno	snow depth	cm	15 minute	11/14/03	7/11/13	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_bst_climate_tmp3	air temperature	¡C	15 minute	11/14/03	7/11/13	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_bst_climate_vap3	vapor pressure	kPa	15 minute	7/8/04	7/11/13	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_bst_climate_wnd3d	wind direction	¡N	15 minute	5/25/05	7/11/13	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_bst_climate_wnd3dr	resultant wind direction	¡N	15 minute	7/8/04	7/11/13	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_bst_climate_wnd3sa	average wind speed	m/s	15 minute	7/8/04	7/11/13	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_bst_climate_wnd3sr	resultant wind speed	m/s	15 minute	7/8/04	7/11/13	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_bst_climate_wnd3sx	maximum wind speed	m/s	15 minute	7/8/04	7/11/13	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_166b_precipitation_ppta	wind corrected precipitation	mm	1 hour	12/31/03	7/10/13	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_166b_precipitation_ppts	shielded precipitation	mm	1 hour	12/31/03	7/10/13	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_166b_precipitation_pptu	unshielded precipitation	mm	1 hour	12/31/03	7/10/13	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_cbte_climate_wnd3r	wind run	km	15 minute	4/28/97	10/23/12	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_nich_climate_wnd3r	wind run	km	15 minute	5/20/97	10/23/12	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_orc1_climate_wnd3d	wind direction	¡N	15 minute	3/16/98	10/2/12	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_orc1_climate_wnd3r	wind run	km	15 minute	6/26/96	10/2/12	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_guard_climate_wnd3r	wind run	km	15 minute	10/28/97	9/29/12	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_124_climate_hum3	relative humidity	%	15 minute	7/1/02	9/23/12	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_124_climate_vap3	vapor pressure	kPa	15 minute	7/7/05	9/23/12	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_098_climate_wnd2r	wind run	km	15 minute	11/5/81	8/22/12	Marks	SAS V9				Open
+GB	SOIL PHYSICS	hourly_145c_soiltemperature_stm010bl	soil temperature	¡C	1 hour	5/8/02	7/17/12	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_145c_soiltemperature_stm010bu	soil temperature	¡C	1 hour	5/8/02	7/17/12	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_145c_soiltemperature_stm010ul	soil temperature	¡C	1 hour	5/31/02	7/17/12	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_145c_soiltemperature_stm010uu	soil temperature	¡C	1 hour	5/31/02	7/17/12	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_145c_soiltemperature_stm030bl	soil temperature	¡C	1 hour	5/8/02	7/17/12	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_145c_soiltemperature_stm030bu	soil temperature	¡C	1 hour	5/8/02	7/17/12	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_145c_soiltemperature_stm030ul	soil temperature	¡C	1 hour	5/31/02	7/17/12	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_145c_soiltemperature_stm030uu	soil temperature	¡C	1 hour	5/31/02	7/17/12	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_145c_soiltemperature_stm060bu	soil temperature	¡C	1 hour	5/8/02	7/17/12	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_145c_soiltemperature_stm060ul	soil temperature	¡C	1 hour	5/31/02	7/17/12	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_145c_soiltemperature_stm060uu	soil temperature	¡C	1 hour	5/31/02	7/17/12	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_145c_soiltemperature_stm090bl	soil temperature	¡C	1 hour	5/8/02	7/17/12	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_145c_soiltemperature_stm090bu	soil temperature	¡C	1 hour	5/8/02	7/17/12	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_145c_soiltemperature_stm090ul	soil temperature	¡C	1 hour	5/31/02	7/17/12	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_145c_soiltemperature_stm090uu	soil temperature	¡C	1 hour	5/31/02	7/17/12	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_145c_soiltemperature_stm120bl	soil temperature	¡C	1 hour	5/8/02	7/17/12	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_145c_soiltemperature_stm120bu	soil temperature	¡C	1 hour	5/8/02	7/17/12	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_145c_soiltemperature_stm120ul	soil temperature	¡C	1 hour	5/31/02	7/17/12	Seyfried	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_138012_streamflow_qcms	discharge	m_/s	15 minute	2/20/70	1/1/12	Pierson	SAS V9				Open
+GB	SOIL PHYSICS	hourly_145c_soiltemperature_stm060bl	soil temperature	¡C	1 hour	5/8/02	8/13/10	Seyfried	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_irt4_5	infrared plant canopy temperature	¡C	15 minute	11/2/04	9/23/09	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_wnd4_5dr	resultant wind direction	¡N	15 minute	11/2/04	9/23/09	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_wnd4_5r	wind run	km	15 minute	11/2/04	9/23/09	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_wnd4_5sr	resultant wind speed	m/s	15 minute	11/2/04	9/23/09	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_wnd4_5sx	maximum wind speed	m/s	15 minute	11/2/04	9/23/09	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138i23_climate_wnd4_5sa	average wind speed	m/s	15 minute	11/25/04	11/15/08	Marks	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm005a	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm005b	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm005cc	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm005cg	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm005cv	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm005d	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm005fg	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm005fv	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm010a	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm010b	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm010cc	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm010cg	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm010cv	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm010d	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm010fv	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm020a	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm020b	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm020d	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm020e	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm030a	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm030b	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm030d	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm030e	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm040a	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm040b	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm040e	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm050a	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm050b	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm050e	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm060a	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm060b	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm060e	soil temperature	¡C	1 hour	10/6/89	3/24/08	Seyfried	SAS V9				Open
+GB	METEOROLOGY	l1_176_climate_wnd10s	wind speed	m/s	15 minute	8/2/96	8/22/06	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176_climate_wnd3s	wind speed	m/s	15 minute	8/2/96	8/22/06	Marks	SAS V9				Open
+GB	SOIL PHYSICS	hourly_076_soiltemperature_stm040	soil temperature	¡C	1 hour	12/22/77	5/2/06	Seyfried	SAS V9				Open
+GB	METEOROLOGY	l1_138l21_climate_wnd3s	wind speed	m/s	15 minute	7/16/03	3/30/06	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_127_climate_wnd10r	wind run	km	15 minute	3/25/97	3/20/06	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_127_climate_wnd10s	wind speed	m/s	15 minute	3/25/97	3/20/06	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_128_climate_wnd10s	wind speed	m/s	15 minute	7/24/96	3/20/06	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_127_climate_wnd3r	wind run	km	15 minute	3/25/97	3/20/06	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_127_climate_wnd3s	wind speed	m/s	15 minute	3/25/97	3/20/06	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_128_climate_wnd3s	wind speed	m/s	15 minute	7/24/96	3/20/06	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_13803_climate_wnd3s	wind speed	m/s	15 minute	1/1/01	3/20/06	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_012_climate_wnd3s	wind speed	m/s	15 minute	8/15/02	2/27/06	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_031_climate_wnd3s	wind speed	m/s	15 minute	11/7/01	2/27/06	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_095b_climate_wnd3s	wind speed	m/s	15 minute	5/14/03	2/27/06	Marks	SAS V9				Open
+GB	SOIL PHYSICS	hourly_145c_soiltemperature_stm120uu	soil temperature	¡C	1 hour	5/31/02	9/5/05	Seyfried	SAS V9				Open
+GB	METEOROLOGY	l1_124_climate_wnd3s	wind speed	m/s	15 minute	7/1/02	7/7/05	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_125_climate_wnd3s	wind speed	m/s	15 minute	6/26/02	7/7/05	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_144_climate_wnd3s	wind speed	m/s	15 minute	9/20/01	7/7/05	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_145_climate_wnd3s	wind speed	m/s	15 minute	10/2/01	7/7/05	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_163_climate_wnd3s	wind speed	m/s	15 minute	10/2/01	7/6/05	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_167_climate_wnd3s	wind speed	m/s	15 minute	10/3/01	7/6/05	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_174_climate_wnd3s	wind speed	m/s	15 minute	9/18/01	7/6/05	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138j10_climate_wnd3r	wind run	km	15 minute	7/17/03	6/29/05	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_138j10_climate_wnd3s	wind speed	m/s	15 minute	7/17/03	6/29/05	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_167b_climate_wnd3s	wind speed	m/s	15 minute	2/16/05	6/15/05	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_166b_climate_wnd3r	wind run	km	15 minute	10/2/03	5/25/05	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_rmsp3_climate_wnd3r	wind run	km	15 minute	9/22/04	5/25/05	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_spt_climate_wnd3r	wind run	km	15 minute	9/27/00	5/25/05	Marks	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm040d	soil temperature	¡C	1 hour	10/6/89	2/11/05	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm050d	soil temperature	¡C	1 hour	10/6/89	2/11/05	Seyfried	SAS V9				Open
+GB	METEOROLOGY	l1_urt_climate_hum2a	relative humidity	%	15 minute	8/31/04	10/17/04	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_urt_climate_irt1	infrared plant canopy temperature	¡C	15 minute	11/14/03	10/17/04	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_urt_climate_tmp2a	air temperature	¡C	15 minute	11/14/03	10/17/04	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_urt_climate_tmp2ij	air temperature	¡C	15 minute	11/14/03	10/17/04	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_urt_climate_vap2a	vapor pressure	kPa	15 minute	11/14/03	10/17/04	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_wnd15r	wind run	km	15 minute	2/4/04	10/12/04	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_wnd15s	wind speed	m/s	15 minute	2/4/04	10/12/04	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_wnd3r	wind run	km	15 minute	2/4/04	10/12/04	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_wnd3s	wind speed	m/s	15 minute	2/4/04	10/12/04	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_wnd9r	wind run	km	15 minute	2/4/04	10/12/04	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_176b_climate_wnd9s	wind speed	m/s	15 minute	2/4/04	10/12/04	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_166b_climate_wnd3s	wind speed	m/s	15 minute	10/2/03	9/20/04	Marks	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm060d	soil temperature	¡C	1 hour	10/6/89	9/15/03	Seyfried	SAS V9				Open
+GB	PRECIPITATION	hourly_orc2_precipitation_ppts	shielded precipitation	mm	1 hour	3/25/93	6/16/03	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_orc3_precipitation_ppts	shielded precipitation	mm	1 hour	3/25/93	6/16/03	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_095_climate_hum3a	relative humidity	%	15 minute	9/26/01	6/11/02	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_095_climate_hum3i	relative humidity	%	15 minute	9/26/01	6/11/02	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_095_precipitation_ppta	wind corrected precipitation	mm	1 hour	1/1/62	6/11/02	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_095_precipitation_ppts	shielded precipitation	mm	1 hour	1/1/62	6/11/02	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_095_precipitation_pptu	unshielded precipitation	mm	1 hour	1/1/62	6/11/02	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_095_climate_sol	incoming shortwave solar radiation	W/m_	15 minute	9/26/01	6/11/02	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_095_climate_tmp3a	air temperature	¡C	15 minute	9/26/01	6/11/02	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_095_climate_tmp3i	air temperature	¡C	15 minute	9/26/01	6/11/02	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_095_climate_tmp3ij	air temperature	¡C	15 minute	10/5/01	6/11/02	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_095_climate_wnd3r	wind run	km	15 minute	9/26/01	6/11/02	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_095_climate_wnd3s	wind speed	m/s	15 minute	9/26/01	6/11/02	Marks	SAS V9				Open
+GB	METEOROLOGY	l1_095_climate_wnd3sx	maximum wind speed	m/s	15 minute	9/26/01	6/11/02	Marks	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm010e	soil temperature	¡C	1 hour	10/6/89	12/7/01	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm005fc	soil temperature	¡C	1 hour	10/6/89	9/20/00	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm010fc	soil temperature	¡C	1 hour	10/6/89	9/9/00	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm010fg	soil temperature	¡C	1 hour	10/6/89	9/9/00	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098b_soiltemperature_stm005e	soil temperature	¡C	1 hour	10/6/89	8/30/00	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_076_soiltemperature_stm050	soil temperature	¡C	1 hour	6/7/94	8/26/99	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_13803_soiltemperature_stm005	soil temperature	¡C	1 hour	12/19/84	11/13/96	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_13803_soiltemperature_stm010	soil temperature	¡C	1 hour	12/19/84	11/13/96	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_13803_soiltemperature_stm015	soil temperature	¡C	1 hour	12/19/84	11/13/96	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_13803_soiltemperature_stm020	soil temperature	¡C	1 hour	12/19/84	11/13/96	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_13803_soiltemperature_stm030	soil temperature	¡C	1 hour	12/19/84	11/13/96	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_138j10_soiltemperature_stm005	soil temperature	¡C	1 hour	2/3/84	9/24/96	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_138j10_soiltemperature_stm010	soil temperature	¡C	1 hour	2/3/84	9/24/96	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_138j10_soiltemperature_stm015	soil temperature	¡C	1 hour	2/3/84	9/24/96	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_138j10_soiltemperature_stm020	soil temperature	¡C	1 hour	2/3/84	9/24/96	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_138j10_soiltemperature_stm030	soil temperature	¡C	1 hour	2/3/84	9/24/96	Seyfried	SAS V9				Open
+GB	PRECIPITATION	hourly_138x44_precipitation_ppta	wind corrected precipitation	mm	1 hour	1/1/83	1/1/95	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_138x44_precipitation_ppts	shielded precipitation	mm	1 hour	1/1/83	1/1/95	Marks	SAS V9				Open
+GB	PRECIPITATION	hourly_138x44_precipitation_pptu	unshielded precipitation	mm	1 hour	1/1/83	1/1/95	Marks	SAS V9				Open
+GB	SOIL PHYSICS	hourly_057_soiltemperature_stm005	soil temperature	¡C	1 hour	8/7/90	12/31/94	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_076_soiltemperature_stm002_5	soil temperature	¡C	1 hour	12/22/77	6/7/94	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_076_soiltemperature_stm015	soil temperature	¡C	1 hour	12/22/77	6/7/94	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_076_soiltemperature_stm070	soil temperature	¡C	1 hour	12/22/77	6/7/94	Seyfried	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_036_streamflow_sedconc	suspended sediment concentration	mg/l	sporadic	1/28/65	7/24/93	Pierson	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_138x34_streamflow_qcms	discharge	m_/s	15 minute	2/20/70	6/22/93	Pierson	SAS V9				Open
+GB	SOIL PHYSICS	hourly_057_soiltemperature_stm240	soil temperature	¡C	1 hour	3/27/81	6/11/91	Seyfried	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_046x84_streamflow_qcms	discharge	m_/s	15 minute	3/13/64	1/1/91	Pierson	SAS V9				Open
+GB	SOIL PHYSICS	hourly_176_soiltemperature_stm240	soil temperature	¡C	1 hour	10/14/81	12/12/90	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_098_soiltemperature_stm240	soil temperature	¡C	1 hour	6/14/85	9/27/90	Seyfried	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_046_streamflow_sedconc	suspended sediment concentration	mg/l	sporadic	3/2/88	5/23/88	Pierson	SAS V9				Open
+GB	HYDROLOGY	bkpt15min_036_streamflow_est_sedconc	suspended sediment concentration	mg/l	sporadic	1/21/67	6/6/86	Pierson	SAS V9				Open
+GB	SOIL PHYSICS	hourly_076_soiltemperature_stm055	soil temperature	¡C	1 hour	12/22/77	7/29/85	Seyfried	SAS V9				Open
+GB	SOIL PHYSICS	hourly_127_soiltemperature_stm240	soil temperature	¡C	1 hour	10/13/81	12/4/84	Seyfried	SAS V9				Open
+GB	VEGETATION	gb_ltar_wbs_yyyymmdd_hhmm_rgb	vegetation phenology repeat images	RGB Image	30 minute	5/18/17		Clark	local image store	Phenocam Network Web Site	arsgreatbasinltar098		Open
+GB	VEGETATION	gb_ltar_wbs_yyyymmdd_hhmm_ir	vegetation phenology repeat images	IR Image	30 minute	5/18/17		Clark	local image store	Phenocam Network Web Site	arsgreatbasinltar098		Open
+GB	VEGETATION	gb_ltar_mbs_yyyymmdd_hhmm_rgb	vegetation phenology repeat images	RGB Image	30 minute	10/17/18		Clark	local image store				Open
+GB	VEGETATION	gb_ltar_mbs_yyyymmdd_hhmm_ir	vegetation phenology repeat images	IR Image	30 minute	10/17/18		Clark	local image store				Open
+GB	VEGETATION	los	plant canopy cover		annual	2015		Clark	Excel Spreadsheets				Closed
+GB	VEGETATION	los	plant leaf area index		annual	2015		Clark	Excel Spreadsheets				Closed
+GB	VEGETATION	los	peak standing biomass		annual	2015		Clark	Excel Spreadsheets				Closed
+GB	VEGETATION	los	ground cover		annual	2015		Clark	Excel Spreadsheets				Closed
+GB	VEGETATION	los	shrub dimensions		annual	2015		Clark	Excel Spreadsheets				Closed
+GB	VEGETATION	los	plant frequency		annual	2016		Clark	Excel Spreadsheets				Closed
+GB	VEGETATION	wbs	plant canopy cover		annual	2015		Clark	Excel Spreadsheets				Closed
+GB	VEGETATION	wbs	plant leaf area index		annual	2015		Clark	Excel Spreadsheets				Closed
+GB	VEGETATION	wbs	peak standing biomass		annual	2015		Clark	Excel Spreadsheets				Closed
+GB	VEGETATION	wbs	ground cover		annual	2015		Clark	Excel Spreadsheets				Closed
+GB	VEGETATION	wbs	shrub dimensions		annual	2015		Clark	Excel Spreadsheets				Closed
+GB	VEGETATION	wbs	plant frequency		annual	2016		Clark	Excel Spreadsheets				Closed
+GB	VEGETATION	mbs	plant canopy cover		annual	2015		Clark	Excel Spreadsheets				Closed
+GB	VEGETATION	mbs	plant leaf area index		annual	2015		Clark	Excel Spreadsheets				Closed
+GB	VEGETATION	mbs	peak standing biomass		annual	2015		Clark	Excel Spreadsheets				Closed
+GB	VEGETATION	mbs	ground cover		annual	2015		Clark	Excel Spreadsheets				Closed
+GB	VEGETATION	mbs	shrub dimensions		annual	2015		Clark	Excel Spreadsheets				Closed
+GB	VEGETATION	mbs	plant frequency		annual	2016		Clark	Excel Spreadsheets				Closed
+GB	VEGETATION	los	nadir vegetation images	RGB Image	annual	2017		Clark	local image store				Closed
+GB	VEGETATION	wbs	nadir vegetation images	RGB Image	annual	2017		Clark	local image store				Closed
+GB	VEGETATION	mbs	nadir vegetation images	RGB Image	annual	2017		Clark	local image store				Closed
