@@ -1,65 +1,56 @@
-LTARSite Code	Category	DataSetVariableName	AttributeDescription	Units	TemporalResolution	StartDate	EndDate	ResponsiblePersons	StorageFormat	URLdataAccess	LocationIDoutsideNetwork	SpatialExtentDescription	PublicAccess
-NP	Micrometeorology 		NP = Northern Plains						"CSV, Excel, shapefiles, geodatabase, ArcGIS online"				
-NP	Micrometeorology 		H5 = Field H5 at Area IV SCD										
-NP	Micrometeorology 		yyyy-MM-ddThh:mm:ss-6UTC										
-NP	Micrometeorology 		C = Common										
-NP	Micrometeorology 		"Eddy covariance; fluxes of CO2, water vapor and sensible heat"						.CSV				
-NP	Micrometeorology 		"Ambient temperature at 2.8 m above ground surface, models HMP45 and FW3"						.CSV				
-NP	Micrometeorology 		"Canopy surface temperature, model SI-111"						.CSV				
-NP	Micrometeorology 		"Wind speed from 3-D sonic anemometer, model CSAT3"						.CSV				
-NP	Micrometeorology 		"Wind direction from 3-D sonic anemometer, model CSAT3"						.CSV				
-NP	Micrometeorology 		"Ambient relative humidity at 2.8 m above ground surface, model HMP45"						.CSV				
-NP	Micrometeorology 		"Precipitation, model TE525 -  tipping bucket rain gauge at Fields H5 and I2"						.CSV				
-NP	Micrometeorology 		"Precipitation, model AEPG II by Belfort - weighing rain gauge at Field H2"						.CSV				
-NP	Micrometeorology 		"Atmospheric pressure, transducer in IRGA model LI-7500A"						.CSV				
-NP	Micrometeorology 		"Photosynthetically active radiation (PAR), quantum sensor model LI-190SB"						.CSV				
-NP	Micrometeorology 		"Incoming short-wave radiation, up-looking pyranometer model CNR4"						.CSV				
-NP	Micrometeorology 		"Incoming long-wave radiation, up-looking pyrgeometer model CNR4"						.CSV				
-NP	Micrometeorology 		"Outgoing short-wave radiation, down-looking pyranometer model CNR4"						.CSV				
-NP	Micrometeorology 		"Outgoing long-wave radiation, down-looking pyrgeometer model CNR4"						.CSV				
-NP	Micrometeorology 		"Soil heat flux, model HFT3.1"						.CSV				
-NP	Micrometeorology 		"Soil moisture at various depths, models: EnviroScan, CS616, 5TM"						.CSV				
-NP	Micrometeorology 		"Soil temperature at various depths, models: TCAV, 5TM, SO-110"						.CSV				
-NP	Micrometeorology 		"Soil oxygen at various depths, model SO-110"						.CSV				
-NP	Micrometeorology 												
-NP	Phenology		"Phenocam at each eddy covariance station, BAU (Field H5) and ASP (Field I2)"						.JPG				
-NP	Phenology		"Spectral reflectance sensors, models SRS-NDVI and SRS-PRI"						.CSV				
-NP	Phenology		Landsat 8 imageries						.TIF				
-NP	Phenology												
-NP	Vegetation		"Above-ground biomass, plant height, phenology, leaf area index (LAI)"						.XLS				
-NP	Vegetation		"Biomass, aboveground, plant tissue, mean or single measurement, kilograms per hectare"						".XLS, Access database"				
-NP	Vegetation		"Individual kernel weight, plant tissue, mean or single measurement, megagrams"						".XLS, Access database"				
-NP	Vegetation		"Grain harvest, plant tissue, mean or single measurement, kilograms per hectare"						".XLS, Access database"				
-NP	Vegetation		"Grain moisture content, plant tissue, mean or single measurement, percent"						".XLS, Access database"				
-NP	Vegetation		"Carbon, grain, plant tissue, mean or single measurement, kilograms of carbon per hectare"						".XLS, Access database"				
-NP	Vegetation		"Nitrogen, grain, plant tissue, mean or single measurement, kilograms of nitrogen per hectare"						".XLS, Access database"				
-NP	Vegetation		"Crop residue, harvested aboveground, plant tissue, mean or single measurement, kilograms per hectare"						".XLS, Access database"				
-NP	Vegetation		"Crop residue moisture content, plant tissue, mean or single measurement, percent"						".XLS, Access database"				
-NP	Vegetation		"Carbon, harvested crop residue, plant tissue, mean or single measurement, kilograms of carbon per hectare"						".XLS, Access database"				
-NP	Vegetation		"Nitrogen, harvested crop residue, plant tissue, mean or single measurement, kilograms of carbon per hectare"						".XLS, Access database"				
-NP	Vegetation		"Crop residue, non harvested aboveground, plant tissue, mean or single measurement, kilograms per hectare"						".XLS, Access database"				
-NP	Vegetation		"Crop residue moisture content, plant tissue, mean or single measurement, percent"						".XLS, Access database"				
-NP	Vegetation		"Carbon, non harvested crop residue, plant tissue, mean or single measurement, kilograms of carbon per hectare"						".XLS, Access database"				
-NP	Vegetation		"Nitrogen, non harvested crop residue, plant tissue, mean or single measurement, kilograms of nitrogen per hectare"						".XLS, Access database"				
-NP	Vegetation		"Neutral Detergent Fiber, plant tissue, grams per kilogram"						".XLS, Access database"				
-NP	Vegetation		"Acid Detergent Fiber, plant tissue, grams per kilogram"						".XLS, Access database"				
-NP	Vegetation		"Acid Soluble Lignin, plant tissue, grams per kilogram"						".XLS, Access database"				
-NP	Vegetation		"Acid Insoluble Lignin, plant tissue, grams per kilogram"						".XLS, Access database"				
-NP	Vegetation		"Crude Protein, plant tissue, grams per kilogram"						".XLS, Access database"				
-NP	Vegetation		"Ash, plant tissue, grams per kilogram"						".XLS, Access database"				
-NP	Vegetation		"C Concentration, plant tissue, grams per kilogram"						".XLS, Access database"				
-NP	Vegetation		"N Concentration, plant tissue, grams per kilogram"						".XLS, Access database"				
-NP	Vegetation		"P Concentration, plant tissue, grams per kilogram"						".XLS, Access database"				
-NP	Vegetation												
-NP	Soil Properties		"Various soil physical, chemical, and biological properties and processes"						".XLS, .ACCDB, .MDB"				
-NP	Soil Properties												
-NP	Soil-Atmosphere Gas Flux		"CO2, CH4, N2O flux (static chamber)"						".XLS, .ACCDB, .MDB"				
-NP	Soil-Atmosphere Gas Flux		Soil temperature						".XLS, .ACCDB, .MDB"				
-NP	Soil-Atmosphere Gas Flux		Soil water content						".XLS, .ACCDB, .MDB"				
-NP	Soil-Atmosphere Gas Flux												
-NP	Landbase		"area_acres, field ID, Crop, Variety,  Individaul, Project, Treatments, Tillage ,Comments"						"Shapefile, geodatabase, Excel, ArcGIS online"				
-NP	Landbase		"LocationID, Exp_UnitID, State, Town, Plot, Yield_Ac, County, "										
-NP	Landbase		"Description, "										
-NP	Landbase												
-NP	Projects Data		We have several ongoing projects (studies) related to LTAR. 						"CSV, Excel  shapefile, geodatabases, ArcGIS online"				
-NP	Projects Data		"Some of these data sets are available to public via GRACEnet, etc."										
+ID	RowID	LTARSite.Code	Category	DataSetVariableName	AttributeDescription	Units	TemporalResolution	TemporalResolutionStandard	StartDate	StartDateStandard	StartDateAgCROS	EndDate	EndDateStandard	EndDateAgCros	DateDif_yrs	ResponsiblePersons	StorageFormat	URLdataAccess	LocationIDoutsideNetwork	SpatialRepeats	SpatialDescription	PublicAccess	Network.Category	AgCROS.Table	AgCROS.VarName	NALT.Keywords	subsite	Repo.Name	Model.Name	NALT.Subject	ISO.Topic	Common.Experiment
+NP5010	5010	NP	Soil-Atmosphere Gas Flux	CO2 flux (static chamber)	CO2 flux (static chamber)												.XLS, .ACCDB, .MDB					Closed	Greenhouse Gas Emissions	MeasGHGFlux	Carbon dioxide, air, daily, mean or single measurement	Greenhouse Gas Emissions				Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+NP5011	5011	NP	Soil-Atmosphere Gas Flux	N2O flux (static chamber)	N2O flux (static chamber)												.XLS, .ACCDB, .MDB					Closed	Greenhouse Gas Emissions	MeasGHGFlux	Nitrous oxide, air, daily, mean or single measurement	Greenhouse Gas Emissions				Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+NP5012	5012	NP	Soil-Atmosphere Gas Flux	CH4 flux (static chamber)	CH4 flux (static chamber)												.XLS, .ACCDB, .MDB					Closed	Greenhouse Gas Emissions	MeasGHGFlux	Methane, air, daily, mean or single measurement	Greenhouse Gas Emissions				Physical and Chemical Sciences	climatologyMeteorologyAtmosphere	
+NP5013	5013	NP	Micrometeorology		Wind speed from 3-D sonic anemometer, model CSAT3												.CSV						Meteorology	WeatherDaily, WeatherStation	Wind speed, air, daily, mean	Meteorology, Eddy Covariance				Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+NP5014	5014	NP	Micrometeorology		Eddy covariance; fluxes of CO2, water vapor and sensible heat												.CSV						Meteorology	AmeriFlux		Meteorology, Eddy Covariance				Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+NP5015	5015	NP	Micrometeorology		Ambient temperature at 2.8 m above ground surface, models HMP45 and FW3												.CSV						Meteorology	WeatherDaily, WeatherStation	Temperature, air, daily, mean	Meteorology				Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+NP5016	5016	NP	Micrometeorology		Canopy surface temperature, model SI-111												.CSV						Meteorology	WeatherDaily, WeatherStation	Temperature, air, daily, mean	Meteorology, Eddy Covariance				Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+NP5017	5017	NP	Micrometeorology		Wind direction from 3-D sonic anemometer, model CSAT3												.CSV						Meteorology	WeatherDaily, WeatherStation	Wind direction air, daily, mean	Meteorology, Eddy Covariance				Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+NP5018	5018	NP	Micrometeorology		Ambient relative humidity at 2.8 m above ground surface, model HMP45												.CSV						Meteorology	WeatherDaily, WeatherStation	Relative humidity, air, daily, mean	Meteorology				Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+NP5019	5019	NP	Micrometeorology		Precipitation, model TE525 -  tipping bucket rain gauge at Fields H5 and I2												.CSV						Meteorology	WeatherDaily, WeatherStation	Precipitation, total, no media, daily	Meteorology, Eddy Covariance				Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+NP5020	5020	NP	Micrometeorology		Precipitation, model AEPG II by Belfort - weighing rain gauge at Field H2												.CSV						Meteorology	WeatherDaily, WeatherStation	Precipitation, total, no media, daily	Meteorology, Eddy Covariance				Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+NP5021	5021	NP	Micrometeorology		Atmospheric pressure, transducer in IRGA model LI-7500A												.CSV						Meteorology	WeatherDaily, WeatherStation	Pressure	Meteorology, Eddy Covariance				Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+NP5022	5022	NP	Micrometeorology		Photosynthetically active radiation (PAR), quantum sensor model LI-190SB												.CSV						Meteorology	WeatherDaily, WeatherStation	Photosynthetically active radiation	Meteorology, Eddy Covariance				Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+NP5023	5023	NP	Micrometeorology		Incoming short-wave radiation, up-looking pyranometer model CNR4												.CSV						Meteorology	WeatherDaily, WeatherStation	ave_incoming_shortwave radiation	Meteorology, Eddy Covariance				Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+NP5024	5024	NP	Micrometeorology		Incoming long-wave radiation, up-looking pyrgeometer model CNR4												.CSV						Meteorology	WeatherDaily, WeatherStation	ave_incoming_longwave radiation	Meteorology, Eddy Covariance				Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+NP5025	5025	NP	Micrometeorology		Outgoing short-wave radiation, down-looking pyranometer model CNR4												.CSV						Meteorology	WeatherDaily, WeatherStation	ave_outgoing_shortwave radiation	Meteorology, Eddy Covariance				Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+NP5026	5026	NP	Micrometeorology		Outgoing long-wave radiation, down-looking pyrgeometer model CNR4												.CSV						Meteorology	WeatherDaily, WeatherStation	ave_outgoing_longwave radiation	Meteorology, Eddy Covariance				Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+NP5027	5027	NP	Micrometeorology		Soil heat flux, model HFT3.1												.CSV						Meteorology	WeatherDaily, WeatherStation	Solar radiation, bare ground, no media, daily, total	Meteorology, Eddy Covariance				Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+NP5028	5028	NP	Micrometeorology		Soil moisture at various depths, models: EnviroScan, CS616, 5TM												.CSV						Meteorology	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	soil moisture	Meteorology, Eddy Covariance				Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+NP5029	5029	NP	Micrometeorology		Soil temperature at various depths, models: TCAV, 5TM, SO-110												.CSV						Meteorology	WeatherDaily, WeatherStation	avg soil temp	Meteorology, Eddy Covariance				Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+NP5030	5030	NP	Micrometeorology		Soil oxygen at various depths, model SO-110												.CSV						Meteorology	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	oxygen	Meteorology, Eddy Covariance				Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+NP5031	5031	NP	Phenology		Phenocam at each eddy covariance station, BAU (Field H5) and ASP (Field I2)												.JPG						Phenology	new ecology	PhenoCam	Remote Sensing, Phenology				Natural Resources, Earth and Environmental Sciences	biota	
+NP5032	5032	NP	Phenology		Spectral reflectance sensors, models SRS-NDVI and SRS-PRI												.CSV						Phenology	new ecology	PhenoCam	Remote Sensing, Phenology				Natural Resources, Earth and Environmental Sciences	biota	
+NP5033	5033	NP	Phenology		Landsat 8 imageries												.TIF						Phenology	new ecology	PhenoCam	Remote Sensing, Phenology				Natural Resources, Earth and Environmental Sciences	biota	
+NP5034	5034	NP	Soil Properties	soil physical properties and processes	soil physical properties and processes												.XLS, .ACCDB, .MDB					Closed	Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	soil classification	Soil				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+NP5035	5035	NP	Soil Properties	soil chemical properties and processes	soil chemical properties and processes												.XLS, .ACCDB, .MDB					Closed	Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	soil classification	Soil				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+NP5036	5036	NP	Soil Properties	soil biological properties and processes	soil biological properties and processes												.XLS, .ACCDB, .MDB					Closed	Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	soil classification	Soil				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+NP5037	5037	NP	Soil Properties	Soil temperature	Soil temperature												.XLS, .ACCDB, .MDB					Closed	Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	soil temperature	Soil				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+NP5038	5038	NP	Soil Properties	Soil water content	Soil water content												.XLS, .ACCDB, .MDB					Closed	Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	soil moisture	Soil				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+NP5039	5039	NP	Soil-Atmosphere Gas Flux		Soil temperature												.XLS, .ACCDB, .MDB						Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	soil temperature	Soil, Soil Respiration				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+NP5040	5040	NP	Soil-Atmosphere Gas Flux		Soil water content												.XLS, .ACCDB, .MDB						Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	soil moisture	Soil, Soil Respiration				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+NP5041	5041	NP	Vegetation		Above-ground biomass, plant height, phenology, leaf area index (LAI)												.XLS						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Biomass, aboveground live, plant tissue, mean or single measurement	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5042	5042	NP	Vegetation		Biomass, aboveground, plant tissue, mean or single measurement, kilograms per hectare												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Biomass, aboveground live, plant tissue, mean or single measurement	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5043	5043	NP	Vegetation		Individual kernel weight, plant tissue, mean or single measurement, megagrams												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Kernel weight, plant tissue	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5044	5044	NP	Vegetation		Grain harvest, plant tissue, mean or single measurement, kilograms per hectare												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Kernel weight, plant tissue	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5045	5045	NP	Vegetation		Grain moisture content, plant tissue, mean or single measurement, percent												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Moisture in plant fraction, plant tissue	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5046	5046	NP	Vegetation		Carbon, grain, plant tissue, mean or single measurement, kilograms of carbon per hectare												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Carbon in plant fraction, plant tissue	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5047	5047	NP	Vegetation		Nitrogen, grain, plant tissue, mean or single measurement, kilograms of nitrogen per hectare												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Nitrogen in plant fraction, plant tissue	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5048	5048	NP	Vegetation		Crop residue, harvested aboveground, plant tissue, mean or single measurement, kilograms per hectare												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Crop Yield	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5049	5049	NP	Vegetation		Crop residue moisture content, plant tissue, mean or single measurement, percent												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Moisture in plant fraction, plant tissue	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5050	5050	NP	Vegetation		Carbon, harvested crop residue, plant tissue, mean or single measurement, kilograms of carbon per hectare												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Carbon in plant fraction, plant tissue	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5051	5051	NP	Vegetation		Nitrogen, harvested crop residue, plant tissue, mean or single measurement, kilograms of carbon per hectare												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Nitrogen in plant fraction, plant tissue	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5052	5052	NP	Vegetation		Crop residue, non harvested aboveground, plant tissue, mean or single measurement, kilograms per hectare												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Crop Yield	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5053	5053	NP	Vegetation		Crop residue moisture content, plant tissue, mean or single measurement, percent												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Moisture in plant fraction, plant tissue	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5054	5054	NP	Vegetation		Carbon, non harvested crop residue, plant tissue, mean or single measurement, kilograms of carbon per hectare												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Carbon in plant fraction, plant tissue	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5055	5055	NP	Vegetation		Nitrogen, non harvested crop residue, plant tissue, mean or single measurement, kilograms of nitrogen per hectare												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Nitrogen in plant fraction, plant tissue	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5056	5056	NP	Vegetation		Neutral Detergent Fiber, plant tissue, grams per kilogram												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Acid Detergent Fiber, plant tissue, grans per kilogram	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5057	5057	NP	Vegetation		Acid Detergent Fiber, plant tissue, grams per kilogram												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Acid Detergent Fiber, plant tissue, grans per kilogram	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5058	5058	NP	Vegetation		Acid Soluble Lignin, plant tissue, grams per kilogram												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Acid Soluble Lignin, plant tissue, grams per kilogram	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5059	5059	NP	Vegetation		Acid Insoluble Lignin, plant tissue, grams per kilogram												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Acid Insoluble Lignin, plant tissue, grams per kilogram	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5060	5060	NP	Vegetation		Crude Protein, plant tissue, grams per kilogram												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	crude protein	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5061	5061	NP	Vegetation		Ash, plant tissue, grams per kilogram												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Carbon, aboveground live, plant tissue, mean or single measurement	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5062	5062	NP	Vegetation		C Concentration, plant tissue, grams per kilogram												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Carbon, aboveground live, plant tissue, mean or single measurement	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5063	5063	NP	Vegetation		N Concentration, plant tissue, grams per kilogram												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Nitrogen in plant fraction, plant tissue	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	
+NP5064	5064	NP	Vegetation		P Concentration, plant tissue, grams per kilogram												.XLS, Access database						Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Phosphorus	Vegetation				Natural Resources, Earth and Environmental Sciences	biota	

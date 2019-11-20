@@ -1,70 +1,70 @@
-LTARSite.Code	Category	DataSetVariableName	AttributeDescription	Units	TemporalResolution	StartDate	EndDate	ResponsiblePersons	StorageFormat	URLdataAccess	LocationIDoutsideNetwork	SpatialExtentDescription	PublicAccess
-PRHPA	METEOROLOGY	short wave incoming radiation		?mol m-2 s-1		Spring 2001	Present	Suyker	excel sheets	Ameriflux			open
-PRHPA	METEOROLOGY	short wave outgoing radiation		?mol m-2 s-1		Spring 2001	Present	Suyker	excel sheets	Ameriflux			open
-PRHPA	METEOROLOGY	long wave incoming radiation		?mol m-2 s-1		Spring 2001	Present	Suyker	excel sheets	Ameriflux			open
-PRHPA	METEOROLOGY	long wave outgoing radiation		?mol m-2 s-1		Spring 2001	Present	Suyker	excel sheets	Ameriflux			open
-PRHPA	METEOROLOGY	long wave incoming radiation		?mol m-2 s-1	15 minutes	Spring 2001	Present	Suyker	excel sheets	"NAL LTAR Data Portal, Ameriflux"			open
-PRHPA	METEOROLOGY	long wave outgoing radiation		?mol m-2 s-1	15 minutes	Spring 2001	Present	Suyker	excel sheets	"NAL LTAR Data Portal, Ameriflux"			open
-PRHPA	METEOROLOGY	net radiation		?mol m-2 s-1		Spring 2001	Present	Suyker	excel sheets	Ameriflux			open
-PRHPA	METEOROLOGY	Photosynthetically Active Radiation incoming		?mol m-2 s-1		Spring 2001	Present	Suyker	excel sheets	Ameriflux			open
-PRHPA	METEOROLOGY	Photosynthetically Active Radiation outgoing		?mol m-2 s-1		Spring 2001	Present	Suyker	excel sheets	Ameriflux			open
-PRHPA	METEOROLOGY	Diffuse Photosynthetically Active Radiation		?mol m-2 s-1	15 minute	Spring 2001	Present	Suyker	excel sheets	Ameriflux			open
-PRHPA	METEOROLOGY	CO2 flux 		?mol m-2 s-2		Spring 2001	Present	Suyker	excel sheets	Ameriflux			
-PRHPA	METEOROLOGY	H2O flux		mmol m-2 s-3		Spring 2001	Present	Suyker	excel sheets	Ameriflux			
-PRHPA	METEOROLOGY	CO2 concentration		ppm		Spring 2001	Present	Suyker	excel sheets	Ameriflux			
-PRHPA	METEOROLOGY	CO2 Density		kgm-3		Spring 2001	Present	Suyker	excel sheets	Ameriflux			
-PRHPA	METEOROLOGY	Air Pressure		pascal	15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"			open
-PRHPA	METEOROLOGY	Air temperature 		?C	 5 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"			Open
-PRHPA	METEOROLOGY	Relative humidity		%	15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"			Open
-PRHPA	METEOROLOGY	Eddy Covariance tower height 		meters		Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"			Open
-PRHPA	METEOROLOGY	wind direction 			15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"			Open
-PRHPA	METEOROLOGY	Battery voltage		volts	 15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"			Open
-PRHPA	METEOROLOGY	panel temperature		?C	15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"			Open
-PRHPA	METEOROLOGY	wind speed		ms-1	15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"			Open
-PRHPA	METEOROLOGY	precipitation		mm	15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"			Open
-PRHPA	METEOROLOGY	Precipitation		mm	15 minute	Spring 2001	Present	Suyker	"NAL LTAR Data Portal, excel sheets"	"NAL LTAR Data Portal, Ameriflux"			Open
-PRHPA	METEOROLOGY	soil heat flux		W m-2		Spring 2001		Suyker	excel sheets	 Ameriflux			Open
-PRHPA	METEOROLOGY	soil temperature within row		?C		Spring 2001		Suyker	excel sheets	 Ameriflux			Open
-PRHPA	METEOROLOGY	soil temperature between row		?C		Spring 2001		Suyker	excel sheets	 Ameriflux			Open
-PRHPA	METEOROLOGY	soil temperature at 25cm depth		?C		Spring 2001		Suyker	excel sheets	 Ameriflux			Open
-PRHPA	METEOROLOGY	soil temperature at 50 cm depth		?C		Spring 2001		Suyker	excel sheets	 Ameriflux			Open
-PRHPA	SOIL BIOLOGY	Total PLFA		nmol/g Oven Dry soil		9/16/2016; pending (6/7/2017)		Okalebo	Excel Sheets	Responsible Person Custody			
-PRHPA	SOIL BIOLOGY	General Bacteria		nmol/g Oven Dry soil		9/16/2016; pending (6/7/2017)		Okalebo	Excel Sheets	Responsible Person Custody			
-PRHPA	SOIL BIOLOGY	Fungi		nmol/g Oven Dry soil		9/16/2016; pending (6/7/2017)		Okalebo	Excel Sheets	Responsible Person Custody			
-PRHPA	SOIL BIOLOGY	Bacteria to Fungi		ratio		9/16/2016; pending (6/7/2017)		Okalebo	Excel Sheets	Responsible Person Custody			
-PRHPA	SOIL BIOLOGY	Gram - Bacteria				9/16/2016; pending (6/7/2017)		Okalebo	Excel Sheets	Responsible Person Custody			
-PRHPA	SOIL BIOLOGY	Gram + bacteria				9/16/2016; pending (6/7/2017)		Okalebo	Excel Sheets	Responsible Person Custody			
-PRHPA	SOIL BIOLOGY	Gram+ to Gram -		ratio		9/16/2016; pending (6/7/2017)		Okalebo	Excel Sheets	Responsible Person Custody			
-PRHPA	SOIL CHEMISTRY	1:1 Soil pH			Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	WDRF Buffer pH						Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	1:1 Solube Salts		mmho/cm	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	Texture No						Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	Organic Matter		 LOI %	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	Nitrate-N		ppm				Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	N		lbs/A				Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	Potassium		ppm	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	Sulfate-S		ppm				Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	Zinc		ppm				Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	Iron		ppm	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	Manganese		ppm				Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	Copper		ppm	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	Calcium		ppm				Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	Magnesium		ppm				Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	Sodium		ppm	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	Boron		ppm				Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	CEC		me/100g	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	%H Sat		%				Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	%K Sat		%	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	%Ca Sat		%				Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	%Mg Sat		%	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	%Na Sat		%				Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL CHEMISTRY	Chloride		ppm				Okalebo	Excel Sheets	Responsible Person Custody			
-PRHPA	SOIL CHEMISTRY	Mehlich P-III 		ppm	Annual		Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL PHYSICS	% moisture		m^3 m^3	twice	2017	Present	Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL PHYSICS	Bulk Density		g/cm3	One time	2017	intermittent	Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL PHYSICS	Field Capacity		% vol				Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	SOIL PHYSICS	Ksat		cm/sec				Okalebo	Excel Sheets	Responsible Person Custody			Closed
-PRHPA	VEGETATION	Phenocam		NA	30 minute		present	Suyker	Phenocam Network Web Site	Phenocam Network Web Site			Open
-PRHPA	VEGETATION	Biomass			intermittently		present	Suyker	excel sheets	Responsible Person Custody			
-PRHPA	VEGETATION	Leaf Area Index			intermittently		present	Suyker	excel sheets	Responsible Person Custody			
-PRHPA	VEGETATION	Yield			end of season		present	Suyker	excel sheets	Responsible Person Custody			
+ID	RowID	LTARSite.Code	Category	DataSetVariableName	AttributeDescription	Units	TemporalResolution	TemporalResolutionStandard	StartDate	StartDateStandard	StartDateAgCROS	EndDate	EndDateStandard	EndDateAgCros	DateDif_yrs	ResponsiblePersons	StorageFormat	URLdataAccess	LocationIDoutsideNetwork	SpatialRepeats	SpatialDescription	PublicAccess	Network.Category	AgCROS.Table	AgCROS.VarName	NALT.Keywords	subsite	Repo.Name	Model.Name	NALT.Subject	ISO.Topic	Common.Experiment
+PRHPA5065	5065	PRHPA	Soil	Bulk Density	whole soil density	g/cm3	5 years		6/14/2016			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5066	5066	PRHPA	Soil	E.C. 1:1	1:1, soil:H2O	dS/m	5 years		6/14/2016			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5067	5067	PRHPA	soil	pH	1:1, soil:H2O		5 years		6/14/2016			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5068	5068	PRHPA	Soil	Bray-1 P	Bray extractable PO4	ug/g	5 years		6/14/2016			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5069	5069	PRHPA	Soil	NO3-N	KCl Extractable NO3-N	ug/g	5 years		6/14/2016			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5070	5070	PRHPA	Soil	Total C	total soil carbon	g C/kg	5 years		6/14/2016			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5071	5071	PRHPA	Soil	Total N	Total soil nitrogen	g N/kg	5 years		6/14/2016			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5072	5072	PRHPA	Soil	T.O.C.	Total Organic Carbon	g C/kg	5 years		6/14/2016			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5073	5073	PRHPA	Soil	CO3-C	Total inorganic C	g C/kg	5 years		6/14/2016			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5074	5074	PRHPA	Soil	SOM	Soil Organic Matter by Loss on ignition	g/g	5 years		6/14/2016			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5075	5075	PRHPA	Soil	POM - Coarse	Particulate Organic Matter, >0.5 mm	mg/g	5 years		6/6/2017			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5076	5076	PRHPA	Soil	POM - Fine	Particulate organic matter, fine (0.05-0.5 mm),	mg/g	5 years		6/6/2017			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5077	5077	PRHPA	Soil	POM - Total	Particulate organic matter, fine (0.05-2.0 mm),	mg/g	5 years		6/6/2017			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5078	5078	PRHPA	Soil	NH4-N	KCl Extractable NH4-N	ug/g	5 years		6/14/2016			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5079	5079	PRHPA	Soil	Sand%	Particle size fraction, sand	g/g	5 years		6/14/2016			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5080	5080	PRHPA	soil	Silt%	Particle size fraction, silt		5 years		6/14/2016			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5081	5081	PRHPA	Soil	Clay%	Particle size fraction, clay	g/g	5 years		6/14/2016			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5082	5082	PRHPA	Vegetation	Total Biomass	Total above ground biomass	kg/ha	1 year		9/15/2016			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5083	5083	PRHPA	Vegetation	Grain Yield	Grain yield	kg/ha	1 year		9/15/2016			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5084	5084	PRHPA	Vegetation	dry matter	Non-grain plant biomass (above ground)	kg/ha	1 year		9/15/2016			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5085	5085	PRHPA	Vegetation	Grain Tot C	Grain Total Carbon	g/g	1 year		9/15/2016			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5086	5086	PRHPA	Vegetation	Grain Tot N	Grain Total Nitrogen	g/g	1 year		9/15/2016			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5087	5087	PRHPA	Vegetation	Combine Yield	Field Combine Yield data	kg/ha	1 year		9/15/2016			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5088	5088	PRHPA	Vegetation	dry matter C	Non-grain plant biomass Total Carbon	kg C/ha	1 year		9/15/2016			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5089	5089	PRHPA	Vegetation	dry matter N	Non-grain plant biomass Total Nitrogen	kg N/ha	1 year		9/15/2016			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5090	5090	PRHPA	Vegetation	live biomass	above gound live biomass	g/m2	1 year		6/12/2018			present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5091	5091	PRHPA	Vegetation	live leaf area	above ground live leaf area	m^2/m^2	I year		6/12/2018			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5092	5092	PRHPA	Vegetation	CP	forage quality crude protein (CP)	g/g	1 year		6/12/2018			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5093	5093	PRHPA	Vegetation	NDF	Forage Quality, Neutral Detergent Fiber (NDF)	g/g	1 year		6/12/2018			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5094	5094	PRHPA	Vegetation	ADF	Forage quality, acid detergent fiber (ADF)	g/g	1 year		6/12/2018			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5095	5095	PRHPA	GHGFlux	CO2	Static Chamber gas flux, CO2-C	g C/ha/d	1 month		5/25/2017			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5096	5096	PRHPA	GHGFlux	CH4	Static Chamber gas flux, CH4-C	g C/ha/d	1 month		5/25/2017			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5097	5097	PRHPA	GHGFlux	N2O	Static Chamber gas flux, N2O-N	g N/ha/d	1 month		5/25/2017			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5098	5098	PRHPA	GHGFlux	Soil Moisture Vol	Soil moisture, soil, mean or single measurement	%	1 month		5/25/2017			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5099	5099	PRHPA	GHGFlux	Air Temp	Temperature, air, sample period, mean or single measurement	degC	1 month		5/25/2017			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5100	5100	PRHPA	GHGFlux	Soil Temp	Temperature, soil, sample period, mean or single measurement	degC	1 month		5/25/2017			Present				Kettler, T	Excel files			3	PR-HPA	Closed										
+PRHPA5101	5101	PRHPA	METEOROLOGY	short wave incoming radiation	short wave incoming radiation	μmol m-2 s-1			Spring 2001			5/1/2017				Suyker, A	excel sheets			5	PR-HPA	Open										
+PRHPA5102	5102	PRHPA	METEOROLOGY	short wave outgoing radiation	short wave outgoing radiation	μmol m-2 s-1			Spring 2001			5/1/2017				Suyker, A	excel sheets			5	PR-HPA	Open										
+PRHPA5103	5103	PRHPA	METEOROLOGY	long wave incoming radiation	long wave incoming radiation	μmol m-2 s-1			Spring 2001			5/1/2017				Suyker, A	excel sheets			5	PR-HPA	Open										
+PRHPA5104	5104	PRHPA	METEOROLOGY	long wave outgoing radiation	long wave outgoing radiation	μmol m-2 s-1			Spring 2001			5/1/2017				Suyker, A	excel sheets			5	PR-HPA	Open										
+PRHPA5105	5105	PRHPA	METEOROLOGY	long wave incoming radiation	long wave incoming radiation	μmol m-2 s-1	15 minutes		Spring 2001			5/1/2017				Suyker, A	excel sheets			5	PR-HPA	Open										
+PRHPA5106	5106	PRHPA	METEOROLOGY	long wave outgoing radiation	long wave outgoing radiation	μmol m-2 s-1	15 minutes		Spring 2001			5/1/2017				Suyker, A	excel sheets			5	PR-HPA	Open										
+PRHPA5107	5107	PRHPA	METEOROLOGY	net radiation	net radiation	μmol m-2 s-1			Spring 2001			5/1/2017				Suyker, A	excel sheets			5	PR-HPA	Open										
+PRHPA5108	5108	PRHPA	METEOROLOGY	Photosynthetically Active Radiation incoming	Photosynthetically Active Radiation incoming	μmol m-2 s-1			Spring 2001			5/1/2017				Suyker, A	excel sheets			5	PR-HPA	Open										
+PRHPA5109	5109	PRHPA	METEOROLOGY	Photosynthetically Active Radiation outgoing	Photosynthetically Active Radiation outgoing	μmol m-2 s-1			Spring 2001			5/1/2017				Suyker, A	excel sheets			5	PR-HPA	Open										
+PRHPA5110	5110	PRHPA	METEOROLOGY	Diffuse Photosynthetically Active Radiation	Diffuse Photosynthetically Active Radiation	μmol m-2 s-1	15 minute		Spring 2001			5/1/2017				Suyker, A	excel sheets			5	PR-HPA	Open										
+PRHPA5111	5111	PRHPA	METEOROLOGY	CO2 flux	CO2 flux	μmol m-2 s-2			Spring 2001			5/1/2017				Suyker, A	excel sheets			5	PR-HPA	Open										
+PRHPA5112	5112	PRHPA	METEOROLOGY	H2O flux	H2O flux	mmol m-2 s-3			Spring 2001			5/1/2017				Suyker, A	excel sheets			5	PR-HPA	Open										
+PRHPA5113	5113	PRHPA	METEOROLOGY	CO2 concentration	CO2 concentration	ppm			Spring 2001			5/1/2017				Suyker, A	excel sheets			5	PR-HPA	Open										
+PRHPA5114	5114	PRHPA	METEOROLOGY	CO2 Density	CO2 Density	kgm-3			Spring 2001			5/1/2017				Suyker, A	excel sheets			5	PR-HPA	Open										
+PRHPA5115	5115	PRHPA	METEOROLOGY	Air Pressure	Air Pressure	pascal	15 minute		Spring 2001			5/1/2017				Suyker, A	NAL LTAR Data Portal, excel sheets			5	PR-HPA	Open										
+PRHPA5116	5116	PRHPA	METEOROLOGY	Air temperature	Air temperature	°C	5 minute		Spring 2001			5/1/2017				Suyker, A	NAL LTAR Data Portal, excel sheets			5	PR-HPA	Open										
+PRHPA5117	5117	PRHPA	METEOROLOGY	Relative humidity	Relative humidity	%	15 minute		Spring 2001			5/1/2017				Suyker, A	NAL LTAR Data Portal, excel sheets			5	PR-HPA	Open										
+PRHPA5118	5118	PRHPA	METEOROLOGY	Eddy Covariance tower height	Eddy Covariance tower height	meters			Spring 2001			5/1/2017				Suyker, A	NAL LTAR Data Portal, excel sheets			5	PR-HPA	Open										
+PRHPA5119	5119	PRHPA	METEOROLOGY	wind direction	wind direction		15 minute		Spring 2001			5/1/2017				Suyker, A	NAL LTAR Data Portal, excel sheets			5	PR-HPA	Open										
+PRHPA5120	5120	PRHPA	METEOROLOGY	Battery voltage	Battery voltage	volts	15 minute		Spring 2001			5/1/2017				Suyker, A	NAL LTAR Data Portal, excel sheets			5	PR-HPA	Open										
+PRHPA5121	5121	PRHPA	METEOROLOGY	panel temperature	panel temperature	°C	15 minute		Spring 2001			5/1/2017				Suyker, A	NAL LTAR Data Portal, excel sheets			5	PR-HPA	Open										
+PRHPA5122	5122	PRHPA	METEOROLOGY	wind speed	wind speed	ms-1	15 minute		Spring 2001			5/1/2017				Suyker, A	NAL LTAR Data Portal, excel sheets			5	PR-HPA	Open										
+PRHPA5123	5123	PRHPA	METEOROLOGY	precipitation	precipitation	mm	15 minute		Spring 2001			5/1/2017				Suyker, A	NAL LTAR Data Portal, excel sheets			5	PR-HPA	Open										
+PRHPA5124	5124	PRHPA	METEOROLOGY	Precipitation	Precipitation	mm	15 minute		Spring 2001			5/1/2017				Suyker, A	NAL LTAR Data Portal, excel sheets			5	PR-HPA	Open										
+PRHPA5125	5125	PRHPA	METEOROLOGY	soil heat flux	soil heat flux	W m-2			Spring 2001			5/1/2017				Suyker, A	excel sheets			5	PR-HPA	Open										
+PRHPA5126	5126	PRHPA	METEOROLOGY	soil temperature within row	soil temperature within row	°C			Spring 2001			5/1/2017				Suyker, A	excel sheets			5	PR-HPA	Open										
+PRHPA5127	5127	PRHPA	METEOROLOGY	soil temperature between row	soil temperature between row	°C			Spring 2001			5/1/2017				Suyker, A	excel sheets			5	PR-HPA	Open										
+PRHPA5128	5128	PRHPA	METEOROLOGY	soil temperature at 25cm depth	soil temperature at 25cm depth	°C			Spring 2001			5/1/2017				Suyker, A	excel sheets			5	PR-HPA	Open										
+PRHPA5129	5129	PRHPA	METEOROLOGY	soil temperature at 50 cm depth	soil temperature at 50 cm depth	°C			Spring 2001			5/1/2017				Suyker, A	excel sheets			5	PR-HPA	Open										
+PRHPA5130	5130	PRHPA	Phenology	Phenocam	Phenocam		30 minute					present				Suyker, A	Phenocam Network Web Site			1	PR-HPA	Open										
+		PRHPA	VEGETATION	Biomass	Biomass		intermittently					present				Suyker, A	excel sheets			1	PR-HPA											
+		PRHPA	VEGETATION	Leaf Area Index	Leaf Area Index		intermittently					present				Suyker, A	excel sheets			1	PR-HPA											
+		PRHPA	VEGETATION	Yield	Yield		end of season					present				Suyker, A	excel sheets			1	PR-HPA											

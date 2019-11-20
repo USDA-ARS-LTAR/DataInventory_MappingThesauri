@@ -1,110 +1,108 @@
-LTARSite Code	Category	DataSetVariableName	AttributeDescription	Units	TemporalResolution	StartDate	EndDate	ResponsiblePersons	StorageFormat	URLdataAccess	LocationIDoutsideNetwork	SpatialExtentDescription	PublicAccess
-LMRB	PRECIPITATION	Precipitation (analog)		in	1 minute cumulative	29677	Present	USDA-ARS NSL				GCEW_26-34 gages	
-LMRB	PRECIPITATION	Precipitation (analog)		in	15 minute cumulative	1999	Present	NRCS-SCAN				BLW_1 gauge	
-LMRB	PRECIPITATION	Precipitation (analog)		in	15 minute cumulative	2011	Present	USDA-ARS NSL				BLW_2 gages	
-LMRB	RUNOFF	Runoff 		stage/discharge	"Variable, Daily, Event"	29677	Present	USDA-ARS NSL				GCEW_9-14 measurement flumes; 6 edge of field sites	
-LMRB	RUNOFF	Runoff 		"Volume(mm/in/cf), Runoff rate (in/hr)"	"Variable, Event"	2008	Present	USDA-ARS NSL				BLW_12-19 locations; time period varies by location	
-LMRB	SEDIMENT	Fines concentration		ppm	"Event, Instantaneous"	29739	Present	USDA-ARS NSL				GCEW_5-14 measurement points	
-LMRB	SEDIMENT	Sand concentration		ppm	"Event, Instantaneous"	29739	Present	USDA-ARS NSL				GCEW_5-14 measurement points	
-LMRB	SEDIMENT	Suspended Sediment Concentration		ppm	"Event, Instantaneous"	29739	Present	USDA-ARS NSL				GCEW_5-14 measurement points	
-LMRB	Water Quality	Total Solids		mg/L	"Monthly, Event"	2011 / 2004	Present	USDA-ARS NSL				GCEW / BLW_GWEW - 5 locations; BLW - 19 locations	
-LMRB	Water Quality	Suspended Solids		mg/L	"Monthly, Event"	2011 / 2004	Present	USDA-ARS NSL				GCEW / BLW_GWEW - 5 locations; BLW - 19 locations	
-LMRB	Water Quality	Turbidity		NTU	"Monthly, Event"	2011 / 2004	Present	USDA-ARS NSL				GCEW / BLW_GWEW - 5 locations; BLW - 19 locations	
-LMRB	Water Quality	PO4-P		mg/L	"Monthly, Event"	2011 / 2004	Present	USDA-ARS NSL				GCEW / BLW_GWEW - 5 locations; BLW - 19 locations	
-LMRB	Water Quality	NH4-N		mg/L	"Monthly, Event"	2011 / 2004	Present	USDA-ARS NSL				GCEW / BLW_GWEW - 5 locations; BLW - 19 locations	
-LMRB	Water Quality	Nox-N		mg/L	"Monthly, Event"	2011 / 2004	Present	USDA-ARS NSL				GCEW / BLW_GWEW - 5 locations; BLW - 19 locations	
-LMRB	Water Quality	NO2-N		mg/L	"Monthly, Event"	2011 / 2004	Present	USDA-ARS NSL				GCEW / BLW_GWEW - 5 locations; BLW - 19 locations	
-LMRB	Water Quality	NO3-N		mg/L	"Monthly, Event"	2011 / 2004	Present	USDA-ARS NSL				GCEW / BLW_GWEW - 5 locations; BLW - 19 locations	
-LMRB	Water Quality	TDOC		mg/L	"Monthly, Event"	2011 / 2004	Present	USDA-ARS NSL				GCEW / BLW_GWEW - 5 locations; BLW - 19 locations	
-LMRB	Water Quality	TKN		mg/L	"Monthly, Event"	2011 / 2004	Present	USDA-ARS NSL				GCEW / BLW_GCEW - 5 locations / BLW -  19 locations (filtered and unfiltered)	
-LMRB	Water Quality	TP		mg/L	"Monthly, Event"	2011 / 2004	Present	USDA-ARS NSL				GCEW / BLW_GCEW - 5 locations / BLW -  19 locations (filtered and unfiltered)	
-LMRB	Water Quality	Chloro-A		mg/L	"Monthly, Event"	2011 / 2004	Present	USDA-ARS NSL				GCEW _GWEW - 5 locations	
-LMRB	Water Quality	Chloro-B		mg/L	"Monthly, Event"	2011 / 2004	Present	USDA-ARS NSL				GCEW _GWEW - 5 locations	
-LMRB	Water Quality	Chloro-C		mg/L	"Monthly, Event"	2011 / 2004	Present	USDA-ARS NSL				GCEW_GWEW - 5 locations	
-LMRB	Water Quality	F		mg/L	"Monthly, Event"	2004	Present	USDA-ARS NSL				BLW_BLW - 12 - 19 locations	
-LMRB	Water Quality	Cl		mg/L	"Monthly, Event"	2004	Present	USDA-ARS NSL				BLW_BLW - 12 - 19 locations	
-LMRB	Water Quality	SO4-S		mg/L	"Monthly, Event"	2004	Present	USDA-ARS NSL				BLW_BLW - 12 - 19 locations	
-LMRB	Water Quality	TOC		mg/L	"Monthly, Event"	2004	Present	USDA-ARS NSL				BLW_BLW - 12 - 19 locations	
-LMRB	Water Quality	Trifluralin		ug/L	"Monthly, Event"	2004	Present	USDA-ARS NSL				BLW_BLW - 12 - 19 locations	
-LMRB	Water Quality	Atrazine 		ug/L	"Monthly, Event"	2004	Present	USDA-ARS NSL				BLW_BLW - 12 - 19 locations	
-LMRB	Water Quality	"Methyl
-Parathion "		ug/L	"Monthly, Event"	2004	Present	USDA-ARS NSL				BLW_BLW - 12 - 19 locations	
-LMRB	Water Quality	Alachlor 		ug/L	"Monthly, Event"	2004	Present	USDA-ARS NSL				BLW_BLW - 12 - 19 locations	
-LMRB	Water Quality	Metolachlor 		ug/L	"Monthly, Event"	2004	Present	USDA-ARS NSL				BLW_BLW - 12 - 19 locations	
-LMRB	Water Quality	Chlorpyrifos 		ug/L	"Monthly, Event"	2004	Present	USDA-ARS NSL				BLW_BLW - 12 - 19 locations	
-LMRB	Water Quality	Cyanazine 		ug/L	"Monthly, Event"	2004	Present	USDA-ARS NSL				BLW_BLW - 12 - 19 locations	
-LMRB	Water Quality	Pendimethalin		ug/L	"Monthly, Event"	2004	Present	USDA-ARS NSL				BLW_BLW - 12 - 19 locations	
-LMRB	Water Quality	Fipronil 		ug/L	"Monthly, Event"	2004	Present	USDA-ARS NSL				BLW_BLW - 12 - 19 locations	
-LMRB	Water Quality	Dieldrin 		ug/L	"Monthly, Event"	2004	Present	USDA-ARS NSL				BLW_BLW - 12 - 19 locations	
-LMRB	Water Quality	pp'DDE 		ug/L	"Monthly, Event"	2004	Present	USDA-ARS NSL				BLW_BLW - 12 - 19 locations	
-LMRB	Water Quality	Fipronil Sulfone 		ug/L	"Monthly, Event"	2004	Present	USDA-ARS NSL				BLW_BLW - 12 - 19 locations	
-LMRB	Water Quality	Chlorfenapyr 		ug/L	"Monthly, Event"	2004	Present	USDA-ARS NSL				BLW_BLW - 12 - 19 locations	
-LMRB	Water Quality	pp' -DDD		ug/L	"Monthly, Event"	2004	Present	USDA-ARS NSL				BLW_BLW - 12 - 19 locations	
-LMRB	Water Quality	pp'-DDT		ug/L	"Monthly, Event"	2004	Present	USDA-ARS NSL				BLW_BLW - 12 - 19 locations	
-LMRB	Water Quality	Bifenthrin 		ug/L	"Monthly, Event"	2004	Present	USDA-ARS NSL				BLW_BLW - 12 - 19 locations	
-LMRB	Water Quality	I-Cyhalothrin		ug/L	"Monthly, Event"	2004	Present	USDA-ARS NSL				BLW_BLW - 12 - 19 locations	
-LMRB	Lake	Suspended Solids		mg/L	Bi-weekly	1995	Present	USDA-ARS NSL				BLW_BLW - 3 locations in lake	
-LMRB	Lake	Turbidity		NTU	Bi-weekly	1995	Present	USDA-ARS NSL				BLW_BLW - 3 locations in lake	
-LMRB	Lake	PO4-P		mg/L	Bi-weekly	1995	Present	USDA-ARS NSL				BLW_BLW - 3 locations in lake	
-LMRB	Lake	NH4-N		mg/L	Bi-weekly	1995	Present	USDA-ARS NSL				BLW_BLW - 3 locations in lake	
-LMRB	Lake	NO2-N		mg/L	Bi-weekly	1995	Present	USDA-ARS NSL				BLW_BLW - 3 locations in lake	
-LMRB	Lake	NO3-N		mg/L	Bi-weekly	1995	Present	USDA-ARS NSL				BLW_BLW - 3 locations in lake	
-LMRB	Lake	TDOC		mg/L	Bi-weekly	1995	Present	USDA-ARS NSL				BLW_BLW - 3 locations in lake	
-LMRB	Lake	TKN		mg/L	Bi-weekly	1995	Present	USDA-ARS NSL				BLW_BLW - 3 locations in lake	
-LMRB	Lake	TP		mg/L	Bi-weekly	1995	Present	USDA-ARS NSL				BLW_BLW - 3 locations in lake	
-LMRB	Lake	TOP		mg/L	Bi-weekly	1995	Present	USDA-ARS NSL				BLW_BLW - 3 locations in lake	
-LMRB	Lake	Chloro-A		mg/L	Bi-weekly	1995	Present	USDA-ARS NSL				BLW_BLW - 3 locations in lake	
-LMRB	Lake	DO		mg/L	Bi-weekly	1995	Present	USDA-ARS NSL				BLW_BLW - 3 locations in lake	
-LMRB	Lake	pH			Bi-weekly	1995	Present	USDA-ARS NSL				BLW_BLW - 3 locations in lake	
-LMRB	Lake	Salinity		mg/L	Bi-weekly	1995	Present	USDA-ARS NSL				BLW_BLW - 3 locations in lake	
-LMRB	Lake	Temperature		C	Bi-weekly	1995	Present	USDA-ARS NSL				BLW_BLW - 3 locations in lake	
-LMRB	Lake	Dissolved Solids		mg/L	Bi-weekly	1995	Present	USDA-ARS NSL				BLW_BLW - 3 locations in lake	
-LMRB	METEOROLOGY 	Air temperature		Deg C	daily	36188	Present	NRCS-SCAN				"GCEW / BLW_Max, Min, Mean"	
-LMRB	METEOROLOGY 	Soil Moisture (% sat)		%	"hourly, instantaneous"	36188	Present	NRCS-SCAN				"GCEW / BLW_5 depths (2, 4, 8, 20, 40in)"	
-LMRB	METEOROLOGY 	Soil Temp 		Deg C	"hourly, instantaneous"	36188	Present	NRCS-SCAN				"GCEW / BLW_5 depths (2, 4, 8, 20, 40in)"	
-LMRB	METEOROLOGY 	Soil moisture volumetric content (15cm)		%	"hourly, instantaneous"	36188	Present	NRCS-SCAN				"GCEW / BLW_5 depths (2, 4, 8, 20, 40in)"	
-LMRB	METEOROLOGY 	Salinity		Gram	"hourly, instantaneous"	36188	Present	NRCS-SCAN				"GCEW / BLW_5 depths (2, 4, 8, 20, 40in)"	
-LMRB	METEOROLOGY 	Wind Direction		Degr	"hourly, average"	36188	Present	NRCS-SCAN				GCEW / BLW	
-LMRB	METEOROLOGY 	Wind Speed (Avg)		mph	"hourly, averge"	36188	Present	NRCS-SCAN				GCEW / BLW	
-LMRB	METEOROLOGY 	Wind Speed (max)		mph	"hourly, average"	36188	Present	NRCS-SCAN				GCEW / BLW	
-LMRB	METEOROLOGY 	Relative Humidity		%	"hourly, instantaneous"	36188	Present	NRCS-SCAN				GCEW / BLW	
-LMRB	METEOROLOGY 	Solar Radiation (avg)		Watt	"hourly, average"	36188	Present	NRCS-SCAN				GCEW / BLW	
-LMRB	METEOROLOGY 	Infrared Solar		W/m2	3 min averages	39909	Present	NOAA-SURFRAD				GCEW / BLW	
-LMRB	METEOROLOGY 	Direct Solar		W/m2	3 min averages	39909	Present	NOAA-SURFRAD				GCEW / BLW	
-LMRB	METEOROLOGY 	Diffuse Solar		W/m2	3 min averages	39909	Present	NOAA-SURFRAD				GCEW / BLW	
-LMRB	METEOROLOGY 	Global Solar		W/m2	3 min averages	39909	Present	NOAA-SURFRAD				GCEW / BLW	
-LMRB	METEOROLOGY 	UVB		mW/m2	3 min averages	39909	Present	NOAA-SURFRAD				GCEW / BLW	
-LMRB	METEOROLOGY 	PAR		W/m2	3 min averages	39909	Present	NOAA-SURFRAD				GCEW / BLW	
-LMRB	METEOROLOGY 	Aerosol optical depth		dimensionless	3 min averages	39909	Present	NOAA-SURFRAD				GCEW / BLW	
-LMRB	METEOROLOGY 	Upwelling solar		W/m2	3 min averages	39909	Present	NOAA-SURFRAD				GCEW / BLW	
-LMRB	METEOROLOGY 	Upwelling infrared		W/m2	3 min averages	39909	Present	NOAA-SURFRAD				GCEW / BLW	
-LMRB	METEOROLOGY (Eddy covariance)	CO2 concentration		µmol/mol	30 minute								
-LMRB	METEOROLOGY (Eddy covariance)	CO2 density		mmol/m3	30 minute								
-LMRB	METEOROLOGY (Eddy covariance)	CO2 flux		µmol/m2/s	30 minute								
-LMRB	METEOROLOGY (Eddy covariance)				30 minute								
-LMRB	METEOROLOGY (Eddy covariance)	Water vapor flux		mmol/m2/s	30 minute								
-LMRB	METEOROLOGY (Eddy covariance)				30 minute								
-LMRB	METEOROLOGY (Eddy covariance)	Sensible heat flux		W/m2	30 minute								
-LMRB	METEOROLOGY (Eddy covariance)				30 minute								
-LMRB	METEOROLOGY (Eddy covariance)	Water vapor concentration		mmol/mol	30 minute								
-LMRB	METEOROLOGY (Eddy covariance)	Water vapor density		mmol/m3	30 minute								
-LMRB	METEOROLOGY (Eddy covariance)	Latent heat flux		W/m2	30 minute								
-LMRB	METEOROLOGY (Eddy covariance)				30 minute								
-LMRB	METEOROLOGY (Eddy covariance)	Precipitation		mm	30 minute								
-LMRB	METEOROLOGY (Eddy covariance)	Precipitation annual cumulative		mm	30 minute								
-LMRB	METEOROLOGY (Eddy covariance)	Incoming long wave radiation		W/m2	30 minute								
-LMRB	METEOROLOGY (Eddy covariance)	Outgoing long wave radiation		W/m2	30 minute								
-LMRB	METEOROLOGY (Eddy covariance)	Outgoing global solar radiation		W/m2	30 minute								
-LMRB	METEOROLOGY (Eddy covariance)	Net radiation		W/m2	30 minute								
-LMRB	METEOROLOGY (Eddy covariance)				30 minute								
-LMRB	METEOROLOGY (Eddy covariance)	Saturated vapor pressure		kPa	30 minute								
-LMRB	METEOROLOGY (Eddy covariance)	Temperature from sonic anemometer		deg C	30 minute								
-LMRB	METEOROLOGY (Eddy covariance)	Friction velocity		m/s	30 minute								
-LMRB	METEOROLOGY (Eddy covariance)	Vapor pressure deficit		kPa	30 minute								
-LMRB	METEOROLOGY (Eddy covariance)	Height of eddy covariance sensors		m	30 minute								
-LMRB	Land Management	"Tillage practices, fertilizer applications, irrigation events"			Annual / by management event	1995	Present	USDA-ARS NSL				GCEW / BLW	
-LMRB	LAND USE				Annual	1937 / 1995	Present	USDA-ARS NSL				"GCEW / BLW_GCEW - 1937, 1957, 1977, 1980-2005 / BLW - all years"	
-LMRB	DEM	LiDAR		1m	Annual	2010	2010	USACE				GCEW / BLW	
-LMRB	AERIAL IMAGERY				Annual	1937 / 2004	2006 / 2010					GCEW / BLW_GCEW - 11 years / BLW - 6 years	
-LMRB	STREAM CROSS-SECTION SURVEYS											GCEW	
-LMRB	STREAM THALWEG SURVEYS											GCEW	
+ID	RowID	LTARSite.Code	Category	DataSetVariableName	AttributeDescription	Units	TemporalResolution	TemporalResolutionStandard	StartDate	StartDateStandard	StartDateAgCROS	EndDate	EndDateStandard	EndDateAgCros	DateDif_yrs	ResponsiblePersons	StorageFormat	URLdataAccess	LocationIDoutsideNetwork	SpatialRepeats	SpatialDescription	PublicAccess	Network.Category	AgCROS.Table	AgCROS.VarName	NALT.Keywords	subsite	Repo.Name	Model.Name	NALT.Subject	ISO.Topic	Common.Experiment
+LMRB4903	4903	LMRB	METEOROLOGY (Eddy covariance)	CO2 concentration		Âµmol/mol	30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4904	4904	LMRB	METEOROLOGY (Eddy covariance)	CO2 density		mmol/m3	30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4905	4905	LMRB	METEOROLOGY (Eddy covariance)	CO2 flux		Âµmol/m2/s	30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4906	4906	LMRB	METEOROLOGY (Eddy covariance)				30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4907	4907	LMRB	METEOROLOGY (Eddy covariance)	Water vapor flux		mmol/m2/s	30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4908	4908	LMRB	METEOROLOGY (Eddy covariance)				30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4909	4909	LMRB	METEOROLOGY (Eddy covariance)	Sensible heat flux		W/m2	30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4910	4910	LMRB	METEOROLOGY (Eddy covariance)				30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4911	4911	LMRB	METEOROLOGY (Eddy covariance)	Water vapor concentration		mmol/mol	30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4912	4912	LMRB	METEOROLOGY (Eddy covariance)	Water vapor density		mmol/m3	30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4913	4913	LMRB	METEOROLOGY (Eddy covariance)	Latent heat flux		W/m2	30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4914	4914	LMRB	METEOROLOGY (Eddy covariance)				30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4915	4915	LMRB	METEOROLOGY (Eddy covariance)	Precipitation		mm	30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4916	4916	LMRB	METEOROLOGY (Eddy covariance)	Precipitation annual cumulative		mm	30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4917	4917	LMRB	METEOROLOGY (Eddy covariance)	Incoming long wave radiation		W/m2	30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4918	4918	LMRB	METEOROLOGY (Eddy covariance)	Outgoing long wave radiation		W/m2	30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4919	4919	LMRB	METEOROLOGY (Eddy covariance)	Outgoing global solar radiation		W/m2	30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4920	4920	LMRB	METEOROLOGY (Eddy covariance)	Net radiation		W/m2	30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4921	4921	LMRB	METEOROLOGY (Eddy covariance)				30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4922	4922	LMRB	METEOROLOGY (Eddy covariance)	Saturated vapor pressure		kPa	30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4923	4923	LMRB	METEOROLOGY (Eddy covariance)	Temperature from sonic anemometer		deg C	30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4924	4924	LMRB	METEOROLOGY (Eddy covariance)	Friction velocity		m/s	30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4925	4925	LMRB	METEOROLOGY (Eddy covariance)	Vapor pressure deficit		kPa	30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4926	4926	LMRB	METEOROLOGY (Eddy covariance)	Height of eddy covariance sensors		m	30 minute	30 minute															Eddy Covariance	AmeriFlux		Meteorology, Eddy Covariance				Research, Technology and Engineering	climatologyMeteorologyAtmosphere	
+LMRB4927	4927	LMRB	RUNOFF	Runoff		Volume(mm/in/cf), Runoff rate (in/hr)	Variable, Event		2008	2008	2008-01-01	Present	now	2019-12-31	12	USDA-ARS NSL					BLW_12-19 locations; time period varies by location		Hydrology	STEWARDS		Hydrology				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4928	4928	LMRB	RUNOFF	Runoff		stage/discharge	Variable, Daily, Event		29677			Present	now	2019-12-31	120	USDA-ARS NSL					GCEW_9-14 measurement flumes; 6 edge of field sites		Hydrology	STEWARDS		Hydrology				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4929	4929	LMRB	STREAM CROSS-SECTION SURVEYS																		GCEW		Hydrology	STEWARDS		Water Quality, Hydrology				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4930	4930	LMRB	STREAM THALWEG SURVEYS																		GCEW		Hydrology	STEWARDS		Water Quality, Hydrology				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4931	4931	LMRB	Land Management	Tillage practices, fertilizer applications, irrigation events			Annual / by management event	0 month	1995	1995	1995-01-01	Present	now	2019-12-31	25	USDA-ARS NSL					GCEW / BLW		Land Management	MgtAmendments, MgtPlanting, MgtTillage, MgtGrowthStages, MgtResidue, MgtGrazing	Plant method, operations, soils	Land Management				Farms and Farming Systems	environment	
+LMRB4932	4932	LMRB	METEOROLOGY	Air temperature		Deg C	daily	1 day	36188			Present	now	2019-12-31	120	NRCS-SCAN					GCEW / BLW_Max, Min, Mean		Meteorology	WeatherDaily, WeatherStation	Temperature, air, daily,maximum					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+LMRB4933	4933	LMRB	METEOROLOGY	Soil Moisture (% sat)		%	hourly, instantaneous	1 hour	36188			Present	now	2019-12-31	120	NRCS-SCAN					GCEW / BLW_5 depths (2, 4, 8, 20, 40in)		Meteorology	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	soil moisture					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+LMRB4934	4934	LMRB	METEOROLOGY	Soil Temp		Deg C	hourly, instantaneous	1 hour	36188			Present	now	2019-12-31	120	NRCS-SCAN					GCEW / BLW_5 depths (2, 4, 8, 20, 40in)		Meteorology	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	soil temperature					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+LMRB4935	4935	LMRB	METEOROLOGY	Soil moisture volumetric content (15cm)		%	hourly, instantaneous	1 hour	36188			Present	now	2019-12-31	120	NRCS-SCAN					GCEW / BLW_5 depths (2, 4, 8, 20, 40in)		Meteorology	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	soil moisture					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+LMRB4936	4936	LMRB	METEOROLOGY	Salinity		Gram	hourly, instantaneous	1 hour	36188			Present	now	2019-12-31	120	NRCS-SCAN					GCEW / BLW_5 depths (2, 4, 8, 20, 40in)		Meteorology	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	soil salinity					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+LMRB4937	4937	LMRB	METEOROLOGY	Wind Direction		Degr	hourly, average	1 hour	36188			Present	now	2019-12-31	120	NRCS-SCAN					GCEW / BLW		Meteorology	WeatherDaily, WeatherStation	Wind direction air, daily, mean					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+LMRB4938	4938	LMRB	METEOROLOGY	Wind Speed (Avg)		mph	hourly, averge	1 hour	36188			Present	now	2019-12-31	120	NRCS-SCAN					GCEW / BLW		Meteorology	WeatherDaily, WeatherStation	Wind speed, air, daily, mean					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+LMRB4939	4939	LMRB	METEOROLOGY	Wind Speed (max)		mph	hourly, average	1 hour	36188			Present	now	2019-12-31	120	NRCS-SCAN					GCEW / BLW		Meteorology	WeatherDaily, WeatherStation	wind speed, air, daily, max					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+LMRB4940	4940	LMRB	METEOROLOGY	Relative Humidity		%	hourly, instantaneous	1 hour	36188			Present	now	2019-12-31	120	NRCS-SCAN					GCEW / BLW		Meteorology	WeatherDaily, WeatherStation	Relative humidity, air, daily, mean					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+LMRB4941	4941	LMRB	METEOROLOGY	Solar Radiation (avg)		Watt	hourly, average	1 hour	36188			Present	now	2019-12-31	120	NRCS-SCAN					GCEW / BLW		Meteorology	WeatherDaily, WeatherStation	Solar radiation, total, no media, daily					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+LMRB4942	4942	LMRB	METEOROLOGY	Infrared Solar		W/m2	3 min averages	3 minute	39909			Present	now	2019-12-31	120	NOAA-SURFRAD					GCEW / BLW		Meteorology	WeatherDaily, WeatherStation	ave_incoming_longwave radiation					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+LMRB4943	4943	LMRB	METEOROLOGY	Direct Solar		W/m2	3 min averages	3 minute	39909			Present	now	2019-12-31	120	NOAA-SURFRAD					GCEW / BLW		Meteorology	WeatherDaily, WeatherStation	Solar radiation, vegetated ground, no media, daily, total					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+LMRB4944	4944	LMRB	METEOROLOGY	Diffuse Solar		W/m2	3 min averages	3 minute	39909			Present	now	2019-12-31	120	NOAA-SURFRAD					GCEW / BLW		Meteorology	WeatherDaily, WeatherStation	Solar radiation, bare ground, no media, daily, total					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+LMRB4945	4945	LMRB	METEOROLOGY	Global Solar		W/m2	3 min averages	3 minute	39909			Present	now	2019-12-31	120	NOAA-SURFRAD					GCEW / BLW		Meteorology	WeatherDaily, WeatherStation	Solar radiation, total, no media, daily					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+LMRB4946	4946	LMRB	METEOROLOGY	UVB		mW/m2	3 min averages	3 minute	39909			Present	now	2019-12-31	120	NOAA-SURFRAD					GCEW / BLW		Meteorology	WeatherDaily, WeatherStation	UV radiation					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+LMRB4947	4947	LMRB	METEOROLOGY	PAR		W/m2	3 min averages	3 minute	39909			Present	now	2019-12-31	120	NOAA-SURFRAD					GCEW / BLW		Meteorology	WeatherDaily, WeatherStation	Photosynthetically active radiation					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+LMRB4948	4948	LMRB	METEOROLOGY	Aerosol optical depth		dimensionless	3 min averages	3 minute	39909			Present	now	2019-12-31	120	NOAA-SURFRAD					GCEW / BLW		Meteorology	WeatherDaily, WeatherStation	Temperature, air, daily,maximum					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+LMRB4949	4949	LMRB	METEOROLOGY	Upwelling solar		W/m2	3 min averages	3 minute	39909			Present	now	2019-12-31	120	NOAA-SURFRAD					GCEW / BLW		Meteorology	WeatherDaily, WeatherStation	Temperature, air, daily,maximum					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+LMRB4950	4950	LMRB	METEOROLOGY	Upwelling infrared		W/m2	3 min averages	3 minute	39909			Present	now	2019-12-31	120	NOAA-SURFRAD					GCEW / BLW		Meteorology	WeatherDaily, WeatherStation	Temperature, air, daily,maximum					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+LMRB4951	4951	LMRB	PRECIPITATION	Precipitation (analog)		in	15 minute cumulative	15 minute	2011	2011	2011-01-01	Present	now	2019-12-31	9	USDA-ARS NSL					BLW_2 gages		Meteorology	WeatherDaily, WeatherStation	Precipitation, total, no media, daily					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+LMRB4952	4952	LMRB	PRECIPITATION	Precipitation (analog)		in	15 minute cumulative	15 minute	1999	1999	1999-01-01	Present	now	2019-12-31	21	NRCS-SCAN					BLW_1 gauge		Meteorology	WeatherDaily, WeatherStation	Precipitation, total, no media, daily					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+LMRB4953	4953	LMRB	PRECIPITATION	Precipitation (analog)		in	1 minute cumulative		29677			Present	now	2019-12-31	120	USDA-ARS NSL					GCEW_26-34 gages		Meteorology	WeatherDaily, WeatherStation	Precipitation, total, no media, daily					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+LMRB4954	4954	LMRB	AERIAL IMAGERY				Annual	1 year	1937 / 2004			2006 / 2010									GCEW / BLW_GCEW - 11 years / BLW - 6 years		Remote Sensing	Remote Sensing		Remote Sensing		ARS Imagery Server		Research, Technology and Engineering	imageryBaseMapsEarthCover	
+LMRB4955	4955	LMRB	DEM	LiDAR		1m	Annual	1 year	2010	2010	2010-01-01	2010	2010	2010-12-31	1	USACE					GCEW / BLW		Remote Sensing	Remote Sensing		Remote Sensing		ARS Imagery Server		Research, Technology and Engineering	imageryBaseMapsEarthCover	
+LMRB4956	4956	LMRB	SEDIMENT	Fines concentration		ppm	Event, Instantaneous		29739			Present	now	2019-12-31	120	USDA-ARS NSL					GCEW_5-14 measurement points		Sediments	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Clay, soil	Sediments				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+LMRB4957	4957	LMRB	SEDIMENT	Sand concentration		ppm	Event, Instantaneous		29739			Present	now	2019-12-31	120	USDA-ARS NSL					GCEW_5-14 measurement points		Sediments	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Sand, soil	Sediments				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+LMRB4958	4958	LMRB	SEDIMENT	Suspended Sediment Concentration		ppm	Event, Instantaneous		29739			Present	now	2019-12-31	120	USDA-ARS NSL					GCEW_5-14 measurement points		Sediments	STEWARDS		Hyrdology				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+LMRB4959	4959	LMRB	Lake	Suspended Solids		mg/L	Bi-weekly		1995	1995	1995-01-01	Present	now	2019-12-31	25	USDA-ARS NSL					BLW_BLW - 3 locations in lake		Water Quality	STEWARDS		Water Quality, Lake				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4960	4960	LMRB	Lake	Turbidity		NTU	Bi-weekly		1995	1995	1995-01-01	Present	now	2019-12-31	25	USDA-ARS NSL					BLW_BLW - 3 locations in lake		Water Quality	STEWARDS		Water Quality, Lake				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4961	4961	LMRB	Lake	PO4-P		mg/L	Bi-weekly		1995	1995	1995-01-01	Present	now	2019-12-31	25	USDA-ARS NSL					BLW_BLW - 3 locations in lake		Water Quality	STEWARDS		Water Quality, Lake				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4962	4962	LMRB	Lake	NH4-N		mg/L	Bi-weekly		1995	1995	1995-01-01	Present	now	2019-12-31	25	USDA-ARS NSL					BLW_BLW - 3 locations in lake		Water Quality	STEWARDS		Water Quality, Lake				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4963	4963	LMRB	Lake	NO2-N		mg/L	Bi-weekly		1995	1995	1995-01-01	Present	now	2019-12-31	25	USDA-ARS NSL					BLW_BLW - 3 locations in lake		Water Quality	STEWARDS		Water Quality, Lake				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4964	4964	LMRB	Lake	NO3-N		mg/L	Bi-weekly		1995	1995	1995-01-01	Present	now	2019-12-31	25	USDA-ARS NSL					BLW_BLW - 3 locations in lake		Water Quality	STEWARDS		Water Quality, Lake				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4965	4965	LMRB	Lake	TDOC		mg/L	Bi-weekly		1995	1995	1995-01-01	Present	now	2019-12-31	25	USDA-ARS NSL					BLW_BLW - 3 locations in lake		Water Quality	STEWARDS		Water Quality, Lake				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4966	4966	LMRB	Lake	TKN		mg/L	Bi-weekly		1995	1995	1995-01-01	Present	now	2019-12-31	25	USDA-ARS NSL					BLW_BLW - 3 locations in lake		Water Quality	STEWARDS		Water Quality, Lake				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4967	4967	LMRB	Lake	TP		mg/L	Bi-weekly		1995	1995	1995-01-01	Present	now	2019-12-31	25	USDA-ARS NSL					BLW_BLW - 3 locations in lake		Water Quality	STEWARDS		Water Quality, Lake				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4968	4968	LMRB	Lake	TOP		mg/L	Bi-weekly		1995	1995	1995-01-01	Present	now	2019-12-31	25	USDA-ARS NSL					BLW_BLW - 3 locations in lake		Water Quality	STEWARDS		Water Quality, Lake				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4969	4969	LMRB	Lake	Chloro-A		mg/L	Bi-weekly		1995	1995	1995-01-01	Present	now	2019-12-31	25	USDA-ARS NSL					BLW_BLW - 3 locations in lake		Water Quality	STEWARDS		Water Quality, Lake				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4970	4970	LMRB	Lake	DO		mg/L	Bi-weekly		1995	1995	1995-01-01	Present	now	2019-12-31	25	USDA-ARS NSL					BLW_BLW - 3 locations in lake		Water Quality	STEWARDS		Water Quality, Lake				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4971	4971	LMRB	Lake	pH			Bi-weekly		1995	1995	1995-01-01	Present	now	2019-12-31	25	USDA-ARS NSL					BLW_BLW - 3 locations in lake		Water Quality	STEWARDS		Water Quality, Lake				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4972	4972	LMRB	Lake	Salinity		mg/L	Bi-weekly		1995	1995	1995-01-01	Present	now	2019-12-31	25	USDA-ARS NSL					BLW_BLW - 3 locations in lake		Water Quality	STEWARDS		Water Quality, Lake				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4973	4973	LMRB	Lake	Temperature		C	Bi-weekly		1995	1995	1995-01-01	Present	now	2019-12-31	25	USDA-ARS NSL					BLW_BLW - 3 locations in lake		Water Quality	STEWARDS		Water Quality, Lake				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4974	4974	LMRB	Lake	Dissolved Solids		mg/L	Bi-weekly		1995	1995	1995-01-01	Present	now	2019-12-31	25	USDA-ARS NSL					BLW_BLW - 3 locations in lake		Water Quality	STEWARDS		Water Quality, Lake				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4975	4975	LMRB	Water Quality	F		mg/L	Monthly, Event		2004	2004	2004-01-01	Present	now	2019-12-31	16	USDA-ARS NSL					BLW_BLW - 12 - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4976	4976	LMRB	Water Quality	Cl		mg/L	Monthly, Event		2004	2004	2004-01-01	Present	now	2019-12-31	16	USDA-ARS NSL					BLW_BLW - 12 - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4977	4977	LMRB	Water Quality	SO4-S		mg/L	Monthly, Event		2004	2004	2004-01-01	Present	now	2019-12-31	16	USDA-ARS NSL					BLW_BLW - 12 - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4978	4978	LMRB	Water Quality	TOC		mg/L	Monthly, Event		2004	2004	2004-01-01	Present	now	2019-12-31	16	USDA-ARS NSL					BLW_BLW - 12 - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4979	4979	LMRB	Water Quality	Trifluralin		ug/L	Monthly, Event		2004	2004	2004-01-01	Present	now	2019-12-31	16	USDA-ARS NSL					BLW_BLW - 12 - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4980	4980	LMRB	Water Quality	Atrazine		ug/L	Monthly, Event		2004	2004	2004-01-01	Present	now	2019-12-31	16	USDA-ARS NSL					BLW_BLW - 12 - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4981	4981	LMRB	Water Quality	Methyl Parathion		ug/L	Monthly, Event		2004	2004	2004-01-01	Present	now	2019-12-31	16	USDA-ARS NSL					BLW_BLW - 12 - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4982	4982	LMRB	Water Quality	Alachlor		ug/L	Monthly, Event		2004	2004	2004-01-01	Present	now	2019-12-31	16	USDA-ARS NSL					BLW_BLW - 12 - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4983	4983	LMRB	Water Quality	Metolachlor		ug/L	Monthly, Event		2004	2004	2004-01-01	Present	now	2019-12-31	16	USDA-ARS NSL					BLW_BLW - 12 - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4984	4984	LMRB	Water Quality	Chlorpyrifos		ug/L	Monthly, Event		2004	2004	2004-01-01	Present	now	2019-12-31	16	USDA-ARS NSL					BLW_BLW - 12 - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4985	4985	LMRB	Water Quality	Cyanazine		ug/L	Monthly, Event		2004	2004	2004-01-01	Present	now	2019-12-31	16	USDA-ARS NSL					BLW_BLW - 12 - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4986	4986	LMRB	Water Quality	Pendimethalin		ug/L	Monthly, Event		2004	2004	2004-01-01	Present	now	2019-12-31	16	USDA-ARS NSL					BLW_BLW - 12 - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4987	4987	LMRB	Water Quality	Fipronil		ug/L	Monthly, Event		2004	2004	2004-01-01	Present	now	2019-12-31	16	USDA-ARS NSL					BLW_BLW - 12 - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4988	4988	LMRB	Water Quality	Dieldrin		ug/L	Monthly, Event		2004	2004	2004-01-01	Present	now	2019-12-31	16	USDA-ARS NSL					BLW_BLW - 12 - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4989	4989	LMRB	Water Quality	pp'DDE		ug/L	Monthly, Event		2004	2004	2004-01-01	Present	now	2019-12-31	16	USDA-ARS NSL					BLW_BLW - 12 - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4990	4990	LMRB	Water Quality	Fipronil Sulfone		ug/L	Monthly, Event		2004	2004	2004-01-01	Present	now	2019-12-31	16	USDA-ARS NSL					BLW_BLW - 12 - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4991	4991	LMRB	Water Quality	Chlorfenapyr		ug/L	Monthly, Event		2004	2004	2004-01-01	Present	now	2019-12-31	16	USDA-ARS NSL					BLW_BLW - 12 - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4992	4992	LMRB	Water Quality	pp' -DDD		ug/L	Monthly, Event		2004	2004	2004-01-01	Present	now	2019-12-31	16	USDA-ARS NSL					BLW_BLW - 12 - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4993	4993	LMRB	Water Quality	pp'-DDT		ug/L	Monthly, Event		2004	2004	2004-01-01	Present	now	2019-12-31	16	USDA-ARS NSL					BLW_BLW - 12 - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4994	4994	LMRB	Water Quality	Bifenthrin		ug/L	Monthly, Event		2004	2004	2004-01-01	Present	now	2019-12-31	16	USDA-ARS NSL					BLW_BLW - 12 - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4995	4995	LMRB	Water Quality	I-Cyhalothrin		ug/L	Monthly, Event		2004	2004	2004-01-01	Present	now	2019-12-31	16	USDA-ARS NSL					BLW_BLW - 12 - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4996	4996	LMRB	Water Quality	Total Solids		mg/L	Monthly, Event		2011 / 2004			Present	now	2019-12-31	120	USDA-ARS NSL					GCEW / BLW_GWEW - 5 locations; BLW - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4997	4997	LMRB	Water Quality	Suspended Solids		mg/L	Monthly, Event		2011 / 2004			Present	now	2019-12-31	120	USDA-ARS NSL					GCEW / BLW_GWEW - 5 locations; BLW - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4998	4998	LMRB	Water Quality	Turbidity		NTU	Monthly, Event		2011 / 2004			Present	now	2019-12-31	120	USDA-ARS NSL					GCEW / BLW_GWEW - 5 locations; BLW - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB4999	4999	LMRB	Water Quality	PO4-P		mg/L	Monthly, Event		2011 / 2004			Present	now	2019-12-31	120	USDA-ARS NSL					GCEW / BLW_GWEW - 5 locations; BLW - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB5000	5000	LMRB	Water Quality	NH4-N		mg/L	Monthly, Event		2011 / 2004			Present	now	2019-12-31	120	USDA-ARS NSL					GCEW / BLW_GWEW - 5 locations; BLW - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB5001	5001	LMRB	Water Quality	Nox-N		mg/L	Monthly, Event		2011 / 2004			Present	now	2019-12-31	120	USDA-ARS NSL					GCEW / BLW_GWEW - 5 locations; BLW - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB5002	5002	LMRB	Water Quality	NO2-N		mg/L	Monthly, Event		2011 / 2004			Present	now	2019-12-31	120	USDA-ARS NSL					GCEW / BLW_GWEW - 5 locations; BLW - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB5003	5003	LMRB	Water Quality	NO3-N		mg/L	Monthly, Event		2011 / 2004			Present	now	2019-12-31	120	USDA-ARS NSL					GCEW / BLW_GWEW - 5 locations; BLW - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB5004	5004	LMRB	Water Quality	TDOC		mg/L	Monthly, Event		2011 / 2004			Present	now	2019-12-31	120	USDA-ARS NSL					GCEW / BLW_GWEW - 5 locations; BLW - 19 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB5005	5005	LMRB	Water Quality	TKN		mg/L	Monthly, Event		2011 / 2004			Present	now	2019-12-31	120	USDA-ARS NSL					GCEW / BLW_GCEW - 5 locations / BLW -  19 locations (filtered and unfiltered)		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB5006	5006	LMRB	Water Quality	TP		mg/L	Monthly, Event		2011 / 2004			Present	now	2019-12-31	120	USDA-ARS NSL					GCEW / BLW_GCEW - 5 locations / BLW -  19 locations (filtered and unfiltered)		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB5007	5007	LMRB	Water Quality	Chloro-A		mg/L	Monthly, Event		2011 / 2004			Present	now	2019-12-31	120	USDA-ARS NSL					GCEW _GWEW - 5 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB5008	5008	LMRB	Water Quality	Chloro-B		mg/L	Monthly, Event		2011 / 2004			Present	now	2019-12-31	120	USDA-ARS NSL					GCEW _GWEW - 5 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+LMRB5009	5009	LMRB	Water Quality	Chloro-C		mg/L	Monthly, Event		2011 / 2004			Present	now	2019-12-31	120	USDA-ARS NSL					GCEW_GWEW - 5 locations		Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	

@@ -9,7 +9,7 @@
 ### Parts 1, 2, and 3:  Create initial merged inventory from individual site inventories
 ##  
 
-get.inventory <- function() {
+#get.inventory <- function() {
   library(tidyverse)
 
   #### 1. appending all of the inventories into one ####
