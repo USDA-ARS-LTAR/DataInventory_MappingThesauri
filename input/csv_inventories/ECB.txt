@@ -1,47 +1,47 @@
-LTARSite Code	Category	DataSetVariableName	AttributeDescription	Units	TemporalResolution	StartDate	EndDate	ResponsiblePersons	StorageFormat	URLdataAccess	LocationIDoutsideNetwork	SpatialExtentDescription	PublicAccess
-ECB	HARVEST REMOVAL	Above Ground Biomass		kg biomass/ha	Annual		Present			Excel Sheets			
-ECB	HARVEST REMOVAL	Unit Grain Weight		mg biomass									
-ECB	HYDROLOGY	Discharge		L/s	15 minute		Present	Kevin King		Excel Sheets			
-ECB	Hydrology	Flow		L/5 min	 5 minute		Present	Kevin King		Excel Sheets			
-ECB	Manure	Available N		lbs/Ton	Annual		Present			Excel Sheets			
-ECB	Manure	NH4-N		lbs/Ton	Annual		Present			Excel Sheets			
-ECB	Manure	pH			Annual		Present			Excel Sheets			
-ECB	Manure	Solids		lbs/Ton	Annual		Present			Excel Sheets			
-ECB	Manure	Total N		lbs/Ton	Annual		Present			Excel Sheets			
-ECB	Manure	Total P205		lbs/Ton	Annual		Present			Excel Sheets			
-ECB	PRECIPITATION	Precipitation		inches	 5 minute		Present		Excel Sheets	Excel Sheets			
-ECB	SOIL CHEMISTRY	Ca		mg Ca/kg soil	Annual		Present	Emily Duncan	Excel Sheets	Excel Sheets			
-ECB	SOIL CHEMISTRY	CEC		cmol/kg	Annual		Present	Emily Duncan	Excel Sheets	Excel Sheets			
-ECB	SOIL CHEMISTRY	Cu		mg Cu/kg soil				Emily Duncan	Excel Sheets				
-ECB	SOIL CHEMISTRY	EC		dS/m				Emily Duncan	Excel Sheets				
-ECB	SOIL CHEMISTRY	Fe		Fe mg/kg soil	Annual		Present	Emily Duncan	Excel Sheets	Excel Sheets			
-ECB	SOIL CHEMISTRY	Inorganic C		g C/kg soil				Emily Duncan	Excel Sheets				
-ECB	SOIL CHEMISTRY	K		mg K/kg soil				Emily Duncan	Excel Sheets				
-ECB	SOIL CHEMISTRY	Mg		mg Mg/kg soil				Emily Duncan	Excel Sheets				
-ECB	SOIL CHEMISTRY	Mineral Assoc C		g C/kg soil				Emily Duncan	Excel Sheets				
-ECB	SOIL CHEMISTRY	Mn		Mn mg/kg soil				Emily Duncan	Excel Sheets				
-ECB	SOIL CHEMISTRY	NH4		mg N/kg soil	Annual		Present	Emily Duncan	Excel Sheets	Excel Sheets			
-ECB	SOIL CHEMISTRY	Nitrite		mg/kg				Emily Duncan	Excel Sheets				
-ECB	SOIL CHEMISTRY	NO3		mg N/kg soil	Annual		Present	Emily Duncan	Excel Sheets	Excel Sheets			
-ECB	SOIL CHEMISTRY	Organic C		g C/kg soil				Emily Duncan	Excel Sheets				
-ECB	SOIL CHEMISTRY	P		mg P/kg soil	Annual		Present	Emily Duncan	Excel Sheets	Excel Sheets			
-ECB	SOIL CHEMISTRY	pH		NA	Annual		Present	Emily Duncan	Excel Sheets	Excel Sheets			
-ECB	SOIL CHEMISTRY	Potentially Mineralizable N		g/kg				Emily Duncan	Excel Sheets				
-ECB	SOIL CHEMISTRY	Soluble Organic C		mg C/kg soil				Emily Duncan	Excel Sheets				
-ECB	SOIL CHEMISTRY	Total Soil C		g C/kg soil				Emily Duncan	Excel Sheets				
-ECB	SOIL CHEMISTRY	Total Soil N		g N/kg soil				Emily Duncan	Excel Sheets				
-ECB	SOIL CHEMISTRY	Zn		Zn mg/kg soil				Emily Duncan	Excel Sheets				
-ECB	SOIL PHYSICS	Macro-aggregation		%				Emily Duncan	Excel Sheets				
-ECB	SOIL PHYSICS	Mid Near Infrared Total C		g C/kg soil				Emily Duncan	Excel Sheets				
-ECB	SOIL PHYSICS	Particle-Size Distribution		%	One time		intermittent	Emily Duncan	Excel Sheets	Excel Sheets			
-ECB	SOIL PHYSICS	Particle-Size Distribution		%				Emily Duncan	Excel Sheets				
-ECB	SOIL PHYSICS	Soil Heat Flux		MJ/m2				Emily Duncan	Excel Sheets				
-ECB	SOIL PHYSICS	Water Stable Aggregates		g C/kg soil				Emily Duncan	Excel Sheets				
-ECB	WATER QUALITY	Alkaline Persulfate Total Nitrogen		µg/ml	Event		Present	Eric Fischer	Excel Sheets	Excel Sheets			
-ECB	WATER QUALITY	NH3/NH4		ppm	Event		Present	Eric Fischer	Excel Sheets	Excel Sheets			
-ECB	WATER QUALITY	NO3		ppm	Event		Present	Eric Fischer	Excel Sheets	Excel Sheets			
-ECB	WATER QUALITY	Ortho P		ppm	Event		Present	Eric Fischer	Excel Sheets	Excel Sheets			
-ECB	WATER QUALITY	P		µg/ml	Event		Present	Eric Fischer	Excel Sheets	Excel Sheets			
-ECB	WATER QUALITY	Sediments		g/l	Event		Present	Eric Fischer	Excel Sheets	Excel Sheets			
-ECB	WATER QUALITY	Total N		ppm	Event		Present	Eric Fischer	Excel Sheets	Excel Sheets			
-ECB	WATER QUALITY	TP		ppm	Event		2011	Eric Fischer	Excel Sheets	Excel Sheets			
+ID	RowID	LTARSite.Code	Category	DataSetVariableName	AttributeDescription	Units	TemporalResolution	TemporalResolutionStandard	StartDate	StartDateStandard	StartDateAgCROS	EndDate	EndDateStandard	EndDateAgCros	DateDif_yrs	ResponsiblePersons	StorageFormat	URLdataAccess	LocationIDoutsideNetwork	SpatialRepeats	SpatialDescription	PublicAccess	Network.Category	AgCROS.Table	AgCROS.VarName	NALT.Keywords	subsite	Repo.Name	Model.Name	NALT.Subject	ISO.Topic	Common.Experiment
+ECB712	712	ECB	HYDROLOGY	Discharge		L/s	15 minute	15 minute				Present	now	2019-12-31	120	Kevin King		Excel Sheets					Hydrology	STEWARDS						Natural Resources, Earth and Environmental Sciences	inlandWaters	
+ECB713	713	ECB	Hydrology	Flow		L/5 min	5 minute	5 minute				Present	now	2019-12-31	120	Kevin King		Excel Sheets					Hydrology	STEWARDS		Hydrology				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+ECB714	714	ECB	Manure	Available N		lbs/Ton	Annual	1 year				Present	now	2019-12-31	120			Excel Sheets					Manure	MgtAmendments, MgtPlanting, MgtTillage, MgtGrowthStages, MgtResidue, MgtGrazing	Potentially Mineralizable N	Animals, Soil, Manure				Farms and Farming Systems	farming	
+ECB715	715	ECB	Manure	NH4-N		lbs/Ton	Annual	1 year				Present	now	2019-12-31	120			Excel Sheets					Manure	MgtAmendments, MgtPlanting, MgtTillage, MgtGrowthStages, MgtResidue, MgtGrazing	NH4-N	Animals, Soil, Manure				Farms and Farming Systems	farming	
+ECB716	716	ECB	Manure	pH			Annual	1 year				Present	now	2019-12-31	120			Excel Sheets					Manure	MgtAmendments, MgtPlanting, MgtTillage, MgtGrowthStages, MgtResidue, MgtGrazing	pH	Animals, Soil, Manure				Farms and Farming Systems	farming	
+ECB717	717	ECB	Manure	Solids		lbs/Ton	Annual	1 year				Present	now	2019-12-31	120			Excel Sheets					Manure	MgtAmendments, MgtPlanting, MgtTillage, MgtGrowthStages, MgtResidue, MgtGrazing	Amendment added	Animals, Soil, Manure				Farms and Farming Systems	farming	
+ECB718	718	ECB	Manure	Total N		lbs/Ton	Annual	1 year				Present	now	2019-12-31	120			Excel Sheets					Manure	MgtAmendments, MgtPlanting, MgtTillage, MgtGrowthStages, MgtResidue, MgtGrazing	Total N	Animals, Soil, Manure				Farms and Farming Systems	farming	
+ECB719	719	ECB	Manure	Total P205		lbs/Ton	Annual	1 year				Present	now	2019-12-31	120			Excel Sheets					Manure	MgtAmendments, MgtPlanting, MgtTillage, MgtGrowthStages, MgtResidue, MgtGrazing	P amount	Animals, Soil, Manure				Farms and Farming Systems	farming	
+ECB720	720	ECB	PRECIPITATION	Precipitation		inches	5 minute	5 minute				Present	now	2019-12-31	120		Excel Sheets	Excel Sheets					Meteorology	WeatherDaily, WeatherStation	Precipitation, total, no media, daily					Natural Resources, Earth and Environmental Sciences	climatologyMeteorologyAtmosphere	
+ECB721	721	ECB	SOIL CHEMISTRY	Cu		mg Cu/kg soil										Emily Duncan	Excel Sheets						Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Copper, soil	Soil, Soil Chemistry				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB722	722	ECB	SOIL CHEMISTRY	EC		dS/m										Emily Duncan	Excel Sheets						Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Cation exchange capacity, soil	Soil, Soil Chemistry				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB723	723	ECB	SOIL CHEMISTRY	Inorganic C		g C/kg soil										Emily Duncan	Excel Sheets						Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Inorganic soil carbon, soil, mean or single measurement	Soil, Soil Chemistry				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB724	724	ECB	SOIL CHEMISTRY	K		mg K/kg soil										Emily Duncan	Excel Sheets						Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Potassium, soil	Soil, Soil Chemistry				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB725	725	ECB	SOIL CHEMISTRY	Mg		mg Mg/kg soil										Emily Duncan	Excel Sheets						Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Magnesium, soil	Soil, Soil Chemistry				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB726	726	ECB	SOIL CHEMISTRY	Mineral Assoc C		g C/kg soil										Emily Duncan	Excel Sheets						Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Mineral associated carbon, soil, mean or single measurement	Soil, Soil Chemistry				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB727	727	ECB	SOIL CHEMISTRY	Mn		Mn mg/kg soil										Emily Duncan	Excel Sheets						Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Mangenese, soil	Soil, Soil Chemistry				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB728	728	ECB	SOIL CHEMISTRY	Nitrite		mg/kg										Emily Duncan	Excel Sheets						Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Nitrite, soil	Soil, Soil Chemistry				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB729	729	ECB	SOIL CHEMISTRY	Organic C		g C/kg soil										Emily Duncan	Excel Sheets						Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Organic soil carbon, soil, mean or single measurement	Soil, Soil Chemistry				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB730	730	ECB	SOIL CHEMISTRY	Potentially Mineralizable N		g/kg										Emily Duncan	Excel Sheets						Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Potentially Mineralizable N	Soil, Soil Chemistry				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB731	731	ECB	SOIL CHEMISTRY	Soluble Organic C		mg C/kg soil										Emily Duncan	Excel Sheets						Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Soluble organic carbon, soil	Soil, Soil Chemistry				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB732	732	ECB	SOIL CHEMISTRY	Total Soil C		g C/kg soil										Emily Duncan	Excel Sheets						Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Total soil carbon, soil, mean or single measurement	Soil, Soil Chemistry				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB733	733	ECB	SOIL CHEMISTRY	Total Soil N		g N/kg soil										Emily Duncan	Excel Sheets						Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Total soil nitrogen, soil, mean or single measurement	Soil, Soil Chemistry				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB734	734	ECB	SOIL CHEMISTRY	Zn		Zn mg/kg soil										Emily Duncan	Excel Sheets						Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Zinc, soil	Soil, Soil Chemistry				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB735	735	ECB	SOIL CHEMISTRY	Ca		mg Ca/kg soil	Annual	1 year				Present	now	2019-12-31	120	Emily Duncan	Excel Sheets	Excel Sheets					Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Calcium, soil	Soil, Soil Chemistry				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB736	736	ECB	SOIL CHEMISTRY	CEC		cmol/kg	Annual	1 year				Present	now	2019-12-31	120	Emily Duncan	Excel Sheets	Excel Sheets					Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Cation exchange capacity, soil	Soil, Soil Chemistry				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB737	737	ECB	SOIL CHEMISTRY	Fe		Fe mg/kg soil	Annual	1 year				Present	now	2019-12-31	120	Emily Duncan	Excel Sheets	Excel Sheets					Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Iron, soil	Soil, Soil Chemistry				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB738	738	ECB	SOIL CHEMISTRY	NH4		mg N/kg soil	Annual	1 year				Present	now	2019-12-31	120	Emily Duncan	Excel Sheets	Excel Sheets					Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Ammonium nitrogen, soil	Soil, Soil Chemistry				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB739	739	ECB	SOIL CHEMISTRY	NO3		mg N/kg soil	Annual	1 year				Present	now	2019-12-31	120	Emily Duncan	Excel Sheets	Excel Sheets					Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Nitrate nitrogen, soil	Soil, Soil Chemistry				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB740	740	ECB	SOIL CHEMISTRY	P		mg P/kg soil	Annual	1 year				Present	now	2019-12-31	120	Emily Duncan	Excel Sheets	Excel Sheets					Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Phosphorus, soil	Soil, Soil Chemistry				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB741	741	ECB	SOIL CHEMISTRY	pH			Annual	1 year				Present	now	2019-12-31	120	Emily Duncan	Excel Sheets	Excel Sheets					Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	soil pH	Soil, Soil Chemistry				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB742	742	ECB	SOIL PHYSICS	Macro-aggregation		%										Emily Duncan	Excel Sheets						Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Water Stable Aggregates, soil	Soil Physics				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB743	743	ECB	SOIL PHYSICS	Mid Near Infrared Total C		g C/kg soil										Emily Duncan	Excel Sheets						Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Near Infrared Total carbon, soil	Soil Physics				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB744	744	ECB	SOIL PHYSICS	Particle-Size Distribution		%	One time	NA				intermittent				Emily Duncan	Excel Sheets	Excel Sheets					Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Micro or Macroaggregation	Soil Physics				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB745	745	ECB	SOIL PHYSICS	Particle-Size Distribution		%										Emily Duncan	Excel Sheets						Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Micro or Macroaggregation	Soil Physics				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB746	746	ECB	SOIL PHYSICS	Soil Heat Flux		MJ/m2										Emily Duncan	Excel Sheets						Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Soil heat flux, soil	Soil Physics				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB747	747	ECB	SOIL PHYSICS	Water Stable Aggregates		g C/kg soil										Emily Duncan	Excel Sheets						Soil	MeasSoilCover, MeasSoilChem, MeasSoilPhys, MeasSoilBiol	Water Stable Aggregates, soil	Soil Physics				Natural Resources, Earth and Environmental Sciences	geoscientificInformation	
+ECB748	748	ECB	HARVEST REMOVAL	Unit Grain Weight		mg biomass																	Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Kernel weight, plant tissue	Vegetation, Crop, Harvesting				Natural Resources, Earth and Environmental Sciences	biota	
+ECB749	749	ECB	HARVEST REMOVAL	Above Ground Biomass		kg biomass/ha	Annual	1 year				Present	now	2019-12-31	120			Excel Sheets					Vegetation	MeasGrazingPlants, MeasResidueMgt, MeasHarvestFraction	Biomass, aboveground live, plant tissue, mean or single measurement	Vegetation, Crop, Harvesting				Natural Resources, Earth and Environmental Sciences	biota	
+ECB750	750	ECB	WATER QUALITY	TP		ppm	Event					2011	2011	2011-12-31	112	Eric Fischer	Excel Sheets	Excel Sheets					Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+ECB751	751	ECB	WATER QUALITY	Alkaline Persulfate Total Nitrogen		Âµg/ml	Event					Present	now	2019-12-31	120	Eric Fischer	Excel Sheets	Excel Sheets					Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+ECB752	752	ECB	WATER QUALITY	NH3/NH4		ppm	Event					Present	now	2019-12-31	120	Eric Fischer	Excel Sheets	Excel Sheets					Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+ECB753	753	ECB	WATER QUALITY	NO3		ppm	Event					Present	now	2019-12-31	120	Eric Fischer	Excel Sheets	Excel Sheets					Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+ECB754	754	ECB	WATER QUALITY	Ortho P		ppm	Event					Present	now	2019-12-31	120	Eric Fischer	Excel Sheets	Excel Sheets					Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+ECB755	755	ECB	WATER QUALITY	P		Âµg/ml	Event					Present	now	2019-12-31	120	Eric Fischer	Excel Sheets	Excel Sheets					Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+ECB756	756	ECB	WATER QUALITY	Sediments		g/l	Event					Present	now	2019-12-31	120	Eric Fischer	Excel Sheets	Excel Sheets					Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
+ECB757	757	ECB	WATER QUALITY	Total N		ppm	Event					Present	now	2019-12-31	120	Eric Fischer	Excel Sheets	Excel Sheets					Water Quality	STEWARDS		Water Quality				Natural Resources, Earth and Environmental Sciences	inlandWaters	
