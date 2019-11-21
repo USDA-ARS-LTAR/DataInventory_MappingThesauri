@@ -5,19 +5,24 @@
 #   Nicole Kaplan, Bryan Carlson, Gerardo Armendariz (4/9/2019)
 
 
-############################
-### Parts 1, 2, and 3:  Create initial merged inventory from individual site inventories
-##  
-
-#get.inventory <- function() {
-  library(tidyverse)
-
+#' Bind inventories
+#' 
+#' Reads all tab delim text files in the "input/csv_inventories" directory and 
+#' merges them into a single DataFrame.
+#' 
+#' @return A dplyr dataframe containing inventory information from all LTAR sites
+#' @seealso [get.inventory()] which calls this function and does further 
+#' processing
+#' @author Nicole Kaplan
+bind.inventories <- function() {
+  require(tidyverse)
+  
   #### 1. appending all of the inventories into one ####
   filename<-as.data.frame(dir("input/csv_inventories")) 
   colnames(filename)[1]<-'filename'
   filename$filename<-as.character(filename$filename)
   filename<-filename %>%  
-  filter(str_detect(filename, paste(c("txt")))) 
+    filter(str_detect(filename, paste(c("txt")))) 
   
   l<-NROW(filename$filename)
   
@@ -29,7 +34,26 @@
     fn=paste("input","csv_inventories",filename[i,], sep = "/")
     filedata <- read.delim(fn, header = T, sep = "\t", stringsAsFactors = FALSE)
     inventory.1 <- rbind(inventory.1, filedata)
+    inventory.1 <- filter(inventory.1, inventory.1$LTARSite.Code != "")
   }
+  
+  return(inventory.1)
+}
+
+#' Get inventory
+#' 
+#' Reads all tab delim text files in the "input/csv_inventories" directory and 
+#' merges them into a single DataFrame, then adds additional columns.
+#' 
+#' @return A dplyr dataframe containing inventory information from all LTAR
+#' sites along with additional columns
+#' @seealso [bind.inventories()] which this function calls  
+#' @author Nicole Kaplan
+get.inventory <- function() {
+  library(tidyverse)
+
+  #### 1. appending all of the inventories into one ####
+  inventory.1 <- bind.inventories()
   
   #### 2. Adding additional columns to further categorize data (still as general typology vs attribute definition - next step) ####
   
@@ -248,6 +272,16 @@ write.csv.agcross <- function(df, table.name = NULL) {
 
 #### 4.3 Write the full inventory to a CSV ####
 
+#' Write inventory to CSV
+#' 
+#' Optionally filters dataframe then writes dataframe to a comma delim file in
+#' the output directory with current date appended to name
+#' 
+#' @param df A dplyr::data_frame to be written as CSV
+#' @param site.code A string LTAR site code, will be used to filter df
+#' @param network.category A string network category, will be used to filter df
+#' @return NA
+#' @author Bryan Carlson
 write.csv.inventory <- function(df, site.code = NULL, network.category = NULL) {
   
   write.path <- "output/inventory-"
@@ -267,12 +301,12 @@ write.csv.inventory <- function(df, site.code = NULL, network.category = NULL) {
       filter(Network.Category == network.category)
     write.path <- paste(write.path, network.category, sep = "")
   } else {
-    write.path <- paste(write.path, "alldata_", sep = "")
+    write.path <- paste(write.path, "alldata", sep = "")
   }
   
   dateToday <- format(Sys.Date(), "%Y%m%d")
   write.path <- paste(write.path, "_", dateToday, ".csv", sep = "")
-  write.csv(df.out, file = write.path, na = "", row.names = FALSE)
+  write.csv(df.out, file = write.path, na = "")
 }
 
 
