@@ -5,4 +5,5 @@
 source("src/inventory-functions.R")
 
 df <- bind.inventories() %>% 
+  set.id() %>% 
   write.csv.inventory()
