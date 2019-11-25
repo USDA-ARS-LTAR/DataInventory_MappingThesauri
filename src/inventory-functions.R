@@ -28,9 +28,7 @@ bind.inventories <- function() {
   
   inventory.1 <- data.frame()
   
-  
   for (i in 1:l) {
-    #i=2
     fn=paste("input","csv_inventories",filename[i,], sep = "/")
     filedata <- read.delim(fn, header = T, sep = "\t", stringsAsFactors = FALSE)
     inventory.1 <- rbind(inventory.1, filedata)
@@ -38,6 +36,19 @@ bind.inventories <- function() {
   }
   
   return(inventory.1)
+}
+
+#' Set standard temporal columns
+#' 
+#' Creates columns with standard (ISO 8601) temporal values
+#' 
+#' @param df Data frame with required columns "LTARSite.Code", "TemporalResolution", "StartDate", "EndDate"
+#' @return A data frame with three additional columns: TemporalResolutionStandard", "StartDateStandard", "EndDateStandard"
+#' @author Bryan Carlson
+set.standard.temporal <- function(df) {
+  require(tidyverse)
+  
+  # Just kidding, too many nuanced values to code. Also need to infer intent from description, etc. Going to do manually. 
 }
 
 #' Get inventory
