@@ -38,6 +38,24 @@ bind.inventories <- function() {
   return(inventory.1)
 }
 
+#' Set ID column
+#' 
+#' Sets an ID column that is a composite of site code and row number (e.g. CAF0001)
+#' 
+#' @param df Data frame with required column "LTARSite.Code"
+#' @return A data frame with ID column
+#' @author Bryan Carlson
+set.id <- function(df) {
+  require(tidyverse)
+  
+  df.result <- df %>% 
+    group_by(LTARSite.Code) %>% 
+    mutate(ID = paste(LTARSite.Code, sprintf("%04d", row_number()), sep = "")) %>% 
+    ungroup()
+  
+  return(df.result)
+}
+
 #' Set standard temporal columns
 #' 
 #' Creates columns with standard (ISO 8601) temporal values
@@ -317,7 +335,7 @@ write.csv.inventory <- function(df, site.code = NULL, network.category = NULL) {
   
   dateToday <- format(Sys.Date(), "%Y%m%d")
   write.path <- paste(write.path, "_", dateToday, ".csv", sep = "")
-  write.csv(df.out, file = write.path, na = "")
+  write.csv(df.out, file = write.path, na = "", row.names = FALSE)
 }
 
 
