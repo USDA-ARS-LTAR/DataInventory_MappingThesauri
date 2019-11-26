@@ -6,4 +6,5 @@ source("src/inventory-functions.R")
 
 df <- bind.inventories() %>% 
   set.id() %>% 
+  #set.standard.temporal() %>% 
   write.csv.inventory()

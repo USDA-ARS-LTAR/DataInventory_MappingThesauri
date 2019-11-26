@@ -67,6 +67,48 @@ set.standard.temporal <- function(df) {
   require(tidyverse)
   
   # Just kidding, too many nuanced values to code. Also need to infer intent from description, etc. Going to do manually. 
+  
+  # This doesn't work well... Need to fix
+  df.result <- df %>% 
+    mutate(trl = tolower(TemporalResolution)) %>% 
+    mutate(trl = str_replace(trl, "_", "")) %>% 
+    mutate(TemporalResolutionStandard = case_when(
+      grepl("once", trl) ~ "0",
+      trl == "one time" ~ "0",
+      trl == "hourly" ~ "1 hour",
+      trl == "daily" ~ "1 day",
+      trl == "weekly" ~ "1 week",
+      trl == "monthly" ~ "1 month",
+      trl == "yearly" ~ "1 year",
+      trl == "annual" ~ "1 year",
+      trl == "annually" ~ "1 year",
+      #has.leading.num(trl) & grepl("seconds", trl) ~ trl, # Doesn't work!!!
+      grepl("second", trl) ~ trl,
+      grepl("minute", trl) ~ trl,
+      grepl("hour", trl) ~ trl,
+      grepl("day", trl) ~ trl,
+      grepl("week", trl) ~ trl,
+      grepl("month", trl) ~ trl,
+      grepl("year", trl) ~ trl,
+      grepl("sec", trl) ~ gsub("sec", "second", trl),
+      grepl("min", trl) ~ gsub("min", "minute", trl),
+      grepl("hr", trl) ~ gsub("hr", "hour", trl),
+      grepl("seconds", trl) ~ gsub("seconds", "second", trl),
+      grepl("minutes", trl) ~ gsub("minutes", "minute", trl),
+      grepl("hours", trl) ~ gsub("hours", "hour", trl))) %>% 
+    select(-trl) %>% 
+    mutate(EndDateStandard = case_when(
+      EndDate == "Present" ~ "now",
+      EndDate == "Current" ~ "now"
+    ))
+  
+  return(df.result)
+}
+
+has.leading.num <- function(temporalResolutionStr) {
+  result <- !is.na(as.numeric(strsplit(temporalResolutionStr, " ")[[1]][1]))
+  
+  return(result)
 }
 
 #' Get inventory
