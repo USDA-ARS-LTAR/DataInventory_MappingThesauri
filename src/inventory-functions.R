@@ -4,6 +4,14 @@
 ### Next version shall assign only one category, yet allow multiple terms comma-delimited to be listed under keywords
 #   Nicole Kaplan, Bryan Carlson, Gerardo Armendariz (4/9/2019)
 
+clean.unresolved <- function(df, list.of.unresolved) {
+  df.result <- df %>% 
+    mutate(AgCROS.VarName = case_when(AgCROS.VarName %in% list.of.unresolved ~ "unresolved",
+                                    is.na(AgCROS.VarName) ~ "unresolved",
+                                    TRUE ~ AgCROS.VarName))
+  
+  return(df.result)
+}
 
 #' Bind inventories
 #' 
