@@ -1,0 +1,47 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+# Setup
+
+## Load libraries
+
+```{r}
+library(tidyverse)
+source("../src/inventory-functions.R")
+```
+
+## Load data, do some cleaning
+
+```{r}
+df <- read_csv("../output/inventory-alldata_20191125_standard.csv") %>% 
+  clean.unresolved(c("unsersolved"))
+
+```
+
+# Analytics
+
+## AgCROS Variables
+
+```{r}
+# Used to determine misspellings of "unresolved"
+#df.sort <- df[order(df$AgCROS.VarName), ]
+#
+#agcros.var.unique <- df.sort %>% 
+#  distinct(AgCROS.VarName) %>% 
+#  select(AgCROS.VarName)
+
+percent.resolved <- nrow(df[df$AgCROS.VarName != "unresolved", ]) / nrow(df) * 100
+```
+
+Percent of AgCROS variables names with initial values is: `r percent.resolved`
+
+```{r}
+df %>% 
+  group_by(AgCROS.VarName) %>% 
+  mutate(num.sites.used = n_distinct(LTARSite.Code, na.rm = T)) %>% 
+  select(AgCROS.VarName, num.sites.used) %>% 
+  unique()
+```
+
