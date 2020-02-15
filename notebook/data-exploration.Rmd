@@ -20,9 +20,23 @@ source("../src/inventory-functions.R")
 
 #write.csv(df, "../output/inventory-alldata_20191216_3.csv")
 
-#### 1. Read latest data ####
+#### 1. Read latest data with cleaning for AgCROS and Stewards####
 
-df <- read_csv("../output/inventory-alldata_20191216_3_20200129.csv")
+#df <- read_csv("../output/inventory-alldata_20191216_3_20200129.csv")
+df <- read_csv("../output/inventory-alldata_2020215.csv")
+
+# Condensing Network.categories to 10!!!!#
+df$Network.Category[df$Network.Category%in%c("Eddy Covariance", "Greenhouse Gas Emissions", "Meteorology, Eddy Covariance", "Meteorology")]<-"Land-Atmosphere Interactions"
+df$Network.Category[df$Network.Category%in%c("Soil", "Soil, Soil Biology, Soil Physics, Soil Chemistry" )]<-"Soil"
+df$Network.Category[df$Network.Category%in%c("Vegetation", "Vegetation, Biomass", "Vegetation, Crop, Harvesting", "Phenology")]<-"Primary Production"
+df$Network.Category[df$Network.Category%in%c("Hydrology", "Wind Erosion", "Sediments")]<-"Eco-Aeolian-Hydro Processes"
+df$Network.Category[df$Network.Category%in%c("Water Quality")]<- "Water Quality"
+df$Network.Category[df$Network.Category%in%c("Land Management")]<- "Land Management Practices"
+df$Network.Category[df$Network.Category%in%c("Manure")]<- "Manure Management"
+df$Network.Category[df$Network.Category%in%c("Animals")]<- "Animal Science and Behavior"
+df$Network.Category[df$Network.Category%in%c("Biodiversity")]<- "Landscape structure and biodiversity"
+df$Network.Category[df$Network.Category%in%c("Geospatial", "Remote Sensing", "Geospatial Data")]<- "Gridded and Vector Data"
+
 
 # Cleaning variable names that I think are actually the same #
 df$AgCROS.VarName[df$AgCROS.VarName%in%c("Beta_Glucosidase, soil", "B-glucosidase")]<-"Beta_Glucosidase, soil"
@@ -35,139 +49,147 @@ df$AgCROS.VarName[df$AgCROS.VarName%in%c("digestibility", "digestible organic ma
 df$AgCROS.VarName[df$AgCROS.VarName%in%c("weight gain")]<-"average daily gain"
 
 #### 2. Add consolidated AgCROS variable name from CZO/CUAHSI list of terms with definitions ####
-df$AgCROS.VarNameC <- ""
+df$CZO.Term <- ""
 
 #### Plants ####
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Dry Matter of plant fraction, plant tissue", "Identifiable Plant Material, soil", "LDMC", "Root diameter", "Root Diameter", "Root Dry Mass", "Root Dry Matter Content", "Root Surface area", "Root threshold value", "Root Tissue Density", "root volume", "Shrub dimensions", "Specific Root length")]<-"biomassVegetation"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Biomass, aboveground dead, plant tissue, mean or single measurement", "Biomass, aboveground live, plant tissue, mean or single measurement", "Biomass, belowground live, plant tissue, mean or single measurement", "Plant density, operations", "Total Plant Mass_PA", "Total Plant Volume_PA", "Plant Height", "Lignin, biomass, plant tissue, mean or single measurement", "Biomass, surface litter, plant tissue, mean or single measurement", "Ground cover, vegetated, none, mean or single measurement", "Kernel weight, plant tissue", "Crop Yield", "Residue cover, soil", "Seed mass")]<-"biomassVegetation"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Leaf D 13C")]<-"carbon_13StableIsotopeRatioDelta"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("leaf stomatal conductance to water vapour")]<-"leafWetness"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("light extinction coefficient")]<-"lightAttenuationCoefficient"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Leaf Osmotic Potential", "Leaf Xylem Pressure Potential")]<-"waterPotential"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Moisture in plant fraction, plant tissue")]<-"Water Content"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Photosynthesis_Area")]<-"area"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Stomatal Conductance_Area", "Leaf area index, live, none, mean or single measurement, fraction of land area")]<-"LeafAreaIndex"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Normalized difference vegetation index (NDVI)")]<-"NDVI"
+df$CZO.Term[df$AgCROS.VarName%in%c("Dry Matter of plant fraction, plant tissue", "Identifiable Plant Material, soil", "LDMC", "Root diameter", "Root Diameter", "Root Dry Mass", "Root Dry Matter Content", "Root Surface area", "Root threshold value", "Root Tissue Density", "root volume", "Shrub dimensions", "Specific Root length")]<-"biomassVegetation"
+df$CZO.Term[df$AgCROS.VarName%in%c("Biomass, aboveground dead, plant tissue, mean or single measurement", "Biomass, aboveground live, plant tissue, mean or single measurement", "Biomass, belowground live, plant tissue, mean or single measurement", "Plant density, operations", "Total Plant Mass_PA", "Total Plant Volume_PA", "Plant Height", "Lignin, biomass, plant tissue, mean or single measurement", "Biomass, surface litter, plant tissue, mean or single measurement", "Ground cover, vegetated, none, mean or single measurement", "Kernel weight, plant tissue", "Crop Yield", "Residue cover, soil", "Seed mass")]<-"biomassVegetation"
+df$CZO.Term[df$AgCROS.VarName%in%c("Leaf D 13C")]<-"carbon_13StableIsotopeRatioDelta"
+df$CZO.Term[df$AgCROS.VarName%in%c("leaf stomatal conductance to water vapour")]<-"leafWetness"
+df$CZO.Term[df$AgCROS.VarName%in%c("light extinction coefficient")]<-"lightAttenuationCoefficient"
+df$CZO.Term[df$AgCROS.VarName%in%c("Leaf Osmotic Potential", "Leaf Xylem Pressure Potential")]<-"waterPotential"
+df$CZO.Term[df$AgCROS.VarName%in%c("Moisture in plant fraction, plant tissue")]<-"Water Content"
+df$CZO.Term[df$AgCROS.VarName%in%c("Photosynthesis_Area")]<-"area"
+df$CZO.Term[df$AgCROS.VarName%in%c("Stomatal Conductance_Area", "Leaf area index, live, none, mean or single measurement, fraction of land area")]<-"leafAreaIndex"
+df$CZO.Term[df$AgCROS.VarName%in%c("Normalized difference vegetation index (NDVI)")]<-"NDVI"
 
 
 #### Soil and Water ####
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Dissolved organic matter")]<-"organicMatter"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Beta_Glucosaminidase_NAG, soil")]<-"activityBetaNAcetylGlucosaminidase"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Beta_Glucosidase, soil", "B-glucosidase")]<-"betaGlucosidase"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("sediment flux", "Total suspended solids, water, milligrams per liter", "Surface runoff, volumetric depth, water, millimeters", "Sediment, suspended, water, milligrams per liter", "Sediment, water, grams per liter", "Total dissolved solids, water, milligrams per, liter")]<-"loadSuspended"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Soil heat flux, soil")]<-"sensibleHeatFlux"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Heat flux", "Heat, flux", "Soil Heat Flux", "Soil heat flux")]<-"sensibleHeatFlux"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Methane, air, daily, mean or single measurement", "Methane, water, daily, mean or single measurement")]<-"methane"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Microbial biomass carbon, soil", "Microbial biomass nitrogen, soil", "microbial respiration", "PLFA", "abundance of soil organisms")]<-"biomassMicrobial"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("nrcs structure designation", "soil features", "soil health index", "Plasticity", "Stickiness", "soil classification", "Bulk density, soil", "Micro or Macroaggregation
+df$CZO.Term[df$AgCROS.VarName%in%c("Dissolved organic matter")]<-"organicMatter"
+df$CZO.Term[df$AgCROS.VarName%in%c("Beta_Glucosaminidase_NAG, soil")]<-"activityBetaNAcetylGlucosaminidase"
+df$CZO.Term[df$AgCROS.VarName%in%c("Beta_Glucosidase, soil", "B-glucosidase")]<-"betaGlucosidase"
+df$CZO.Term[df$AgCROS.VarName%in%c("sediment flux", "Total suspended solids, water, milligrams per liter", "Surface runoff, volumetric depth, water, millimeters", "Sediment, suspended, water, milligrams per liter", "Sediment, water, grams per liter", "Total dissolved solids, water, milligrams per, liter")]<-"loadSuspended"
+df$CZO.Term[df$AgCROS.VarName%in%c("Soil heat flux, soil")]<-"sensibleHeatFlux"
+df$CZO.Term[df$AgCROS.VarName%in%c("Heat flux", "Heat, flux", "Soil Heat Flux", "Soil heat flux")]<-"sensibleHeatFlux"
+df$CZO.Term[df$AgCROS.VarName%in%c("Methane, air, daily, mean or single measurement", "Methane, water, daily, mean or single measurement")]<-"methane"
+df$CZO.Term[df$AgCROS.VarName%in%c("Microbial biomass carbon, soil", "Microbial biomass nitrogen, soil", "microbial respiration", "PLFA", "abundance of soil organisms")]<-"biomassMicrobial"
+df$CZO.Term[df$AgCROS.VarName%in%c("nrcs structure designation", "soil features", "soil health index", "Plasticity", "Stickiness", "soil classification", "Bulk density, soil", "Micro or Macroaggregation
 ", "Soil horizon designation", "Soil horizon depth, lower", "Clay, soil", "soil salinity", "	Soil permittivity", "tension, soil", "Soil electrical conductivity, soil", "Soil permitivitty", "Soil permitvitty
 ", "Saturated hydraulic conductivity, soil", "Field capacity, soil", "Sand, soil", "Silt, soil", "Soil features", "soil texture", "Soil horizon depth, upper", "	Soil permittivity", "Soil permitvitty")]<-"soilClassification"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Operational Taxonomic Unit (OTU) concentration in fecal sample", "PFLA", "soil microbial diversity", "species list", "species richness", "species diversity")]<-"taxaCount"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Particulate organic matter, soil, mean or single measurement")]<-"organicMatter"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Water Stable Aggregates, soil")]<-"soilAggregateStability"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Wilting point, soil")]<-"volumetricWaterContent"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Cation exchange capacity, soil
+df$CZO.Term[df$AgCROS.VarName%in%c("Operational Taxonomic Unit (OTU) concentration in fecal sample", "PFLA", "soil microbial diversity", "species list", "species richness", "species diversity")]<-"taxaCount"
+df$CZO.Term[df$AgCROS.VarName%in%c("Particulate organic matter, soil, mean or single measurement")]<-"organicMatter"
+df$CZO.Term[df$AgCROS.VarName%in%c("Water Stable Aggregates, soil")]<-"soilAggregateStability"
+df$CZO.Term[df$AgCROS.VarName%in%c("Wilting point, soil")]<-"volumetricWaterContent"
+df$CZO.Term[df$AgCROS.VarName%in%c("Cation exchange capacity, soil
 ")]<-"cationExchangeCapacity"
 
 
 #### Meteorology ####
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("avg soil temp", "avg temp", "max soil temp", "min soil temp", "soil temperature", "Temperature, air, daily, mean", "Temperature, air, daily, minimum", "Temperature, air, daily,maximum", "Temperature, air, sample period, mean or single measurement", "Temperature, soil, daily, 10cm, mean", "Temperature, soil, daily, 5cm, mean", "Temperature, soil, daily, mean", "Temperature, soil, sample period, mean or single measurement", "Dew point, air, daily, mean", "Temperature, water, degrees Celsius", "temperature", "Temperature", "Sonic anemometer temperature")]<-"temperature"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("radiation, net, timestep, mean")]<-"radiationNet"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Solar radiation, bare ground, no media, daily, total", "ave_incoming_shortwave radiation", "	Solar radiation, total, no media, daily", "Solar radiation, vegetated ground, no media, daily, total", "UV radiation")]<-"radiationIncomingShortwave"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("ave_outgoing_shortwave radiation")]<-"radiationOutgoingShortwave"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("ave_incoming_longwave radiation")]<-"radiationIncomingLongwave"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("ave_outgoing_longwave radiation")]<-"radiationOutgoingLongwave"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("saturated vapor pressure", "Vapor pressure deficit", "Water vapor", "Water, vapor")]<-"vaporPressure"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Precipitation, snow, no media, daily", "Precipitation, timestep, total", "Precipitation, total, no media, daily", "Precipitation, total, no media, daily, sum, millimeters", "Fog", "hail")]<-"precipitation"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Relative humidity, air, daily, max", "Relative humidity, air, daily, mean", "Relative humidity, air, daily, min", "Relative humidity, air, timestep, mean", "Relative humidity")]<-"relativeHumidity"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("soil moisture", "Soil moisture, soil, mean or single measurement", "Soil moisture")]<-"volumetricWaterContent"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("pH", "soil pH", "pH, water, no units")]<-"pH"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Vapor pressure", "vapor pressure, max", "vapor pressure, mean", "vapor pressure, min", "Pressure")]<-"vaporPressure"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Wind direction air, daily, mean", "Wind direction, air, timestep, mean")]<-"windDirection"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("wind speed, air, daily, max", "Wind speed, air, daily, mean", "Wind speed, air, timestep, mean")]<-"windSpeed"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("radtiation, net, timestamp, mean", "radiation, total, timestep, mean")]<-"radiationNet"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Air density")]<-"AirDensity_check"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Friction velocity")]<-"frictionVelocity"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Albedo")]<-"albedo"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Evaporation, open pan, no media, daily", "Evapotranspiration", "Evaporation, pan, water, daily, millimeters per day")]<-"evaporation"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Evapotranspiration")]<-"evapotranspiration"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Photosynthetically active radiation", "Photosynthetically")]<-"radiationNetPAR"
+df$CZO.Term[df$AgCROS.VarName%in%c("avg soil temp", "avg temp", "max soil temp", "min soil temp", "soil temperature", "Temperature, air, daily, mean", "Temperature, air, daily, minimum", "Temperature, air, daily,maximum", "Temperature, air, sample period, mean or single measurement", "Temperature, soil, daily, 10cm, mean", "Temperature, soil, daily, 5cm, mean", "Temperature, soil, daily, mean", "Temperature, soil, sample period, mean or single measurement", "Dew point, air, daily, mean", "Temperature, water, degrees Celsius", "temperature", "Temperature", "Sonic anemometer temperature")]<-"temperature"
+df$CZO.Term[df$AgCROS.VarName%in%c("radiation, net, timestep, mean")]<-"radiationNet"
+df$CZO.Term[df$AgCROS.VarName%in%c("Solar radiation, bare ground, no media, daily, total", "ave_incoming_shortwave radiation", "	Solar radiation, total, no media, daily", "Solar radiation, vegetated ground, no media, daily, total", "UV radiation")]<-"radiationIncomingShortwave"
+df$CZO.Term[df$AgCROS.VarName%in%c("ave_outgoing_shortwave radiation")]<-"radiationOutgoingShortwave"
+df$CZO.Term[df$AgCROS.VarName%in%c("ave_incoming_longwave radiation")]<-"radiationIncomingLongwave"
+df$CZO.Term[df$AgCROS.VarName%in%c("ave_outgoing_longwave radiation")]<-"radiationOutgoingLongwave"
+df$CZO.Term[df$AgCROS.VarName%in%c("saturated vapor pressure", "Vapor pressure deficit", "Water vapor", "Water, vapor")]<-"vaporPressure"
+df$CZO.Term[df$AgCROS.VarName%in%c("Precipitation, snow, no media, daily", "Precipitation, timestep, total", "Precipitation, total, no media, daily", "Precipitation, total, no media, daily, sum, millimeters", "Fog", "hail")]<-"precipitation"
+df$CZO.Term[df$AgCROS.VarName%in%c("Relative humidity, air, daily, max", "Relative humidity, air, daily, mean", "Relative humidity, air, daily, min", "Relative humidity, air, timestep, mean", "Relative humidity")]<-"relativeHumidity"
+df$CZO.Term[df$AgCROS.VarName%in%c("soil moisture", "Soil moisture, soil, mean or single measurement", "Soil moisture")]<-"volumetricWaterContent"
+df$CZO.Term[df$AgCROS.VarName%in%c("pH", "soil pH", "pH, water, no units")]<-"pH"
+df$CZO.Term[df$AgCROS.VarName%in%c("Vapor pressure", "vapor pressure, max", "vapor pressure, mean", "vapor pressure, min", "Pressure")]<-"vaporPressure"
+df$CZO.Term[df$AgCROS.VarName%in%c("Wind direction air, daily, mean", "Wind direction, air, timestep, mean")]<-"windDirection"
+df$CZO.Term[df$AgCROS.VarName%in%c("wind speed, air, daily, max", "Wind speed, air, daily, mean", "Wind speed, air, timestep, mean")]<-"windSpeed"
+df$CZO.Term[df$AgCROS.VarName%in%c("radtiation, net, timestamp, mean", "radiation, total, timestep, mean")]<-"radiationNet"
+df$CZO.Term[df$AgCROS.VarName%in%c("Air density")]<-"AirDensity_check"
+df$CZO.Term[df$AgCROS.VarName%in%c("Friction velocity")]<-"frictionVelocity"
+df$CZO.Term[df$AgCROS.VarName%in%c("Albedo")]<-"albedo"
+df$CZO.Term[df$AgCROS.VarName%in%c("Evaporation, open pan, no media, daily", "Evapotranspiration", "Evaporation, pan, water, daily, millimeters per day")]<-"evaporation"
+df$CZO.Term[df$AgCROS.VarName%in%c("Evapotranspiration")]<-"evapotranspiration"
+df$CZO.Term[df$AgCROS.VarName%in%c("Photosynthetically active radiation", "Photosynthetically")]<-"radiationNetPAR"
 
 
 #### Carbon, Nitrogen and elemental analysis ####
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Carbon, aboveground live, plant tissue, mean or single measurement", "Carbon in plant fraction, plant tissue", "Carbon, aboveground live, plant tissue, mean or single measurement", "Carbon, aboveground NPP, plant tissue, yearly, mean or single measurement,", "Carbon, belowground live, plant tissue, mean or single measurement", "Carbon, belowground NPP, plant tissue, yearly, mean or single measurement", "Near Infrared Total carbon, soil", "Total soil carbon, soil, mean or single measurement", "Mineral associated carbon, soil, mean or single measurement", "C13", "carbon to nitrogen ratio", "delta c13, soil", "Carbon, soil", "Carbon", "carbon, soil")]<-"carbon"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Carbon dioxide, air, daily, mean or single measurement")]<-"carbonDioxide"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("organic C", "Organic soil carbon, soil, mean or single measurement", "Soluble organic carbon, soil")]<-"carbonTotalOrganic"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Inorganic soil carbon, soil, mean or single measurement", "Carbon, soik", "bicarbonate, soil")]<-"Carbon, total inorganic"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Nitrogen in plant fraction, plant tissue", "Nitrogen, aboveground live, plant tissue, mean or single measurement", "Nitrogen, aboveground NPP, plant tissue, yearly, mean or single measurement", "Nitrogen, belowground live, plant tissue, mean or single measurement", "Nitrogen, belowground NPP, plant tissue, yearly, mean or single measurement", "Nitrogen, biomass, plant tissue, mean or single measurement", "Nitrogen, irrigation additive, no media", "Total soil nitrogen, soil, mean or single measurement", "Potentially Mineralizable N", "nitrogen, organic, soil", "tdn", "Nitrogen", "Ammonium nitrogen, soil", "Nitrate-Nitrogen, dissolved, water, milligrams per liter", "Nitrogen Kjeldahl, water, milligrams per liter", "Ammonium, water, milligrams per liter", "Nitrogen, total, water, milligrams per liter", "Crude Protein", "NH4-N", "Total N", "Ammonia,water,milligrams per liter", "Ammonium-Nitrogen, dissolved, water, milligrams per liter", "Nitrogen, soil")]<-"nitrogen"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Nitrite-N, water, milligrams per liter", "Nitrite, soil")]<-"nitrogenNitrite_NO2"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Nitrous oxide, air, daily, mean or single measurement")]<-"nitrousOxide"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Nitrate daily, mean or single measurement", "Nitrate nitrogen, soil", "NO3", "Nitrate-N, water, milligrams per liter")]<-"nitrogenNitrate_NO3"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Root Nitrogen Concentration")]<-"nitrogenOrganic"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("TN")]<-"nitrogenTotal"
+df$CZO.Term[df$AgCROS.VarName%in%c("Carbon, aboveground live, plant tissue, mean or single measurement", "Carbon in plant fraction, plant tissue", "Carbon, aboveground live, plant tissue, mean or single measurement", "Carbon, aboveground NPP, plant tissue, yearly, mean or single measurement,", "Carbon, belowground live, plant tissue, mean or single measurement", "Carbon, belowground NPP, plant tissue, yearly, mean or single measurement", "Near Infrared Total carbon, soil", "Total soil carbon, soil, mean or single measurement", "Mineral associated carbon, soil, mean or single measurement", "C13", "carbon to nitrogen ratio", "delta c13, soil", "Carbon, soil", "Carbon", "carbon, soil")]<-"carbon"
+df$CZO.Term[df$AgCROS.VarName%in%c("Carbon dioxide, air, daily, mean or single measurement")]<-"carbonDioxide"
+df$CZO.Term[df$AgCROS.VarName%in%c("organic C", "Organic soil carbon, soil, mean or single measurement", "Soluble organic carbon, soil")]<-"carbonTotalOrganic"
+df$CZO.Term[df$AgCROS.VarName%in%c("Inorganic soil carbon, soil, mean or single measurement", "Carbon, soik", "bicarbonate, soil")]<-"Carbon, total inorganic"
+df$CZO.Term[df$AgCROS.VarName%in%c("Nitrogen in plant fraction, plant tissue", "Nitrogen, aboveground live, plant tissue, mean or single measurement", "Nitrogen, aboveground NPP, plant tissue, yearly, mean or single measurement", "Nitrogen, belowground live, plant tissue, mean or single measurement", "Nitrogen, belowground NPP, plant tissue, yearly, mean or single measurement", "Nitrogen, biomass, plant tissue, mean or single measurement", "Nitrogen, irrigation additive, no media", "Total soil nitrogen, soil, mean or single measurement", "Potentially Mineralizable N", "nitrogen, organic, soil", "tdn", "Nitrogen", "Ammonium nitrogen, soil", "Nitrate-Nitrogen, dissolved, water, milligrams per liter", "Nitrogen Kjeldahl, water, milligrams per liter", "Ammonium, water, milligrams per liter", "Nitrogen, total, water, milligrams per liter", "Crude Protein", "NH4-N", "Total N", "Ammonia,water,milligrams per liter", "Ammonium-Nitrogen, dissolved, water, milligrams per liter", "Nitrogen, soil")]<-"nitrogen"
+df$CZO.Term[df$AgCROS.VarName%in%c("Nitrite-N, water, milligrams per liter", "Nitrite, soil")]<-"nitrogenNitrite_NO2"
+df$CZO.Term[df$AgCROS.VarName%in%c("Nitrous oxide, air, daily, mean or single measurement")]<-"nitrousOxide"
+df$CZO.Term[df$AgCROS.VarName%in%c("Nitrate daily, mean or single measurement", "Nitrate nitrogen, soil", "NO3", "Nitrate-N, water, milligrams per liter")]<-"nitrogenNitrate_NO3"
+df$CZO.Term[df$AgCROS.VarName%in%c("Root Nitrogen Concentration")]<-"nitrogenOrganic"
+df$CZO.Term[df$AgCROS.VarName%in%c("TN")]<-"nitrogenTotal"
 
 #### Other elements and compounds ####
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Ba 455.403")]<-"barium"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Beryllium-7, soil")]<-"beryllium"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Boron", "Boron, soil", "boron", "Boron, water")]<-"boronTotal"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("%OC")]<-"carbonTotalOrganic"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Chlorophyll, water, micrograms per liter")]<-"Chlorophyll_check"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Chloride, dissolved, water, milligrams per liter")]<-"chloride_check"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("%H", "hydrogen, soil")]<-"hydrogen"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("lithium, soil")]<-"Lithium, total"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("%Na", "Na", "Sodium, soil", "Sodium, dissolved, water, milligrams per liter")]<-"sodium"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("soluble reactive phosphorus")]<-"phosphorusDissolved"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Oxygen", "oxygen")]<-"oxygen"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("selenium, soil", "Selenium, water")]<-"seleniumTotal"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("silicon, soil", "Silicon, water")]<-"silicon"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("strontium, soil")]<-"strontium"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("sulfur, soil", "Sulfate, soil", "Sulfur", "Sulfur, dissolved, water, milligrams per liter", "Sulfur, water")]<-"sulfur"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("tellurium, soil")]<-"tellurium_check"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Uranium, water")]<-"uranium_check"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("vanadium, soil", "Vanadium, water")]<-"vanadiumTotal"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Ytterbium, water")]<-"yttergium_check"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Ca", "Calcium, soil", "Calcium, dissolved, water, milligrams per liter", "Calcium, water, event, milligrams per liter" )]<-"calcium"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Cu", "Copper, soil", "Copper, water, micrograms per liter")]<-"copper"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Fe", "Iron, soil", "Iron, dissolved, water, milligrams per liter")]<-"Iron"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("K", "K amount", "Potassium", "Potassium, soil", "Potassium, dissolved, water, milligrams per liter")]<-"potassium"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Mg", "Magnesium, soil", "Magnesium", "Magnesium, dissolved, water, milligrams per liter")]<-"magnesium"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Mn", "Mangenese, soil", "Manganese", "Manganese, dissolved, water, milligrams per liter")]<-"mangenese"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Mg", "Magnesium, soil")]<-"magnesium"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Mb", "molybdenum, soil", "Molybdenum, water")]<-"molybdenumTotal"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("cadmium, soil", "Cadmium, water")]<-"cadmium"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("chromium, soil", "Chromium, water")]<-"chromium"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("cobalt, soil", "Cobalt, water")]<-"cobalt"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Aluminum, dissolved, water, milligrams per liter", "Aluminum, soil")]<-"aluminum"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Lanthanum, water")]<-"lanthanum_check"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Mercury, water")]<-"mercury_check"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Nickel, water")]<-"nickel_check"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("rubidium, soil")]<-"rubidium"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Lead-210, soil", "Lead, water")]<-"lead_check"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("P", "P amount", "Phosphorus", "Phosphorus, soil", "Leaf Phosphorus", "Phosphate, soil", "Phosphate, water", "Phosphorus, dissolved, water, milligrams per liter", "Phosphorus, total, dissolved, water, milligrams per liter", "Total P")]<-"phosphorus"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Zn", "Zinc, soil", "Zinc, dissolved, water, milligrams per liter")]<-"zinc"
+df$CZO.Term[df$AgCROS.VarName%in%c("Ba 455.403")]<-"barium"
+df$CZO.Term[df$AgCROS.VarName%in%c("Beryllium-7, soil")]<-"beryllium"
+df$CZO.Term[df$AgCROS.VarName%in%c("Boron", "Boron, soil", "boron", "Boron, water")]<-"boronTotal"
+df$CZO.Term[df$AgCROS.VarName%in%c("%OC")]<-"carbonTotalOrganic"
+df$CZO.Term[df$AgCROS.VarName%in%c("Chlorophyll, water, micrograms per liter")]<-"Chlorophyll_check"
+df$CZO.Term[df$AgCROS.VarName%in%c("Chloride, dissolved, water, milligrams per liter")]<-"chloride_check"
+df$CZO.Term[df$AgCROS.VarName%in%c("%H", "hydrogen, soil")]<-"hydrogen"
+df$CZO.Term[df$AgCROS.VarName%in%c("lithium, soil")]<-"lithiumTotal"
+df$CZO.Term[df$AgCROS.VarName%in%c("%Na", "Na", "Sodium, soil", "Sodium, dissolved, water, milligrams per liter")]<-"sodium"
+df$CZO.Term[df$AgCROS.VarName%in%c("soluble reactive phosphorus")]<-"phosphorusDissolved"
+df$CZO.Term[df$AgCROS.VarName%in%c("Oxygen", "oxygen")]<-"oxygen"
+df$CZO.Term[df$AgCROS.VarName%in%c("selenium, soil", "Selenium, water")]<-"seleniumTotal"
+df$CZO.Term[df$AgCROS.VarName%in%c("silicon, soil", "Silicon, water")]<-"silicon"
+df$CZO.Term[df$AgCROS.VarName%in%c("strontium, soil")]<-"strontium"
+df$CZO.Term[df$AgCROS.VarName%in%c("sulfur, soil", "Sulfate, soil", "Sulfur", "Sulfur, dissolved, water, milligrams per liter", "Sulfur, water")]<-"sulfur"
+df$CZO.Term[df$AgCROS.VarName%in%c("tellurium, soil")]<-"tellurium_check"
+df$CZO.Term[df$AgCROS.VarName%in%c("Uranium, water")]<-"uranium"
+df$CZO.Term[df$AgCROS.VarName%in%c("vanadium, soil", "Vanadium, water")]<-"vanadiumTotal"
+df$CZO.Term[df$AgCROS.VarName%in%c("Ytterbium, water")]<-"ytterbium"
+df$CZO.Term[df$AgCROS.VarName%in%c("Ca", "Calcium, soil", "Calcium, dissolved, water, milligrams per liter", "Calcium, water, event, milligrams per liter" )]<-"calcium"
+df$CZO.Term[df$AgCROS.VarName%in%c("Cu", "Copper, soil", "Copper, water, micrograms per liter")]<-"copper"
+df$CZO.Term[df$AgCROS.VarName%in%c("Fe", "Iron, soil", "Iron, dissolved, water, milligrams per liter")]<-"Iron"
+df$CZO.Term[df$AgCROS.VarName%in%c("K", "K amount", "Potassium", "Potassium, soil", "Potassium, dissolved, water, milligrams per liter")]<-"potassium"
+df$CZO.Term[df$AgCROS.VarName%in%c("Mg", "Magnesium, soil", "Magnesium", "Magnesium, dissolved, water, milligrams per liter")]<-"magnesium"
+df$CZO.Term[df$AgCROS.VarName%in%c("Mn", "Mangenese, soil", "Manganese", "Manganese, dissolved, water, milligrams per liter", "mangenese")]<-"mangeneseTotal"
+df$CZO.Term[df$AgCROS.VarName%in%c("Mg", "Magnesium, soil")]<-"magnesium"
+df$CZO.Term[df$AgCROS.VarName%in%c("Mb", "molybdenum, soil", "Molybdenum, water")]<-"molybdenumTotal"
+df$CZO.Term[df$AgCROS.VarName%in%c("cadmium, soil", "Cadmium, water")]<-"cadmium"
+df$CZO.Term[df$AgCROS.VarName%in%c("chromium, soil", "Chromium, water")]<-"chromium"
+df$CZO.Term[df$AgCROS.VarName%in%c("cobalt, soil", "Cobalt, water")]<-"cobalt"
+df$CZO.Term[df$AgCROS.VarName%in%c("Aluminum, dissolved, water, milligrams per liter", "Aluminum, soil")]<-"aluminum"
+df$CZO.Term[df$AgCROS.VarName%in%c("Lanthanum, water")]<-"lanthanum"
+df$CZO.Term[df$AgCROS.VarName%in%c("Mercury, water")]<-"mercuryDissolved"
+df$CZO.Term[df$AgCROS.VarName%in%c("Nickel, water")]<-"nickel"
+df$CZO.Term[df$AgCROS.VarName%in%c("rubidium, soil")]<-"rubidium"
+df$CZO.Term[df$AgCROS.VarName%in%c("Lead-210, soil", "Lead, water")]<-"lead"
+df$CZO.Term[df$AgCROS.VarName%in%c("P", "P amount", "Phosphorus", "Phosphorus, soil", "Leaf Phosphorus", "Phosphate, soil", "Phosphate, water", "Phosphorus, dissolved, water, milligrams per liter", "Phosphorus, total, dissolved, water, milligrams per liter", "Total P")]<-"phosphorus"
+df$CZO.Term[df$AgCROS.VarName%in%c("Zn", "Zinc, soil", "Zinc, dissolved, water, milligrams per liter")]<-"zinc"
 
 #### Misc., Management, human dimensions, age practices, and economics ####
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("age")]<-"age"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("Burn frequency, operation")]<-"frequencyOfRotation"
-df$AgCROS.VarNameC[df$AgCROS.VarName%in%c("habitat list (ecosite)", "habitat structure")]<-"landClassification"
+df$CZO.Term[df$AgCROS.VarName%in%c("age")]<-"age"
+df$CZO.Term[df$AgCROS.VarName%in%c("Burn frequency, operation")]<-"frequencyOfRotation"
+df$CZO.Term[df$AgCROS.VarName%in%c("habitat list (ecosite)", "habitat structure")]<-"landClassification"
 
+#### Add partner.code column and clean UMRB site code ####
+df$partner.code <- ""
+df <- df %>%
+  mutate( 
+    partner.code = case_when(
+  LTARSiteCode == "UMRB-Morris" ~ "Morris",
+  LTARSiteCode == "UMRB - St. Paul" ~ "St. Paul",
+  LTARSiteCode == "UMRB-Ames" ~ "Ames")
+)
+
+df$LTARSiteCode[df$LTARSiteCode%in%c("UMRB-Morris", "UMRB - St. Paul", "UMRB-Ames")]<-"UMRB"
 
 czo.cv <- read.csv("~/LTAR_Network/DataInventory_MappingThesauriV2/input/variablename.csv", header=TRUE, stringsAsFactors = FALSE)
 
 
-df.2 <- left_join(df, czo.cv, by = c("AgCROS.VarNameC" = "name"))
+df.2 <- left_join(df, czo.cv, by = c("CZO.Term" = "term")) 
 
 unresolved <- filter(df.2, AgCROS.VarName %in% ("unresolved")) %>%
   arrange(DataSetVariableName)
+ 
 
-df.2$AgCROS.VarNameC <- as.character(df.2$AgCROS.VarNameC)
-df.2 <- df.2 %>%
-  mutate_all(na_if, "")
-fix <- as.data.frame(filter(df.2, is.na(AgCROS.VarNameC)))
-fix <- as.data.frame(unique(fix$AgCROS.VarName))
 
-write.csv(df.2,"~/LTAR_Network/DataInventory_MappingThesauriV2/output/df_202000204.csv", row.names = FALSE)
+write.csv(df.2,"~/LTAR_Network/DataInventory_MappingThesauriV2/output/df_20200215.csv", row.names = FALSE)
   
+
 
 ```
 
@@ -190,17 +212,23 @@ percent.resolved <- nrow(df[df$AgCROS.VarName != "unresolved", ]) / nrow(df) * 1
 Percent of AgCROS variables names with initial values is: `r percent.resolved`
 
 ```{r}
-df %>% 
-  group_by(AgCROS.VarName) %>% 
-  mutate(num.sites.used = n_distinct(LTARSite.Code, na.rm = T)) %>% 
-  select(AgCROS.VarName, num.sites.used) %>% 
+df.3 <- df.2 %>%
+  group_by(CZO.Term) %>% 
+  mutate(num.sites.used = n_distinct(LTARSiteCode, na.rm = T)) %>% 
+  select(CZO.Term, num.sites.used) %>% 
   unique()
+df.3$CZO.Term <- as.factor(df.3$CZO.Term)
+
+library(ggplot2)
+ggplot(df.3, 
+       aes(x=CZO.Term,
+           y=num.sites.used)) 
+  
 ```
 
-Clean AgCROS Variable Names with ODM2 CV
+
 ```{r}
-#add columm to df
-df$ODM2 <- ""
+
 
 
 ```
